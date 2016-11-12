@@ -1,5 +1,12 @@
 <resources>
     <string name="app_name">eduCaching</string>
     <string name="action_settings">Settings</string>
+<<<<<<< 89fe0405cebea0391539c7b87cf7f0920c7b03e2
     <string name="video_aufnehmen">Video aufnehmen</string>
+=======
+    <string name="Station_1">Station 1</string>
+    <string name="Head_Text">Lotuseffekt</string>
+    <string name="Lorem_Ipsum">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</string>
+    <string name="layout_Bild_Beschreibung">Lotuseffekt</string>
+>>>>>>> projectKaro: Hausfarben und Schriften eingebunden, neues Layout erstellt
 </resources>
