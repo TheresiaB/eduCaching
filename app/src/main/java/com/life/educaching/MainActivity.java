@@ -19,7 +19,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Typeface myTypeface = Typeface.createFromAsset(getAssets(), "Signika-Regular.ttf");
         TextView myTextview = (TextView)findViewById(R.id.text_head);
-
         myTextview.setTypeface(myTypeface);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
