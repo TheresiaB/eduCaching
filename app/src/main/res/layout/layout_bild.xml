@@ -25,6 +25,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="130dp"
+
             android:inputType="textPersonName"
             android:text="@string/Station_1"
             android:ems="10"
@@ -66,8 +67,10 @@
 
         <LinearLayout
             android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="380dp">
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
 
 
                 <EditText
@@ -118,6 +121,16 @@
 
         </GridLayout>
 
-    </LinearLayout>
+
+        <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/lotuseffekt"
+
+                    android:layout_weight="2"
+                    android:contentDescription="@string/layout_Bild_Beschreibung"/>
+
+
+        </LinearLayout>
 
 </android.support.design.widget.CoordinatorLayout>
