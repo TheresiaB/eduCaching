@@ -3,4 +3,12 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="live_e.v._green">#20630F</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorGrey_lines">#666666</color>
+    <color name="colorGrey_text">#666666</color>
+
+    <color name="live_e.v._orange_lite">#FFB01B</color>
+    <color name="live_e.v._orange">#FF7A03</color>
+
 </resources>

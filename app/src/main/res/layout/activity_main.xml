@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+    <include layout="@layout/layout_bild" />
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
@@ -22,6 +23,7 @@
         android:layout_gravity="bottom|end"
         android:layout_margin="@dimen/fab_margin"
         app:srcCompat="@android:drawable/ic_dialog_email" />
+
 
 </RelativeLayout>
 
