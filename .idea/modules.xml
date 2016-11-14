@@ -3,12 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MaterialDesign/MaterialDesign.iml" filepath="$PROJECT_DIR$/MaterialDesign/MaterialDesign.iml" />
-      <module fileurl="file://$PROJECT_DIR$/MaterialDesign/MaterialDesign.iml" filepath="$PROJECT_DIR$/MaterialDesign/MaterialDesign.iml" />
-      <module fileurl="file://$PROJECT_DIR$/MaterialDesignDemo/MaterialDesignDemo.iml" filepath="$PROJECT_DIR$/MaterialDesignDemo/MaterialDesignDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/MaterialDesignDemo/MaterialDesignDemo.iml" filepath="$PROJECT_DIR$/MaterialDesignDemo/MaterialDesignDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/eduCaching.iml" filepath="$PROJECT_DIR$/eduCaching.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lib/lib.iml" filepath="$PROJECT_DIR$/lib/lib.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib/lib.iml" filepath="$PROJECT_DIR$/lib/lib.iml" />
       <module fileurl="file://$PROJECT_DIR$/mysql-connector-java-5.1.40-bin/mysql-connector-java-5.1.40-bin.iml" filepath="$PROJECT_DIR$/mysql-connector-java-5.1.40-bin/mysql-connector-java-5.1.40-bin.iml" />
     </modules>
