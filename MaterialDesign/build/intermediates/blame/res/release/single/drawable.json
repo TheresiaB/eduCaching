@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/build/intermediates/res/merged/release/drawable/shadow_right.xml",
+        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/src/main/res/drawable/shadow_right.xml"
+    },
+    {
+        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/build/intermediates/res/merged/release/drawable/background_switch_ball_uncheck.xml",
+        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/src/main/res/drawable/background_switch_ball_uncheck.xml"
+    },
+    {
+        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/build/intermediates/res/merged/release/drawable/background_progress.xml",
+        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/src/main/res/drawable/background_progress.xml"
+    },
+    {
+        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/build/intermediates/res/merged/release/drawable/background_button.9.png",
+        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/src/main/res/drawable/background_button.9.png"
+    },
+    {
+        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/build/intermediates/res/merged/release/drawable/background_checkbox.xml",
+        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/src/main/res/drawable/background_checkbox.xml"
+    },
+    {
+        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/build/intermediates/res/merged/release/drawable/background_button_rectangle.xml",
+        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/src/main/res/drawable/background_button_rectangle.xml"
+    },
+    {
+        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/build/intermediates/res/merged/release/drawable/background_button_float.xml",
+        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/src/main/res/drawable/background_button_float.xml"
+    },
+    {
+        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/build/intermediates/res/merged/release/drawable/background_transparent.xml",
+        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/src/main/res/drawable/background_transparent.xml"
+    },
+    {
+        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/build/intermediates/res/merged/release/drawable/background_checkbox_uncheck.xml",
+        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/src/main/res/drawable/background_checkbox_uncheck.xml"
+    },
+    {
+        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/build/intermediates/res/merged/release/drawable/background_checkbox_check.xml",
+        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/src/main/res/drawable/background_checkbox_check.xml"
+    },
+    {
+        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/build/intermediates/res/merged/release/drawable/shadow_down.xml",
+        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/src/main/res/drawable/shadow_down.xml"
+    }
+]

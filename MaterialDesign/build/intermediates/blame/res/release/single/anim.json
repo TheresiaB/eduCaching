@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/build/intermediates/res/merged/release/anim/dialog_main_hide_amination.xml",
+        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/src/main/res/anim/dialog_main_hide_amination.xml"
+    },
+    {
+        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/build/intermediates/res/merged/release/anim/snackbar_hide_animation.xml",
+        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/src/main/res/anim/snackbar_hide_animation.xml"
+    },
+    {
+        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/build/intermediates/res/merged/release/anim/dialog_root_show_amin.xml",
+        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/src/main/res/anim/dialog_root_show_amin.xml"
+    },
+    {
+        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/build/intermediates/res/merged/release/anim/dialog_root_hide_amin.xml",
+        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/src/main/res/anim/dialog_root_hide_amin.xml"
+    },
+    {
+        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/build/intermediates/res/merged/release/anim/snackbar_show_animation.xml",
+        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/src/main/res/anim/snackbar_show_animation.xml"
+    },
+    {
+        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/build/intermediates/res/merged/release/anim/progress_indeterminate_animation.xml",
+        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/src/main/res/anim/progress_indeterminate_animation.xml"
+    },
+    {
+        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/build/intermediates/res/merged/release/anim/dialog_main_show_amination.xml",
+        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/src/main/res/anim/dialog_main_show_amination.xml"
+    }
+]
