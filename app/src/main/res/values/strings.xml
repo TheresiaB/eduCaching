@@ -2,6 +2,8 @@
     <string name="app_name">eduCaching</string>
     <string name="action_settings">Settings</string>
     <string name="video_aufnehmen">Video aufnehmen</string>
+    <string name="vorwaerts">Vorwärts</string>
+    <string name="rueckwärts">Rückwärts</string>
 
     <string name="Station_1">Station 1</string>
     <string name="Head_Text">Lotuseffekt</string>
