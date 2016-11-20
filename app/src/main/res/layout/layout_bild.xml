@@ -1,136 +1,140 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:fitsSystemWindows="true"
-    tools:context="com.life.educaching.MainActivity">
-
-
-    <include layout="@layout/content_main"
-        android:layout_height="match_parent"
-        android:layout_width="match_parent"
-
-        android:layout_weight="1" />
-
-    <LinearLayout
-        android:orientation="vertical"
+    <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:weightSum="1"
+        android:fitsSystemWindows="true"
+        tools:context="com.life.educaching.MainActivity">
 
-       >
 
-        <EditText
+        <include layout="@layout/content_main"
+            android:layout_height="match_parent"
             android:layout_width="match_parent"
-            android:layout_height="130dp"
 
-            android:inputType="textPersonName"
-            android:text="@string/Station_1"
-            android:ems="10"
-            android:id="@+id/text_head"
-            android:textSize="60sp"
-            android:textColor="@color/colorWhite"
-            android:background="@color/live_e.v._green"
-            android:textStyle="bold"
-            android:paddingStart="35dp"
-            android:paddingLeft="35dp"
-            android:paddingEnd="0dp"
-            android:paddingRight="0dp"
-
-            />
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="3dp"
-            android:background="@color/colorGrey_lines"
-
-            />
-
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:inputType="textPersonName"
-            android:text="@string/Head_Text"
-            android:ems="10"
-            android:id="@+id/editText2"
-            android:textColor="@color/colorGrey_text"
-            android:textSize="40sp"
-            android:paddingStart="70dp"
-            android:paddingLeft="70dp"
-            android:paddingEnd="0dp"
-            android:paddingRight="0dp"
-            android:layout_marginTop="20dp"
-            android:textStyle="normal"
-            />
+            android:layout_weight="1" />
 
         <LinearLayout
-            android:orientation="horizontal"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1"
 
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+           >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:text="@string/Station_1"
+                android:ems="10"
+                android:id="@+id/text_head"
+                android:textSize="60sp"
+                android:textColor="@color/colorWhite"
+                android:background="@color/live_e.v._green"
+                android:textStyle="bold"
+                android:paddingStart="35dp"
+                android:paddingLeft="35dp"
+                android:paddingEnd="0dp"
+                android:paddingRight="0dp"
+                android:gravity="center_vertical"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/colorGrey_lines"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="@string/Head_Text"
+                android:ems="10"
+                android:id="@+id/editText2"
+                android:textColor="@color/colorGrey_text"
+                android:textSize="40sp"
+                android:paddingStart="70dp"
+                android:paddingLeft="70dp"
+                android:paddingEnd="0dp"
+                android:paddingRight="0dp"
+
+                android:gravity="center_vertical"
+                android:textStyle="normal"
+                />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="365dp">
 
 
-
-                <EditText
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:inputType="textMultiLine"
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:ems="10"
                     android:id="@+id/editText3"
                     android:text="@string/Lorem_Ipsum"
                     android:textColor="@color/colorGrey_text"
                     android:textSize="18sp"
-                    android:layout_weight="2"
                     android:layout_marginStart="70dp"
-                    android:layout_marginLeft="70dp"/>
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginEnd="70dp"
+                    android:layout_marginRight="70dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1" />
 
                 <ImageView
-                    android:layout_width="524dp"
-                    android:layout_height="336dp"
-                    app:srcCompat="@drawable/lotuseffekt"
-                    android:id="@+id/imageView"
-                    android:layout_weight="1"
-                    android:contentDescription="@string/layout_Bild_Beschreibung"
-                    android:layout_marginStart="100dp"
-                    android:layout_marginLeft="100dp"
-                    android:scaleType="fitStart"
-                    />
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/lotuseffekt"
+                        android:id="@+id/imageView"
+                        android:layout_weight="1"
+                        android:contentDescription="@string/layout_Bild_Beschreibung"
+                        android:layout_marginStart="70dp"
+                        android:layout_marginLeft="70dp"
+                        android:layout_marginEnd="70dp"
+                        android:layout_marginRight="70dp"
+                        android:layout_gravity="center_horizontal"
+                        android:scaleType="fitStart"
+                        />
 
-        </LinearLayout>
+            </LinearLayout>
 
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@color/colorGrey_lines"
-            />
-
-        <GridLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <Button
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:rotation="270"
-                android:background="@drawable/my_line"
-                android:layout_marginStart="20dp"
-                android:layout_marginLeft="20dp"
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorGrey_lines"
                 />
 
-        </GridLayout>
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="130dp">
 
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:rotation="270"
+                    android:background="@drawable/selector_button"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_gravity="center_vertical"
 
-        <ImageView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/lotuseffekt"
+                    />
 
-                    android:layout_weight="2"
-                    android:contentDescription="@string/layout_Bild_Beschreibung"/>
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:rotation="90"
+                    android:background="@drawable/selector_button"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_row="0"
+                    android:layout_column="64" />
 
+            </GridLayout>
 
         </LinearLayout>
 
-</android.support.design.widget.CoordinatorLayout>
+    </android.support.design.widget.CoordinatorLayout>
