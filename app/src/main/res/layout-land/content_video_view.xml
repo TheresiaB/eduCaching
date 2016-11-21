@@ -52,14 +52,14 @@
         android:layout_alignParentStart="true">
 
         <Button
-            android:text="@string/vorwaerts"
+            android:text="vorwaerts"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/button3"
             android:layout_alignParentEnd="true" />
 
         <Button
-            android:text="@string/rueckwärts"
+            android:text="rueckwärts"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/button2" />

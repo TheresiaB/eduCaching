@@ -33,15 +33,18 @@ public class VideoViewActivity extends AppCompatActivity {
 
         clk = (Button) findViewById(R.id.button);
         videov = (VideoView) findViewById(R.id.videoView);
-        clk.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                videoplay(videov);
-            }
-        });
+        VideoOnClickListener videoOnClickListener = new VideoOnClickListener();
+        clk.setOnClickListener(videoOnClickListener);
     }
 
-    public void videoplay(View v)
+    public class VideoOnClickListener implements View.OnClickListener {
+        @Override
+        public void onClick(View view) {
+            videoplay();
+        }
+    }
+
+    public void videoplay()
     {
         String videopath = "android.resource://"+getPackageName()+"/"+R.raw.boss;
         Uri uri = Uri.parse(videopath);

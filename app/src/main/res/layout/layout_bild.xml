@@ -80,11 +80,10 @@
                     android:ems="10"
                     android:id="@+id/editText3"
                     android:text="@string/Lorem_Ipsum"
-                    android:textColor="@color/colorGrey_text"
-                    android:textSize="18sp"
                     android:layout_weight="2"
                     android:layout_marginStart="70dp"
-                    android:layout_marginLeft="70dp"/>
+                    android:layout_marginLeft="70dp"
+                    android:textAppearance="@android:style/TextAppearance" />
 
                 <ImageView
                     android:layout_width="524dp"
