@@ -1,5 +1,6 @@
 package com.life.educaching;
 
+import android.content.Intent;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -12,7 +13,6 @@ import android.view.MenuItem;
 import android.widget.TextView;
 
 public class   MainActivity extends AppCompatActivity{
-git
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
