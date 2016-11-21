@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-    <include layout="@layout/layout_bild" />
+    <include layout="@layout/layout_bild"/>
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
