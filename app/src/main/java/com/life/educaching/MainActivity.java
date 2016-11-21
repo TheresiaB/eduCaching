@@ -12,18 +12,21 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity{
-
+public class   MainActivity extends AppCompatActivity{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Typeface myTypeface = Typeface.createFromAsset(getAssets(), "Signika-Regular.ttf");
+        Typeface myTypeface = Typeface.createFromAsset(getAssets(), "OpenSans-Regular.ttf");
         TextView myTextview = (TextView) findViewById(R.id.text_head);
         myTextview.setTypeface(myTypeface);
         startActivity(new Intent(this, VideoViewActivity.class));
     }
-
+public void openMap (View view)
+{
+    Intent intent = new Intent (this, MapsActivity.class);
+    startActivity(intent);
+}
 
 }
