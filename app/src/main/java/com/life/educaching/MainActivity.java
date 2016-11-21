@@ -23,6 +23,10 @@ public class   MainActivity extends AppCompatActivity{
         myTextview.setTypeface(myTypeface);
         startActivity(new Intent(this, VideoViewActivity.class));
     }
-
+public void openMap (View view)
+{
+    Intent intent = new Intent (this, MapsActivity.class);
+    startActivity(intent);
+}
 
 }
