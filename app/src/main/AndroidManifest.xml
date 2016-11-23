@@ -37,10 +37,10 @@
         </activity>
         <activity android:name=".CameraActivity" />
         <activity
-            android:screenOrientation="landscape"
             android:name=".VideoViewActivity"
             android:label="@string/title_activity_video_view"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".CameraActivity" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
@@ -56,7 +56,7 @@
 
         <activity
             android:name=".MapsActivity"
-            android:label="@string/title_activity_maps"></activity>
+            android:label="@string/title_activity_maps" />
     </application>
 
 </manifest>
