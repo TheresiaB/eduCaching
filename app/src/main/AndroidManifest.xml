@@ -23,10 +23,14 @@
         </activity>
         <activity android:name=".CameraActivity" />
         <activity
-            android:screenOrientation="landscape"
             android:name=".VideoViewActivity"
             android:label="@string/title_activity_video_view"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".layout_station"
+            android:label="@string/title_activity_layout_station"
+            android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>
