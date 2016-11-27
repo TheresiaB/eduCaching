@@ -5,7 +5,26 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.life.educaching.VideoViewActivity">
+    tools:context="com.life.educaching.layout_station">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:background="@color/live_e.v._green"
+            app:title="Station 1"
+
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_layout_station" />
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"
@@ -14,23 +33,5 @@
         android:layout_gravity="bottom|end"
         android:layout_margin="@dimen/fab_margin"
         app:srcCompat="@android:drawable/ic_dialog_email" />
-
-    <android.support.design.widget.AppBarLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:theme="@style/AppTheme.AppBarOverlay">
-
-        <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="72dp"
-            android:background="@color/live_e.v._green"
-            app:popupTheme="@style/AppTheme.PopupOverlay"
-            app:title="Station 1"
-            app:titleTextAppearance="@android:style/TextAppearance.Material.Large" />
-
-    </android.support.design.widget.AppBarLayout>
-
-    <include layout="@layout/content_video_view" />
 
 </android.support.design.widget.CoordinatorLayout>

@@ -13,4 +13,5 @@
     <string name="title_activity_maps">Map</string>
     <string name="show_the_map">Show the map</string>
     <string name="title_activity_maps2">Map</string>
+    <string name="title_activity_layout_station">layout_station</string>
 </resources>
