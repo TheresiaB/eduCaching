@@ -1,6 +1,10 @@
 [
     {
-        "merged": "C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\sprite_check.png",
-        "source": "C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\eduCaching\\MaterialDesign\\unspecified\\res\\drawable-mdpi-v4\\sprite_check.png"
+        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\sprite_check.png",
+        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\eduCaching\\MaterialDesign\\unspecified\\res\\drawable-mdpi-v4\\sprite_check.png"
+    },
+    {
+        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/drawable-mdpi-v4/sprite_check.png",
+        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/eduCaching/MaterialDesign/unspecified/res/drawable-mdpi-v4/sprite_check.png"
     }
 ]
