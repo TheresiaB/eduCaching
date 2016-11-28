@@ -13,6 +13,7 @@ import android.widget.VideoView;
 public class VideoViewActivity extends AppCompatActivity {
     Button clk;
     VideoView videov;
+    Button button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,19 +23,13 @@ public class VideoViewActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
 
         clk = (Button) findViewById(R.id.button);
         videov = (VideoView) findViewById(R.id.videoView);
         VideoOnClickListener videoOnClickListener = new VideoOnClickListener();
         clk.setOnClickListener(videoOnClickListener);
+
+        setContentView(R.layout.activity_video_view);
     }
 
     public class VideoOnClickListener implements View.OnClickListener {
@@ -51,5 +46,10 @@ public class VideoViewActivity extends AppCompatActivity {
         videov.setVideoURI(uri);
         videov.start();
     }
+
+
+
+
+
 
 }
