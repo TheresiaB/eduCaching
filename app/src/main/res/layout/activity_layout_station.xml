@@ -13,18 +13,7 @@
         android:theme="@style/AppTheme.AppBarOverlay"
         android:orientation="vertical">
 
-        <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="72dp"
-            android:background="@color/live_e.v._green"
-            app:title="Station 1"
-
-            app:popupTheme="@style/AppTheme.PopupOverlay" />
-
     </android.support.design.widget.AppBarLayout>
-
-    <include layout="@layout/content_layout_station" />
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"
@@ -33,5 +22,27 @@
         android:layout_gravity="bottom|end"
         android:layout_margin="@dimen/fab_margin"
         app:srcCompat="@android:drawable/ic_dialog_email" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:text="@string/Station_1"
+        android:ems="10"
+        android:id="@+id/text_head"
+        android:textSize="60sp"
+        android:textColor="@color/colorWhite"
+        android:background="@color/live_e.v._green"
+        android:textStyle="bold"
+        android:paddingStart="70dp"
+        android:paddingLeft="70dp"
+        android:paddingEnd="0dp"
+        android:paddingRight="0dp"
+        android:gravity="center_vertical"
+        />
+
+    <include layout="@layout/content_layout_station"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:id="@+id/head" />
 
 </android.support.design.widget.CoordinatorLayout>

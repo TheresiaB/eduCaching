@@ -15,4 +15,9 @@
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="ToolbarTextAppearance" parent="android:style/TextAppearance.Material.Large">
+        <item name="textSize">60sp</item>
+        <item name="textColor">?attr/textColorPrimary</item>
+    </style>
 </resources>

@@ -20,14 +20,22 @@
         android:layout_height="wrap_content"
         android:theme="@style/AppTheme.AppBarOverlay">
 
-        <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar"
+        <TextView
             android:layout_width="match_parent"
-            android:layout_height="72dp"
+            android:layout_height="130dp"
+            android:text="@string/Station_1"
+            android:ems="10"
+            android:id="@+id/text_head"
+            android:textSize="60sp"
+            android:textColor="@color/colorWhite"
             android:background="@color/live_e.v._green"
-            app:popupTheme="@style/AppTheme.PopupOverlay"
-            app:title="Station 1"
-            app:titleTextAppearance="@android:style/TextAppearance.Material.Large" />
+            android:textStyle="bold"
+            android:paddingStart="70dp"
+            android:paddingLeft="70dp"
+            android:paddingEnd="0dp"
+            android:paddingRight="0dp"
+            android:gravity="center_vertical"
+            />
 
     </android.support.design.widget.AppBarLayout>
 

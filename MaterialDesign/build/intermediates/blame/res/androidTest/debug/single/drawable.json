@@ -1,59 +1,23 @@
 [
     {
-        "merged": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\shadow_right.xml",
-        "source": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\bundles\\debug\\res\\drawable\\shadow_right.xml"
-    },
-    {
         "merged": "C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\background_button_float.xml",
         "source": "C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\bundles\\debug\\res\\drawable\\background_button_float.xml"
-    },
-    {
-        "merged": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\background_progress.xml",
-        "source": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\bundles\\debug\\res\\drawable\\background_progress.xml"
     },
     {
         "merged": "C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\background_progress.xml",
         "source": "C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\bundles\\debug\\res\\drawable\\background_progress.xml"
     },
     {
-        "merged": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\background_button_rectangle.xml",
-        "source": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\bundles\\debug\\res\\drawable\\background_button_rectangle.xml"
-    },
-    {
-        "merged": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\background_switch_ball_uncheck.xml",
-        "source": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\bundles\\debug\\res\\drawable\\background_switch_ball_uncheck.xml"
-    },
-    {
-        "merged": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\background_checkbox_uncheck.xml",
-        "source": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\bundles\\debug\\res\\drawable\\background_checkbox_uncheck.xml"
-    },
-    {
-        "merged": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\background_button.9.png",
-        "source": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\bundles\\debug\\res\\drawable\\background_button.9.png"
+        "merged": "C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\background_switch_ball_uncheck.xml",
+        "source": "C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\bundles\\debug\\res\\drawable\\background_switch_ball_uncheck.xml"
     },
     {
         "merged": "C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\background_button.9.png",
         "source": "C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\bundles\\debug\\res\\drawable\\background_button.9.png"
     },
     {
-        "merged": "C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\background_switch_ball_uncheck.xml",
-        "source": "C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\bundles\\debug\\res\\drawable\\background_switch_ball_uncheck.xml"
-    },
-    {
-        "merged": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\background_transparent.xml",
-        "source": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\bundles\\debug\\res\\drawable\\background_transparent.xml"
-    },
-    {
-        "merged": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\background_checkbox_check.xml",
-        "source": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\bundles\\debug\\res\\drawable\\background_checkbox_check.xml"
-    },
-    {
         "merged": "C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\shadow_down.xml",
         "source": "C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\bundles\\debug\\res\\drawable\\shadow_down.xml"
-    },
-    {
-        "merged": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\background_checkbox.xml",
-        "source": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\bundles\\debug\\res\\drawable\\background_checkbox.xml"
     },
     {
         "merged": "C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\shadow_right.xml",
@@ -62,10 +26,6 @@
     {
         "merged": "C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\background_transparent.xml",
         "source": "C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\bundles\\debug\\res\\drawable\\background_transparent.xml"
-    },
-    {
-        "merged": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\shadow_down.xml",
-        "source": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\bundles\\debug\\res\\drawable\\shadow_down.xml"
     },
     {
         "merged": "C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\background_button_rectangle.xml",
@@ -82,9 +42,5 @@
     {
         "merged": "C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\background_checkbox_check.xml",
         "source": "C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\bundles\\debug\\res\\drawable\\background_checkbox_check.xml"
-    },
-    {
-        "merged": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\background_button_float.xml",
-        "source": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\bundles\\debug\\res\\drawable\\background_button_float.xml"
     }
 ]
