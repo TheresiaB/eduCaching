@@ -17,7 +17,8 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity{
 
-    Button button;
+    Button buttonNext;
+    Button buttonBack;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,20 +29,21 @@ public class MainActivity extends AppCompatActivity{
         myTextview.setTypeface(myTypeface);
 
         //wenn du das Video Template sehen möchtest kommentiere die nächste Zeile einfach nur ein!
-        startActivity(new Intent(this, VideoViewActivity.class));
-        //addListenerOnButton();
+        //startActivity(new Intent(this, VideoViewActivity.class));
+        addListenerOnButton();
     }
 
     public void addListenerOnButton() {
 
         final Context context = this;
-        button = (Button) findViewById(R.id.next);
-        button.setOnClickListener(new View.OnClickListener() {
+        buttonNext = (Button) findViewById(R.id.next);
+        buttonBack = (Button) findViewById(R.id.button_back);
+        buttonNext.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View arg0) {
                Toast.makeText(MainActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
-               //startActivity(new Intent(context, VideoViewActivity.class));
+               startActivity(new Intent(context, VideoViewActivity.class));
             }
         });
 

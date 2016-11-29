@@ -5,9 +5,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <include layout="@layout/layout_bild"/>
-
-
+    <include layout="@layout/activity_information_bild"/>
 
 </RelativeLayout>
 

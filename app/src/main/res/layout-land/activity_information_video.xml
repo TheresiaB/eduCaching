@@ -19,7 +19,7 @@
             android:background="@color/live_e.v._green"
             app:popupTheme="@style/AppTheme.PopupOverlay"
             app:title="Station 1"
-            app:titleTextAppearance="@android:style/TextAppearance.Material.Large" />
+            />
 
     </android.support.design.widget.AppBarLayout>
 

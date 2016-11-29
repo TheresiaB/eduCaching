@@ -11,7 +11,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.life.educaching.VideoViewActivity"
-    tools:showIn="@layout/activity_video_view">
+    tools:showIn="@layout/activity_information_video">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -25,7 +25,7 @@
             android:layout_toRightOf="@+id/editText3"
             android:layout_below="@+id/button" />
 
-        <EditText
+        <TextView
             android:layout_width="320dp"
             android:layout_height="wrap_content"
             android:inputType="textMultiLine"
@@ -44,25 +44,7 @@
             android:layout_toRightOf="@+id/editText3" />
     </RelativeLayout>
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true">
+    <include layout="@layout/activity_button"/>
 
-        <Button
-            android:text="vorwaerts"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/button3"
-            android:layout_alignParentEnd="true" />
-
-        <Button
-            android:text="rueckwärts"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/button2" />
-    </RelativeLayout>
 
 </RelativeLayout>
