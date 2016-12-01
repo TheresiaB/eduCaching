@@ -1,13 +1,16 @@
 [
     {
+
         "merged": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_spinner_mtrl_am_alpha.9.png",
         "source": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\drawable-xhdpi\\abc_spinner_mtrl_am_alpha.9.png"
+
     },
     {
-        "merged": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_next.png",
-        "source": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\src\\main\\res\\drawable-xhdpi\\ic_next.png"
+        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/drawable-xhdpi/abc_spinner_mtrl_am_alpha.9.png",
+        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/drawable-xhdpi/abc_spinner_mtrl_am_alpha.9.png"
     },
     {
+
         "merged": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_textfield_search_activated_mtrl_alpha.9.png",
         "source": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\drawable-xhdpi\\abc_textfield_search_activated_mtrl_alpha.9.png"
     },
@@ -182,5 +185,6 @@
     {
         "merged": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icn_select_color.png",
         "source": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\src\\main\\res\\drawable-xhdpi\\icn_select_color.png"
+
     }
 ]

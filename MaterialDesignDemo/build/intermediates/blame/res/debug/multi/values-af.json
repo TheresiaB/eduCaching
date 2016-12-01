@@ -1,6 +1,8 @@
 [
     {
+
         "outputFile": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-af\\values-af.xml",
+
         "map": [
             {
                 "to": {
@@ -11,7 +13,9 @@
                     "endOffset": 154
                 },
                 "from": {
+
                     "file": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-af\\values-af.xml",
+
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -30,7 +34,9 @@
                     "endOffset": 254
                 },
                 "from": {
+
                     "file": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-af\\values-af.xml",
+
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -49,7 +55,9 @@
                     "endOffset": 360
                 },
                 "from": {
+
                     "file": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-af\\values-af.xml",
+
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -68,7 +76,9 @@
                     "endOffset": 445
                 },
                 "from": {
+
                     "file": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-af\\values-af.xml",
+
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -87,7 +97,9 @@
                     "endOffset": 548
                 },
                 "from": {
+
                     "file": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-af\\values-af.xml",
+
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -106,7 +118,9 @@
                     "endOffset": 666
                 },
                 "from": {
+
                     "file": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-af\\values-af.xml",
+
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -125,7 +139,9 @@
                     "endOffset": 773
                 },
                 "from": {
+
                     "file": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-af\\values-af.xml",
+
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -144,7 +160,9 @@
                     "endOffset": 876
                 },
                 "from": {
+
                     "file": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-af\\values-af.xml",
+
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -163,7 +181,9 @@
                     "endOffset": 973
                 },
                 "from": {
+
                     "file": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-af\\values-af.xml",
+
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -182,6 +202,7 @@
                     "endOffset": 1081
                 },
                 "from": {
+
                     "file": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-af\\values-af.xml",
                     "position": {
                         "startLine": 13,
@@ -201,6 +222,7 @@
                     "endOffset": 1183
                 },
                 "from": {
+
                     "file": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-af\\values-af.xml",
                     "position": {
                         "startLine": 14,
@@ -220,7 +242,9 @@
                     "endOffset": 1285
                 },
                 "from": {
+
                     "file": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-af\\values-af.xml",
+
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -239,7 +263,9 @@
                     "endOffset": 1402
                 },
                 "from": {
+
                     "file": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-af\\values-af.xml",
+
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,

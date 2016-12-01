@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.life.educaching.MainActivity">
+
+
+    <include layout="@layout/content_main"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:text="@string/Route_1"
+            android:ems="10"
+            android:id="@+id/text_head"
+            android:textSize="60sp"
+            android:textColor="@color/colorWhite"
+            android:background="@color/live_e.v._green"
+            android:textStyle="bold"
+            android:paddingStart="70dp"
+            android:paddingLeft="70dp"
+            android:paddingEnd="0dp"
+            android:paddingRight="0dp"
+            android:gravity="center_vertical"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@color/colorGrey_lines"
+
+            />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="465dp">
+
+
+
+            <include layout="@layout/activity_maps" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorGrey_lines"
+            />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp">
+
+            <Button
+                android:id="@+id/button_back"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:rotation="270"
+                android:background="@drawable/selector_button"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center_vertical"
+                />
+
+            <Button
+                android:id="@+id/next"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:rotation="90"
+                android:background="@drawable/selector_button"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center_vertical"
+                android:layout_row="0"
+                android:layout_column="64"
+                />
+
+            <ScrollView
+                android:layout_width="810dp"
+                android:layout_height="match_parent"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:layout_marginStart="120dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginEnd="120dp"
+                android:layout_marginRight="120dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                >
+
+                <TextView
+                    android:layout_width="800dp"
+                    android:layout_height="0dp"
+                    android:ems="10"
+                    android:id="@+id/editText3"
+                    android:text="@string/Lorem_Ipsum"
+                    android:textColor="@color/colorGrey_text"
+                    android:textSize="18sp"
+                    android:layout_gravity="center_horizontal"
+                    />
+            </ScrollView>
+
+        </GridLayout>
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

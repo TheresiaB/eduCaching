@@ -112,6 +112,7 @@
                 android:layout_height="130dp">
 
                 <Button
+                    android:id="@+id/button_back"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:rotation="270"
@@ -120,9 +121,11 @@
                     android:layout_marginLeft="20dp"
                     android:layout_gravity="center_vertical"
 
+
                     />
 
                 <Button
+                    android:id="@+id/next"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:rotation="90"
@@ -131,7 +134,8 @@
                     android:layout_marginRight="20dp"
                     android:layout_gravity="center_vertical"
                     android:layout_row="0"
-                    android:layout_column="64" />
+                    android:layout_column="64"
+                    />
 
             </GridLayout>
 
