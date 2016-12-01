@@ -8,11 +8,6 @@
         tools:context="com.life.educaching.MainActivity">
 
 
-        <include layout="@layout/content_main"
-            android:layout_height="match_parent"
-            android:layout_width="match_parent"
-
-            android:layout_weight="1" />
 
         <LinearLayout
             android:orientation="vertical"
@@ -21,23 +16,8 @@
             android:weightSum="1"
 
            >
+            <include layout="@layout/activity_headline"/>
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="130dp"
-                android:text="@string/Station_1"
-                android:ems="10"
-                android:id="@+id/text_head"
-                android:textSize="60sp"
-                android:textColor="@color/colorWhite"
-                android:background="@color/live_e.v._green"
-                android:textStyle="bold"
-                android:paddingStart="70dp"
-                android:paddingLeft="70dp"
-                android:paddingEnd="0dp"
-                android:paddingRight="0dp"
-                android:gravity="center_vertical"
-                />
 
             <View
                 android:layout_width="match_parent"

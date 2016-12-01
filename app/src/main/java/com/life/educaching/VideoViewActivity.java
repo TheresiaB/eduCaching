@@ -33,7 +33,6 @@ public class VideoViewActivity extends AppCompatActivity {
         Uri uri2 = Uri.parse(uriPath);
         mVideoView2 = (VideoView) findViewById(R.id.videoView);
         mVideoView2.setVideoURI(uri2);
-        mVideoView2.requestFocus();
 
         buttonVideoPlay.setOnClickListener(new Button.OnClickListener() {
             @Override

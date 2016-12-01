@@ -7,42 +7,15 @@
     android:fitsSystemWindows="true"
     tools:context="com.life.educaching.VideoViewActivity">
 
-
-    <include layout="@layout/content_main"
-        android:layout_height="match_parent"
-        android:layout_width="match_parent"
-
-        android:layout_weight="1" />
-
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:weightSum="1"
+
         >
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="130dp"
-            android:text="@string/Station_1"
-            android:ems="10"
-            android:id="@+id/text_head"
-            android:textSize="60sp"
-            android:textColor="@color/colorWhite"
-            android:background="@color/live_e.v._green"
-            android:textStyle="bold"
-            android:paddingStart="70dp"
-            android:paddingLeft="70dp"
-            android:paddingEnd="0dp"
-            android:paddingRight="0dp"
-            android:gravity="center_vertical"
-            />
+        <include layout="@layout/activity_headline"/>
 
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="3dp"
-            android:background="@color/colorGrey_lines"
-            />
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
@@ -50,7 +23,7 @@
         >
 
         <TextView
-            android:layout_width="550dp"
+            android:layout_width="645dp"
             android:layout_height="100dp"
             android:text="@string/Head_Text_Video"
             android:ems="10"
@@ -67,24 +40,24 @@
 
         <Button
             android:id="@+id/video_play_button"
-            android:text="Video abspielen"
-            android:layout_width="200dp"
+            android:text="@string/Play_Video"
+            android:layout_width="150dp"
             android:layout_height="50dp"
             android:layout_margin="10dp"
             />
 
         <Button
             android:id="@+id/video_pause_button"
-            android:text="Pause"
-            android:layout_width="200dp"
+            android:text="@string/Pause_Video"
+            android:layout_width="150dp"
             android:layout_height="50dp"
             android:layout_margin="10dp"
             />
 
         <Button
             android:id="@+id/video_begin_button"
-            android:text="Von vorne anschauen"
-            android:layout_width="200dp"
+            android:text="@string/Stop_Video"
+            android:layout_width="150dp"
             android:layout_height="50dp"
             android:layout_margin="10dp"
             />
@@ -115,8 +88,8 @@
 
 
             <VideoView
-                android:layout_width="1200dp"
-                android:layout_height="400dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:id="@+id/videoView"
                 android:layout_weight="1"
                 android:contentDescription="@string/layout_Video_Beschreibung"
@@ -124,7 +97,8 @@
                 android:layout_marginLeft="70dp"
                 android:layout_marginEnd="70dp"
                 android:layout_marginRight="70dp"
-                android:layout_gravity="center_horizontal"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
                 />
 
         </LinearLayout>

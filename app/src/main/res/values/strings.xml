@@ -15,4 +15,8 @@
     <string name="title_activity_maps">Map</string>
     <string name="show_the_map">Show the map</string>
     <string name="title_activity_maps2">Map</string>
+
+    <string name="Play_Video">Play</string>
+    <string name="Pause_Video">Pause</string>
+    <string name="Stop_Video">Stop</string>
 </resources>
