@@ -27,6 +27,7 @@
         <activity
             android:name=".RouteActivity"
             android:label="@string/layout_Bild_Beschreibung"
+            android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -44,6 +45,12 @@
         <activity
             android:name=".PictureActivity"
             android:label="PictureActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".OverviewMapActivity"
+            android:label="OverviewMapActivity"
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar" />
 

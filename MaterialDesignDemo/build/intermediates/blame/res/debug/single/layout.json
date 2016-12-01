@@ -1,631 +1,47 @@
 [
     {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_action_menu_layout.xml"
-    },
-    {
-        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
-        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_activity_chooser_view.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\notification_template_big_media.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\notification_media_cancel_action.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_buttons.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\src\\main\\res\\layout\\activity_buttons.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\number_indicator_spinner.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\eduCaching\\MaterialDesign\\unspecified\\res\\layout\\number_indicator_spinner.xml"
-    },
-    {
-        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
-        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_screen_simple_overlay_action_mode.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/notification_template_big_media.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/notification_template_big_media.xml"
-    },
-    {
-        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
-        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_search_dropdown_item_icons_2line.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/color_selector.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/eduCaching/MaterialDesign/unspecified/res/layout/color_selector.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_expanded_menu_layout.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/support_simple_spinner_dropdown_item.xml"
-    },
-    {
-        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/activity_progress.xml",
-        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/src/main/res/layout/activity_progress.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_switchs.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\src\\main\\res\\layout\\activity_switchs.xml"
-    },
-    {
-        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/color_selector.xml",
-        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/eduCaching/MaterialDesign/unspecified/res/layout/color_selector.xml"
-    },
-    {
-        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
-        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_activity_chooser_view_list_item.xml"
-    },
-    {
-        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
-        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/select_dialog_multichoice_material.xml"
-    },
-    {
-        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
-        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_list_menu_item_layout.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/select_dialog_multichoice_material.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/notification_template_big_media_narrow.xml"
-    },
-    {
-        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/snackbar.xml",
-        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/eduCaching/MaterialDesign/unspecified/res/layout/snackbar.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\snackbar.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\eduCaching\\MaterialDesign\\unspecified\\res\\layout\\snackbar.xml"
-    },
-    {
-        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/dialog.xml",
-        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/eduCaching/MaterialDesign/unspecified/res/layout/dialog.xml"
-    },
-    {
-        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/activity_switchs.xml",
-        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/src/main/res/layout/activity_switchs.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_screen_simple.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\select_dialog_multichoice_material.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\number_indicator_spinner.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\eduCaching\\MaterialDesign\\unspecified\\res\\layout\\number_indicator_spinner.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_action_bar_view_list_nav_layout.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_list_menu_item_radio.xml"
-    },
-    {
-        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/activity_buttons.xml",
-        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/src/main/res/layout/activity_buttons.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_select_dialog_material.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_action_mode_close_item_material.xml"
-    },
-    {
-        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
-        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_dialog_title_material.xml"
-    },
-    {
-        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
-        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/support_simple_spinner_dropdown_item.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_action_mode_close_item_material.xml"
-    },
-    {
-        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
-        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_list_menu_item_icon.xml"
-    },
-    {
-        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
-        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_action_bar_up_container.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_widgets.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\src\\main\\res\\layout\\activity_widgets.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_search_view.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_screen_toolbar.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_list_menu_item_radio.xml"
-    },
-    {
-        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/notification_template_lines.xml",
-        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/notification_template_lines.xml"
-    },
-    {
-        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/notification_media_action.xml",
-        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/notification_media_action.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\notification_template_media.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_screen_simple_overlay_action_mode.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\dialog.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\eduCaching\\MaterialDesign\\unspecified\\res\\layout\\dialog.xml"
-    },
-    {
-        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/number_indicator_spinner.xml",
-        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/eduCaching/MaterialDesign/unspecified/res/layout/number_indicator_spinner.xml"
-    },
-    {
-        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
-        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_list_menu_item_radio.xml"
+        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
+        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_select_dialog_material.xml"
     },
     {
         "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
         "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_expanded_menu_layout.xml"
     },
     {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
-    },
-    {
-        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
-        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_popup_menu_item_layout.xml"
-    },
-    {
-        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
-        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_list_menu_item_checkbox.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_simple_dropdown_hint.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_simple_dropdown_hint.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\progress_dialog.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\eduCaching\\MaterialDesign\\unspecified\\res\\layout\\progress_dialog.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_screen_toolbar.xml"
-    },
-    {
-        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
-        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_search_view.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\notification_template_media.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_screen_simple.xml"
-    },
-    {
-        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
-        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/notification_template_part_chronometer.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\src\\main\\res\\layout\\activity_main.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_screen_content_include.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\notification_template_big_media_narrow.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_action_mode_bar.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/notification_template_lines.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/notification_template_lines.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_list_menu_item_checkbox.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\select_dialog_item_material.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_screen_content_include.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\select_dialog_singlechoice_material.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_action_mode_bar.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_progress.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\src\\main\\res\\layout\\activity_progress.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_dialog_title_material.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/notification_template_part_time.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\select_dialog_multichoice_material.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_screen_simple.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_action_menu_item_layout.xml"
-    },
-    {
-        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
-        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_alert_dialog_material.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
-    },
-    {
-        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/abc_simple_dropdown_hint.xml",
-        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_simple_dropdown_hint.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_search_dropdown_item_icons_2line.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_simple_dropdown_hint.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_simple_dropdown_hint.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
-    },
-    {
-        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/progress_dialog.xml",
-        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/eduCaching/MaterialDesign/unspecified/res/layout/progress_dialog.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\snackbar.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\eduCaching\\MaterialDesign\\unspecified\\res\\layout\\snackbar.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_select_dialog_material.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_list_menu_item_radio.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\notification_template_part_chronometer.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
-    },
-    {
-        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/activity_main.xml",
-        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/src/main/res/layout/activity_main.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/activity_progress.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/src/main/res/layout/activity_progress.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\select_dialog_singlechoice_material.xml"
-    },
-    {
-        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
-        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_action_bar_title_item.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\color_selector.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\eduCaching\\MaterialDesign\\unspecified\\res\\layout\\color_selector.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_search_view.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\color_selector.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\eduCaching\\MaterialDesign\\unspecified\\res\\layout\\color_selector.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_activity_chooser_view.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\src\\main\\res\\layout\\activity_main.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\notification_media_action.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_activity_chooser_view.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_activity_chooser_view_list_item.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_action_menu_item_layout.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_list_menu_item_layout.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_action_bar_title_item.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/notification_media_action.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/notification_media_action.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_action_bar_up_container.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/notification_template_part_chronometer.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\notification_media_action.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_alert_dialog_material.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/activity_switchs.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/src/main/res/layout/activity_switchs.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_alert_dialog_material.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/activity_buttons.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/src/main/res/layout/activity_buttons.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_dialog_title_material.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_action_menu_layout.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_alert_dialog_material.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_action_mode_close_item_material.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_action_bar_title_item.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\notification_media_cancel_action.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_action_bar_title_item.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_list_menu_item_layout.xml"
-    },
-    {
-        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
-        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_action_mode_close_item_material.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_action_bar_up_container.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/select_dialog_singlechoice_material.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_popup_menu_item_layout.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/number_indicator_spinner.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/eduCaching/MaterialDesign/unspecified/res/layout/number_indicator_spinner.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_search_view.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_progress.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\src\\main\\res\\layout\\activity_progress.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\notification_template_part_time.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_action_menu_item_layout.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_list_menu_item_layout.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\select_dialog_item_material.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_list_menu_item_icon.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_action_bar_up_container.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_dialog_title_material.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_action_menu_layout.xml"
-    },
-    {
-        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
-        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/notification_template_media.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\notification_template_lines.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_list_menu_item_icon.xml"
-    },
-    {
-        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/activity_widgets.xml",
-        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/src/main/res/layout/activity_widgets.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/snackbar.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/eduCaching/MaterialDesign/unspecified/res/layout/snackbar.xml"
-    },
-    {
-        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
-        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_select_dialog_material.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_action_mode_bar.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_popup_menu_item_layout.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_screen_content_include.xml"
-    },
-    {
         "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
         "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_activity_chooser_view.xml"
     },
     {
         "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",
         "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/notification_template_big_media_narrow.xml"
     },
     {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\notification_template_big_media.xml"
+        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_popup_menu_item_layout.xml"
     },
     {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
+        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_screen_simple_overlay_action_mode.xml"
     },
     {
-        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_select_dialog_material.xml"
+        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_search_dropdown_item_icons_2line.xml"
     },
     {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\dialog.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\eduCaching\\MaterialDesign\\unspecified\\res\\layout\\dialog.xml"
+        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/activity_progress.xml",
+        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/src/main/res/layout/activity_progress.xml"
     },
     {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_expanded_menu_layout.xml"
+        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_list_menu_item_checkbox.xml"
     },
     {
-        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/select_dialog_item_material.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/progress_dialog.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/eduCaching/MaterialDesign/unspecified/res/layout/progress_dialog.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_popup_menu_item_layout.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/color_selector.xml",
+        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/eduCaching/MaterialDesign/unspecified/res/layout/color_selector.xml"
     },
     {
         "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
@@ -636,32 +52,32 @@
         "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/select_dialog_item_material.xml"
     },
     {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\notification_template_big_media_narrow.xml"
+        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_activity_chooser_view_list_item.xml"
     },
     {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\notification_template_part_time.xml"
+        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
+        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/select_dialog_multichoice_material.xml"
     },
     {
         "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
         "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/notification_template_part_time.xml"
     },
     {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_list_menu_item_icon.xml"
+        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_list_menu_item_layout.xml"
     },
     {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\notification_template_lines.xml"
+        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
+        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_search_view.xml"
     },
     {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_switchs.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\src\\main\\res\\layout\\activity_switchs.xml"
+        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/snackbar.xml",
+        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/eduCaching/MaterialDesign/unspecified/res/layout/snackbar.xml"
+    },
+    {
+        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/notification_template_part_chronometer.xml"
     },
     {
         "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
@@ -672,48 +88,32 @@
         "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_action_bar_view_list_nav_layout.xml"
     },
     {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_buttons.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\src\\main\\res\\layout\\activity_buttons.xml"
+        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/dialog.xml",
+        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/eduCaching/MaterialDesign/unspecified/res/layout/dialog.xml"
+    },
+    {
+        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/activity_switchs.xml",
+        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/src/main/res/layout/activity_switchs.xml"
     },
     {
         "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
         "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_action_mode_bar.xml"
     },
     {
-        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/activity_widgets.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/src/main/res/layout/activity_widgets.xml"
+        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/activity_buttons.xml",
+        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/src/main/res/layout/activity_buttons.xml"
     },
     {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_widgets.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\src\\main\\res\\layout\\activity_widgets.xml"
+        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
+        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_dialog_title_material.xml"
     },
     {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\notification_template_part_chronometer.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_expanded_menu_layout.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/abc_simple_dropdown_hint.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_simple_dropdown_hint.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\progress_dialog.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\eduCaching\\MaterialDesign\\unspecified\\res\\layout\\progress_dialog.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/dialog.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/eduCaching/MaterialDesign/unspecified/res/layout/dialog.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_screen_toolbar.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
+        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_alert_dialog_material.xml"
     },
     {
         "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
@@ -724,31 +124,67 @@
         "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_screen_simple.xml"
     },
     {
-        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/notification_media_cancel_action.xml"
+        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/abc_simple_dropdown_hint.xml",
+        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_simple_dropdown_hint.xml"
+    },
+    {
+        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
+        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_action_bar_up_container.xml"
     },
     {
         "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/notification_template_big_media.xml",
         "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/notification_template_big_media.xml"
     },
     {
-        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/notification_template_media.xml"
+        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/progress_dialog.xml",
+        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/eduCaching/MaterialDesign/unspecified/res/layout/progress_dialog.xml"
     },
     {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_activity_chooser_view.xml"
+        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/notification_template_lines.xml",
+        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/notification_template_lines.xml"
     },
     {
         "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
         "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_screen_toolbar.xml"
     },
     {
+        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/notification_media_action.xml",
+        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/notification_media_action.xml"
+    },
+    {
+        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
+        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/notification_template_media.xml"
+    },
+    {
         "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
         "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_action_menu_item_layout.xml"
     },
     {
-        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/activity_main.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/src/main/res/layout/activity_main.xml"
+        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/activity_widgets.xml",
+        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/src/main/res/layout/activity_widgets.xml"
+    },
+    {
+        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/number_indicator_spinner.xml",
+        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/eduCaching/MaterialDesign/unspecified/res/layout/number_indicator_spinner.xml"
+    },
+    {
+        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/layout/abc_list_menu_item_radio.xml"
     }
 ]

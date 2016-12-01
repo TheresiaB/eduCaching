@@ -1,11 +1,15 @@
 [
     {
+        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesign/build/intermediates/res/merged/androidTest/debug/anim/snackbar_show_animation.xml",
+        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesign/build/intermediates/bundles/debug/res/anim/snackbar_show_animation.xml"
+    },
+    {
         "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesign/build/intermediates/res/merged/androidTest/debug/anim/dialog_main_show_amination.xml",
         "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesign/build/intermediates/bundles/debug/res/anim/dialog_main_show_amination.xml"
     },
     {
-        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/build/intermediates/res/merged/androidTest/debug/anim/dialog_root_hide_amin.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/build/intermediates/bundles/debug/res/anim/dialog_root_hide_amin.xml"
+        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesign/build/intermediates/res/merged/androidTest/debug/anim/dialog_root_show_amin.xml",
+        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesign/build/intermediates/bundles/debug/res/anim/dialog_root_show_amin.xml"
     },
     {
         "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesign/build/intermediates/res/merged/androidTest/debug/anim/snackbar_hide_animation.xml",
@@ -16,99 +20,11 @@
         "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesign/build/intermediates/bundles/debug/res/anim/progress_indeterminate_animation.xml"
     },
     {
-        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/build/intermediates/res/merged/androidTest/debug/anim/dialog_main_hide_amination.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/build/intermediates/bundles/debug/res/anim/dialog_main_hide_amination.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\snackbar_hide_animation.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\bundles\\debug\\res\\anim\\snackbar_hide_animation.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\dialog_main_show_amination.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\bundles\\debug\\res\\anim\\dialog_main_show_amination.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\dialog_main_show_amination.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\bundles\\debug\\res\\anim\\dialog_main_show_amination.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\snackbar_show_animation.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\bundles\\debug\\res\\anim\\snackbar_show_animation.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\snackbar_hide_animation.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\bundles\\debug\\res\\anim\\snackbar_hide_animation.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/build/intermediates/res/merged/androidTest/debug/anim/dialog_main_show_amination.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/build/intermediates/bundles/debug/res/anim/dialog_main_show_amination.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\progress_indeterminate_animation.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\bundles\\debug\\res\\anim\\progress_indeterminate_animation.xml"
-    },
-    {
-        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesign/build/intermediates/res/merged/androidTest/debug/anim/snackbar_show_animation.xml",
-        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesign/build/intermediates/bundles/debug/res/anim/snackbar_show_animation.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\dialog_root_show_amin.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\bundles\\debug\\res\\anim\\dialog_root_show_amin.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\progress_indeterminate_animation.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\bundles\\debug\\res\\anim\\progress_indeterminate_animation.xml"
-    },
-    {
-        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesign/build/intermediates/res/merged/androidTest/debug/anim/dialog_root_show_amin.xml",
-        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesign/build/intermediates/bundles/debug/res/anim/dialog_root_show_amin.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\dialog_main_hide_amination.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\bundles\\debug\\res\\anim\\dialog_main_hide_amination.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\snackbar_show_animation.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\bundles\\debug\\res\\anim\\snackbar_show_animation.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\dialog_main_hide_amination.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\bundles\\debug\\res\\anim\\dialog_main_hide_amination.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\dialog_root_hide_amin.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\bundles\\debug\\res\\anim\\dialog_root_hide_amin.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/build/intermediates/res/merged/androidTest/debug/anim/snackbar_show_animation.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/build/intermediates/bundles/debug/res/anim/snackbar_show_animation.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\dialog_root_hide_amin.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\bundles\\debug\\res\\anim\\dialog_root_hide_amin.xml"
-    },
-    {
         "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesign/build/intermediates/res/merged/androidTest/debug/anim/dialog_main_hide_amination.xml",
         "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesign/build/intermediates/bundles/debug/res/anim/dialog_main_hide_amination.xml"
     },
     {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\dialog_root_show_amin.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\bundles\\debug\\res\\anim\\dialog_root_show_amin.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/build/intermediates/res/merged/androidTest/debug/anim/progress_indeterminate_animation.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/build/intermediates/bundles/debug/res/anim/progress_indeterminate_animation.xml"
-    },
-    {
         "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesign/build/intermediates/res/merged/androidTest/debug/anim/dialog_root_hide_amin.xml",
         "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesign/build/intermediates/bundles/debug/res/anim/dialog_root_hide_amin.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/build/intermediates/res/merged/androidTest/debug/anim/snackbar_hide_animation.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/build/intermediates/bundles/debug/res/anim/snackbar_hide_animation.xml"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/build/intermediates/res/merged/androidTest/debug/anim/dialog_root_show_amin.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/build/intermediates/bundles/debug/res/anim/dialog_root_show_amin.xml"
     }
 ]

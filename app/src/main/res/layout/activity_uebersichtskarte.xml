@@ -52,8 +52,8 @@
             android:layout_height="465dp">
 
 
-            <include layout="@layout/activity_maps" />
 
+            <include layout="@layout/activity_maps" />
 
 
         </LinearLayout>
