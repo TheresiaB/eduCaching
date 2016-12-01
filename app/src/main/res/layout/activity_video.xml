@@ -103,13 +103,14 @@
 
         </LinearLayout>
 
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@color/colorGrey_lines"
-            />
 
-        <include layout="@layout/activity_button"/>
+
+        <include
+            android:id="@+id/footer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            layout="@layout/activity_button"/>
 
 
     </LinearLayout>

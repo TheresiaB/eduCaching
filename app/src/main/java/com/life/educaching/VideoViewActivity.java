@@ -63,8 +63,17 @@ public class VideoViewActivity extends AppCompatActivity {
     public void addListenerOnButton() {
 
         final Context context = this;
-        buttonNext = (Button) findViewById(R.id.next);
+        buttonNext = (Button) findViewById(R.id.button_next);
         buttonBack = (Button) findViewById(R.id.button_back);
+
+        buttonNext.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View arg0) {
+                Toast.makeText(VideoViewActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(context, RouteActivity.class));
+            }
+        });
         buttonBack.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -73,6 +82,8 @@ public class VideoViewActivity extends AppCompatActivity {
                 startActivity(new Intent(context, MainActivity.class));
             }
         });
+
+
     }
 
 

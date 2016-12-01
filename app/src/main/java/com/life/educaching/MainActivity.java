@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity{
     public void addListenerOnButton() {
 
         final Context context = this;
-        buttonNext = (Button) findViewById(R.id.next);
+        buttonNext = (Button) findViewById(R.id.button_next);
         buttonBack = (Button) findViewById(R.id.button_back);
         buttonNext.setOnClickListener(new View.OnClickListener() {
 
@@ -46,7 +46,6 @@ public class MainActivity extends AppCompatActivity{
                startActivity(new Intent(context, VideoViewActivity.class));
             }
         });
-
     }
 
     public void openMap (View view) {
