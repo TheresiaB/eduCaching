@@ -12,7 +12,26 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <include layout="@layout/activity_headline"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:ems="10"
+            android:id="@+id/text_head"
+            android:textSize="60sp"
+            android:textColor="@color/colorWhite"
+            android:background="@color/live_e.v._green"
+            android:paddingStart="70dp"
+            android:paddingLeft="70dp"
+            android:paddingEnd="0dp"
+            android:paddingRight="0dp"
+            android:gravity="center_vertical"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@color/colorGrey_lines"
+            />
 
 
     <LinearLayout
@@ -42,8 +61,8 @@
 
         <Spinner
             android:id="@+id/spinner1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
             android:layout_centerInParent="true"
             android:entries="@array/country_arrays"
             android:prompt="@string/country_prompt"
@@ -59,14 +78,15 @@
         android:layout_height="100dp">
 
         <Button
-            android:id="@+id/btnSubmit"
+            android:id="@+id/button_take_route"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:text="Submit"
+            android:text="Route starten"
             />
 
         </LinearLayout>
+
     </LinearLayout>
 
 </android.support.design.widget.CoordinatorLayout>
