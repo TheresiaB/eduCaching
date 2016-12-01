@@ -81,7 +81,11 @@
 
             </LinearLayout>
 
-
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorGrey_lines"
+                />
 
             <include
                 android:id="@+id/footer"
