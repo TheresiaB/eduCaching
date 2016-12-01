@@ -1,19 +1,27 @@
 [
     {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\sprite_check.png",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\sprite_check.png"
+        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\float_button_shadow1.png",
+        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\float_button_shadow1.png"
     },
     {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\dialog_background.9.png",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\dialog_background.9.png"
+        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\float_button1_shadowp.png",
+        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\float_button1_shadowp.png"
+    },
+    {
+        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\float_button_shadow1.png",
+        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\float_button_shadow1.png"
     },
     {
         "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/dialog_background.9.png",
         "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/dialog_background.9.png"
     },
     {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\ic_reloj_max.png",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ic_reloj_max.png"
+        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\dialog_background.9.png",
+        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\dialog_background.9.png"
+    },
+    {
+        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesign/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/sprite_check.png",
+        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesign/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/sprite_check.png"
     },
     {
         "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/ic_reloj_max.png",
@@ -24,6 +32,22 @@
         "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/float_button_shadow1.png"
     },
     {
+        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\sprite_check.png",
+        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\sprite_check.png"
+    },
+    {
+        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\sprite_check.png",
+        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\sprite_check.png"
+    },
+    {
+        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\dialog_background.9.png",
+        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\dialog_background.9.png"
+    },
+    {
+        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\ic_reloj_max.png",
+        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ic_reloj_max.png"
+    },
+    {
         "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\ic_reloj_max.png",
         "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ic_reloj_max.png"
     },
@@ -32,31 +56,27 @@
         "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/float_button1_shadowp.png"
     },
     {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\float_button1_shadowp.png",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\float_button1_shadowp.png"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\dialog_background.9.png",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\dialog_background.9.png"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\sprite_check.png",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\sprite_check.png"
-    },
-    {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\float_button1_shadowp.png",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\float_button1_shadowp.png"
+        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesign/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/float_button1_shadowp.png",
+        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesign/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/float_button1_shadowp.png"
     },
     {
         "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/sprite_check.png",
         "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/sprite_check.png"
     },
     {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\float_button_shadow1.png",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\float_button_shadow1.png"
+        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesign/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/float_button_shadow1.png",
+        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesign/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/float_button_shadow1.png"
     },
     {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\float_button_shadow1.png",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\float_button_shadow1.png"
+        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesign/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/dialog_background.9.png",
+        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesign/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/dialog_background.9.png"
+    },
+    {
+        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\float_button1_shadowp.png",
+        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\float_button1_shadowp.png"
+    },
+    {
+        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesign/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/ic_reloj_max.png",
+        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesign/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/ic_reloj_max.png"
     }
 ]

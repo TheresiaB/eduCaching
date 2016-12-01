@@ -4,10 +4,9 @@
     <string name="video_aufnehmen">Video aufnehmen</string>
     <string name="vorwaerts">Vorwärts</string>
     <string name="rueckwärts">Rückwärts</string>
-
     <string name="Station_1">Station 1</string>
-
     <string name="decide_route">Bitte wähle eine Route aus um zu starten</string>
+    <string name="Route_1">Route 1</string>
     <string name="Head_Text">Lotuseffekt</string>
     <string name="Head_Text_Video">Lotuseffekt-Video</string>
     <string name="Lorem_Ipsum">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</string>
@@ -17,12 +16,9 @@
     <string name="title_activity_maps">Map</string>
     <string name="show_the_map">Show the map</string>
     <string name="title_activity_maps2">Map</string>
-
     <string name="Play_Video">Play</string>
     <string name="Pause_Video">Pause</string>
     <string name="Stop_Video">Stop</string>
-
-
     <string name="country_prompt">Choose a country</string>
 
     <string-array name="country_arrays">

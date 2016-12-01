@@ -1,14 +1,18 @@
 [
     {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
-    },
-    {
         "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
         "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesignDemo\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
+        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
+        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
         "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
         "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
+        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     }
 ]
