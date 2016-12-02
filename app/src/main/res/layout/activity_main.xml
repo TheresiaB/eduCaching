@@ -3,45 +3,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
-    <include layout="@layout/layout_bild"/>
 
-    <android.support.v7.widget.Toolbar
-        android:id="@+id/toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"
-        android:background="?attr/colorPrimary"
-        app:popupTheme="@style/AppTheme.Base" />
+    tools:context=".RouteActivity">
 
 
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_margin="@dimen/fab_margin"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
-
-    <Button
-        android:text="@string/show_the_map"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/toolbar"
-        android:layout_toRightOf="@+id/fab"
-        android:layout_toEndOf="@+id/fab"
-        android:layout_marginLeft="87dp"
-        android:layout_marginStart="87dp"
-        android:id="@+id/maps"
-        android:onClick="openMap" />
-
-    <include layout="@layout/content_main"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginRight="89dp"
-        android:layout_marginEnd="89dp"
-        android:layout_marginBottom="583dp" />
-
+    <include layout="@layout/activity_decide_route"/>
 
 </RelativeLayout>
 
