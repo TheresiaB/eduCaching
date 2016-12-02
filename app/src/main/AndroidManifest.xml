@@ -25,7 +25,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".RouteActivity"
+            android:name=".StationMapsActivity"
             android:label="@string/layout_Bild_Beschreibung"
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar">
