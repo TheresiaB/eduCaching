@@ -35,6 +35,14 @@ public class OverviewMapActivity extends AppCompatActivity {
         buttonBack = (Button) findViewById(R.id.button_back);
 
 
+        buttonNext.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View arg0) {
+                Toast.makeText(OverviewMapActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(context, StationMapsActivity.class));
+            }
+        });
         buttonBack.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -43,6 +51,8 @@ public class OverviewMapActivity extends AppCompatActivity {
                 startActivity(new Intent(context, VideoViewActivity.class));
             }
         });
+
+
     }
 
     public void openMap (View view) {
