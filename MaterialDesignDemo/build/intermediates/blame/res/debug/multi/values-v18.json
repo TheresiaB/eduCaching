@@ -1,8 +1,6 @@
 [
     {
-
         "outputFile": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v18\\values-v18.xml",
-
         "map": [
             {
                 "to": {
@@ -13,9 +11,7 @@
                     "endOffset": 99
                 },
                 "from": {
-
                     "file": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-v18\\values-v18.xml",
-
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

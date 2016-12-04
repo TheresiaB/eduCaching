@@ -1,89 +1,89 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/src/main/AndroidManifest.xml:1:1-40:12
+ADDED from C:\Users\p.root\StudioProjects\eduCaching\MaterialDesignDemo\src\main\AndroidManifest.xml:1:1-40:12
 	package
-		ADDED from /Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/src/main/AndroidManifest.xml:2:5-40
-		INJECTED from /Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/src/main/AndroidManifest.xml
-		INJECTED from /Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/src/main/AndroidManifest.xml
+		ADDED from C:\Users\p.root\StudioProjects\eduCaching\MaterialDesignDemo\src\main\AndroidManifest.xml:2:5-40
+		INJECTED from C:\Users\p.root\StudioProjects\eduCaching\MaterialDesignDemo\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\p.root\StudioProjects\eduCaching\MaterialDesignDemo\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/src/main/AndroidManifest.xml
-		INJECTED from /Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\p.root\StudioProjects\eduCaching\MaterialDesignDemo\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\p.root\StudioProjects\eduCaching\MaterialDesignDemo\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/src/main/AndroidManifest.xml:1:11-69
+		ADDED from C:\Users\p.root\StudioProjects\eduCaching\MaterialDesignDemo\src\main\AndroidManifest.xml:1:11-69
 	android:versionCode
-		INJECTED from /Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/src/main/AndroidManifest.xml
-		INJECTED from /Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\p.root\StudioProjects\eduCaching\MaterialDesignDemo\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\p.root\StudioProjects\eduCaching\MaterialDesignDemo\src\main\AndroidManifest.xml
 application
-ADDED from /Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/src/main/AndroidManifest.xml:4:5-38:19
-MERGED from [com.android.support:appcompat-v7:22.2.0] /Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:22.2.1] /Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/AndroidManifest.xml:22:5-20
-MERGED from [eduCaching:MaterialDesign:unspecified] /Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/eduCaching/MaterialDesign/unspecified/AndroidManifest.xml:11:5-14:19
+ADDED from C:\Users\p.root\StudioProjects\eduCaching\MaterialDesignDemo\src\main\AndroidManifest.xml:4:5-38:19
+MERGED from [com.android.support:appcompat-v7:22.2.0] C:\Users\p.root\StudioProjects\eduCaching\MaterialDesignDemo\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\p.root\StudioProjects\eduCaching\MaterialDesignDemo\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:22:5-20
+MERGED from [eduCaching:MaterialDesign:unspecified] C:\Users\p.root\StudioProjects\eduCaching\MaterialDesignDemo\build\intermediates\exploded-aar\eduCaching\MaterialDesign\unspecified\AndroidManifest.xml:11:5-14:19
 	android:label
-		ADDED from /Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/src/main/AndroidManifest.xml:4:45-77
+		ADDED from C:\Users\p.root\StudioProjects\eduCaching\MaterialDesignDemo\src\main\AndroidManifest.xml:4:45-77
 	android:allowBackup
-		ADDED from /Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/src/main/AndroidManifest.xml:4:18-44
+		ADDED from C:\Users\p.root\StudioProjects\eduCaching\MaterialDesignDemo\src\main\AndroidManifest.xml:4:18-44
 	android:icon
-		ADDED from /Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/src/main/AndroidManifest.xml:5:9-43
+		ADDED from C:\Users\p.root\StudioProjects\eduCaching\MaterialDesignDemo\src\main\AndroidManifest.xml:5:9-43
 	android:theme
-		ADDED from /Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/src/main/AndroidManifest.xml:5:44-75
+		ADDED from C:\Users\p.root\StudioProjects\eduCaching\MaterialDesignDemo\src\main\AndroidManifest.xml:5:44-75
 activity#com.gc.materialdesigndemo.ui.MainActivity
-ADDED from /Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/src/main/AndroidManifest.xml:7:9-16:20
+ADDED from C:\Users\p.root\StudioProjects\eduCaching\MaterialDesignDemo\src\main\AndroidManifest.xml:7:9-16:20
 	android:screenOrientation
-		ADDED from /Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/src/main/AndroidManifest.xml:10:13-49
+		ADDED from C:\Users\p.root\StudioProjects\eduCaching\MaterialDesignDemo\src\main\AndroidManifest.xml:10:13-49
 	android:label
-		ADDED from /Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/src/main/AndroidManifest.xml:9:13-45
+		ADDED from C:\Users\p.root\StudioProjects\eduCaching\MaterialDesignDemo\src\main\AndroidManifest.xml:9:13-45
 	android:name
-		ADDED from /Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/src/main/AndroidManifest.xml:8:13-69
+		ADDED from C:\Users\p.root\StudioProjects\eduCaching\MaterialDesignDemo\src\main\AndroidManifest.xml:8:13-69
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/src/main/AndroidManifest.xml:11:13-15:29
+ADDED from C:\Users\p.root\StudioProjects\eduCaching\MaterialDesignDemo\src\main\AndroidManifest.xml:11:13-15:29
 action#android.intent.action.MAIN
-ADDED from /Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/src/main/AndroidManifest.xml:12:17-69
+ADDED from C:\Users\p.root\StudioProjects\eduCaching\MaterialDesignDemo\src\main\AndroidManifest.xml:12:17-69
 	android:name
-		ADDED from /Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/src/main/AndroidManifest.xml:12:25-66
+		ADDED from C:\Users\p.root\StudioProjects\eduCaching\MaterialDesignDemo\src\main\AndroidManifest.xml:12:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/src/main/AndroidManifest.xml:14:17-77
+ADDED from C:\Users\p.root\StudioProjects\eduCaching\MaterialDesignDemo\src\main\AndroidManifest.xml:14:17-77
 	android:name
-		ADDED from /Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/src/main/AndroidManifest.xml:14:27-74
+		ADDED from C:\Users\p.root\StudioProjects\eduCaching\MaterialDesignDemo\src\main\AndroidManifest.xml:14:27-74
 activity#com.gc.materialdesigndemo.ui.ButtonsActivity
-ADDED from /Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/src/main/AndroidManifest.xml:17:9-21:20
+ADDED from C:\Users\p.root\StudioProjects\eduCaching\MaterialDesignDemo\src\main\AndroidManifest.xml:17:9-21:20
 	android:screenOrientation
-		ADDED from /Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/src/main/AndroidManifest.xml:20:13-49
+		ADDED from C:\Users\p.root\StudioProjects\eduCaching\MaterialDesignDemo\src\main\AndroidManifest.xml:20:13-49
 	android:label
-		ADDED from /Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/src/main/AndroidManifest.xml:19:13-45
+		ADDED from C:\Users\p.root\StudioProjects\eduCaching\MaterialDesignDemo\src\main\AndroidManifest.xml:19:13-45
 	android:name
-		ADDED from /Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/src/main/AndroidManifest.xml:18:13-72
+		ADDED from C:\Users\p.root\StudioProjects\eduCaching\MaterialDesignDemo\src\main\AndroidManifest.xml:18:13-72
 activity#com.gc.materialdesigndemo.ui.SwitchActivity
-ADDED from /Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/src/main/AndroidManifest.xml:22:9-26:20
+ADDED from C:\Users\p.root\StudioProjects\eduCaching\MaterialDesignDemo\src\main\AndroidManifest.xml:22:9-26:20
 	android:screenOrientation
-		ADDED from /Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/src/main/AndroidManifest.xml:25:13-49
+		ADDED from C:\Users\p.root\StudioProjects\eduCaching\MaterialDesignDemo\src\main\AndroidManifest.xml:25:13-49
 	android:label
-		ADDED from /Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/src/main/AndroidManifest.xml:24:13-45
+		ADDED from C:\Users\p.root\StudioProjects\eduCaching\MaterialDesignDemo\src\main\AndroidManifest.xml:24:13-45
 	android:name
-		ADDED from /Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/src/main/AndroidManifest.xml:23:13-71
+		ADDED from C:\Users\p.root\StudioProjects\eduCaching\MaterialDesignDemo\src\main\AndroidManifest.xml:23:13-71
 activity#com.gc.materialdesigndemo.ui.ProgressActivity
-ADDED from /Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/src/main/AndroidManifest.xml:27:9-31:20
+ADDED from C:\Users\p.root\StudioProjects\eduCaching\MaterialDesignDemo\src\main\AndroidManifest.xml:27:9-31:20
 	android:screenOrientation
-		ADDED from /Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/src/main/AndroidManifest.xml:30:13-49
+		ADDED from C:\Users\p.root\StudioProjects\eduCaching\MaterialDesignDemo\src\main\AndroidManifest.xml:30:13-49
 	android:label
-		ADDED from /Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/src/main/AndroidManifest.xml:29:13-45
+		ADDED from C:\Users\p.root\StudioProjects\eduCaching\MaterialDesignDemo\src\main\AndroidManifest.xml:29:13-45
 	android:name
-		ADDED from /Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/src/main/AndroidManifest.xml:28:13-73
+		ADDED from C:\Users\p.root\StudioProjects\eduCaching\MaterialDesignDemo\src\main\AndroidManifest.xml:28:13-73
 activity#com.gc.materialdesigndemo.ui.WidgetActivity
-ADDED from /Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/src/main/AndroidManifest.xml:32:9-36:20
+ADDED from C:\Users\p.root\StudioProjects\eduCaching\MaterialDesignDemo\src\main\AndroidManifest.xml:32:9-36:20
 	android:screenOrientation
-		ADDED from /Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/src/main/AndroidManifest.xml:35:13-49
+		ADDED from C:\Users\p.root\StudioProjects\eduCaching\MaterialDesignDemo\src\main\AndroidManifest.xml:35:13-49
 	android:label
-		ADDED from /Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/src/main/AndroidManifest.xml:34:13-45
+		ADDED from C:\Users\p.root\StudioProjects\eduCaching\MaterialDesignDemo\src\main\AndroidManifest.xml:34:13-45
 	android:name
-		ADDED from /Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/src/main/AndroidManifest.xml:33:13-71
+		ADDED from C:\Users\p.root\StudioProjects\eduCaching\MaterialDesignDemo\src\main\AndroidManifest.xml:33:13-71
 uses-sdk
-INJECTED from /Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/src/main/AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:appcompat-v7:22.2.0] /Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:22.2.1] /Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/AndroidManifest.xml:20:5-43
-MERGED from [eduCaching:MaterialDesign:unspecified] /Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/eduCaching/MaterialDesign/unspecified/AndroidManifest.xml:7:5-9:41
+INJECTED from C:\Users\p.root\StudioProjects\eduCaching\MaterialDesignDemo\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:22.2.0] C:\Users\p.root\StudioProjects\eduCaching\MaterialDesignDemo\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\p.root\StudioProjects\eduCaching\MaterialDesignDemo\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:20:5-43
+MERGED from [eduCaching:MaterialDesign:unspecified] C:\Users\p.root\StudioProjects\eduCaching\MaterialDesignDemo\build\intermediates\exploded-aar\eduCaching\MaterialDesign\unspecified\AndroidManifest.xml:7:5-9:41
 	android:targetSdkVersion
-		INJECTED from /Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/src/main/AndroidManifest.xml
-		INJECTED from /Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\p.root\StudioProjects\eduCaching\MaterialDesignDemo\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\p.root\StudioProjects\eduCaching\MaterialDesignDemo\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/src/main/AndroidManifest.xml
-		INJECTED from /Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesignDemo/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\p.root\StudioProjects\eduCaching\MaterialDesignDemo\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\p.root\StudioProjects\eduCaching\MaterialDesignDemo\src\main\AndroidManifest.xml

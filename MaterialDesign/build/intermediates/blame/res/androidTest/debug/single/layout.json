@@ -1,6 +1,5 @@
 [
     {
-<<<<<<< HEAD
         "merged": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\number_indicator_spinner.xml",
         "source": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\bundles\\debug\\res\\layout\\number_indicator_spinner.xml"
     },
@@ -19,25 +18,5 @@
     {
         "merged": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\color_selector.xml",
         "source": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\bundles\\debug\\res\\layout\\color_selector.xml"
-=======
-        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesign/build/intermediates/res/merged/androidTest/debug/layout/color_selector.xml",
-        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesign/build/intermediates/bundles/debug/res/layout/color_selector.xml"
-    },
-    {
-        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesign/build/intermediates/res/merged/androidTest/debug/layout/dialog.xml",
-        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesign/build/intermediates/bundles/debug/res/layout/dialog.xml"
-    },
-    {
-        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesign/build/intermediates/res/merged/androidTest/debug/layout/number_indicator_spinner.xml",
-        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesign/build/intermediates/bundles/debug/res/layout/number_indicator_spinner.xml"
-    },
-    {
-        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesign/build/intermediates/res/merged/androidTest/debug/layout/progress_dialog.xml",
-        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesign/build/intermediates/bundles/debug/res/layout/progress_dialog.xml"
-    },
-    {
-        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesign/build/intermediates/res/merged/androidTest/debug/layout/snackbar.xml",
-        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesign/build/intermediates/bundles/debug/res/layout/snackbar.xml"
->>>>>>> master
     }
 ]

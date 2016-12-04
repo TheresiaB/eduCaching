@@ -1,8 +1,6 @@
 [
     {
-
         "outputFile": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rGB\\values-en-rGB.xml",
-
         "map": [
             {
                 "to": {
@@ -13,9 +11,7 @@
                     "endOffset": 154
                 },
                 "from": {
-
                     "file": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-en-rGB\\values-en-rGB.xml",
-
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -34,9 +30,7 @@
                     "endOffset": 254
                 },
                 "from": {
-
                     "file": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-en-rGB\\values-en-rGB.xml",
-
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -55,9 +49,7 @@
                     "endOffset": 362
                 },
                 "from": {
-
                     "file": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-en-rGB\\values-en-rGB.xml",
-
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -76,9 +68,7 @@
                     "endOffset": 450
                 },
                 "from": {
-
                     "file": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-en-rGB\\values-en-rGB.xml",
-
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -97,9 +87,7 @@
                     "endOffset": 550
                 },
                 "from": {
-
                     "file": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-en-rGB\\values-en-rGB.xml",
-
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -118,9 +106,8 @@
                     "endOffset": 665
                 },
                 "from": {
-
                     "file": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-en-rGB\\values-en-rGB.xml",
-   "position": {
+                    "position": {
                         "startLine": 9,
                         "startColumn": 4,
                         "startOffset": 795,
@@ -138,9 +125,7 @@
                     "endOffset": 768
                 },
                 "from": {
-
                     "file": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-en-rGB\\values-en-rGB.xml",
-
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -159,9 +144,7 @@
                     "endOffset": 872
                 },
                 "from": {
-
                     "file": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-en-rGB\\values-en-rGB.xml",
-
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -180,9 +163,7 @@
                     "endOffset": 971
                 },
                 "from": {
-
                     "file": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-en-rGB\\values-en-rGB.xml",
-
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -201,9 +182,7 @@
                     "endOffset": 1076
                 },
                 "from": {
-
                     "file": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-en-rGB\\values-en-rGB.xml",
-
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -222,9 +201,7 @@
                     "endOffset": 1179
                 },
                 "from": {
-
                     "file": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-en-rGB\\values-en-rGB.xml",
-
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -243,9 +220,7 @@
                     "endOffset": 1283
                 },
                 "from": {
-
                     "file": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-en-rGB\\values-en-rGB.xml",
-
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -264,9 +239,7 @@
                     "endOffset": 1402
                 },
                 "from": {
-
                     "file": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-en-rGB\\values-en-rGB.xml",
-
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
