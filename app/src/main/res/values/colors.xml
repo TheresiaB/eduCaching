@@ -7,6 +7,7 @@
     <color name="colorWhite">#FFFFFF</color>
     <color name="colorGrey_lines">#666666</color>
     <color name="colorGrey_text">#666666</color>
+    <color name="rectangleButton_Border">#999999</color>
 
     <color name="live_e.v._orange_lite">#FFB01B</color>
     <color name="live_e.v._orange">#FF7A03</color>

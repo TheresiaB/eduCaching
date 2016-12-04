@@ -69,7 +69,7 @@
             android:layout_height="130dp">
 
             <Button
-                android:id="@+id/next"
+                android:id="@+id/button_next"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:rotation="90"

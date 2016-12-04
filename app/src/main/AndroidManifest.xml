@@ -60,6 +60,11 @@
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar" />
 
+        <activity
+            android:name=".Station1DoneActivity"
+            android:label="Station1DoneActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar" />
 
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.

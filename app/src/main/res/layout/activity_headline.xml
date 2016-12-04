@@ -19,11 +19,5 @@
         android:gravity="center_vertical"
         />
 
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="3dp"
-        android:background="@color/colorGrey_lines"
-        />
-
     </FrameLayout>
 

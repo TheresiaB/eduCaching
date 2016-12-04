@@ -20,6 +20,8 @@
     <string name="Pause_Video">Pause</string>
     <string name="Stop_Video">Stop</string>
     <string name="country_prompt">Choose a country</string>
+    <string name="Station_1_geschafft">Station 1 geschafft!</string>
+    <string name="Station_1_abschließen">Station 1 abschließen</string>
 
     <string-array name="country_arrays">
         <item>Route 1</item>
