@@ -14,7 +14,7 @@
 
         >
 
-        <include layout="@layout/activity_headline"/>
+        <include layout="@layout/activity_header_green"/>
 
         <View
             android:layout_width="match_parent"

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="@color/colorWhite"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="214dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/machgruen"
+            android:id="@+id/machgruen_logo"
+            android:contentDescription="@string/layout_Bild_Beschreibung"
+            android:layout_marginStart="70dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginEnd="70dp"
+            android:layout_marginRight="70dp"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="fitStart"
+            android:layout_weight="1.50" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="91dp"
+        app:srcCompat="@drawable/lifelogo"
+        android:id="@+id/life_logo"
+        android:contentDescription="@string/layout_Bild_Beschreibung"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="fitStart" />
+
+
+        <ImageView
+            android:layout_width="281dp"
+            android:layout_height="88dp"
+            app:srcCompat="@drawable/bbne"
+            android:id="@+id/bbne_logo"
+            android:contentDescription="@string/layout_Bild_Beschreibung"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginTop="100dp"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="fitStart"
+            />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/colorGrey_lines"
+        />
+
+</FrameLayout>
+
