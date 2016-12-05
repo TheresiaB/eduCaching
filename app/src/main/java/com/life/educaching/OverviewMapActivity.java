@@ -114,7 +114,13 @@ GoogleMap mMap;
         }
 
     }
-public LatLngBounds calculateLalLngBounds(LatLng [] stationen)
+
+    /**
+     * Methode zum Errechen der unteren linken (southwest) und oberen rechten (northeast) Ecke der Fläche, die auf dem Bildschirm angezeigt wird (LatLngBounds)
+     * @param stationen
+     * @return
+     */
+    public LatLngBounds calculateLalLngBounds(LatLng [] stationen)
 {
     if (stationen.length>1) {
         //minimalen Breitengrad finden
