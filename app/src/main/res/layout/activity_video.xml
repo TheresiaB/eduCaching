@@ -14,7 +14,14 @@
 
         >
 
-        <include layout="@layout/activity_headline"/>
+        <include layout="@layout/activity_header_green"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@color/colorGrey_lines"
+
+            />
 
     <LinearLayout
         android:orientation="horizontal"
@@ -73,7 +80,7 @@
 
             <TextView
                 android:layout_width="900dp"
-                android:layout_height="400dp"
+                android:layout_height="match_parent"
                 android:ems="10"
                 android:id="@+id/editText3"
                 android:text="@string/Lorem_Ipsum"
@@ -89,7 +96,7 @@
 
             <VideoView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:id="@+id/videoView"
                 android:layout_weight="1"
                 android:contentDescription="@string/layout_Video_Beschreibung"
@@ -103,7 +110,11 @@
 
         </LinearLayout>
 
-
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorGrey_lines"
+            />
 
         <include
             android:id="@+id/footer"

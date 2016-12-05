@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.life.educaching.OverviewMapActivity">
+    tools:context="com.life.educaching.StationMapsActivity">
 
 
     <include layout="@layout/content_main"
@@ -49,8 +49,8 @@
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="465dp">
-
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
 
 
             <include layout="@layout/activity_maps" />
@@ -69,17 +69,6 @@
             android:layout_height="130dp">
 
             <Button
-                android:id="@+id/button_back"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:rotation="270"
-                android:background="@drawable/selector_button"
-                android:layout_marginStart="20dp"
-                android:layout_marginLeft="20dp"
-                android:layout_gravity="center_vertical"
-                />
-
-            <Button
                 android:id="@+id/button_next"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
@@ -89,33 +78,8 @@
                 android:layout_marginRight="20dp"
                 android:layout_gravity="center_vertical"
                 android:layout_row="0"
-                android:layout_column="64"
+                android:layout_column="2"
                 />
-
-            <ScrollView
-                android:layout_width="810dp"
-                android:layout_height="match_parent"
-                android:layout_row="0"
-                android:layout_column="1"
-                android:layout_marginStart="120dp"
-                android:layout_marginLeft="120dp"
-                android:layout_marginEnd="120dp"
-                android:layout_marginRight="120dp"
-                android:layout_marginBottom="20dp"
-                android:layout_marginTop="20dp"
-                >
-
-                <TextView
-                    android:layout_width="800dp"
-                    android:layout_height="0dp"
-                    android:ems="10"
-                    android:id="@+id/editText3"
-                    android:text="@string/Lorem_Ipsum"
-                    android:textColor="@color/colorGrey_text"
-                    android:textSize="18sp"
-                    android:layout_gravity="center_horizontal"
-                    />
-            </ScrollView>
 
         </GridLayout>
 
