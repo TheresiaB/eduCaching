@@ -14,6 +14,7 @@ public class Station1DoneActivity extends AppCompatActivity {
 
     Button buttonNext;
     Button buttonBack;
+    Button buttonStationDone;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,7 +34,7 @@ public class Station1DoneActivity extends AppCompatActivity {
         final Context context = this;
         buttonNext = (Button) findViewById(R.id.button_next);
         buttonBack = (Button) findViewById(R.id.button_back);
-
+        buttonStationDone = (Button) findViewById(R.id.Station_1_abschließen) ;
 
         buttonBack.setOnClickListener(new View.OnClickListener() {
 
