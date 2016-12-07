@@ -1,6 +1,10 @@
 [
     {
-        "merged": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\sprite_check.png",
-        "source": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\eduCaching\\MaterialDesign\\unspecified\\res\\drawable-ldpi-v4\\sprite_check.png"
+        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/res/merged/debug/drawable-ldpi-v4/sprite_check.png",
+        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesignDemo/build/intermediates/exploded-aar/eduCaching/MaterialDesign/unspecified/res/drawable-ldpi-v4/sprite_check.png"
+    },
+    {
+        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\sprite_check.png",
+        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesignDemo\\build\\intermediates\\exploded-aar\\eduCaching\\MaterialDesign\\unspecified\\res\\drawable-ldpi-v4\\sprite_check.png"
     }
 ]

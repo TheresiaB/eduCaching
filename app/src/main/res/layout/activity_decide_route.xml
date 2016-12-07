@@ -11,16 +11,23 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:weightSum="1">
+        android:weightSum="1"
+        android:background="@color/colorWhite">
 
         <include layout="@layout/activity_header_white"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:background="@color/colorGrey_lines"
+
+            />
 
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="465dp"
         android:weightSum="1"
-        android:background="@color/colorWhite">
+       >
 
 
     <LinearLayout
@@ -37,7 +44,7 @@
             android:id="@+id/editText3"
             android:text="@string/decide_route"
             android:textColor="@color/colorGrey_text"
-            android:textSize="30sp"
+            android:textSize="40sp"
             android:layout_margin="20dp"
             android:textStyle="bold"
             />
@@ -56,17 +63,32 @@
         android:layout_width="match_parent"
         android:layout_height="110dp">
 
-        <Spinner
-            android:id="@+id/spinner1"
+        <FrameLayout
             android:layout_width="410dp"
             android:layout_height="80dp"
-            android:entries="@array/country_arrays"
-            android:prompt="@string/country_prompt"
-            android:layout_margin="20dp"
-            android:textSize="26sp"
-            android:textStyle="bold"
-            android:popupBackground="@color/live_e.v._orange_lite"
-            android:popupTheme="@android:style/ThemeOverlay.Material.Light"            />
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/spinner_border"
+            android:orientation="horizontal" >
+
+            <Spinner
+                android:id="@+id/profile_info_status"
+                android:layout_width="410dp"
+                android:layout_height="80dp"
+                android:background="@drawable/spinner_border"
+                android:entries="@array/country_arrays"
+                android:padding="6dp"
+                android:textSize="20sp"
+                android:spinnerMode="dropdown"
+                android:textColor="#FFFFFF" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical|right"
+                android:background="@drawable/drop_down"
+                />
+        </FrameLayout>
 
         <Button
             android:id="@+id/button_take_route"
@@ -74,7 +96,7 @@
             android:layout_height="80dp"
             android:textSize="26sp"
             android:text="Route starten"
-            android:background="@color/live_e.v._orange_lite"
+            android:background="@drawable/button_border"
             android:textColor="@color/colorWhite"
             />
 
@@ -83,6 +105,18 @@
 
         </LinearLayout>
 
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorGrey_lines"
+            />
+
+        <include
+            android:id="@+id/footer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            layout="@layout/activity_button"/>
 
     </LinearLayout>
 

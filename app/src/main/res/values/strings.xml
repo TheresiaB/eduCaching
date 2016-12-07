@@ -5,7 +5,7 @@
     <string name="vorwaerts">Vorwärts</string>
     <string name="rueckwärts">Rückwärts</string>
     <string name="Station_1">Station 1</string>
-    <string name="decide_route">Bitte wähle eine Route aus um zu starten</string>
+    <string name="decide_route">Route auswählen</string>
     <string name="Route_1">Route 1</string>
     <string name="Head_Text">Lotuseffekt</string>
     <string name="Head_Text_Video">Lotuseffekt-Video</string>
