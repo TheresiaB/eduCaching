@@ -79,7 +79,7 @@ public class VideoViewActivity extends AppCompatActivity {
             @Override
             public void onClick(View arg0) {
                 Toast.makeText(VideoViewActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(context, PictureActivity.class));
+                startActivity(new Intent(context, RouteActivity.class));
             }
         });
 
