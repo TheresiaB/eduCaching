@@ -23,10 +23,16 @@ public class Station1DoneActivity extends AppCompatActivity {
         Typeface myTypeface = Typeface.createFromAsset(getAssets(), "OpenSans-Regular.ttf");
         TextView myTextview = (TextView) findViewById(R.id.text_head);
         myTextview.setTypeface(myTypeface);
-
-        //wenn du das Video Template sehen möchtest kommentiere die nächste Zeile einfach nur ein!
-        //startActivity(new Intent(this, VideoViewActivity.class));
+        setTextHeader();
         addListenerOnButton();
+    }
+
+    public void setTextHeader(){
+
+        TextView myAwesomeTextView = (TextView)findViewById(R.id.text_head);
+
+        //in your OnCreate() method
+        myAwesomeTextView.setText(RouteActivity.whichRoute);
     }
 
     public void addListenerOnButton() {

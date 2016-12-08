@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.VideoView;
 
@@ -55,9 +56,17 @@ public class VideoViewActivity extends AppCompatActivity {
             }
         });
 
-
+        setTextHeader();
         addListenerOnButton();
 
+    }
+
+    public void setTextHeader(){
+
+        TextView myAwesomeTextView = (TextView)findViewById(R.id.text_head);
+
+        //in your OnCreate() method
+        myAwesomeTextView.setText(RouteActivity.whichRoute);
     }
 
     public void addListenerOnButton() {

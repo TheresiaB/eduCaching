@@ -26,6 +26,8 @@ public class RouteActivity extends  AppCompatActivity{
     private Spinner spinner1;
     private Button btnSubmit;
     Button buttonTake;
+    static String whichRoute;
+
 
 
     @Override
@@ -62,8 +64,7 @@ public class RouteActivity extends  AppCompatActivity{
 
     public void ButtonTakeRoute() {
 
-        final String firstRoute = "Route 1";
-        String secondRoute = "Route 2";
+
         spinner1 = (Spinner) findViewById(R.id.spinner1);
         final Context context = this;
         buttonTake = (Button) findViewById(R.id.button_take_route);
@@ -79,6 +80,7 @@ public class RouteActivity extends  AppCompatActivity{
                 switch (arg2) {
                     case 0:
                         final Intent i = new Intent();
+                        whichRoute = "Route 1";
                         i.setClass(RouteActivity.this, PictureActivity.class);
                         buttonTake.setOnClickListener(new View.OnClickListener() {
 
@@ -91,6 +93,7 @@ public class RouteActivity extends  AppCompatActivity{
                         break;
                     case 1:
                         final Intent ir = new Intent();
+                        whichRoute = "Route 2";
                         ir.setClass(RouteActivity.this, VideoViewActivity.class);
                         buttonTake.setOnClickListener(new View.OnClickListener() {
 
