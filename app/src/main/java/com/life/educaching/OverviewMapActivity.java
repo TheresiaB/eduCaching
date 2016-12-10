@@ -34,13 +34,19 @@ GoogleMap mMap;
         Typeface myTypeface = Typeface.createFromAsset(getAssets(), "OpenSans-Regular.ttf");
         TextView myTextview = (TextView) findViewById(R.id.text_head);
         myTextview.setTypeface(myTypeface);
-
-        //wenn du das Video Template sehen möchtest kommentiere die nächste Zeile einfach nur ein!
-        //startActivity(new Intent(this, VideoViewActivity.class));
+        setTextHeader();
         addListenerOnButton();
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
+    }
+
+    public void setTextHeader(){
+
+        TextView myAwesomeTextView = (TextView)findViewById(R.id.text_head);
+
+        //in your OnCreate() method
+        myAwesomeTextView.setText(RouteActivity.whichRoute);
     }
 
     public void addListenerOnButton() {
@@ -108,7 +114,13 @@ GoogleMap mMap;
         }
 
     }
-public LatLngBounds calculateLalLngBounds(LatLng [] stationen)
+
+    /**
+     * Methode zum Errechen der unteren linken (southwest) und oberen rechten (northeast) Ecke der Fläche, die auf dem Bildschirm angezeigt wird (LatLngBounds)
+     * @param stationen
+     * @return
+     */
+    public LatLngBounds calculateLalLngBounds(LatLng [] stationen)
 {
     if (stationen.length>1) {
         //minimalen Breitengrad finden

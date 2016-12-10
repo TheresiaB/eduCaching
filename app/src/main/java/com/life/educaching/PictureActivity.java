@@ -26,23 +26,31 @@ public class PictureActivity extends AppCompatActivity {
         Typeface myTypeface = Typeface.createFromAsset(getAssets(), "OpenSans-Regular.ttf");
         TextView myTextview = (TextView) findViewById(R.id.text_head);
         myTextview.setTypeface(myTypeface);
-
-        //wenn du das Video Template sehen möchtest kommentiere die nächste Zeile einfach nur ein!
-        //startActivity(new Intent(this, VideoViewActivity.class));
+        setTextHeader();
         addListenerOnButton();
     }
+
+    public void setTextHeader(){
+
+        TextView myAwesomeTextView = (TextView)findViewById(R.id.text_head);
+
+        //in your OnCreate() method
+        myAwesomeTextView.setText(RouteActivity.whichRoute);
+    }
+
 
     public void addListenerOnButton() {
 
         final Context context = this;
         buttonNext = (Button) findViewById(R.id.button_next);
         buttonBack = (Button) findViewById(R.id.button_back);
+
         buttonNext.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View arg0) {
                 Toast.makeText(PictureActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(context, VideoViewActivity.class));
+                startActivity(new Intent(context, OverviewMapActivity.class));
             }
         });
 

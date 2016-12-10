@@ -6,6 +6,7 @@ import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
@@ -25,6 +26,8 @@ public class RouteActivity extends  AppCompatActivity{
     private Spinner spinner1;
     private Button btnSubmit;
     Button buttonTake;
+    public static String whichRoute;
+
 
 
     @Override
@@ -61,15 +64,52 @@ public class RouteActivity extends  AppCompatActivity{
 
     public void ButtonTakeRoute() {
 
+
+        spinner1 = (Spinner) findViewById(R.id.spinner1);
         final Context context = this;
         buttonTake = (Button) findViewById(R.id.button_take_route);
 
-        buttonTake.setOnClickListener(new View.OnClickListener() {
+
+        spinner1.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
 
             @Override
-            public void onClick(View arg0) {
-                Toast.makeText(RouteActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(context, PictureActivity.class));
+            public void onItemSelected(AdapterView<?> arg0, View arg1,
+                                       int arg2, long arg3) {
+                System.err.println("**************" + arg2);
+
+                switch (arg2) {
+                    case 0:
+                        final Intent i = new Intent();
+                        whichRoute = "Route 1";
+                        i.setClass(RouteActivity.this, PictureActivity.class);
+                        buttonTake.setOnClickListener(new View.OnClickListener() {
+
+                            @Override
+                            public void onClick(View arg0) {
+                                Toast.makeText(RouteActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
+                                startActivity(i);
+                            }
+                        });
+                        break;
+                    case 1:
+                        final Intent ir = new Intent();
+                        whichRoute = "Route 2";
+                        ir.setClass(RouteActivity.this, VideoViewActivity.class);
+                        buttonTake.setOnClickListener(new View.OnClickListener() {
+
+                            @Override
+                            public void onClick(View arg0) {
+                                Toast.makeText(RouteActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
+                                startActivity(ir);
+                            }
+                        });
+                        break;
+                }}
+
+            @Override
+            public void onNothingSelected(AdapterView<?> arg0) {
+                // TODO Auto-generated method stub
+
             }
         });
     }
