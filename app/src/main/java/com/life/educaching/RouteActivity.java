@@ -26,7 +26,7 @@ public class RouteActivity extends  AppCompatActivity{
     private Spinner spinner1;
     private Button btnSubmit;
     Button buttonTake;
-    static String whichRoute;
+    public static String whichRoute;
 
 
 
