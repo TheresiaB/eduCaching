@@ -2,7 +2,6 @@ package com.life.educaching;
 
 import android.content.Context;
 import android.content.Intent;
-import android.graphics.PixelFormat;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -79,7 +78,7 @@ public class VideoViewActivity extends AppCompatActivity {
             @Override
             public void onClick(View arg0) {
                 Toast.makeText(VideoViewActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(context, OverviewMapActivity.class));
+                startActivity(new Intent(context, _Route1_OverviewMapActivity.class));
             }
         });
 

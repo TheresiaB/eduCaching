@@ -50,7 +50,7 @@ public class PictureActivity extends AppCompatActivity {
             @Override
             public void onClick(View arg0) {
                 Toast.makeText(PictureActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(context, OverviewMapActivity.class));
+                startActivity(new Intent(context, _Route1_OverviewMapActivity.class));
             }
         });
 
