@@ -29,7 +29,7 @@
         <item>Route 3</item>
         <item>Route 4</item>
     </string-array>
-
+    <string name="title_activity_alle__stationen_geschafft">Alle_Stationen_geschafft</string>
 
 
 </resources>

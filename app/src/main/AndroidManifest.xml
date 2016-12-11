@@ -10,9 +10,9 @@
 
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <uses-permission android:name="android.permission.INTERNET" />
-<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
          Google Maps Android API v2, but you must specify either coarse or fine
@@ -43,25 +43,21 @@
             android:label="@string/title_activity_video_view"
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar" />
-
         <activity
             android:name=".PictureActivity"
             android:label="PictureActivity"
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar" />
-
         <activity
             android:name=".OverviewMapActivity"
             android:label="OverviewMapActivity"
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar" />
-
         <activity
             android:name=".StationMapsActivity"
             android:label="StationMapsActivity"
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar" />
-
         <activity
             android:name=".Station1DoneActivity"
             android:label="Station1DoneActivity"
@@ -77,7 +73,6 @@
              You can define the keys for the debug and release targets in src/debug/ and src/release/.
         -->
 
-
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
@@ -85,6 +80,10 @@
         <activity
             android:name=".MapsActivity"
             android:label="@string/title_activity_maps" />
+        <activity
+            android:name=".Alle_Stationen_geschafft"
+            android:label="@string/title_activity_alle__stationen_geschafft"
+            android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>
