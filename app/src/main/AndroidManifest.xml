@@ -80,8 +80,15 @@
         <activity
             android:name=".MapsActivity"
             android:label="@string/title_activity_maps" />
+<<<<<<< HEAD
         <activity android:name="._Route2_OverviewMapActivity" />
         <activity android:name="._Route1_st1_MapActivity"></activity>
+=======
+        <activity
+            android:name=".Alle_Stationen_geschafft"
+            android:label="@string/title_activity_alle__stationen_geschafft"
+            android:theme="@style/AppTheme"></activity>
+>>>>>>> projectpris
     </application>
 
 </manifest>

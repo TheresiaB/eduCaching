@@ -58,12 +58,6 @@
 
         </LinearLayout>
 
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@color/colorGrey_lines"
-            />
-
         <GridLayout
             android:layout_width="match_parent"
             android:layout_height="130dp">
@@ -118,6 +112,12 @@
             </ScrollView>
 
         </GridLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorGrey_lines"
+            />
 
     </LinearLayout>
 
