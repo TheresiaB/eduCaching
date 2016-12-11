@@ -41,13 +41,22 @@ public class Station1DoneActivity extends AppCompatActivity {
         buttonNext = (Button) findViewById(R.id.button_next);
         buttonBack = (Button) findViewById(R.id.button_back);
         buttonStationDone = (Button) findViewById(R.id.Station_1_abschließen) ;
-
+buttonNext.setOnClickListener(new View.OnClickListener()
+{
+ @Override
+    public void onClick (View arg0)
+ {
+     Toast.makeText(Station1DoneActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
+     startActivity(new Intent(context, _Route1_st2_MapActivity.class));
+ }
+});
         buttonBack.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View arg0) {
                 Toast.makeText(Station1DoneActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(context, StationMapsActivity.class));
+
             }
         });
 
