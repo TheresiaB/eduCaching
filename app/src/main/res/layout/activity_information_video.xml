@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.life.educaching.VideoViewActivity">
+    tools:context="com.life.educaching.InformationVideoActivity">
 
     <LinearLayout
         android:orientation="vertical"
@@ -121,7 +121,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
-            layout="@layout/activity_button"/>
+            layout="@layout/activity_button_next_back"/>
 
 
     </LinearLayout>

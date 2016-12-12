@@ -5,14 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.life.educaching._Route1_st1_MapActivity">
+    tools:context="com.life.educaching.Route2_OverviewMapActivity">
 
-
-    <include layout="@layout/content_main"
-        android:layout_height="match_parent"
-        android:layout_width="match_parent"
-
-        android:layout_weight="1" />
 
     <LinearLayout
         android:orientation="vertical"
@@ -25,7 +19,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="130dp"
-            android:text="@+id/route1_station1"
+            android:text="Text"
             android:ems="10"
             android:id="@+id/text_head"
             android:textSize="60sp"

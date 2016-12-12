@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-    <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
 
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.life.educaching.StationMapsActivity">
+    tools:context="com.life.educaching.Route1_station1_MapActivity">
 
-
-    <include layout="@layout/content_main"
-        android:layout_height="match_parent"
-        android:layout_width="match_parent"
-
-        android:layout_weight="1" />
 
     <LinearLayout
         android:orientation="vertical"
@@ -25,7 +19,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="130dp"
-            android:text="@string/Route_1"
+            android:text="@+id/route1_station1"
             android:ems="10"
             android:id="@+id/text_head"
             android:textSize="60sp"
@@ -49,8 +43,8 @@
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1">
+            android:layout_height="465dp">
+
 
 
             <include layout="@layout/activity_maps" />
@@ -69,6 +63,17 @@
             android:layout_height="130dp">
 
             <Button
+                android:id="@+id/button_back"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:rotation="270"
+                android:background="@drawable/selector_button"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center_vertical"
+                />
+
+            <Button
                 android:id="@+id/button_next"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
@@ -78,8 +83,33 @@
                 android:layout_marginRight="20dp"
                 android:layout_gravity="center_vertical"
                 android:layout_row="0"
-                android:layout_column="2"
+                android:layout_column="64"
                 />
+
+            <ScrollView
+                android:layout_width="810dp"
+                android:layout_height="match_parent"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:layout_marginStart="120dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginEnd="120dp"
+                android:layout_marginRight="120dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                >
+
+                <TextView
+                    android:layout_width="800dp"
+                    android:layout_height="0dp"
+                    android:ems="10"
+                    android:id="@+id/editText3"
+                    android:text="@string/Lorem_Ipsum"
+                    android:textColor="@color/colorGrey_text"
+                    android:textSize="18sp"
+                    android:layout_gravity="center_horizontal"
+                    />
+            </ScrollView>
 
         </GridLayout>
 

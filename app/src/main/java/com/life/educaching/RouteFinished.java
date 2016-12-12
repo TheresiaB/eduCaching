@@ -5,8 +5,6 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.Typeface;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -24,14 +22,14 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.LatLngBounds;
 import com.google.android.gms.maps.model.MarkerOptions;
 
-public class Alle_Stationen_geschafft extends AppCompatActivity implements OnMapReadyCallback{
+public class RouteFinished extends AppCompatActivity implements OnMapReadyCallback{
     GoogleMap mMap;
     Button buttonNext;
     Button buttonBack;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_alle__stationen_geschafft);
+        setContentView(R.layout.activity_route_finished);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -58,7 +56,7 @@ public class Alle_Stationen_geschafft extends AppCompatActivity implements OnMap
         TextView myAwesomeTextView = (TextView)findViewById(R.id.text_head);
 
         //in your OnCreate() method
-        myAwesomeTextView.setText(RouteActivity.whichRoute);
+        myAwesomeTextView.setText(DecideRouteActivity.whichRoute);
     }
 
     public void addListenerOnButton() {
@@ -71,8 +69,8 @@ public class Alle_Stationen_geschafft extends AppCompatActivity implements OnMap
 
             @Override
             public void onClick(View arg0) {
-                Toast.makeText(Alle_Stationen_geschafft.this, "Button Clicked", Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(context, VideoViewActivity.class));
+                Toast.makeText(RouteFinished.this, "Button Clicked", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(context, InformationVideoActivity.class));
             }
         });
 

@@ -11,7 +11,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.VideoView;
 
-public class VideoViewActivity extends AppCompatActivity {
+public class InformationVideoActivity extends AppCompatActivity {
     Button buttonVideoPlay;
     VideoView myVideoView;
     Button buttonNext;
@@ -23,7 +23,7 @@ public class VideoViewActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_video);
+        setContentView(R.layout.activity_information_video);
         buttonVideoPlay = (Button) findViewById(R.id.video_play_button);
         buttonVideoPause = (Button) findViewById(R.id.video_pause_button);
         buttonVideoStop = (Button) findViewById(R.id.video_begin_button);
@@ -65,7 +65,7 @@ public class VideoViewActivity extends AppCompatActivity {
         TextView myAwesomeTextView = (TextView)findViewById(R.id.text_head);
 
         //in your OnCreate() method
-        myAwesomeTextView.setText(RouteActivity.whichRoute);
+        myAwesomeTextView.setText(DecideRouteActivity.whichRoute);
     }
 
     public void addListenerOnButton() {
@@ -77,8 +77,8 @@ public class VideoViewActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View arg0) {
-                Toast.makeText(VideoViewActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(context, _Route1_OverviewMapActivity.class));
+                Toast.makeText(InformationVideoActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(context, Route1_OverviewMapActivity.class));
             }
         });
 
@@ -86,8 +86,8 @@ public class VideoViewActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View arg0) {
-                Toast.makeText(VideoViewActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(context, RouteActivity.class));
+                Toast.makeText(InformationVideoActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(context, DecideRouteActivity.class));
             }
         });
 

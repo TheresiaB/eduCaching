@@ -10,16 +10,19 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class Station1DoneActivity extends AppCompatActivity {
+/**
+ * Created by theresia on 01.12.16.
+ */
+
+public class InformationPictureActivity extends AppCompatActivity {
 
     Button buttonNext;
     Button buttonBack;
-    Button buttonStationDone;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_station_1_geschafft);
+        setContentView(R.layout.activity_information_picture);
         Typeface myTypeface = Typeface.createFromAsset(getAssets(), "OpenSans-Regular.ttf");
         TextView myTextview = (TextView) findViewById(R.id.text_head);
         myTextview.setTypeface(myTypeface);
@@ -32,35 +35,33 @@ public class Station1DoneActivity extends AppCompatActivity {
         TextView myAwesomeTextView = (TextView)findViewById(R.id.text_head);
 
         //in your OnCreate() method
-        myAwesomeTextView.setText(RouteActivity.whichRoute);
+        myAwesomeTextView.setText(DecideRouteActivity.whichRoute);
     }
+
 
     public void addListenerOnButton() {
 
         final Context context = this;
         buttonNext = (Button) findViewById(R.id.button_next);
         buttonBack = (Button) findViewById(R.id.button_back);
-        buttonStationDone = (Button) findViewById(R.id.Station_1_abschließen) ;
-buttonNext.setOnClickListener(new View.OnClickListener()
-{
- @Override
-    public void onClick (View arg0)
- {
-     Toast.makeText(Station1DoneActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
-     startActivity(new Intent(context, _Route1_st2_MapActivity.class));
- }
-});
+
+        buttonNext.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View arg0) {
+                Toast.makeText(InformationPictureActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(context, Route1_OverviewMapActivity.class));
+            }
+        });
+
         buttonBack.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View arg0) {
-                Toast.makeText(Station1DoneActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(context, StationMapsActivity.class));
-
+                Toast.makeText(InformationPictureActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(context, DecideRouteActivity.class));
             }
         });
-
-
     }
 
     public void openMap (View view) {

@@ -6,14 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.life.educaching.Alle_Stationen_geschafft">
+    tools:context="com.life.educaching.RouteFinished">
 
-
-    <include layout="@layout/content_main"
-        android:layout_height="match_parent"
-        android:layout_width="match_parent"
-
-        android:layout_weight="1" />
 
     <LinearLayout
         android:orientation="vertical"

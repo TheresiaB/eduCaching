@@ -1,6 +1,5 @@
 package com.life.educaching;
 
-import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
@@ -25,6 +24,6 @@ public class HeaderGreenActivity extends AppCompatActivity {
         TextView myAwesomeTextView = (TextView)findViewById(R.id.text_head);
 
         //in your OnCreate() method
-        myAwesomeTextView.setText(RouteActivity.whichRoute);
+        myAwesomeTextView.setText(DecideRouteActivity.whichRoute);
     }
 }

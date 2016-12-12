@@ -19,15 +19,16 @@ import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
-public class _Route1_st2_MapActivity extends AppCompatActivity implements OnMapReadyCallback{
+
+public class Route1_station1_MapActivity extends AppCompatActivity implements OnMapReadyCallback{
     GoogleMap mMap;
     Button buttonNext;
     Button buttonBack;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity___route1_st2__map);
-
+        setContentView(R.layout.activity_route1_station1_map);
         Typeface myTypeface = Typeface.createFromAsset(getAssets(), "OpenSans-Regular.ttf");
         TextView myTextview = (TextView) findViewById(R.id.text_head);
         myTextview.setTypeface(myTypeface);
@@ -42,7 +43,7 @@ public class _Route1_st2_MapActivity extends AppCompatActivity implements OnMapR
         TextView myAwesomeTextView = (TextView)findViewById(R.id.text_head);
 
         //in your OnCreate() method
-        myAwesomeTextView.setText(RouteActivity.whichRoute);
+        myAwesomeTextView.setText(DecideRouteActivity.whichRoute);
     }
     public void addListenerOnButton() {
 
@@ -55,49 +56,55 @@ public class _Route1_st2_MapActivity extends AppCompatActivity implements OnMapR
 
             @Override
             public void onClick(View arg0) {
-                Toast.makeText(_Route1_st2_MapActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(context, Alle_Stationen_geschafft.class));
+                Toast.makeText(Route1_station1_MapActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(context, Station_Finished_Activity.class));
             }
         });
         buttonBack.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View arg0) {
-                Toast.makeText(_Route1_st2_MapActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(context, VideoViewActivity.class));
+                Toast.makeText(Route1_station1_MapActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(context, InformationVideoActivity.class));
             }
         });
+
+
     }
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
-        // Marker in der 2. Station hinzufügen und die Kamera bewegen
-        LatLng potsdamerplatz = new LatLng(52.5096488, 13.37594409999997);
-        mMap.addMarker(new MarkerOptions().position(potsdamerplatz).title("Marker in der 2. Station"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(potsdamerplatz, 14));
+        // Ein Marker in der ersten Station hinzufügen und die Kamera bewegen
+        LatLng moeckernbruecke = new LatLng(52.49402689999999, 13.375908200000026);
+        mMap.addMarker(new MarkerOptions().position(moeckernbruecke).title("Marker in der 1. Station"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(moeckernbruecke, 14));
 
         if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
             ActivityCompat.requestPermissions(this, new String[]{android.Manifest.permission.ACCESS_FINE_LOCATION, android.Manifest.permission.INTERNET}, 10);
 
             return;
-        } else {
+        }
+        else
+        {
             setCurrentLocation();
         }
-    }
-        @Override
-        public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
-            switch (requestCode) {
-                case 10:
-                    if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                        setCurrentLocation();
-                    }
-                    return;
-            }
-        }
-        //die nächste Zeile wird als inkorrekt angezeigt, weil der Compiler denkt, dass wir die Überprüfung des Zugriffs nicht gemacht haben, bevor der Standort angezeigt wird. Die Abfrage der Berechtigung erfolge aber schon in der vorigen Methode
-        public void setCurrentLocation() {
-            mMap.setMyLocationEnabled(true);
 
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
+        switch (requestCode) {
+            case 10:
+                if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                    setCurrentLocation();
+                }
+                return;
         }
+    }
+    //die nächste Zeile wird als inkorrekt angezeigt, weil der Compiler denkt, dass wir die Überprüfung des Zugriffs nicht gemacht haben, bevor der Standort angezeigt wird. Die Abfrage der Berechtigung erfolge aber schon in der vorigen Methode
+    public void setCurrentLocation() {
+        mMap.setMyLocationEnabled(true);
+
+    }
 
 }

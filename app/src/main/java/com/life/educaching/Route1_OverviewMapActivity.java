@@ -20,7 +20,7 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.LatLngBounds;
 import com.google.android.gms.maps.model.MarkerOptions;
 
-public class _Route1_OverviewMapActivity extends AppCompatActivity implements OnMapReadyCallback{
+public class Route1_OverviewMapActivity extends AppCompatActivity implements OnMapReadyCallback{
 GoogleMap mMap;
     Button buttonNext;
     Button buttonBack;
@@ -28,7 +28,7 @@ GoogleMap mMap;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_uebersichtskarte);
+        setContentView(R.layout.activity_overviewmap);
         Typeface myTypeface = Typeface.createFromAsset(getAssets(), "OpenSans-Regular.ttf");
         TextView myTextview = (TextView) findViewById(R.id.text_head);
         myTextview.setTypeface(myTypeface);
@@ -44,7 +44,7 @@ GoogleMap mMap;
         TextView myAwesomeTextView = (TextView)findViewById(R.id.text_head);
 
         //in your OnCreate() method
-        myAwesomeTextView.setText(RouteActivity.whichRoute);
+        myAwesomeTextView.setText(DecideRouteActivity.whichRoute);
     }
 
     public void addListenerOnButton() {
@@ -58,7 +58,7 @@ GoogleMap mMap;
 
             @Override
             public void onClick(View arg0) {
-                Toast.makeText(_Route1_OverviewMapActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
+                Toast.makeText(Route1_OverviewMapActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(context, StationMapsActivity.class));
             }
         });
@@ -66,8 +66,8 @@ GoogleMap mMap;
 
             @Override
             public void onClick(View arg0) {
-                Toast.makeText(_Route1_OverviewMapActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(context, VideoViewActivity.class));
+                Toast.makeText(Route1_OverviewMapActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(context, InformationVideoActivity.class));
             }
         });
 

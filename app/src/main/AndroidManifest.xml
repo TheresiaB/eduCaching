@@ -27,7 +27,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".RouteActivity"
+            android:name=".DecideRouteActivity"
             android:label="@string/layout_Bild_Beschreibung"
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar">
@@ -39,17 +39,17 @@
         </activity>
         <activity android:name=".CameraActivity" />
         <activity
-            android:name=".VideoViewActivity"
+            android:name=".InformationVideoActivity"
             android:label="@string/title_activity_video_view"
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".PictureActivity"
+            android:name=".InformationPictureActivity"
             android:label="PictureActivity"
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="._Route1_OverviewMapActivity"
+            android:name=".Route1_OverviewMapActivity"
             android:label="OverviewMapActivity"
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar" />
@@ -59,7 +59,7 @@
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".Station1DoneActivity"
+            android:name=".Station_Finished_Activity"
             android:label="Station1DoneActivity"
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar" />
@@ -80,17 +80,17 @@
         <activity
             android:name=".MapsActivity"
             android:label="@string/title_activity_maps" />
-        <activity android:name="._Route2_OverviewMapActivity"
+        <activity android:name=".Route2_OverviewMapActivity"
             android:screenOrientation="landscape"
             />
-        <activity android:name="._Route1_st1_MapActivity"
+        <activity android:name=".Route1_station1_MapActivity"
             android:screenOrientation="landscape" />
         <activity
-            android:name=".Alle_Stationen_geschafft"
+            android:name=".RouteFinished"
             android:label="@string/title_activity_alle__stationen_geschafft"
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme" />
-        <activity android:name="._Route1_st2_MapActivity"
+        <activity android:name=".Route1_station2_MapActivity"
             android:screenOrientation="landscape"
             ></activity>
     </application>

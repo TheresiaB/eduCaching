@@ -4,9 +4,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.Typeface;
-import android.location.Location;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -15,9 +12,6 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.google.android.gms.common.ConnectionResult;
-import com.google.android.gms.common.api.GoogleApiClient;
-import com.google.android.gms.location.LocationServices;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
@@ -26,16 +20,15 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.LatLngBounds;
 import com.google.android.gms.maps.model.MarkerOptions;
 
+public class Route2_OverviewMapActivity extends AppCompatActivity implements OnMapReadyCallback{
 
-public class _Route1_st1_MapActivity extends AppCompatActivity implements OnMapReadyCallback{
     GoogleMap mMap;
     Button buttonNext;
     Button buttonBack;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity___route1_st1__map);
+        setContentView(R.layout.activity_route1_overviewmap);
         Typeface myTypeface = Typeface.createFromAsset(getAssets(), "OpenSans-Regular.ttf");
         TextView myTextview = (TextView) findViewById(R.id.text_head);
         myTextview.setTypeface(myTypeface);
@@ -45,12 +38,13 @@ public class _Route1_st1_MapActivity extends AppCompatActivity implements OnMapR
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
     }
+
     public void setTextHeader(){
 
         TextView myAwesomeTextView = (TextView)findViewById(R.id.text_head);
 
         //in your OnCreate() method
-        myAwesomeTextView.setText(RouteActivity.whichRoute);
+        myAwesomeTextView.setText(DecideRouteActivity.whichRoute);
     }
     public void addListenerOnButton() {
 
@@ -63,16 +57,16 @@ public class _Route1_st1_MapActivity extends AppCompatActivity implements OnMapR
 
             @Override
             public void onClick(View arg0) {
-                Toast.makeText(_Route1_st1_MapActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(context, Station1DoneActivity.class));
+                Toast.makeText(Route2_OverviewMapActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(context, StationMapsActivity.class));
             }
         });
         buttonBack.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View arg0) {
-                Toast.makeText(_Route1_st1_MapActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(context, VideoViewActivity.class));
+                Toast.makeText(Route2_OverviewMapActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(context, InformationVideoActivity.class));
             }
         });
 
@@ -82,9 +76,20 @@ public class _Route1_st1_MapActivity extends AppCompatActivity implements OnMapR
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
         // Ein Marker in der ersten Station hinzufügen und die Kamera bewegen
-        LatLng moeckernbruecke = new LatLng(52.49402689999999, 13.375908200000026);
-        mMap.addMarker(new MarkerOptions().position(moeckernbruecke).title("Marker in der 1. Station"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(moeckernbruecke, 14));
+        LatLng friedrichstrasse = new LatLng(52.5137447, 13.389356700000008);
+        mMap.addMarker(new MarkerOptions().position(friedrichstrasse).title("Marker in der 1. Station"));
+        //mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(moeckernbruecke, 14));
+
+        LatLng reichstag = new LatLng(52.5185353, 13.37318849999997);
+        mMap.addMarker(new MarkerOptions().position(reichstag).title("Marker in der 2. Station"));
+
+        LatLng schoenhauserstr = new LatLng(52.5263005, 13.407798899999989);
+        mMap.addMarker(new MarkerOptions().position(schoenhauserstr).title("Marker in der 4. Station"));
+
+        LatLng [] stationen = {friedrichstrasse, reichstag, schoenhauserstr};
+
+        LatLngBounds Route = MapMethods.calculateLatLngBounds(stationen);
+        mMap.moveCamera(CameraUpdateFactory.newLatLngBounds(Route, 50));
 
         if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
             ActivityCompat.requestPermissions(this, new String[]{android.Manifest.permission.ACCESS_FINE_LOCATION, android.Manifest.permission.INTERNET}, 10);
@@ -111,7 +116,6 @@ public class _Route1_st1_MapActivity extends AppCompatActivity implements OnMapR
     //die nächste Zeile wird als inkorrekt angezeigt, weil der Compiler denkt, dass wir die Überprüfung des Zugriffs nicht gemacht haben, bevor der Standort angezeigt wird. Die Abfrage der Berechtigung erfolge aber schon in der vorigen Methode
     public void setCurrentLocation() {
         mMap.setMyLocationEnabled(true);
-
     }
 
 }
