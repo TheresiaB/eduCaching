@@ -75,7 +75,7 @@ public class DecideRouteActivity extends  AppCompatActivity{
                     case 0:
                         final Intent i = new Intent();
                         whichRoute = "Route 1";
-                        i.setClass(DecideRouteActivity.this, InformationPictureActivity.class);
+                        i.setClass(DecideRouteActivity.this, Route1_OverviewMapActivity.class);
                         buttonTake.setOnClickListener(new View.OnClickListener() {
 
                             @Override

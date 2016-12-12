@@ -59,7 +59,7 @@ GoogleMap mMap;
             @Override
             public void onClick(View arg0) {
                 Toast.makeText(Route1_OverviewMapActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(context, StationMapsActivity.class));
+                startActivity(new Intent(context, Route1_station1_MapActivity.class));
             }
         });
         buttonBack.setOnClickListener(new View.OnClickListener() {
@@ -67,7 +67,7 @@ GoogleMap mMap;
             @Override
             public void onClick(View arg0) {
                 Toast.makeText(Route1_OverviewMapActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(context, InformationVideoActivity.class));
+                startActivity(new Intent(context, DecideRouteActivity.class));
             }
         });
 
