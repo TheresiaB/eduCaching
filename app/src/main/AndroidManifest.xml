@@ -80,13 +80,19 @@
         <activity
             android:name=".MapsActivity"
             android:label="@string/title_activity_maps" />
-        <activity android:name="._Route2_OverviewMapActivity" />
-        <activity android:name="._Route1_st1_MapActivity" />
+        <activity android:name="._Route2_OverviewMapActivity"
+            android:screenOrientation="landscape"
+            />
+        <activity android:name="._Route1_st1_MapActivity"
+            android:screenOrientation="landscape" />
         <activity
             android:name=".Alle_Stationen_geschafft"
             android:label="@string/title_activity_alle__stationen_geschafft"
+            android:screenOrientation="landscape"
             android:theme="@style/AppTheme" />
-        <activity android:name="._Route1_st2_MapActivity"></activity>
+        <activity android:name="._Route1_st2_MapActivity"
+            android:screenOrientation="landscape"
+            ></activity>
     </application>
 
 </manifest>

@@ -35,14 +35,14 @@ public class Alle_Stationen_geschafft extends AppCompatActivity implements OnMap
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+      /*  FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
-        });
+        });*/
 
         Typeface myTypeface = Typeface.createFromAsset(getAssets(), "OpenSans-Regular.ttf");
         TextView myTextview = (TextView) findViewById(R.id.text_head);
