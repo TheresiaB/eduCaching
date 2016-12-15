@@ -70,7 +70,7 @@ public class RouteFinished extends AppCompatActivity implements OnMapReadyCallba
             @Override
             public void onClick(View arg0) {
                 Toast.makeText(RouteFinished.this, "Button Clicked", Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(context, InformationVideoActivity.class));
+                startActivity(new Intent(context, TaskTextAudio.class));
             }
         });
 

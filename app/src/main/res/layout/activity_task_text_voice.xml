@@ -30,7 +30,7 @@
             >
 
             <TextView
-                android:layout_width="700dp"
+                android:layout_width="600dp"
                 android:layout_height="100dp"
                 android:text="@string/Head_Text"
                 android:ems="10"
@@ -47,7 +47,7 @@
                 />
 
             <TextView
-                android:layout_width="600dp"
+                android:layout_width="700dp"
                 android:layout_height="100dp"
                 android:text="Warum könnte das Wasser abperlen? Schreibe eine mögliche Lösung!"
                 android:ems="10"
@@ -67,7 +67,8 @@
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="365dp">
+            android:layout_height="365dp"
+            >
 
 
             <TextView
@@ -88,17 +89,18 @@
 
             <EditText
                 android:id="@+id/editText1"
-                android:layout_width="500dp"
+                android:layout_width="600dp"
                 android:layout_height="match_parent"
                 android:layout_centerHorizontal="true"
-                android:ems="10"
+                android:focusableInTouchMode="true"
+                android:windowSoftInputMode="stateHidden"
+                android:gravity="top|left"
+                android:ems="20"
                 android:layout_marginLeft="15dp"
                 android:layout_marginTop="15dp"
                 android:layout_marginBottom="20dp"
                 android:layout_marginRight="15dp"
-                android:layout_centerVertical="true"
                 android:ellipsize="start"
-                android:gravity="center"
                 android:hint="Gebe hier den Text ein"
                 android:inputType="text"
                 android:background="@drawable/edit_text_task"/>
