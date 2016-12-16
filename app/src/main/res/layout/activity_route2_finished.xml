@@ -1,13 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_route2_finished"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
+    android:fitsSystemWindows="true"
     tools:context="com.life.educaching.Route2Finished">
 
-</RelativeLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:text="Fertig!"
+            android:ems="10"
+            android:id="@+id/text_head"
+            android:textSize="60sp"
+            android:textColor="@color/colorWhite"
+            android:background="@color/live_e.v._green"
+            android:textStyle="bold"
+            android:paddingStart="70dp"
+            android:paddingLeft="70dp"
+            android:paddingEnd="0dp"
+            android:paddingRight="0dp"
+            android:gravity="center_vertical|center_horizontal"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@color/colorGrey_lines"
+
+            />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="465dp">
+
+
+
+            <include layout="@layout/activity_maps" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorGrey_lines"
+            />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp">
+
+            <Button
+                android:id="@+id/button_back"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:rotation="270"
+                android:background="@drawable/selector_button"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center_vertical"
+                />
+
+            <Button
+                android:text="Auswertung"
+                android:id="@+id/Auswertung"
+                android:layout_width="410dp"
+                android:layout_height="80dp"
+                android:textSize="26sp"
+                android:background="@drawable/button_border"
+                android:textColor="@color/colorWhite"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:layout_row="0"
+                android:layout_column="2"
+                />
+
+
+        </GridLayout>
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
