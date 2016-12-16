@@ -68,7 +68,6 @@
             android:label="TaskMultipleChoice"
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar" />
-
         <activity
             android:name=".TaskTextAudio"
             android:label="TaskTextAudio"
@@ -91,19 +90,26 @@
         <activity
             android:name=".MapsActivity"
             android:label="@string/title_activity_maps" />
-        <activity android:name=".Route2_OverviewMapActivity"
-            android:screenOrientation="landscape"
-            />
-        <activity android:name=".Route1_station1_MapActivity"
+        <activity
+            android:name=".Route2_OverviewMapActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Route1_station1_MapActivity"
             android:screenOrientation="landscape" />
         <activity
             android:name=".RouteFinished"
             android:label="@string/title_activity_alle__stationen_geschafft"
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme" />
-        <activity android:name=".Route1_station2_MapActivity"
-            android:screenOrientation="landscape"
-            ></activity>
+        <activity
+            android:name=".Route1_station2_MapActivity"
+            android:screenOrientation="landscape" />
+        <activity android:name=".Route1_station3_MapActivity" />
+        <activity android:name=".Route1_station4_MapActivity" />
+        <activity android:name=".Route2_station1_MapActivity" />
+        <activity android:name=".Route2_station2_MapActivity" />
+        <activity android:name=".Route2_station3_MapActivity" />
+        <activity android:name=".Route2Finished"></activity>
     </application>
 
 </manifest>

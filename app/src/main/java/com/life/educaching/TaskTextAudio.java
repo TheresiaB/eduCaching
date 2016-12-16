@@ -40,7 +40,7 @@ public class TaskTextAudio extends AppCompatActivity {
             @Override
             public void onClick(View arg0) {
                 Toast.makeText(TaskTextAudio.this, "Button Clicked", Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(context, RouteFinished.class));
+                startActivity(new Intent(context, Route1Finished.class));
             }
         });
 
