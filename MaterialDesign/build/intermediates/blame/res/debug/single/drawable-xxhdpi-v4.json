@@ -1,10 +1,14 @@
 [
     {
-        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/sprite_check.png",
-        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/src/main/res/drawable-xxhdpi/sprite_check.png"
+        "merged": "C:\\home\\theresia\\StudioProjects\\eduCaching\\C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\sprite_check.png",
+        "source": "C:\\home\\theresia\\StudioProjects\\eduCaching\\C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\src\\main\\res\\drawable-xxhdpi\\sprite_check.png"
     },
     {
-        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\sprite_check.png",
-        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\src\\main\\res\\drawable-xxhdpi\\sprite_check.png"
+        "merged": "C:\\home\\theresia\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\sprite_check.png",
+        "source": "C:\\home\\theresia\\StudioProjects\\eduCaching\\MaterialDesign\\src\\main\\res\\drawable-xxhdpi\\sprite_check.png"
+    },
+    {
+        "merged": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\sprite_check.png",
+        "source": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\src\\main\\res\\drawable-xxhdpi\\sprite_check.png"
     }
 ]
