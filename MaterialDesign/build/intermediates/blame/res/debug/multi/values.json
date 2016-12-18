@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\home\\theresia\\StudioProjects\\eduCaching\\C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "outputFile": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesign/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
         "map": [
             {
                 "to": {
@@ -11,69 +11,7 @@
                     "endOffset": 90
                 },
                 "from": {
-                    "file": "C:\\home\\theresia\\StudioProjects\\eduCaching\\C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\src\\main\\res\\values\\colors.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 57,
-                        "endColumn": 39,
-                        "endOffset": 92
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3,
-                    "startColumn": 4,
-                    "startOffset": 95,
-                    "endColumn": 46,
-                    "endOffset": 137
-                },
-                "from": {
-                    "file": "C:\\home\\theresia\\StudioProjects\\eduCaching\\C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\src\\main\\res\\values\\colors.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 98,
-                        "endColumn": 46,
-                        "endOffset": 140
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 5,
-                    "startColumn": 4,
-                    "startOffset": 890,
-                    "endColumn": 51,
-                    "endOffset": 937
-                },
-                "from": {
-                    "file": "C:\\home\\theresia\\StudioProjects\\eduCaching\\C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 1,
-                        "startColumn": 4,
-                        "startOffset": 17,
-                        "endColumn": 51,
-                        "endOffset": 64
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "C:\\home\\theresia\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 39,
-                    "endOffset": 90
-                },
-                "from": {
-                    "file": "C:\\home\\theresia\\StudioProjects\\eduCaching\\MaterialDesign\\src\\main\\res\\values\\colors.xml",
+                    "file": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesign/src/main/res/values/colors.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -92,7 +30,7 @@
                     "endOffset": 137
                 },
                 "from": {
-                    "file": "C:\\home\\theresia\\StudioProjects\\eduCaching\\MaterialDesign\\src\\main\\res\\values\\colors.xml",
+                    "file": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesign/src/main/res/values/colors.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -111,75 +49,13 @@
                     "endOffset": 937
                 },
                 "from": {
-                    "file": "C:\\home\\theresia\\StudioProjects\\eduCaching\\MaterialDesign\\src\\main\\res\\values\\strings.xml",
+                    "file": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesign/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 1,
                         "startColumn": 4,
                         "startOffset": 16,
                         "endColumn": 51,
                         "endOffset": 63
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 39,
-                    "endOffset": 90
-                },
-                "from": {
-                    "file": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\src\\main\\res\\values\\colors.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 57,
-                        "endColumn": 39,
-                        "endOffset": 92
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3,
-                    "startColumn": 4,
-                    "startOffset": 95,
-                    "endColumn": 46,
-                    "endOffset": 137
-                },
-                "from": {
-                    "file": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\src\\main\\res\\values\\colors.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 98,
-                        "endColumn": 46,
-                        "endOffset": 140
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 5,
-                    "startColumn": 4,
-                    "startOffset": 890,
-                    "endColumn": 51,
-                    "endOffset": 937
-                },
-                "from": {
-                    "file": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 1,
-                        "startColumn": 4,
-                        "startOffset": 17,
-                        "endColumn": 51,
-                        "endOffset": 64
                     }
                 }
             }

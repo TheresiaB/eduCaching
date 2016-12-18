@@ -24,6 +24,8 @@
     <string name="Station_1_abschließen">Station 1 abschließen</string>
     <string name="route1_station1">Route 1 Station1</string>
     <string name="route1_station2">Route 1 Station2</string>
+    <string name="button_auswertung">AUSWERTUNG</string>
+    <string name="text_fertig">Fertig!</string>
 
     <string-array name="country_arrays">
         <item>Route 1</item>
