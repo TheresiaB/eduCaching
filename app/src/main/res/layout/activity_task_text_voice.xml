@@ -105,6 +105,35 @@
                 android:inputType="text"
                 android:background="@drawable/edit_text_task"/>
 
+            <Button
+                android:id="@+id/start"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:text="start"/>
+
+            <Button
+                android:id="@+id/stop"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:enabled="false"
+                android:text="stop"/>
+
+            <Button
+                android:id="@+id/play"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:enabled="false"
+                android:text="play"/>
+
+            <Button
+                android:id="@+id/stopplay"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:enabled="false"
+                android:text="stopplay"/>
+
+
+
         </LinearLayout>
 
         <View
