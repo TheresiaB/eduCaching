@@ -116,7 +116,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
-            layout="@layout/activity_button_next_back"/>
+            layout="@layout/activity_button_back"/>
 
     </LinearLayout>
 
