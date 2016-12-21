@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.life.educaching.TaskMultipleChoice"
+    tools:context="com.life.educaching.TaskMultipleChoiceActivity"
     >
 
     <LinearLayout
@@ -49,7 +49,7 @@
             <TextView
                 android:layout_width="700dp"
                 android:layout_height="100dp"
-                android:text="Warum könnte das Wasser abperlen? Schreibe eine mögliche Lösung!"
+                android:text="Warum perlt das Wasser ab? Schreibe eine mögliche Lösung oder nehme eine Tonspur auf!"
                 android:ems="10"
                 android:id="@+id/Frage"
                 android:textColor="@color/colorGrey_text"
@@ -58,7 +58,6 @@
                 android:paddingLeft="70dp"
                 android:paddingEnd="0dp"
                 android:paddingRight="0dp"
-
                 android:gravity="center_vertical"
                 android:textStyle="bold"
                 />
@@ -67,9 +66,8 @@
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="365dp"
+            android:layout_height="295dp"
             >
-
 
             <TextView
                 android:layout_width="match_parent"
@@ -83,15 +81,14 @@
                 android:layout_marginLeft="70dp"
                 android:layout_marginEnd="70dp"
                 android:layout_marginRight="70dp"
-                android:layout_gravity="center_horizontal"
+                android:layout_gravity="center_vertical"
                 android:layout_weight="1" />
 
 
             <EditText
                 android:id="@+id/editText1"
                 android:layout_width="600dp"
-                android:layout_height="match_parent"
-                android:layout_centerHorizontal="true"
+                android:layout_height="254dp"
                 android:focusableInTouchMode="true"
                 android:windowSoftInputMode="stateHidden"
                 android:gravity="top|left"
@@ -105,36 +102,64 @@
                 android:inputType="text"
                 android:background="@drawable/edit_text_task"/>
 
-            <Button
-                android:id="@+id/start"
-                android:layout_width="100dp"
-                android:layout_height="50dp"
-                android:text="start"/>
-
-            <Button
-                android:id="@+id/stop"
-                android:layout_width="100dp"
-                android:layout_height="50dp"
-                android:enabled="false"
-                android:text="stop"/>
-
-            <Button
-                android:id="@+id/play"
-                android:layout_width="100dp"
-                android:layout_height="50dp"
-                android:enabled="false"
-                android:text="play"/>
-
-            <Button
-                android:id="@+id/stopplay"
-                android:layout_width="100dp"
-                android:layout_height="50dp"
-                android:enabled="false"
-                android:text="stopplay"/>
-
-
-
         </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                >
+
+                <TextView
+                    android:layout_width="700dp"
+                    android:layout_height="50dp"
+                    android:paddingStart="70dp"
+                    android:paddingLeft="70dp"
+                    android:paddingEnd="0dp"
+                    android:paddingRight="0dp"
+                    />
+
+            <Button
+                android:id="@+id/recording_button"
+                android:layout_width="130dp"
+                android:layout_height="60dp"
+                android:text="Tonaufnahme starten"
+                android:padding="20dp"
+                android:textSize="10sp"
+                />
+
+
+            <Button
+                android:id="@+id/stop_button"
+                android:layout_width="130dp"
+                android:layout_height="60dp"
+                android:enabled="false"
+                android:text="Tonaufnahme stoppen"
+                android:padding="20dp"
+                android:textSize="10sp"/>
+
+            <Button
+                android:id="@+id/play_button"
+                android:layout_width="130dp"
+                android:layout_height="60dp"
+                android:enabled="false"
+                android:text="Tonaufnahme abspielen"
+                android:padding="20dp"
+                android:textSize="10sp"/>
+
+            <Button
+                android:id="@+id/stopplay_button"
+                android:layout_width="130dp"
+                android:layout_height="60dp"
+                android:enabled="false"
+                android:text="Abspielen stoppen"
+                android:padding="20dp"
+                android:textSize="10sp"
+                />
+
+                </LinearLayout>
+
+
 
         <View
             android:layout_width="match_parent"

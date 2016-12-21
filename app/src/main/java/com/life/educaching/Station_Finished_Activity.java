@@ -59,6 +59,15 @@ public class Station_Finished_Activity extends AppCompatActivity {
 
             }
         });
+        buttonStationDone.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick (View arg0)
+            {
+                Toast.makeText(Station_Finished_Activity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(context, Route1_station2_MapActivity.class));
+            }
+        });
 
 
     }

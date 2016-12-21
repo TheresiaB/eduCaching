@@ -8,6 +8,9 @@
         android:name="android.hardware.camera"
         android:required="true" />
 
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.STORAGE" />
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -67,15 +70,16 @@
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".TaskMultipleChoice"
+            android:name=".TaskMultipleChoiceActivity"
             android:label="TaskMultipleChoice"
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".TaskTextAudio"
+            android:name=".TaskTextAudioActivity"
             android:label="TaskTextAudio"
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar" />
+
 
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
@@ -100,7 +104,12 @@
             android:name=".Route1_station1_MapActivity"
             android:screenOrientation="landscape" />
         <activity
-            android:name=".RouteFinished"
+            android:name=".Route1Finished"
+            android:label="@string/title_activity_alle__stationen_geschafft"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Route2Finished"
             android:label="@string/title_activity_alle__stationen_geschafft"
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme" />
@@ -112,7 +121,6 @@
         <activity android:name=".Route2_station1_MapActivity" />
         <activity android:name=".Route2_station2_MapActivity" />
         <activity android:name=".Route2_station3_MapActivity" />
-        <activity android:name=".Route2Finished"></activity>
     </application>
 
 </manifest>
