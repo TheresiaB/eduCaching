@@ -13,6 +13,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.WindowManager;
 import android.view.inputmethod.InputMethodManager;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -48,6 +49,8 @@ public class TaskTextAudioActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_task_text_voice);
+        addListenerOnButton();
+        getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_HIDDEN);
 
         buttonStart = (Button) findViewById(R.id.recording_button);
         buttonStop = (Button) findViewById(R.id.stop_button);

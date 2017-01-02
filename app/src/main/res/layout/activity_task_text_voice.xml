@@ -89,8 +89,6 @@
                 android:id="@+id/editText1"
                 android:layout_width="600dp"
                 android:layout_height="254dp"
-                android:focusableInTouchMode="true"
-                android:windowSoftInputMode="stateHidden"
                 android:gravity="top|left"
                 android:ems="20"
                 android:layout_marginLeft="15dp"
@@ -100,7 +98,8 @@
                 android:ellipsize="start"
                 android:hint="Gebe hier den Text ein"
                 android:inputType="text"
-                android:background="@drawable/edit_text_task"/>
+                android:background="@drawable/edit_text_task"
+                />
 
         </LinearLayout>
 
