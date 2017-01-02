@@ -7,6 +7,7 @@ import android.media.MediaPlayer;
 import android.media.MediaRecorder;
 import android.os.Bundle;
 import android.os.Environment;
+import android.os.SystemClock;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
@@ -17,6 +18,7 @@ import android.view.WindowManager;
 import android.view.inputmethod.InputMethodManager;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.Chronometer;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -76,6 +78,8 @@ public class TaskTextAudioActivity extends AppCompatActivity {
                     try {
                         mediaRecorder.prepare();
                         mediaRecorder.start();
+                        ((Chronometer) findViewById(R.id.chronometer)).setBase(SystemClock.elapsedRealtime());
+                        ((Chronometer) findViewById(R.id.chronometer)).start();
                     } catch (IllegalStateException e) {
                         // TODO Auto-generated catch block
                         e.printStackTrace();
@@ -103,6 +107,7 @@ public class TaskTextAudioActivity extends AppCompatActivity {
             public void onClick(View view) {
 
                 mediaRecorder.stop();
+                ((Chronometer) findViewById(R.id.chronometer)).stop();
 
                 buttonStop.setEnabled(false);
                 buttonPlayLastRecordAudio.setEnabled(true);
