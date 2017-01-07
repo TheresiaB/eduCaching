@@ -1,10 +1,14 @@
 [
     {
-        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/build/intermediates/res/merged/debug/drawable-mdpi-v4/sprite_check.png",
-        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/src/main/res/drawable-mdpi/sprite_check.png"
+        "merged": "C:\\Users\\karolinkliem\\Desktop\\WS16\\Projekte_der_Wirtschaft\\Android_Studio\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\sprite_check.png",
+        "source": "C:\\Users\\karolinkliem\\Desktop\\WS16\\Projekte_der_Wirtschaft\\Android_Studio\\eduCaching\\MaterialDesign\\src\\main\\res\\drawable-mdpi\\sprite_check.png"
     },
     {
-        "merged": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesign/build/intermediates/res/merged/debug/drawable-mdpi-v4/sprite_check.png",
-        "source": "/Users/karolinkliem/Desktop/WS16/Projekte_der_Wirtschaft/Android_Studio/eduCaching/MaterialDesign/src/main/res/drawable-mdpi/sprite_check.png"
+        "merged": "C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\sprite_check.png",
+        "source": "C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesign\\src\\main\\res\\drawable-mdpi\\sprite_check.png"
+    },
+    {
+        "merged": "C:\\home\\theresia\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\sprite_check.png",
+        "source": "C:\\home\\theresia\\StudioProjects\\eduCaching\\MaterialDesign\\src\\main\\res\\drawable-mdpi\\sprite_check.png"
     }
 ]

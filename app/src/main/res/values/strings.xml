@@ -32,5 +32,6 @@
         <item>Route 2</item>
     </string-array>
     <string name="title_activity_alle__stationen_geschafft">Alle_Stationen_geschafft</string>
+    <string name="title_activity_capture_video">activity_capture_video</string>
 
 </resources>
