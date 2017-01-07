@@ -20,17 +20,13 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="130dp"
-            android:text="Fertig!"
+            android:text="@string/text_fertig"
             android:ems="10"
             android:id="@+id/text_head"
             android:textSize="60sp"
             android:textColor="@color/colorWhite"
             android:background="@color/live_e.v._green"
             android:textStyle="bold"
-            android:paddingStart="70dp"
-            android:paddingLeft="70dp"
-            android:paddingEnd="0dp"
-            android:paddingRight="0dp"
             android:gravity="center_vertical|center_horizontal"
             />
 
@@ -59,23 +55,12 @@
             android:background="@color/colorGrey_lines"
             />
 
-        <GridLayout
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="130dp">
 
             <Button
-                android:id="@+id/button_back"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:rotation="270"
-                android:background="@drawable/selector_button"
-                android:layout_marginStart="20dp"
-                android:layout_marginLeft="20dp"
-                android:layout_gravity="center_vertical"
-                />
-
-            <Button
-                android:text="Auswertung"
+                android:text="@string/button_auswertung"
                 android:id="@+id/Auswertung"
                 android:layout_width="410dp"
                 android:layout_height="80dp"
@@ -83,13 +68,20 @@
                 android:background="@drawable/button_border"
                 android:textColor="@color/colorWhite"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="30dp"
-                android:layout_row="0"
-                android:layout_column="2"
+                android:layout_centerVertical="true"
                 />
 
+            <Button
+                android:id="@+id/button_back"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:rotation="270"
+                android:background="@drawable/selector_button"
+                android:layout_marginTop="10dp"
+                 />
 
-        </GridLayout>
+
+        </RelativeLayout>
 
     </LinearLayout>
 

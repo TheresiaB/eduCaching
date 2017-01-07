@@ -59,7 +59,7 @@ public class Route2Finished extends AppCompatActivity implements OnMapReadyCallb
             @Override
             public void onClick(View arg0) {
                 Toast.makeText(Route2Finished.this, "Button Clicked", Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(context, TaskTextAudio.class));
+                startActivity(new Intent(context, TaskTextAudioActivity.class));
             }
         });
 

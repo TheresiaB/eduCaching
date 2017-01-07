@@ -50,7 +50,7 @@ public class InformationPictureActivity extends AppCompatActivity {
             @Override
             public void onClick(View arg0) {
                 Toast.makeText(InformationPictureActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(context, TaskMultipleChoice.class));
+                startActivity(new Intent(context, TaskMultipleChoiceActivity.class));
             }
         });
 

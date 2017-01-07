@@ -51,7 +51,9 @@
                     android:layout_width="410dp"
                     android:layout_height="80dp"
                     android:text="@string/Station_1_abschließen"
+                    android:textSize="26sp"
                     android:background="@drawable/button_border"
+                    android:textColor="@color/colorWhite"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="240dp" />
 
@@ -69,7 +71,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
-                layout="@layout/activity_button_next_back"/>
+                layout="@layout/activity_button_back"/>
 
 
         </LinearLayout>

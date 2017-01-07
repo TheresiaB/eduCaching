@@ -16,15 +16,6 @@
             android:layout_marginTop="10dp"
             />
 
-        <Button
-            android:id="@+id/button_next"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:rotation="90"
-            android:background="@drawable/selector_button"
-            android:layout_marginTop="20dp"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true" />
 
     </RelativeLayout>
 

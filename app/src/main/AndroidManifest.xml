@@ -8,11 +8,17 @@
         android:name="android.hardware.camera"
         android:required="true" />
 
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.STORAGE" />
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
          Google Maps Android API v2, but you must specify either coarse or fine
@@ -64,12 +70,12 @@
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".TaskMultipleChoice"
+            android:name=".TaskMultipleChoiceActivity"
             android:label="TaskMultipleChoice"
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".TaskTextAudio"
+            android:name=".TaskTextAudioActivity"
             android:label="TaskTextAudio"
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar" />
@@ -97,7 +103,12 @@
             android:name=".Route1_station1_MapActivity"
             android:screenOrientation="landscape" />
         <activity
-            android:name=".RouteFinished"
+            android:name=".Route1Finished"
+            android:label="@string/title_activity_alle__stationen_geschafft"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Route2Finished"
             android:label="@string/title_activity_alle__stationen_geschafft"
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme" />
@@ -109,7 +120,7 @@
         <activity android:name=".Route2_station1_MapActivity" />
         <activity android:name=".Route2_station2_MapActivity" />
         <activity android:name=".Route2_station3_MapActivity" />
-        <activity android:name=".Route2Finished"></activity>
+        <activity android:name=".FotoActivity"></activity>
     </application>
 
 </manifest>

@@ -38,18 +38,9 @@ public class Station_Finished_Activity extends AppCompatActivity {
     public void addListenerOnButton() {
 
         final Context context = this;
-        buttonNext = (Button) findViewById(R.id.button_next);
         buttonBack = (Button) findViewById(R.id.button_back);
         buttonStationDone = (Button) findViewById(R.id.Station_1_abschließen) ;
-        buttonNext.setOnClickListener(new View.OnClickListener()
-        {
-         @Override
-            public void onClick (View arg0)
-         {
-             Toast.makeText(Station_Finished_Activity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
-             startActivity(new Intent(context, Route1_station2_MapActivity.class));
-         }
-        });
+
         buttonBack.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -57,6 +48,15 @@ public class Station_Finished_Activity extends AppCompatActivity {
                 Toast.makeText(Station_Finished_Activity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(context, StationMapsActivity.class));
 
+            }
+        });
+        buttonStationDone.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick (View arg0)
+            {
+                Toast.makeText(Station_Finished_Activity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(context, Route1_station2_MapActivity.class));
             }
         });
 
