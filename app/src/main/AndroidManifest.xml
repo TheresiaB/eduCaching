@@ -120,7 +120,9 @@
         <activity android:name=".Route2_station1_MapActivity" />
         <activity android:name=".Route2_station2_MapActivity" />
         <activity android:name=".Route2_station3_MapActivity" />
-        <activity android:name=".FotoActivity"></activity>
+        <activity
+            android:name=".TaskFotoActivity"
+            android:screenOrientation="landscape"></activity>
     </application>
 
 </manifest>
