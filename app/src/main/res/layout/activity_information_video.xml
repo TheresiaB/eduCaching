@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.life.educaching.InformationVideoActivity">
+    tools:context="com.life.educaching.Model.InformationVideoActivity">
 
     <LinearLayout
         android:orientation="vertical"
@@ -27,10 +27,10 @@
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        >
+        android:weightSum="1">
 
         <TextView
-            android:layout_width="645dp"
+            android:layout_width="740dp"
             android:layout_height="100dp"
             android:text="@string/Head_Text_Video"
             android:ems="10"
@@ -45,29 +45,27 @@
             android:textStyle="bold"
             />
 
-        <Button
+        <ImageButton
             android:id="@+id/video_play_button"
-            android:text="@string/Play_Video"
-            android:layout_width="150dp"
-            android:layout_height="50dp"
-            android:layout_margin="10dp"
-            />
+            android:layout_width="90dp"
+            android:layout_height="105dp"
+            android:background="@drawable/playbutton" />
 
-        <Button
+        <ImageButton
             android:id="@+id/video_pause_button"
-            android:text="@string/Pause_Video"
-            android:layout_width="150dp"
-            android:layout_height="50dp"
-            android:layout_margin="10dp"
-            />
+            android:layout_width="wrap_content"
+            android:layout_height="111dp"
+            android:background="@drawable/pausebutton" />
 
-        <Button
-            android:id="@+id/video_begin_button"
-            android:text="@string/Stop_Video"
-            android:layout_width="150dp"
-            android:layout_height="50dp"
-            android:layout_margin="10dp"
-            />
+        <ImageButton
+            android:id="@+id/video_stop_button"
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/stopbutton"
+            android:layout_weight="0.04" />
+
+
+
 
     </LinearLayout>
 
