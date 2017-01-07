@@ -31,7 +31,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".DecideRouteActivity"
+            android:name=".Model.DecideRouteActivity"
             android:label="@string/layout_Bild_Beschreibung"
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar">
@@ -41,42 +41,79 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".CameraActivity" />
+        <activity android:name=".Model.CameraActivity" />
         <activity
-            android:name=".InformationVideoActivity"
+            android:name=".Model.InformationVideoActivity"
             android:label="@string/title_activity_video_view"
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".InformationPictureActivity"
+            android:name=".Model.InformationPictureActivity"
             android:label="PictureActivity"
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".Route1_OverviewMapActivity"
+            android:name=".Route1.Route1_OverviewMapActivity"
             android:label="OverviewMapActivity"
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".StationMapsActivity"
+            android:name=".Model.StationMapsActivity"
             android:label="StationMapsActivity"
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".Station_Finished_Activity"
+            android:name=".Model.Station_Finished_Activity"
             android:label="Station1DoneActivity"
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".TaskMultipleChoiceActivity"
+            android:name=".Model.TaskMultipleChoiceActivity"
             android:label="TaskMultipleChoice"
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".TaskTextAudioActivity"
+            android:name=".Model.TaskTextAudioActivity"
             android:label="TaskTextAudio"
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Route1.Route1_station1_InformationPictureActivity"
+            android:label="Route1_station1_InformationPictureActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Route2.Route2_station1_InformationVideoActivity"
+            android:label="Route2_station1_InformationVideoActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Route1.Route1_station1_TaskActivity"
+            android:label="Route1_station1_TaskActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Route2.Route2_station1_TaskActivity"
+            android:label="Route2_station1_TaskActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".Route2.Route2_station4_MapActivity"
+            android:label="Route2_station4_MapActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Route2.Route2_station1_Finished"
+            android:label="Route2_station4_MapActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Route1.Route1_station1_Finished"
+            android:label="Route1_station1_MapActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar" />
+
 
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
@@ -92,27 +129,28 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name=".MapsActivity"
+            android:name=".Model.MapsActivity"
             android:label="@string/title_activity_maps" />
         <activity
-            android:name=".Route2_OverviewMapActivity"
+            android:name=".Route2.Route2_OverviewMapActivity"
             android:screenOrientation="landscape" />
         <activity
-            android:name=".Route1_station1_MapActivity"
+            android:name=".Route1.Route1_station1_MapActivity"
             android:screenOrientation="landscape" />
         <activity
-            android:name=".Route1Finished"
+            android:name=".Route1.Route1Finished"
             android:label="@string/title_activity_alle__stationen_geschafft"
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".Route2Finished"
+            android:name=".Route2.Route2Finished"
             android:label="@string/title_activity_alle__stationen_geschafft"
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".Route1_station2_MapActivity"
+            android:name=".Route1.Route1_station2_MapActivity"
             android:screenOrientation="landscape" />
+<<<<<<< HEAD
         <activity android:name=".Route1_station3_MapActivity" />
         <activity android:name=".Route1_station4_MapActivity" />
         <activity android:name=".Route2_station1_MapActivity" />
@@ -123,6 +161,17 @@
             android:label="@string/title_activity_capture_video"
             android:theme="@style/AppTheme">
         </activity>
+=======
+        <activity android:name=".Route1.Route1_station3_MapActivity" />
+        <activity android:name=".Route1.Route1_station4_MapActivity" />
+        <activity android:name=".Route2.Route2_station1_MapActivity" />
+        <activity android:name=".Route2.Route2_station2_MapActivity" />
+        <activity android:name=".Route2.Route2_station3_MapActivity" /><!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        >>>>>>> master
     </application>
 
 </manifest>

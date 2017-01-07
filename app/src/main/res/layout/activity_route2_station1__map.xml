@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.life.educaching.Route2_station1_MapActivity">
+    tools:context="com.life.educaching.Route2.Route2_station1_MapActivity">
 
 
     <LinearLayout
@@ -19,7 +19,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="130dp"
-            android:text="@+id/route1_station1"
+            android:text="@string/Station_1"
             android:ems="10"
             android:id="@+id/text_head"
             android:textSize="60sp"

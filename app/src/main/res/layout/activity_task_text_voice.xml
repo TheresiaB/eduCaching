@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.life.educaching.TaskMultipleChoiceActivity"
+    tools:context="com.life.educaching.Model.TaskMultipleChoiceActivity"
     >
 
     <LinearLayout
@@ -47,7 +47,7 @@
                 />
 
             <TextView
-                android:layout_width="700dp"
+                android:layout_width="650dp"
                 android:layout_height="100dp"
                 android:text="Warum perlt das Wasser ab? Schreibe eine mögliche Lösung oder nehme eine Tonspur auf!"
                 android:ems="10"
@@ -66,7 +66,7 @@
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="295dp"
+            android:layout_height="270dp"
             >
 
             <TextView
@@ -88,9 +88,7 @@
             <EditText
                 android:id="@+id/editText1"
                 android:layout_width="600dp"
-                android:layout_height="254dp"
-                android:focusableInTouchMode="true"
-                android:windowSoftInputMode="stateHidden"
+                android:layout_height="230dp"
                 android:gravity="top|left"
                 android:ems="20"
                 android:layout_marginLeft="15dp"
@@ -98,20 +96,24 @@
                 android:layout_marginBottom="20dp"
                 android:layout_marginRight="15dp"
                 android:ellipsize="start"
-                android:hint="Gebe hier den Text ein"
+                android:hint="Schreibe hier deine Antwort"
                 android:inputType="text"
-                android:background="@drawable/edit_text_task"/>
+                android:background="@drawable/edit_text_task"
+                android:textSize="20sp"
+
+
+                />
 
         </LinearLayout>
 
             <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
-                android:layout_height="70dp"
-                >
+                android:layout_height="50dp"
+                android:weightSum="1">
 
                 <TextView
-                    android:layout_width="700dp"
+                    android:layout_width="690dp"
                     android:layout_height="50dp"
                     android:paddingStart="70dp"
                     android:paddingLeft="70dp"
@@ -122,42 +124,79 @@
             <Button
                 android:id="@+id/recording_button"
                 android:layout_width="130dp"
-                android:layout_height="60dp"
-                android:text="Tonaufnahme starten"
-                android:padding="20dp"
+                android:layout_height="40dp"
+                android:text="Antwort aufnehmen"
                 android:textSize="10sp"
-                />
+                android:layout_marginTop="6dp"
+                android:background="@drawable/button_border"
+                android:textColor="@color/colorWhite" />
 
 
-            <Button
-                android:id="@+id/stop_button"
-                android:layout_width="130dp"
-                android:layout_height="60dp"
-                android:enabled="false"
-                android:text="Tonaufnahme stoppen"
-                android:padding="20dp"
-                android:textSize="10sp"/>
+                <Button
+                    android:id="@+id/stop_button"
+                    android:layout_width="130dp"
+                    android:layout_height="40dp"
+                    android:enabled="false"
+                    android:text="Antwort aufnehmen stoppen"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="0dp"
+                    android:textSize="10sp"
+                    android:background="@drawable/button_border"
+                    android:textColor="@color/colorWhite"/>
 
-            <Button
+                <Button
                 android:id="@+id/play_button"
                 android:layout_width="130dp"
-                android:layout_height="60dp"
+                android:layout_height="40dp"
                 android:enabled="false"
-                android:text="Tonaufnahme abspielen"
-                android:padding="20dp"
-                android:textSize="10sp"/>
+                android:text="Antwort abspielen"
+                android:layout_marginLeft="10dp"
+                    android:layout_marginTop="6dp"
+
+                    android:textSize="10sp"
+                android:background="@drawable/button_border"
+                android:textColor="@color/colorWhite"/>
 
             <Button
                 android:id="@+id/stopplay_button"
                 android:layout_width="130dp"
-                android:layout_height="60dp"
+                android:layout_height="40dp"
                 android:enabled="false"
-                android:text="Abspielen stoppen"
-                android:padding="20dp"
+                android:text="Antwort abspielen stoppen"
+                android:layout_marginLeft="10dp"
                 android:textSize="10sp"
+                android:background="@drawable/button_border"
+                android:textColor="@color/colorWhite"
                 />
 
                 </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="700dp"
+                    android:layout_height="57dp"
+                    android:paddingStart="70dp"
+                    android:paddingLeft="70dp"
+                    android:paddingEnd="0dp"
+                    android:paddingRight="0dp"
+                    />
+
+                <Chronometer
+                    android:id="@+id/chronometer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="57dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="230dp"
+                    android:textSize="30sp" />
+
+                </LinearLayout>
+
 
 
 
