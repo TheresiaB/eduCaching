@@ -79,9 +79,9 @@ public class Route1_station2_MapActivity extends AppCompatActivity implements On
         // Marker in der 3. Station hinzufügen und die Kamera bewegen
 
         LatLng moeckernbruecke = new LatLng(52.49402689999999, 13.375908200000026);
-        mMap.addMarker(new MarkerOptions().position(moeckernbruecke).title("Marker in der 1. Station"));
+        mMap.addMarker(new MarkerOptions().position(moeckernbruecke).title("Marker in der 1. Station")).showInfoWindow();
         LatLng potsdamerplatz = new LatLng(52.5096488, 13.37594409999997);
-        mMap.addMarker(new MarkerOptions().position(potsdamerplatz).title("Marker in der 2. Station"));
+        mMap.addMarker(new MarkerOptions().position(potsdamerplatz).title("Marker in der 2. Station")).showInfoWindow();
         LatLngBounds route = MapMethods.calculateLatLngBounds(new LatLng[]{moeckernbruecke, potsdamerplatz});
         mMap.moveCamera(CameraUpdateFactory.newLatLngBounds(route, 50));
 

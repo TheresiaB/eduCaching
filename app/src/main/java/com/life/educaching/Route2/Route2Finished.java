@@ -1,4 +1,4 @@
-package com.life.educaching.Route2;
+package com.life.educaching;
 
 import android.content.Context;
 import android.content.Intent;
@@ -16,24 +16,19 @@ import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
-import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.LatLngBounds;
 import com.google.android.gms.maps.model.MarkerOptions;
-import com.life.educaching.Model.DecideRouteActivity;
-import com.life.educaching.Model.MapMethods;
-import com.life.educaching.R;
-import com.life.educaching.Model.TaskTextAudioActivity;
 
-public class Route2Finished extends AppCompatActivity implements OnMapReadyCallback {
+public class Route2_OverviewMapActivity extends AppCompatActivity implements OnMapReadyCallback{
+
     GoogleMap mMap;
     Button buttonNext;
     Button buttonBack;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_route2_finished);
-
+        setContentView(R.layout.activity_route1_overviewmap);
         Typeface myTypeface = Typeface.createFromAsset(getAssets(), "OpenSans-Regular.ttf");
         TextView myTextview = (TextView) findViewById(R.id.text_head);
         myTextview.setTypeface(myTypeface);
@@ -51,19 +46,27 @@ public class Route2Finished extends AppCompatActivity implements OnMapReadyCallb
         //in your OnCreate() method
         myAwesomeTextView.setText(DecideRouteActivity.whichRoute);
     }
-
     public void addListenerOnButton() {
 
         final Context context = this;
         buttonNext = (Button) findViewById(R.id.button_next);
         buttonBack = (Button) findViewById(R.id.button_back);
 
+
+        buttonNext.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View arg0) {
+                Toast.makeText(Route2_OverviewMapActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(context, StationMapsActivity.class));
+            }
+        });
         buttonBack.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View arg0) {
-                Toast.makeText(Route2Finished.this, "Button Clicked", Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(context, TaskTextAudioActivity.class));
+                Toast.makeText(Route2_OverviewMapActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(context, InformationVideoActivity.class));
             }
         });
 
@@ -74,13 +77,14 @@ public class Route2Finished extends AppCompatActivity implements OnMapReadyCallb
         mMap = googleMap;
         // Ein Marker in der ersten Station hinzufügen und die Kamera bewegen
         LatLng friedrichstrasse = new LatLng(52.5137447, 13.389356700000008);
-        mMap.addMarker(new MarkerOptions().position(friedrichstrasse).title("Marker in der 1. Station").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+        mMap.addMarker(new MarkerOptions().position(friedrichstrasse).title("Marker in der 1. Station")).showInfoWindow();
+        //mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(moeckernbruecke, 14));
 
         LatLng reichstag = new LatLng(52.5185353, 13.37318849999997);
-        mMap.addMarker(new MarkerOptions().position(reichstag).title("Marker in der 2. Station").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+        mMap.addMarker(new MarkerOptions().position(reichstag).title("Marker in der 2. Station")).showInfoWindow();
 
         LatLng schoenhauserstr = new LatLng(52.5263005, 13.407798899999989);
-        mMap.addMarker(new MarkerOptions().position(schoenhauserstr).title("Marker in der 3. Station").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+        mMap.addMarker(new MarkerOptions().position(schoenhauserstr).title("Marker in der 4. Station")).showInfoWindow();
 
         LatLng [] stationen = {friedrichstrasse, reichstag, schoenhauserstr};
 
@@ -91,9 +95,12 @@ public class Route2Finished extends AppCompatActivity implements OnMapReadyCallb
             ActivityCompat.requestPermissions(this, new String[]{android.Manifest.permission.ACCESS_FINE_LOCATION, android.Manifest.permission.INTERNET}, 10);
 
             return;
-        } else {
+        }
+        else
+        {
             setCurrentLocation();
         }
+
     }
 
     @Override
@@ -110,4 +117,5 @@ public class Route2Finished extends AppCompatActivity implements OnMapReadyCallb
     public void setCurrentLocation() {
         mMap.setMyLocationEnabled(true);
     }
+
 }

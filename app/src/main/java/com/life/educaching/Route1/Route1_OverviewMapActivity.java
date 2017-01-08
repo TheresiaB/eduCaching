@@ -19,6 +19,7 @@ import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.LatLngBounds;
+import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.life.educaching.Model.DecideRouteActivity;
 import com.life.educaching.Model.MapMethods;
@@ -88,17 +89,20 @@ public class Route1_OverviewMapActivity extends AppCompatActivity implements OnM
         mMap = googleMap;
         // Ein Marker in der ersten Station hinzufügen und die Kamera bewegen
         LatLng moeckernbruecke = new LatLng(52.49402689999999, 13.375908200000026);
-        mMap.addMarker(new MarkerOptions().position(moeckernbruecke).title("Marker in der 1. Station"));
+
+MarkerOptions mo1 = new MarkerOptions().position(moeckernbruecke).title("Marker in der 1. Station");
+        Marker st1 = mMap.addMarker(mo1);
+        st1.showInfoWindow();
         //mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(moeckernbruecke, 14));
 
         LatLng potsdamerplatz = new LatLng(52.5096488, 13.37594409999997);
-        mMap.addMarker(new MarkerOptions().position(potsdamerplatz).title("Marker in der 2. Station"));
+      mMap.addMarker(new MarkerOptions().position(potsdamerplatz).title("Marker in der 2. Station")).showInfoWindow();
 
         LatLng hauptbahnhof = new LatLng(52.5250839, 13.369402000000036);
-        mMap.addMarker(new MarkerOptions().position(hauptbahnhof).title("Marker in der 3. Station"));
+        mMap.addMarker(new MarkerOptions().position(hauptbahnhof).title("Marker in der 3. Station")).showInfoWindow();
 
         LatLng alexanderplatz = new LatLng(52.5215855, 13.411163999999985);
-        mMap.addMarker(new MarkerOptions().position(alexanderplatz).title("Marker in der 4. Station"));
+        mMap.addMarker(new MarkerOptions().position(alexanderplatz).title("Marker in der 4. Station")).showInfoWindow();
 
         LatLng[] stationen = {moeckernbruecke, potsdamerplatz, hauptbahnhof, alexanderplatz};
 
