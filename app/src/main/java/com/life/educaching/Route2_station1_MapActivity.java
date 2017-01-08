@@ -74,9 +74,9 @@ public class Route2_station1_MapActivity extends AppCompatActivity implements On
         mMap = googleMap;
         // Marker in der 3. Station hinzufügen und die Kamera bewegen
         LatLng friedrichstrasse = new LatLng(52.5137447, 13.389356700000008);
-        mMap.addMarker(new MarkerOptions().position(friedrichstrasse).title("Marker in der 1. Station"));
+        mMap.addMarker(new MarkerOptions().position(friedrichstrasse).title("Marker in der 1. Station")).showInfoWindow();
         LatLng startLifeEV = new LatLng(52.4667117, 13.3285014);
-        mMap.addMarker(new MarkerOptions().position(startLifeEV).title("Du bist hier"));
+        mMap.addMarker(new MarkerOptions().position(startLifeEV).title("Du bist hier")).showInfoWindow();
 
         LatLngBounds route = MapMethods.calculateLatLngBounds(new LatLng[]{friedrichstrasse, startLifeEV});
         mMap.moveCamera(CameraUpdateFactory.newLatLngBounds(route, 50));
