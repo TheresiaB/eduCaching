@@ -12,6 +12,7 @@ import android.widget.Toast;
 
 import com.life.educaching.R;
 import com.life.educaching.Route1.Route1_station1_MapActivity;
+import com.life.educaching.TaskFotoActivity;
 
 /**
  * Created by theresia on 01.12.16.

@@ -11,6 +11,9 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+import com.life.educaching.Model.InformationPictureActivity;
+import com.life.educaching.Model.InformationVideoActivity;
+
 public class TaskFotoActivity extends AppCompatActivity {
     Button buttonNext;
     Button buttonBack;
