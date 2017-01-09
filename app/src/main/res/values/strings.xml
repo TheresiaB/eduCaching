@@ -19,6 +19,7 @@
     <string name="Play_Video">Play</string>
     <string name="Pause_Video">Pause</string>
     <string name="Stop_Video">Stop</string>
+    <string name="shoot_foto_title">Nimm ein Foto zum Thema auf</string>
     <string name="country_prompt">Choose a country</string>
     <string name="Station_1_geschafft">Station 1 geschafft!</string>
     <string name="Station_1_abschließen">Station 1 abschließen</string>
