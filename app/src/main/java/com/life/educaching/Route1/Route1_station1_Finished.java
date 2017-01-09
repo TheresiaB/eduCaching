@@ -16,6 +16,7 @@ import com.life.educaching.R;
 import com.life.educaching.Route2.Route2_station1_Finished;
 import com.life.educaching.Route2.Route2_station1_TaskActivity;
 import com.life.educaching.Route2.Route2_station2_MapActivity;
+import com.life.educaching.TaskFotoActivity;
 
 /**
  * Created by theresia on 07.01.17.
@@ -68,7 +69,7 @@ public class Route1_station1_Finished extends AppCompatActivity {
             public void onClick (View arg0)
             {
                 Toast.makeText(Route1_station1_Finished.this, "Button Clicked", Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(context, Route1_station2_MapActivity.class));
+                startActivity(new Intent(context, TaskFotoActivity.class));
             }
         });
 
