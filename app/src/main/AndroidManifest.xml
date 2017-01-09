@@ -150,18 +150,14 @@
         <activity
             android:name=".Route1.Route1_station2_MapActivity"
             android:screenOrientation="landscape" />
-<<<<<<< HEAD
-        <activity android:name=".Route1_station3_MapActivity" />
-        <activity android:name=".Route1_station4_MapActivity" />
-        <activity android:name=".Route2_station1_MapActivity" />
-        <activity android:name=".Route2_station2_MapActivity" />
-        <activity android:name=".Route2_station3_MapActivity" />
+
+
         <activity
             android:name=".CaptureVideoActivity"
             android:label="@string/title_activity_capture_video"
             android:theme="@style/AppTheme">
         </activity>
-=======
+
         <activity android:name=".Route1.Route1_station3_MapActivity" />
         <activity android:name=".Route1.Route1_station4_MapActivity" />
         <activity android:name=".Route2.Route2_station1_MapActivity" />

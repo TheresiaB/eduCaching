@@ -10,6 +10,7 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.life.educaching.CaptureVideoActivity;
 import com.life.educaching.Model.DecideRouteActivity;
 import com.life.educaching.Model.MapsActivity;
 import com.life.educaching.Model.StationMapsActivity;
@@ -59,7 +60,7 @@ public class Route2_station1_Finished extends AppCompatActivity{
             @Override
             public void onClick(View arg0) {
                 Toast.makeText(Route2_station1_Finished.this, "Button Clicked", Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(context, Route2_station1_TaskActivity.class));
+                startActivity(new Intent(context, CaptureVideoActivity.class));
 
             }
         });
@@ -69,7 +70,7 @@ public class Route2_station1_Finished extends AppCompatActivity{
             public void onClick (View arg0)
             {
                 Toast.makeText(Route2_station1_Finished.this, "Button Clicked", Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(context, Route2_station2_MapActivity.class));
+                startActivity(new Intent(context, CaptureVideoActivity.class));
             }
         });
 

@@ -22,7 +22,8 @@ import java.io.File;
 
 public class CaptureVideoActivity extends AppCompatActivity {
 
-    Button mRecordView, mPlayView, mPlayButtonView;
+    Button mRecordView, mPlayView;
+    ImageButton mPlayButtonView;
     VideoView mVideoView;
     private int ACTIVITY_START_CAMERA_APP = 0;
     /**
