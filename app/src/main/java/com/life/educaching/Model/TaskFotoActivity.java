@@ -40,8 +40,8 @@ public class TaskFotoActivity extends AppCompatActivity {
             Bitmap imageBitmap = (Bitmap) extras.get("data");
             ImageView mImageView = (ImageView) findViewById(R.id.fotoCameraView);
             mImageView.setImageBitmap(imageBitmap);
-            Button button = (Button) findViewById(R.id.fotoAufnehmen);
-            button.setText("Ein Neues Foto machen");
+            //Button button = (Button) findViewById(R.id.fotoAufnehmen);
+            //button.setText("Ein Neues Foto machen");
         }
     }
 

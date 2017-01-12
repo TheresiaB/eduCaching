@@ -23,7 +23,10 @@ tools:context="com.life.educaching.Model.TaskFotoActivity">
         android:background="@color/colorGrey_lines"
 
         />
-
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="100dp"
@@ -36,16 +39,20 @@ tools:context="com.life.educaching.Model.TaskFotoActivity">
         android:paddingLeft="70dp"
         android:paddingEnd="0dp"
         android:paddingRight="0dp"
-
         android:gravity="center_vertical"
         android:textStyle="bold"
         />
-
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/foto_camera_button_image"
+        android:onClick="dispatchTakePictureIntent"
+        />
+</LinearLayout>
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="365dp">
-
 
         <TextView
             android:layout_width="match_parent"
@@ -61,18 +68,7 @@ tools:context="com.life.educaching.Model.TaskFotoActivity">
             android:layout_marginRight="70dp"
             android:layout_gravity="center_horizontal"
             android:layout_weight="1" />
-<LinearLayout
-    android:orientation="vertical"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_weight="1">
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/fotoAufnehmen"
-        android:text="@string/shoot_foto_title"
-        android:onClick="dispatchTakePictureIntent"
-        />
+
     <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -85,8 +81,8 @@ tools:context="com.life.educaching.Model.TaskFotoActivity">
             android:layout_marginRight="70dp"
             android:layout_gravity="center_horizontal"
         android:scaleType="fitCenter"
+        android:layout_weight="1"
             />
-</LinearLayout>
 
     </LinearLayout>
 
