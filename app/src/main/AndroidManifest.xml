@@ -31,7 +31,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".Startpage_group_register_Activity"
+            android:name=".Model.Startpage_Group_Register_Activity"
             android:label="startpage_group_register"
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar">
@@ -45,7 +45,7 @@
         <activity android:name=".Model.CameraActivity" />
 
         <activity
-            android:name=".DecideRouteActivity"
+            android:name=".Model.DecideRouteActivity"
             android:label="@string/layout_Bild_Beschreibung"
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar"/>

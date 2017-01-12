@@ -1,22 +1,20 @@
-package com.life.educaching;
+package com.life.educaching.Model;
 
 import android.content.Context;
 import android.content.Intent;
-import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.TextView;
 import android.widget.Toast;
 
-import com.google.android.gms.maps.SupportMapFragment;
+import com.life.educaching.R;
 
 /**
  * Created by karolin on 18.12.16.
  */
 
-public class Startpage_group_register_Activity extends AppCompatActivity {
+public class Startpage_Group_Register_Activity extends AppCompatActivity {
 
     Button buttonNewGroup;
 
@@ -36,8 +34,8 @@ public class Startpage_group_register_Activity extends AppCompatActivity {
 
             @Override
             public void onClick(View arg0) {
-                Toast.makeText(Startpage_group_register_Activity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(context, DecideRouteActivity.class));
+                Toast.makeText(Startpage_Group_Register_Activity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(context,DecideRouteActivity.class));
             }
         });
     }

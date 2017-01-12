@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
 
 
-    tools:context=".Startpage_group_register_Activity">
+    tools:context=".Model.Startpage_Group_Register_Activity">
 
 
 
