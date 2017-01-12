@@ -17,7 +17,7 @@
         <include layout="@layout/activity_header_white"/>
         <View
             android:layout_width="match_parent"
-            android:layout_height="4dp"
+            android:layout_height="3dp"
             android:background="@color/colorGrey_lines"
 
             />
@@ -78,7 +78,7 @@
                 android:background="@drawable/spinner_border"
                 android:entries="@array/country_arrays"
                 android:padding="6dp"
-                android:textSize="30sp"
+                android:textSize="34sp"
                 android:spinnerMode="dropdown"
                 android:textColor="#FFFFFF"
                 android:overlapAnchor="false"/>
@@ -95,10 +95,11 @@
             android:id="@+id/button_take_route"
             android:layout_width="410dp"
             android:layout_height="80dp"
-            android:textSize="26sp"
+            android:textSize="34sp"
             android:text="Route starten"
             android:background="@drawable/button_border"
             android:textColor="@color/colorWhite"
+            android:textAllCaps="false"
             />
 
 

@@ -31,17 +31,25 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".Model.DecideRouteActivity"
-            android:label="@string/layout_Bild_Beschreibung"
+            android:name=".Startpage_group_register_Activity"
+            android:label="startpage_group_register"
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
         </activity>
+
         <activity android:name=".Model.CameraActivity" />
+
+        <activity
+            android:name=".DecideRouteActivity"
+            android:label="@string/layout_Bild_Beschreibung"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
         <activity
             android:name=".Model.InformationVideoActivity"
             android:label="@string/title_activity_video_view"
@@ -152,6 +160,7 @@
             android:screenOrientation="landscape" />
 
 
+
         <activity
             android:name=".CaptureVideoActivity"
             android:label="@string/title_activity_capture_video"
@@ -170,6 +179,7 @@
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
+
     </application>
 
 </manifest>

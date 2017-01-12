@@ -64,11 +64,12 @@
                 android:id="@+id/Auswertung"
                 android:layout_width="410dp"
                 android:layout_height="80dp"
-                android:textSize="26sp"
+                android:textSize="34sp"
                 android:background="@drawable/button_border"
                 android:textColor="@color/colorWhite"
                 android:layout_centerHorizontal="true"
                 android:layout_centerVertical="true"
+                android:textAllCaps="false"
                 />
 
             <Button

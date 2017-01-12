@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:fitsSystemWindows="true"
+tools:context="com.life.educaching.DecideRouteActivity">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1">
+
+        <include layout="@layout/activity_header_white" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/colorGrey_lines"
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="465dp"
+                android:background="@color/colorWhite"
+                >
+
+                <ImageView
+                    android:layout_width="119dp"
+                    android:layout_height="123dp"
+                    app:srcCompat="@drawable/add_group_grey"
+                    android:layout_marginLeft="294dp"
+                    android:layout_marginStart="294dp"
+                    android:layout_marginTop="128dp"
+                    android:id="@+id/image_add_group_android"
+                    />
+
+                <Button
+                    android:layout_width="410dp"
+                    android:layout_height="80dp"
+                    android:textSize="34sp"
+                    android:layout_marginLeft="456dp"
+                    android:layout_marginStart="456dp"
+                    android:layout_marginTop="145dp"
+                    android:id="@+id/button_newgroup"
+                    android:background="@drawable/button_border"
+                    android:textColor="@color/colorWhite"
+                    android:text="@string/button_gruppe_erstellen"
+                    android:textAllCaps="false"
+                    />
+
+                <TextView
+                    android:text="@string/text_erste_Seite"
+                    android:layout_width="1206dp"
+                    android:layout_height="137dp"
+                    android:layout_marginLeft="38dp"
+                    android:layout_marginStart="38dp"
+                    android:layout_marginTop="326dp"
+                    android:id="@+id/text_erste_Seite"
+                    android:textSize="24sp"
+                    android:textColor="@color/colorGrey_text"
+                    android:textAlignment="center"
+                    />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorGrey_lines"
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:background="@color/colorWhite"
+                >
+
+
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="151dp"
+                    app:srcCompat="@drawable/bmub_logo"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginTop="9dp"
+                    android:id="@+id/bmub_logo"
+                    />
+
+                <ImageView
+                    android:layout_width="184dp"
+                    android:layout_height="95dp"
+                    app:srcCompat="@drawable/esf_logo"
+                    android:layout_marginLeft="394dp"
+                    android:layout_marginStart="394dp"
+                    android:layout_marginTop="18dp"
+                    android:id="@+id/esf_logo"
+                    />
+
+                <ImageView
+                    android:layout_width="219dp"
+                    android:layout_height="115dp"
+                    app:srcCompat="@drawable/eu_logo"
+                    android:id="@+id/eu_logo"
+                    android:layout_marginLeft="692dp"
+                    android:layout_marginStart="692dp"
+                    android:layout_marginTop="7dp"
+                    />
+
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="180dp"
+                    app:srcCompat="@drawable/zzg_logo"
+                    android:layout_marginLeft="992dp"
+                    android:layout_marginStart="992dp"
+                    android:layout_marginTop="-19dp"
+                    android:id="@+id/zzg_logo"
+                    />
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

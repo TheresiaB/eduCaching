@@ -4,56 +4,49 @@
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="3dp"
-        android:background="@color/colorGrey_lines"
-        />
-
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="130dp"
-        android:background="@color/colorWhite"
-        android:weightSum="1"
-        android:orientation="horizontal">
+        android:background="@color/colorWhite">
 
         <ImageView
-            android:layout_width="214dp"
-            android:layout_height="match_parent"
+            android:layout_width="209dp"
+            android:layout_height="155dp"
             app:srcCompat="@drawable/machgruen"
             android:id="@+id/machgruen_logo"
             android:contentDescription="@string/layout_Bild_Beschreibung"
-            android:layout_gravity="center_horizontal"
-            android:padding="5dp"
-            android:layout_marginLeft="25dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
             />
 
         <ImageView
-            android:layout_width="250dp"
-            android:layout_height="match_parent"
+            android:layout_width="179dp"
+            android:layout_height="102dp"
             app:srcCompat="@drawable/lifelogo"
             android:id="@+id/life_logo"
             android:contentDescription="@string/layout_Bild_Beschreibung"
-            android:layout_gravity="center_horizontal"
-            android:layout_weight="1"
-            android:padding="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
              />
 
 
         <ImageView
-            android:layout_width="281dp"
-            android:layout_height="match_parent"
+            android:layout_width="208dp"
+            android:layout_height="104dp"
             app:srcCompat="@drawable/bbne"
             android:id="@+id/bbne_logo"
             android:contentDescription="@string/layout_Bild_Beschreibung"
-            android:layout_gravity="center_horizontal"
-            android:layout_weight="1"
-            android:padding="20dp"
-            android:layout_marginRight="25dp"
-            />
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="1028dp"
+            android:layout_marginStart="1028dp"
+            android:layout_alignParentTop="true" />
 
-    </LinearLayout>
+
+    </RelativeLayout>
 
 </FrameLayout>
 
