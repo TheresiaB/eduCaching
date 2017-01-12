@@ -9,7 +9,7 @@
     <string name="Route_1">Route 1</string>
     <string name="Head_Text">Lotuseffekt</string>
     <string name="Head_Text_Video">Lotuseffekt-Video</string>
-    <string name="Lorem_Ipsum">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</string>
+    <string name="Lorem_Ipsum">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</string>
     <string name="layout_Bild_Beschreibung">Lotuseffekt</string>
     <string name="layout_Video_Beschreibung">Lotuseffekt-Video</string>
     <string name="title_activity_video_view">VideoViewActivity</string>
@@ -27,11 +27,14 @@
     <string name="route1_station2">Route 1 Station2</string>
     <string name="button_auswertung">AUSWERTUNG</string>
     <string name="text_fertig">Fertig!</string>
+    <string name="button_gruppe_erstellen">neue Gruppe erstellen</string>
+    <string name="text_erste_Seite">Das Projekt „mach Grün! Berufe entdecken und gestalten“ wird im Rahmen des ESF-Bundesprogramms „Berufsbildung für nachhaltige Entwicklung befördern. Über grüne Schlüsselkompetenzen zu klima- und ressourcenschonendem Handeln im Beruf – BBNE” durch das Bundesministerium für Umwelt, Naturschutz, Bau und Reaktorsicherheit und den Europäischen Sozialfonds gefördert.</string>
 
     <string-array name="country_arrays">
         <item>Route 1</item>
         <item>Route 2</item>
     </string-array>
     <string name="title_activity_alle__stationen_geschafft">Alle_Stationen_geschafft</string>
+    <string name="title_activity_capture_video">activity_capture_video</string>
 
 </resources>
