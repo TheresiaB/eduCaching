@@ -28,7 +28,7 @@ tools:context="com.life.educaching.Model.TaskFotoActivity">
     android:layout_width="match_parent"
     android:layout_height="100dp">
     <TextView
-        android:layout_width="match_parent"
+        android:layout_width="900dp"
         android:layout_height="100dp"
         android:text="@string/Head_Text"
         android:ems="10"
@@ -47,6 +47,8 @@ tools:context="com.life.educaching.Model.TaskFotoActivity">
         android:layout_height="100dp"
         android:src="@drawable/foto_camera_button_image"
         android:onClick="dispatchTakePictureIntent"
+        android:scaleType="fitCenter"
+        android:background="#FFFFFF"
         />
 </LinearLayout>
     <LinearLayout
