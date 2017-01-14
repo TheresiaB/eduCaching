@@ -31,7 +31,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".Model.Startpage_Group_Register_Activity"
+            android:name=".Model.Startpage_group_register_Activity"
             android:label="startpage_group_register"
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar">
