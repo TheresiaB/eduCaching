@@ -4,6 +4,8 @@ import android.Manifest;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.v4.app.ActivityCompat;
@@ -16,6 +18,8 @@ import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.BitmapDescriptor;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.LatLngBounds;
 import com.google.android.gms.maps.model.Marker;
@@ -74,8 +78,6 @@ public class Route1_OverviewMapActivity extends AppCompatActivity implements OnM
 
 
     }
-
-
     /**
      * die Methode, die Markers setzt und die aktuelle Position zu ermitteln hilft
      * @param googleMap
@@ -83,10 +85,13 @@ public class Route1_OverviewMapActivity extends AppCompatActivity implements OnM
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
+
+        LatLng startLifeEV = new LatLng(52.4667117, 13.3285014);
+        mMap.addMarker(new MarkerOptions().position(startLifeEV).title("Du bist hier").icon(MapMethods.createIcon(this, R.drawable.start_marker)));
         // Ein Marker in der ersten Station hinzufügen und die Kamera bewegen
         LatLng moeckernbruecke = new LatLng(52.49402689999999, 13.375908200000026);
 
-MarkerOptions mo1 = new MarkerOptions().position(moeckernbruecke).title("Marker in der 1. Station");
+        MarkerOptions mo1 = new MarkerOptions().position(moeckernbruecke).title("Marker in der 1. Station").icon(MapMethods.createIcon(this, R.drawable.station1_icon));
         Marker st1 = mMap.addMarker(mo1);
         st1.showInfoWindow();
         //mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(moeckernbruecke, 14));
@@ -98,9 +103,9 @@ MarkerOptions mo1 = new MarkerOptions().position(moeckernbruecke).title("Marker 
         mMap.addMarker(new MarkerOptions().position(hauptbahnhof).title("Marker in der 3. Station")).showInfoWindow();
 
         LatLng alexanderplatz = new LatLng(52.5215855, 13.411163999999985);
-        mMap.addMarker(new MarkerOptions().position(alexanderplatz).title("Marker in der 4. Station")).showInfoWindow();
+        mMap.addMarker(new MarkerOptions().position(alexanderplatz).title("Marker in der 4. Station").icon(MapMethods.createIcon(this, R.drawable.ziel_marker))).showInfoWindow();
 
-        LatLng[] stationen = {moeckernbruecke, potsdamerplatz, hauptbahnhof, alexanderplatz};
+        LatLng[] stationen = {startLifeEV, moeckernbruecke, potsdamerplatz, hauptbahnhof, alexanderplatz};
 
         LatLngBounds Route = MapMethods.calculateLatLngBounds(stationen);
         mMap.moveCamera(CameraUpdateFactory.newLatLngBounds(Route, 50));
@@ -114,7 +119,6 @@ MarkerOptions mo1 = new MarkerOptions().position(moeckernbruecke).title("Marker 
         }
 
     }
-
     /**
      * Methode, die aufgerufen wird, wenn der Nutzer den Zugriff auf den Standort zugelassen hat und zurück in der App ist
      * @param requestCode
@@ -135,13 +139,6 @@ MarkerOptions mo1 = new MarkerOptions().position(moeckernbruecke).title("Marker 
     //die nächste Zeile wird als inkorrekt angezeigt, weil der Compiler denkt, dass wir die Überprüfung des Zugriffs nicht gemacht haben, bevor der Standort angezeigt wird. Die Abfrage der Berechtigung erfolge aber schon in der vorigen Methode
     public void setCurrentLocation() {
         if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
-            // TODO: Consider calling
-            //    ActivityCompat#requestPermissions
-            // here to request the missing permissions, and then overriding
-            //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
-            //                                          int[] grantResults)
-            // to handle the case where the user grants the permission. See the documentation
-            // for ActivityCompat#requestPermissions for more details.
             return;
         }
         mMap.setMyLocationEnabled(true);
