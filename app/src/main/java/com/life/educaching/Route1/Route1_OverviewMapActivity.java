@@ -89,7 +89,7 @@ public class Route1_OverviewMapActivity extends AppCompatActivity implements OnM
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
-
+//mMap.setPadding(0, 0, 300, 0);
         LatLng startLifeEV = new LatLng(52.4667117, 13.3285014);
         mMap.addMarker(new MarkerOptions().position(startLifeEV).title("Du bist hier").icon(MapMethods.createIcon(this, R.drawable.start_marker)));
         // Ein Marker in der ersten Station hinzufügen und die Kamera bewegen

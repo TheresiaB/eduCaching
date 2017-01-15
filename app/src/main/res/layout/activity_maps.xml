@@ -5,5 +5,14 @@
     android:name="com.google.android.gms.maps.SupportMapFragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.life.educaching.Model.MapsActivity"/>
+
+    tools:context="com.life.educaching.Model.MapsActivity"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text ="@string/hinweis_position_ermitteln"
+        android:textAlignment="textEnd"
+        />
+    </fragment>
 
