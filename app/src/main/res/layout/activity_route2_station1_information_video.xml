@@ -90,11 +90,15 @@
                 android:layout_weight="1" />
 
 
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="700dp"
+                android:layout_height="match_parent">
+
             <VideoView
                 android:id="@+id/route2Station1Video"
-                android:layout_width="match_parent"
+                android:layout_width="650dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:contentDescription="@string/layout_Video_Beschreibung"
                 android:layout_marginStart="70dp"
                 android:layout_marginLeft="70dp"
@@ -103,6 +107,8 @@
                 android:layout_gravity="center"
                 android:adjustViewBounds="true"
                 />
+
+            </LinearLayout>
 
         </LinearLayout>
 

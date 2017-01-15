@@ -1,22 +1,42 @@
 [
     {
-        "merged": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\number_indicator_spinner.xml",
-        "source": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\bundles\\debug\\res\\layout\\number_indicator_spinner.xml"
+        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/build/intermediates/res/merged/androidTest/debug/layout/number_indicator_spinner.xml",
+        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/build/intermediates/bundles/debug/res/layout/number_indicator_spinner.xml"
     },
     {
-        "merged": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\dialog.xml",
-        "source": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\bundles\\debug\\res\\layout\\dialog.xml"
+        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/build/intermediates/res/merged/androidTest/debug/layout/progress_dialog.xml",
+        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/build/intermediates/bundles/debug/res/layout/progress_dialog.xml"
     },
     {
-        "merged": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\progress_dialog.xml",
-        "source": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\bundles\\debug\\res\\layout\\progress_dialog.xml"
+        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/build/intermediates/res/merged/androidTest/debug/layout/snackbar.xml",
+        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/build/intermediates/bundles/debug/res/layout/snackbar.xml"
     },
     {
-        "merged": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\snackbar.xml",
-        "source": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\bundles\\debug\\res\\layout\\snackbar.xml"
+        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\number_indicator_spinner.xml",
+        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\bundles\\debug\\res\\layout\\number_indicator_spinner.xml"
     },
     {
-        "merged": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\color_selector.xml",
-        "source": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\bundles\\debug\\res\\layout\\color_selector.xml"
+        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/build/intermediates/res/merged/androidTest/debug/layout/dialog.xml",
+        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/build/intermediates/bundles/debug/res/layout/dialog.xml"
+    },
+    {
+        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\dialog.xml",
+        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\bundles\\debug\\res\\layout\\dialog.xml"
+    },
+    {
+        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\progress_dialog.xml",
+        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\bundles\\debug\\res\\layout\\progress_dialog.xml"
+    },
+    {
+        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/build/intermediates/res/merged/androidTest/debug/layout/color_selector.xml",
+        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/build/intermediates/bundles/debug/res/layout/color_selector.xml"
+    },
+    {
+        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\snackbar.xml",
+        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\bundles\\debug\\res\\layout\\snackbar.xml"
+    },
+    {
+        "merged": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\color_selector.xml",
+        "source": "/home/theresia/StudioProjects/eduCaching/C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\bundles\\debug\\res\\layout\\color_selector.xml"
     }
 ]

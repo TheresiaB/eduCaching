@@ -8,6 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.MediaController;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.VideoView;
@@ -27,6 +28,7 @@ public class Route2_station1_InformationVideoActivity extends AppCompatActivity 
     ImageButton buttonVideoPause;
     ImageButton buttonVideoStop;
     VideoView mVideoView2;
+    MediaController mediaController;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,12 +36,16 @@ public class Route2_station1_InformationVideoActivity extends AppCompatActivity 
         setContentView(R.layout.activity_route2_station1_information_video);
         buttonVideoPlay = (ImageButton)findViewById(R.id.video_play_button);
         buttonVideoPause = (ImageButton)findViewById(R.id.video_pause_button);
-        //buttonVideoStop = (Button) findViewById(R.id.video_begin_button);
+        buttonVideoStop = (ImageButton) findViewById(R.id.video_stop_button);
+        mediaController = new MediaController(this);
 
         String uriPath = "android.resource://" + getPackageName() + "/" + R.raw.diesendungmitdermauslotuseffekt;
         Uri uri2 = Uri.parse(uriPath);
         mVideoView2 = (VideoView) findViewById(R.id.route2Station1Video);
         mVideoView2.setVideoURI(uri2);
+        mVideoView2.setMediaController(mediaController);
+        mediaController.setAnchorView(mVideoView2);
+
 
         buttonVideoPlay.setOnClickListener(new Button.OnClickListener() {
             @Override
@@ -52,6 +58,13 @@ public class Route2_station1_InformationVideoActivity extends AppCompatActivity 
             @Override
             public void onClick(View v) {
                 mVideoView2.pause();
+            }
+        });
+
+        buttonVideoStop.setOnClickListener(new Button.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mVideoView2.resume();
             }
         });
 
