@@ -30,6 +30,8 @@
     <string name="button_gruppe_erstellen">neue Gruppe erstellen</string>
     <string name="text_erste_Seite">Das Projekt „mach Grün! Berufe entdecken und gestalten“ wird im Rahmen des ESF-Bundesprogramms „Berufsbildung für nachhaltige Entwicklung befördern. Über grüne Schlüsselkompetenzen zu klima- und ressourcenschonendem Handeln im Beruf – BBNE” durch das Bundesministerium für Umwelt, Naturschutz, Bau und Reaktorsicherheit und den Europäischen Sozialfonds gefördert.</string>
 
+    <string name="hinweis_position_ermitteln">Meine Position anzeigen</string>
+
     <string-array name="country_arrays">
         <item>Route 1</item>
         <item>Route 2</item>
