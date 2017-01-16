@@ -85,7 +85,6 @@ public class Route2_station1_TaskActivity extends AppCompatActivity {
                     buttonStart.setEnabled(false);
                     buttonStop.setEnabled(true);
 
-                    Toast.makeText(Route2_station1_TaskActivity.this, "Recording started", Toast.LENGTH_LONG).show();
                 }
                 else {
 
@@ -108,7 +107,6 @@ public class Route2_station1_TaskActivity extends AppCompatActivity {
                 buttonStart.setEnabled(true);
                 buttonStopPlayingRecording.setEnabled(false);
 
-                Toast.makeText(Route2_station1_TaskActivity.this, "Recording Completed", Toast.LENGTH_LONG).show();
 
             }
         });
@@ -132,7 +130,6 @@ public class Route2_station1_TaskActivity extends AppCompatActivity {
 
                 mediaPlayer.start();
 
-                Toast.makeText(Route2_station1_TaskActivity.this, "Recording Playing", Toast.LENGTH_LONG).show();
 
             }
         });
@@ -205,10 +202,8 @@ public class Route2_station1_TaskActivity extends AppCompatActivity {
 
                     if (StoragePermission && RecordPermission) {
 
-                        Toast.makeText(Route2_station1_TaskActivity.this, "Permission Granted", Toast.LENGTH_LONG).show();
                     }
                     else {
-                        Toast.makeText(Route2_station1_TaskActivity.this,"Permission Denied",Toast.LENGTH_LONG).show();
 
                     }
                 }
@@ -234,7 +229,6 @@ public class Route2_station1_TaskActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View arg0) {
-                Toast.makeText(Route2_station1_TaskActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(context, Route2_station1_Finished.class));
             }
         });
@@ -243,7 +237,6 @@ public class Route2_station1_TaskActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View arg0) {
-                Toast.makeText(Route2_station1_TaskActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(context, Route2_station1_InformationVideoActivity.class));
             }
         });

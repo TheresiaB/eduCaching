@@ -11,7 +11,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -63,7 +62,6 @@ public class Route1_OverviewMapActivity extends AppCompatActivity implements OnM
 
             @Override
             public void onClick(View arg0) {
-                Toast.makeText(Route1_OverviewMapActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(context, Route1_station1_MapActivity.class));
             }
         });
@@ -71,7 +69,6 @@ public class Route1_OverviewMapActivity extends AppCompatActivity implements OnM
 
             @Override
             public void onClick(View arg0) {
-                Toast.makeText(Route1_OverviewMapActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(context, DecideRouteActivity.class));
             }
         });

@@ -62,7 +62,6 @@ public class Route2_station1_MapActivity extends AppCompatActivity implements On
 
             @Override
             public void onClick(View arg0) {
-                Toast.makeText(Route2_station1_MapActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(context, Route2_station1_InformationVideoActivity.class));
             }
         });
@@ -70,7 +69,6 @@ public class Route2_station1_MapActivity extends AppCompatActivity implements On
 
             @Override
             public void onClick(View arg0) {
-                Toast.makeText(Route2_station1_MapActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(context, Route2_OverviewMapActivity.class));
             }
         });

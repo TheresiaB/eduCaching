@@ -34,7 +34,6 @@ public class Startpage_group_register_Activity extends AppCompatActivity {
 
             @Override
             public void onClick(View arg0) {
-                Toast.makeText(Startpage_group_register_Activity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(context,DecideRouteActivity.class));
             }
         });

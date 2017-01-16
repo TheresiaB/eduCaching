@@ -77,7 +77,6 @@ public class InformationVideoActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View arg0) {
-                Toast.makeText(InformationVideoActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(context, Route1_OverviewMapActivity.class));
             }
         });
@@ -86,7 +85,6 @@ public class InformationVideoActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View arg0) {
-                Toast.makeText(InformationVideoActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(context, DecideRouteActivity.class));
             }
         });

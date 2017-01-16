@@ -50,7 +50,6 @@ public class StationMapsActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View arg0) {
-                Toast.makeText(StationMapsActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(context, Station_Finished_Activity.class));
             }
         });

@@ -51,10 +51,6 @@ public class DecideRouteActivity extends  AppCompatActivity{
             @Override
             public void onClick(View v) {
 
-                Toast.makeText(DecideRouteActivity.this,
-                        "OnClickListener : " +
-                                "\nSpinner 1 : "+ String.valueOf(spinner1.getSelectedItem()),
-                        Toast.LENGTH_SHORT).show();
             }
 
         });
@@ -84,7 +80,6 @@ public class DecideRouteActivity extends  AppCompatActivity{
 
                             @Override
                             public void onClick(View arg0) {
-                                Toast.makeText(DecideRouteActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
                                 startActivity(i);
                             }
                         });
@@ -97,7 +92,6 @@ public class DecideRouteActivity extends  AppCompatActivity{
 
                             @Override
                             public void onClick(View arg0) {
-                                Toast.makeText(DecideRouteActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
                                 startActivity(ir);
                             }
                         });
