@@ -23,7 +23,8 @@ import java.io.File;
 public class CaptureVideoActivity extends AppCompatActivity {
 
     Button mRecordView, mPlayView;
-    ImageButton mPlayButtonView;
+    ImageButton videoplay;
+    ImageButton videorecord;
     VideoView mVideoView;
     private int ACTIVITY_START_CAMERA_APP = 0;
     /**
@@ -40,9 +41,8 @@ public class CaptureVideoActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        mRecordView = (Button) findViewById(R.id.video_record_button);
-        mPlayView = (Button) findViewById(R.id.video_play_button);
-        mPlayButtonView = (ImageButton) findViewById(R.id.imageButton1);
+        videorecord = (ImageButton) findViewById(R.id.record_video_button);
+        videoplay = (ImageButton) findViewById(R.id.video_play_button);
         mVideoView = (VideoView) findViewById(R.id.videoView2);
 
         mRecordView.setOnClickListener(new View.OnClickListener() {

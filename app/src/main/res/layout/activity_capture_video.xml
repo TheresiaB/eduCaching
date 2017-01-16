@@ -44,21 +44,20 @@
                 android:textStyle="bold"
                 />
 
-            <TextView
-                android:layout_width="425dp"
-                android:layout_height="100dp"
-                android:text="Video aufnehmen"
-                android:ems="10"
-                android:id="@+id/Video"
-                android:textColor="@color/colorGrey_text"
-                android:textSize="40sp"
-                android:paddingStart="70dp"
-                android:paddingLeft="70dp"
-                android:paddingEnd="0dp"
-                android:paddingRight="0dp"
+            <ImageButton
+                android:layout_width="90dp"
+                android:layout_height="105dp"
+                android:background="@drawable/playbutton"
+                android:id="@+id/playvideobutton"
+                />
 
-                android:gravity="center_vertical"
-                android:textStyle="bold" />
+            <ImageButton
+                android:layout_width="135dp"
+                android:layout_height="120dp"
+                android:background="@mipmap/recordvideo"
+                android:id="@+id/recordvideobutton"
+                android:layout_gravity="center_vertical" />
+
 
         </LinearLayout>
 
@@ -116,29 +115,6 @@
                 android:paddingRight="0dp"
                 />
 
-            <Button
-                android:id="@+id/video_record_button"
-                android:text="record"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:onClick="play"
-                />
-
-            <Button
-                android:id="@+id/video_play_button"
-                android:text="play"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                />
-
-            <ImageButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                app:srcCompat="@drawable/ic_play_light"
-                android:id="@+id/imageButton1"
-                />
 
         </LinearLayout>
 
