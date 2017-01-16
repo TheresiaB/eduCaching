@@ -37,6 +37,7 @@ public class Route1_station1_TaskActivity extends AppCompatActivity {
 
     public void onRadioButtonClicked() {
         radioGroup = (RadioGroup) findViewById(R.id.radioGroup);
+       /*
         btnDisplay = (Button) findViewById(R.id.btnDisplay);
 
         btnDisplay.setOnClickListener(new View.OnClickListener() {
@@ -53,7 +54,7 @@ public class Route1_station1_TaskActivity extends AppCompatActivity {
 
             }
 
-        });
+        });*/
     }
 
 

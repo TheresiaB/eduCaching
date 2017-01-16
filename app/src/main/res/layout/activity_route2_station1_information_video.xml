@@ -75,8 +75,8 @@
 
 
             <TextView
-                android:layout_width="900dp"
-                android:layout_height="match_parent"
+                android:layout_width="800dp"
+                android:layout_height="330dp"
                 android:ems="10"
                 android:id="@+id/editText3"
                 android:text="@string/Lorem_Ipsum"
@@ -92,8 +92,9 @@
 
             <LinearLayout
                 android:orientation="vertical"
-                android:layout_width="700dp"
-                android:layout_height="match_parent">
+                android:layout_width="650dp"
+                android:layout_height="match_parent"
+                >
 
             <VideoView
                 android:id="@+id/route2Station1Video"
@@ -109,6 +110,10 @@
                 />
 
             </LinearLayout>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content" />
 
         </LinearLayout>
 

@@ -35,6 +35,7 @@ public class TaskMultipleChoiceActivity extends AppCompatActivity {
 
     public void onRadioButtonClicked() {
         radioGroup = (RadioGroup) findViewById(R.id.radioGroup);
+        /*
         btnDisplay = (Button) findViewById(R.id.btnDisplay);
 
         btnDisplay.setOnClickListener(new View.OnClickListener() {
@@ -51,7 +52,7 @@ public class TaskMultipleChoiceActivity extends AppCompatActivity {
 
             }
 
-        });
+        });*/
     }
 
 
