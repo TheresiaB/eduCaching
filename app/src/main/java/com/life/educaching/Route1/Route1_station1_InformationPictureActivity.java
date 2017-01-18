@@ -34,12 +34,9 @@ public class Route1_station1_InformationPictureActivity extends AppCompatActivit
         addListenerOnButton();
     }
 
-    public void setTextHeader(){
-
-        TextView myAwesomeTextView = (TextView)findViewById(R.id.text_head);
-
-        //in your OnCreate() method
-        myAwesomeTextView.setText(DecideRouteActivity.whichRoute);
+    public void setTextHeader() {
+        TextView myAwesomeTextView = (TextView) findViewById(R.id.text_head);
+        myAwesomeTextView.setText("Route 1");
     }
 
 

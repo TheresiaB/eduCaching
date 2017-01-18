@@ -15,6 +15,7 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.Chronometer;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.life.educaching.R;
@@ -46,6 +47,7 @@ public class Route2_station1_TaskActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_route2_station1_task);
         addListenerOnButton();
+        setTextHeader();
         getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_HIDDEN);
 
         buttonStart = (Button) findViewById(R.id.recording_button);
@@ -154,6 +156,11 @@ public class Route2_station1_TaskActivity extends AppCompatActivity {
 
             }
         });
+    }
+
+    public void setTextHeader() {
+        TextView myAwesomeTextView = (TextView) findViewById(R.id.text_head);
+        myAwesomeTextView.setText("Route 2");
     }
 
     public void MediaRecorderReady(){

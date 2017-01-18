@@ -21,6 +21,7 @@ import com.google.android.gms.maps.model.LatLngBounds;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.life.educaching.Model.DecideRouteActivity;
+import com.life.educaching.Model.HeaderGreenActivity;
 import com.life.educaching.Model.MapMethods;
 import com.life.educaching.R;
 
@@ -41,14 +42,12 @@ public class Route1_OverviewMapActivity extends AppCompatActivity implements OnM
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
+
     }
 
     public void setTextHeader() {
-
         TextView myAwesomeTextView = (TextView) findViewById(R.id.text_head);
-
-        //in your OnCreate() method
-        myAwesomeTextView.setText(DecideRouteActivity.whichRoute);
+        myAwesomeTextView.setText("Übersicht der Route 1");
     }
 
     public void addListenerOnButton() {

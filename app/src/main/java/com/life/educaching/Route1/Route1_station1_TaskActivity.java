@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.life.educaching.R;
@@ -32,6 +33,11 @@ public class Route1_station1_TaskActivity extends AppCompatActivity {
         setContentView(R.layout.activity_route1_station1_task);
         addListenerOnButton();
         onRadioButtonClicked();
+    }
+
+    public void setTextHeader() {
+        TextView myAwesomeTextView = (TextView) findViewById(R.id.text_head);
+        myAwesomeTextView.setText("Route 1");
     }
 
 

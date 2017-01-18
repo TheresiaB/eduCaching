@@ -44,11 +44,8 @@ public class Route2_OverviewMapActivity extends AppCompatActivity implements OnM
     }
 
     public void setTextHeader() {
-
         TextView myAwesomeTextView = (TextView) findViewById(R.id.text_head);
-
-        //in your OnCreate() method
-        myAwesomeTextView.setText(DecideRouteActivity.whichRoute);
+        myAwesomeTextView.setText("Übersichtskarte der Route 2");
     }
 
     public void addListenerOnButton() {

@@ -46,11 +46,8 @@ public class Route2_station4_MapActivity extends AppCompatActivity implements On
     }
 
     public void setTextHeader() {
-
         TextView myAwesomeTextView = (TextView) findViewById(R.id.text_head);
-
-        //in your OnCreate() method
-        myAwesomeTextView.setText(DecideRouteActivity.whichRoute);
+        myAwesomeTextView.setText("Route 2 - Station 4");
     }
 
     public void addListenerOnButton() {

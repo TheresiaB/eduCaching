@@ -42,13 +42,11 @@ public class Route1_station3_MapActivity extends AppCompatActivity implements On
         mapFragment.getMapAsync(this);
     }
 
-    public void setTextHeader(){
-
-        TextView myAwesomeTextView = (TextView)findViewById(R.id.text_head);
-
-        //in your OnCreate() method
-        myAwesomeTextView.setText(DecideRouteActivity.whichRoute);
+    public void setTextHeader() {
+        TextView myAwesomeTextView = (TextView) findViewById(R.id.text_head);
+        myAwesomeTextView.setText("Route 1 - Station 3");
     }
+
     public void addListenerOnButton() {
 
         final Context context = this;
