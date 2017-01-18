@@ -58,7 +58,8 @@
                 android:paddingRight="0dp"
 
                 android:gravity="center_vertical"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:layout_marginLeft="60dp" />
 
         </LinearLayout>
 
@@ -69,6 +70,7 @@
             >
 
             <ScrollView
+                style="@style/scrollbar_shape_style"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginStart="70dp"
@@ -82,19 +84,27 @@
                     android:layout_height="match_parent"
                     android:ems="10"
                     android:id="@+id/Text_Aufgabe"
-                    android:text="@string/Lorem_Ipsum"
+                    android:text="@string/Lorem_lang"
                     android:textColor="@color/colorGrey_text"
                     android:textSize="18sp"
-                    android:layout_gravity="center_vertical"/>
+                    android:layout_gravity="center_vertical" />
 
             </ScrollView>
 
-            <VideoView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/videoView2"
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:layout_marginEnd="70dp" />
+                android:layout_marginEnd="70dp">
+
+                <VideoView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/videoView2"
+                    />
+
+            </RelativeLayout>
+
 
             />
 
@@ -116,22 +126,6 @@
                 android:paddingRight="0dp"
                 />
 
-            <Button
-                android:id="@+id/video_record_button"
-                android:text="record"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:onClick="play"
-                />
-
-            <Button
-                android:id="@+id/video_play_button"
-                android:text="play"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                />
 
             <ImageButton
                 android:layout_width="wrap_content"
@@ -139,6 +133,21 @@
                 app:srcCompat="@drawable/ic_play_light"
                 android:id="@+id/imageButton1"
                 />
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/playbutton"
+                android:id="@+id/video_play_button"
+                android:layout_margin="10dp" />
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/media_record"
+                android:id="@+id/video_record_button"
+                android:layout_margin="10dp" />
+
 
         </LinearLayout>
 
