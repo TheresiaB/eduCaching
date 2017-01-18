@@ -44,20 +44,22 @@
                 android:textStyle="bold"
                 />
 
-            <ImageButton
-                android:layout_width="90dp"
-                android:layout_height="105dp"
-                android:background="@drawable/playbutton"
-                android:id="@+id/playvideobutton"
-                />
+            <TextView
+                android:layout_width="425dp"
+                android:layout_height="100dp"
+                android:text="Video aufnehmen"
+                android:ems="10"
+                android:id="@+id/Video"
+                android:textColor="@color/colorGrey_text"
+                android:textSize="40sp"
+                android:paddingStart="70dp"
+                android:paddingLeft="70dp"
+                android:paddingEnd="0dp"
+                android:paddingRight="0dp"
 
-            <ImageButton
-                android:layout_width="135dp"
-                android:layout_height="120dp"
-                android:background="@mipmap/recordvideo"
-                android:id="@+id/recordvideobutton"
-                android:layout_gravity="center_vertical" />
-
+                android:gravity="center_vertical"
+                android:textStyle="bold"
+                android:layout_marginLeft="60dp" />
 
         </LinearLayout>
 
@@ -68,6 +70,7 @@
             >
 
             <ScrollView
+                style="@style/scrollbar_shape_style"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginStart="70dp"
@@ -81,19 +84,27 @@
                     android:layout_height="match_parent"
                     android:ems="10"
                     android:id="@+id/Text_Aufgabe"
-                    android:text="@string/Lorem_Ipsum"
+                    android:text="@string/Lorem_lang"
                     android:textColor="@color/colorGrey_text"
                     android:textSize="18sp"
-                    android:layout_gravity="center_vertical"/>
+                    android:layout_gravity="center_vertical" />
 
             </ScrollView>
 
-            <VideoView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/videoView2"
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:layout_marginEnd="70dp" />
+                android:layout_marginEnd="70dp">
+
+                <VideoView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/videoView2"
+                    />
+
+            </RelativeLayout>
+
 
             />
 
@@ -114,6 +125,21 @@
                 android:paddingEnd="0dp"
                 android:paddingRight="0dp"
                 />
+
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/playbutton"
+                android:id="@+id/video_play_button"
+                android:layout_margin="10dp" />
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/media_record"
+                android:id="@+id/video_record_button"
+                android:layout_margin="10dp" />
 
 
         </LinearLayout>

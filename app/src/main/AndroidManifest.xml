@@ -35,12 +35,11 @@
             android:label="@string/layout_Bild_Beschreibung"
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
+
+
+
         <activity android:name=".Model.CameraActivity" />
         <activity
             android:name=".Model.InformationVideoActivity"
@@ -150,13 +149,18 @@
         <activity
             android:name=".Route1.Route1_station2_MapActivity"
             android:screenOrientation="landscape" />
-
-
         <activity
             android:name=".CaptureVideoActivity"
             android:label="@string/title_activity_capture_video"
-            android:theme="@style/AppTheme">
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme" >
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
         </activity>
+
 
         <activity android:name=".Route1.Route1_station3_MapActivity" />
         <activity android:name=".Route1.Route1_station4_MapActivity" />

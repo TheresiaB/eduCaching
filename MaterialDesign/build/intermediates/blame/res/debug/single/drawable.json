@@ -8,16 +8,16 @@
         "source": "C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesign\\src\\main\\res\\drawable\\background_checkbox_uncheck.xml"
     },
     {
-        "merged": "C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\debug\\drawable\\background_checkbox.xml",
-        "source": "C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesign\\src\\main\\res\\drawable\\background_checkbox.xml"
-    },
-    {
         "merged": "C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\debug\\drawable\\background_transparent.xml",
         "source": "C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesign\\src\\main\\res\\drawable\\background_transparent.xml"
     },
     {
         "merged": "C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\debug\\drawable\\background_button_float.xml",
         "source": "C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesign\\src\\main\\res\\drawable\\background_button_float.xml"
+    },
+    {
+        "merged": "C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\debug\\drawable\\background_checkbox.xml",
+        "source": "C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesign\\src\\main\\res\\drawable\\background_checkbox.xml"
     },
     {
         "merged": "C:\\Users\\Priscilla\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\debug\\drawable\\background_checkbox_check.xml",
