@@ -65,10 +65,10 @@ public class MapMethods {
      * @param res
      * @return
      */
-    public static BitmapDescriptor createIcon (Context context, int res)
+    public static BitmapDescriptor createIcon (Context context, int res, int width, int height)
     {
         Bitmap initialBitMap = BitmapFactory.decodeResource(context.getResources(), res);
-        Bitmap scaledBitMap = Bitmap.createScaledBitmap(initialBitMap, 100, 100, false);
+        Bitmap scaledBitMap = Bitmap.createScaledBitmap(initialBitMap, width, height, false);
         BitmapDescriptor result = BitmapDescriptorFactory.fromBitmap(scaledBitMap);
         return result;
     }

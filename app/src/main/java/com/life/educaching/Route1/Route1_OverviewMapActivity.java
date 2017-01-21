@@ -87,23 +87,23 @@ public class Route1_OverviewMapActivity extends AppCompatActivity implements OnM
         mMap = googleMap;
 //mMap.setPadding(0, 0, 300, 0);
         LatLng startLifeEV = new LatLng(52.4667117, 13.3285014);
-        mMap.addMarker(new MarkerOptions().position(startLifeEV).title("Du bist hier").icon(MapMethods.createIcon(this, R.drawable.start_marker)));
+        mMap.addMarker(new MarkerOptions().position(startLifeEV).title("Du bist hier").icon(MapMethods.createIcon(this, R.drawable.start_marker, 100, 100)));
         // Ein Marker in der ersten Station hinzufügen und die Kamera bewegen
         LatLng moeckernbruecke = new LatLng(52.49402689999999, 13.375908200000026);
 
-        MarkerOptions mo1 = new MarkerOptions().position(moeckernbruecke).title("Marker in der 1. Station").icon(MapMethods.createIcon(this, R.drawable.station1_icon));
+        MarkerOptions mo1 = new MarkerOptions().position(moeckernbruecke).title("Marker in der 1. Station").icon(MapMethods.createIcon(this, R.drawable.station1_icon, 150, 100));
         Marker st1 = mMap.addMarker(mo1);
         st1.showInfoWindow();
         //mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(moeckernbruecke, 14));
 
         LatLng potsdamerplatz = new LatLng(52.5096488, 13.37594409999997);
-      mMap.addMarker(new MarkerOptions().position(potsdamerplatz).title("Marker in der 2. Station")).showInfoWindow();
+      mMap.addMarker(new MarkerOptions().position(potsdamerplatz).title("Marker in der 2. Station").icon(MapMethods.createIcon(this, R.drawable.station2_icon, 150, 100)));
 
         LatLng hauptbahnhof = new LatLng(52.5250839, 13.369402000000036);
-        mMap.addMarker(new MarkerOptions().position(hauptbahnhof).title("Marker in der 3. Station")).showInfoWindow();
+        mMap.addMarker(new MarkerOptions().position(hauptbahnhof).title("Marker in der 3. Station").icon(MapMethods.createIcon(this, R.drawable.station3_icon, 150, 100)));
 
         LatLng alexanderplatz = new LatLng(52.5215855, 13.411163999999985);
-        mMap.addMarker(new MarkerOptions().position(alexanderplatz).title("Marker in der 4. Station").icon(MapMethods.createIcon(this, R.drawable.ziel_marker))).showInfoWindow();
+        mMap.addMarker(new MarkerOptions().position(alexanderplatz).title("Marker in der 4. Station").icon(MapMethods.createIcon(this, R.drawable.ziel_marker, 100, 100))).showInfoWindow();
 
         LatLng[] stationen = {startLifeEV, moeckernbruecke, potsdamerplatz, hauptbahnhof, alexanderplatz};
 

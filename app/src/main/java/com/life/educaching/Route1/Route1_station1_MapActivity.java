@@ -76,12 +76,12 @@ public class Route1_station1_MapActivity extends AppCompatActivity implements On
         mMap = googleMap;
         // Ein Marker in der ersten Station hinzufügen und die Kamera bewegen
         LatLng moeckernbruecke = new LatLng(52.49402689999999, 13.375908200000026);
-        mMap.addMarker(new MarkerOptions().position(moeckernbruecke).title("Marker in der 1. Station")).showInfoWindow();
+        mMap.addMarker(new MarkerOptions().position(moeckernbruecke).title("Marker in der 1. Station").icon(MapMethods.createIcon(this, R.drawable.station1_icon, 150, 100)));
 LatLng startLifeEV = new LatLng(52.4667117, 13.3285014);
         mMap.addMarker(new MarkerOptions().position(startLifeEV).title("Du bist hier")).showInfoWindow();
 
         LatLngBounds route = MapMethods.calculateLatLngBounds(new LatLng[]{moeckernbruecke, startLifeEV});
-        mMap.moveCamera(CameraUpdateFactory.newLatLngBounds(route, 50));
+        mMap.moveCamera(CameraUpdateFactory.newLatLngBounds(route, 70));
         if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
             ActivityCompat.requestPermissions(this, new String[]{android.Manifest.permission.ACCESS_FINE_LOCATION, android.Manifest.permission.INTERNET}, 10);
 

@@ -78,17 +78,17 @@ public class Route2_OverviewMapActivity extends AppCompatActivity implements OnM
         mMap = googleMap;
 
         LatLng startLifeEV = new LatLng(52.4667117, 13.3285014);
-        mMap.addMarker(new MarkerOptions().position(startLifeEV).title("Du bist hier").icon(MapMethods.createIcon(this, R.drawable.start_marker)));
+        mMap.addMarker(new MarkerOptions().position(startLifeEV).title("Du bist hier").icon(MapMethods.createIcon(this, R.drawable.start_marker, 100, 100)));
         // Ein Marker in der ersten Station hinzufügen und die Kamera bewegen
         LatLng friedrichstrasse = new LatLng(52.5137447, 13.389356700000008);
-        mMap.addMarker(new MarkerOptions().position(friedrichstrasse).title("Marker in der 1. Station"));
+        mMap.addMarker(new MarkerOptions().position(friedrichstrasse).title("Marker in der 1. Station").icon(MapMethods.createIcon(this, R.drawable.station1_icon, 150, 100)));
         //mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(moeckernbruecke, 14));
 
         LatLng reichstag = new LatLng(52.5185353, 13.37318849999997);
-        mMap.addMarker(new MarkerOptions().position(reichstag).title("Marker in der 2. Station"));
+        mMap.addMarker(new MarkerOptions().position(reichstag).title("Marker in der 2. Station").icon(MapMethods.createIcon(this, R.drawable.station2_icon, 150, 100)));
 
         LatLng schoenhauserstr = new LatLng(52.5263005, 13.407798899999989);
-        mMap.addMarker(new MarkerOptions().position(schoenhauserstr).title("Marker in der 3. Station").icon(MapMethods.createIcon(this, R.drawable.ziel_marker)));
+        mMap.addMarker(new MarkerOptions().position(schoenhauserstr).title("Marker in der 3. Station").icon(MapMethods.createIcon(this, R.drawable.ziel_marker, 100, 100)));
 
         LatLng[] stationen = {startLifeEV, friedrichstrasse, reichstag, schoenhauserstr};
 
