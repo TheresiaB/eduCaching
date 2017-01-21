@@ -1,30 +1,86 @@
 [
     {
-        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/build/intermediates/res/merged/debug/anim/dialog_root_hide_amin.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/src/main/res/anim/dialog_root_hide_amin.xml"
+        "merged": "C:\\home\\theresia\\StudioProjects\\eduCaching\\C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\debug\\anim\\progress_indeterminate_animation.xml",
+        "source": "C:\\home\\theresia\\StudioProjects\\eduCaching\\C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\src\\main\\res\\anim\\progress_indeterminate_animation.xml"
     },
     {
-        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/build/intermediates/res/merged/debug/anim/progress_indeterminate_animation.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/src/main/res/anim/progress_indeterminate_animation.xml"
+        "merged": "C:\\home\\theresia\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_main_show_amination.xml",
+        "source": "C:\\home\\theresia\\StudioProjects\\eduCaching\\MaterialDesign\\src\\main\\res\\anim\\dialog_main_show_amination.xml"
     },
     {
-        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/build/intermediates/res/merged/debug/anim/dialog_main_hide_amination.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/src/main/res/anim/dialog_main_hide_amination.xml"
+        "merged": "C:\\home\\theresia\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_root_show_amin.xml",
+        "source": "C:\\home\\theresia\\StudioProjects\\eduCaching\\MaterialDesign\\src\\main\\res\\anim\\dialog_root_show_amin.xml"
     },
     {
-        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/build/intermediates/res/merged/debug/anim/snackbar_show_animation.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/src/main/res/anim/snackbar_show_animation.xml"
+        "merged": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_root_show_amin.xml",
+        "source": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\src\\main\\res\\anim\\dialog_root_show_amin.xml"
     },
     {
-        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/build/intermediates/res/merged/debug/anim/snackbar_hide_animation.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/src/main/res/anim/snackbar_hide_animation.xml"
+        "merged": "C:\\home\\theresia\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\debug\\anim\\progress_indeterminate_animation.xml",
+        "source": "C:\\home\\theresia\\StudioProjects\\eduCaching\\MaterialDesign\\src\\main\\res\\anim\\progress_indeterminate_animation.xml"
     },
     {
-        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/build/intermediates/res/merged/debug/anim/dialog_main_show_amination.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/src/main/res/anim/dialog_main_show_amination.xml"
+        "merged": "C:\\home\\theresia\\StudioProjects\\eduCaching\\C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\debug\\anim\\snackbar_show_animation.xml",
+        "source": "C:\\home\\theresia\\StudioProjects\\eduCaching\\C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\src\\main\\res\\anim\\snackbar_show_animation.xml"
     },
     {
-        "merged": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/build/intermediates/res/merged/debug/anim/dialog_root_show_amin.xml",
-        "source": "/home/theresia/StudioProjects/eduCaching/MaterialDesign/src/main/res/anim/dialog_root_show_amin.xml"
+        "merged": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_main_show_amination.xml",
+        "source": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\src\\main\\res\\anim\\dialog_main_show_amination.xml"
+    },
+    {
+        "merged": "C:\\home\\theresia\\StudioProjects\\eduCaching\\C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_root_hide_amin.xml",
+        "source": "C:\\home\\theresia\\StudioProjects\\eduCaching\\C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\src\\main\\res\\anim\\dialog_root_hide_amin.xml"
+    },
+    {
+        "merged": "C:\\home\\theresia\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_root_hide_amin.xml",
+        "source": "C:\\home\\theresia\\StudioProjects\\eduCaching\\MaterialDesign\\src\\main\\res\\anim\\dialog_root_hide_amin.xml"
+    },
+    {
+        "merged": "C:\\home\\theresia\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\debug\\anim\\snackbar_show_animation.xml",
+        "source": "C:\\home\\theresia\\StudioProjects\\eduCaching\\MaterialDesign\\src\\main\\res\\anim\\snackbar_show_animation.xml"
+    },
+    {
+        "merged": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\debug\\anim\\snackbar_show_animation.xml",
+        "source": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\src\\main\\res\\anim\\snackbar_show_animation.xml"
+    },
+    {
+        "merged": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_root_hide_amin.xml",
+        "source": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\src\\main\\res\\anim\\dialog_root_hide_amin.xml"
+    },
+    {
+        "merged": "C:\\home\\theresia\\StudioProjects\\eduCaching\\C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_main_show_amination.xml",
+        "source": "C:\\home\\theresia\\StudioProjects\\eduCaching\\C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\src\\main\\res\\anim\\dialog_main_show_amination.xml"
+    },
+    {
+        "merged": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\debug\\anim\\progress_indeterminate_animation.xml",
+        "source": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\src\\main\\res\\anim\\progress_indeterminate_animation.xml"
+    },
+    {
+        "merged": "C:\\home\\theresia\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_main_hide_amination.xml",
+        "source": "C:\\home\\theresia\\StudioProjects\\eduCaching\\MaterialDesign\\src\\main\\res\\anim\\dialog_main_hide_amination.xml"
+    },
+    {
+        "merged": "C:\\home\\theresia\\StudioProjects\\eduCaching\\C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_root_show_amin.xml",
+        "source": "C:\\home\\theresia\\StudioProjects\\eduCaching\\C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\src\\main\\res\\anim\\dialog_root_show_amin.xml"
+    },
+    {
+        "merged": "C:\\home\\theresia\\StudioProjects\\eduCaching\\C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_main_hide_amination.xml",
+        "source": "C:\\home\\theresia\\StudioProjects\\eduCaching\\C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\src\\main\\res\\anim\\dialog_main_hide_amination.xml"
+    },
+    {
+        "merged": "C:\\home\\theresia\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\debug\\anim\\snackbar_hide_animation.xml",
+        "source": "C:\\home\\theresia\\StudioProjects\\eduCaching\\MaterialDesign\\src\\main\\res\\anim\\snackbar_hide_animation.xml"
+    },
+    {
+        "merged": "C:\\home\\theresia\\StudioProjects\\eduCaching\\C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\debug\\anim\\snackbar_hide_animation.xml",
+        "source": "C:\\home\\theresia\\StudioProjects\\eduCaching\\C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\src\\main\\res\\anim\\snackbar_hide_animation.xml"
+    },
+    {
+        "merged": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_main_hide_amination.xml",
+        "source": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\src\\main\\res\\anim\\dialog_main_hide_amination.xml"
+    },
+    {
+        "merged": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\build\\intermediates\\res\\merged\\debug\\anim\\snackbar_hide_animation.xml",
+        "source": "C:\\Users\\p.root\\StudioProjects\\eduCaching\\MaterialDesign\\src\\main\\res\\anim\\snackbar_hide_animation.xml"
     }
 ]
