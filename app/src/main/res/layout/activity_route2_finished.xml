@@ -16,19 +16,7 @@
         android:weightSum="1"
 
         >
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="130dp"
-            android:text="@string/text_fertig"
-            android:ems="10"
-            android:id="@+id/text_head"
-            android:textSize="60sp"
-            android:textColor="@color/colorWhite"
-            android:background="@color/live_e.v._green"
-            android:textStyle="bold"
-            android:gravity="center_vertical|center_horizontal"
-            />
+        <include layout="@layout/activity_header_green"/>
 
         <View
             android:layout_width="match_parent"

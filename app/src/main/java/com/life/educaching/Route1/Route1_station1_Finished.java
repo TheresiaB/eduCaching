@@ -37,12 +37,9 @@ public class Route1_station1_Finished extends AppCompatActivity {
         addListenerOnButton();
     }
 
-    public void setTextHeader(){
-
-        TextView myAwesomeTextView = (TextView)findViewById(R.id.text_head);
-
-        //in your OnCreate() method
-        myAwesomeTextView.setText(DecideRouteActivity.whichRoute);
+    public void setTextHeader() {
+        TextView myAwesomeTextView = (TextView) findViewById(R.id.text_head);
+        myAwesomeTextView.setText("Route 1");
     }
 
     public void addListenerOnButton() {
@@ -55,7 +52,6 @@ public class Route1_station1_Finished extends AppCompatActivity {
 
             @Override
             public void onClick(View arg0) {
-                Toast.makeText(Route1_station1_Finished.this, "Button Clicked", Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(context, Route1_station1_TaskActivity.class));
 
             }
@@ -65,7 +61,6 @@ public class Route1_station1_Finished extends AppCompatActivity {
             @Override
             public void onClick (View arg0)
             {
-                Toast.makeText(Route1_station1_Finished.this, "Button Clicked", Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(context, TaskFotoActivity.class));
             }
         });

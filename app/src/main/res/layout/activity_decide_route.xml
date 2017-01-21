@@ -15,6 +15,7 @@
         android:background="@color/colorWhite">
 
         <include layout="@layout/activity_header_white"/>
+
         <View
             android:layout_width="match_parent"
             android:layout_height="3dp"

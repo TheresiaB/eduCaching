@@ -44,11 +44,8 @@ public class Route2_OverviewMapActivity extends AppCompatActivity implements OnM
     }
 
     public void setTextHeader() {
-
         TextView myAwesomeTextView = (TextView) findViewById(R.id.text_head);
-
-        //in your OnCreate() method
-        myAwesomeTextView.setText(DecideRouteActivity.whichRoute);
+        myAwesomeTextView.setText("Übersichtskarte der Route 2");
     }
 
     public void addListenerOnButton() {
@@ -62,7 +59,6 @@ public class Route2_OverviewMapActivity extends AppCompatActivity implements OnM
 
             @Override
             public void onClick(View arg0) {
-                Toast.makeText(Route2_OverviewMapActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(context, Route2_station1_MapActivity.class));
             }
         });
@@ -70,7 +66,6 @@ public class Route2_OverviewMapActivity extends AppCompatActivity implements OnM
 
             @Override
             public void onClick(View arg0) {
-                Toast.makeText(Route2_OverviewMapActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(context, DecideRouteActivity.class));
             }
         });

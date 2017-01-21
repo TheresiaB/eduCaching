@@ -86,7 +86,6 @@ public class TaskTextAudioActivity extends AppCompatActivity {
                     buttonStart.setEnabled(false);
                     buttonStop.setEnabled(true);
 
-                    Toast.makeText(TaskTextAudioActivity.this, "Recording started", Toast.LENGTH_LONG).show();
                 }
                 else {
 
@@ -109,7 +108,6 @@ public class TaskTextAudioActivity extends AppCompatActivity {
                 buttonStart.setEnabled(true);
                 buttonStopPlayingRecording.setEnabled(false);
 
-                Toast.makeText(TaskTextAudioActivity.this, "Recording Completed", Toast.LENGTH_LONG).show();
 
             }
         });
@@ -133,7 +131,6 @@ public class TaskTextAudioActivity extends AppCompatActivity {
 
                 mediaPlayer.start();
 
-                Toast.makeText(TaskTextAudioActivity.this, "Recording Playing", Toast.LENGTH_LONG).show();
 
             }
         });
@@ -206,10 +203,8 @@ public class TaskTextAudioActivity extends AppCompatActivity {
 
                     if (StoragePermission && RecordPermission) {
 
-                        Toast.makeText(TaskTextAudioActivity.this, "Permission Granted", Toast.LENGTH_LONG).show();
                     }
                     else {
-                        Toast.makeText(TaskTextAudioActivity.this,"Permission Denied",Toast.LENGTH_LONG).show();
 
                     }
                 }
@@ -235,7 +230,6 @@ public class TaskTextAudioActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View arg0) {
-                Toast.makeText(TaskTextAudioActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(context, Station_Finished_Activity.class));
             }
         });
@@ -244,7 +238,6 @@ public class TaskTextAudioActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View arg0) {
-                Toast.makeText(TaskTextAudioActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(context, Route1_station2_MapActivity.class));
             }
         });

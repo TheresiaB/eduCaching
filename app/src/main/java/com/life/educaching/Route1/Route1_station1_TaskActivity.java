@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.life.educaching.R;
@@ -34,9 +35,15 @@ public class Route1_station1_TaskActivity extends AppCompatActivity {
         onRadioButtonClicked();
     }
 
+    public void setTextHeader() {
+        TextView myAwesomeTextView = (TextView) findViewById(R.id.text_head);
+        myAwesomeTextView.setText("Route 1");
+    }
+
 
     public void onRadioButtonClicked() {
         radioGroup = (RadioGroup) findViewById(R.id.radioGroup);
+       /*
         btnDisplay = (Button) findViewById(R.id.btnDisplay);
 
         btnDisplay.setOnClickListener(new View.OnClickListener() {
@@ -50,12 +57,10 @@ public class Route1_station1_TaskActivity extends AppCompatActivity {
                 // find the radiobutton by returned id
                 radioButton = (RadioButton) findViewById(selectedId);
 
-                Toast.makeText(Route1_station1_TaskActivity.this,
-                        radioButton.getText(), Toast.LENGTH_SHORT).show();
 
             }
 
-        });
+        });*/
     }
 
 
@@ -68,7 +73,6 @@ public class Route1_station1_TaskActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View arg0) {
-                Toast.makeText(Route1_station1_TaskActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(context, Route1_station1_Finished.class));
             }
         });
@@ -77,7 +81,6 @@ public class Route1_station1_TaskActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View arg0) {
-                Toast.makeText(Route1_station1_TaskActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(context, Route1_station1_InformationPictureActivity.class));
             }
         });

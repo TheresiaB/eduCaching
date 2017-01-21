@@ -15,6 +15,7 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.Chronometer;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.life.educaching.R;
@@ -46,6 +47,7 @@ public class Route2_station1_TaskActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_route2_station1_task);
         addListenerOnButton();
+        setTextHeader();
         getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_HIDDEN);
 
         buttonStart = (Button) findViewById(R.id.recording_button);
@@ -85,7 +87,6 @@ public class Route2_station1_TaskActivity extends AppCompatActivity {
                     buttonStart.setEnabled(false);
                     buttonStop.setEnabled(true);
 
-                    Toast.makeText(Route2_station1_TaskActivity.this, "Recording started", Toast.LENGTH_LONG).show();
                 }
                 else {
 
@@ -108,7 +109,6 @@ public class Route2_station1_TaskActivity extends AppCompatActivity {
                 buttonStart.setEnabled(true);
                 buttonStopPlayingRecording.setEnabled(false);
 
-                Toast.makeText(Route2_station1_TaskActivity.this, "Recording Completed", Toast.LENGTH_LONG).show();
 
             }
         });
@@ -132,7 +132,6 @@ public class Route2_station1_TaskActivity extends AppCompatActivity {
 
                 mediaPlayer.start();
 
-                Toast.makeText(Route2_station1_TaskActivity.this, "Recording Playing", Toast.LENGTH_LONG).show();
 
             }
         });
@@ -157,6 +156,11 @@ public class Route2_station1_TaskActivity extends AppCompatActivity {
 
             }
         });
+    }
+
+    public void setTextHeader() {
+        TextView myAwesomeTextView = (TextView) findViewById(R.id.text_head);
+        myAwesomeTextView.setText("Route 2");
     }
 
     public void MediaRecorderReady(){
@@ -205,10 +209,8 @@ public class Route2_station1_TaskActivity extends AppCompatActivity {
 
                     if (StoragePermission && RecordPermission) {
 
-                        Toast.makeText(Route2_station1_TaskActivity.this, "Permission Granted", Toast.LENGTH_LONG).show();
                     }
                     else {
-                        Toast.makeText(Route2_station1_TaskActivity.this,"Permission Denied",Toast.LENGTH_LONG).show();
 
                     }
                 }
@@ -234,7 +236,6 @@ public class Route2_station1_TaskActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View arg0) {
-                Toast.makeText(Route2_station1_TaskActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(context, Route2_station1_Finished.class));
             }
         });
@@ -243,7 +244,6 @@ public class Route2_station1_TaskActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View arg0) {
-                Toast.makeText(Route2_station1_TaskActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(context, Route2_station1_InformationVideoActivity.class));
             }
         });

@@ -12,20 +12,13 @@ import com.life.educaching.R;
 
 public class HeaderGreenActivity extends AppCompatActivity {
 
+    HeaderGreenActivity headerGreenActivity;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_header_green);
-        setTextHeader();
-
     }
 
-    public void setTextHeader(){
 
-        TextView myAwesomeTextView = (TextView)findViewById(R.id.text_head);
-
-        //in your OnCreate() method
-        myAwesomeTextView.setText(DecideRouteActivity.whichRoute);
-    }
 }

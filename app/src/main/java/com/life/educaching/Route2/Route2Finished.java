@@ -50,12 +50,9 @@ public class Route2Finished extends AppCompatActivity implements OnMapReadyCallb
         mapFragment.getMapAsync(this);
     }
 
-    public void setTextHeader(){
-
-        TextView myAwesomeTextView = (TextView)findViewById(R.id.text_head);
-
-        //in your OnCreate() method
-        myAwesomeTextView.setText(DecideRouteActivity.whichRoute);
+    public void setTextHeader() {
+        TextView myAwesomeTextView = (TextView) findViewById(R.id.text_head);
+        myAwesomeTextView.setText("Route 2");
     }
 
     public void addListenerOnButton() {
@@ -67,7 +64,6 @@ public class Route2Finished extends AppCompatActivity implements OnMapReadyCallb
 
             @Override
             public void onClick(View arg0) {
-                Toast.makeText(Route2Finished.this, "Button Clicked", Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(context, TaskTextAudioActivity.class));
             }
         });

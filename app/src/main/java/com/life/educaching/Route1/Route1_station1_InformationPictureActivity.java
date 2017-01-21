@@ -34,12 +34,9 @@ public class Route1_station1_InformationPictureActivity extends AppCompatActivit
         addListenerOnButton();
     }
 
-    public void setTextHeader(){
-
-        TextView myAwesomeTextView = (TextView)findViewById(R.id.text_head);
-
-        //in your OnCreate() method
-        myAwesomeTextView.setText(DecideRouteActivity.whichRoute);
+    public void setTextHeader() {
+        TextView myAwesomeTextView = (TextView) findViewById(R.id.text_head);
+        myAwesomeTextView.setText("Route 1");
     }
 
 
@@ -53,7 +50,6 @@ public class Route1_station1_InformationPictureActivity extends AppCompatActivit
 
             @Override
             public void onClick(View arg0) {
-                Toast.makeText(Route1_station1_InformationPictureActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(context, Route1_station1_TaskActivity.class));
             }
         });
@@ -62,7 +58,6 @@ public class Route1_station1_InformationPictureActivity extends AppCompatActivit
 
             @Override
             public void onClick(View arg0) {
-                Toast.makeText(Route1_station1_InformationPictureActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(context, Route1_station1_MapActivity.class));
             }
         });

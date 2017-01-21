@@ -43,13 +43,11 @@ public class Route2_station2_MapActivity extends AppCompatActivity implements On
         mapFragment.getMapAsync(this);
     }
 
-    public void setTextHeader(){
-
-        TextView myAwesomeTextView = (TextView)findViewById(R.id.text_head);
-
-        //in your OnCreate() method
-        myAwesomeTextView.setText(DecideRouteActivity.whichRoute);
+    public void setTextHeader() {
+        TextView myAwesomeTextView = (TextView) findViewById(R.id.text_head);
+        myAwesomeTextView.setText("Route 2 - Station 2");
     }
+
     public void addListenerOnButton() {
 
         final Context context = this;
@@ -61,7 +59,6 @@ public class Route2_station2_MapActivity extends AppCompatActivity implements On
 
             @Override
             public void onClick(View arg0) {
-                Toast.makeText(Route2_station2_MapActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(context, TaskTextAudioActivity.class));
             }
         });
@@ -69,7 +66,6 @@ public class Route2_station2_MapActivity extends AppCompatActivity implements On
 
             @Override
             public void onClick(View arg0) {
-                Toast.makeText(Route2_station2_MapActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(context, Route1_station1_MapActivity.class));
             }
         });

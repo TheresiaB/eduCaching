@@ -54,7 +54,6 @@ public class TaskFotoActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View arg0) {
-                Toast.makeText(TaskFotoActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(context, InformationVideoActivity.class));
             }
         });
@@ -62,7 +61,6 @@ public class TaskFotoActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View arg0) {
-                Toast.makeText(TaskFotoActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(context, InformationPictureActivity.class));
             }
         });

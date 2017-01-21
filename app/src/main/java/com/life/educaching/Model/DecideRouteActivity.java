@@ -37,6 +37,8 @@ public class DecideRouteActivity extends  AppCompatActivity{
         ButtonTakeRoute();
     }
 
+
+
     public void addListenerOnSpinnerItemSelection() {
         spinner1 = (Spinner) findViewById(R.id.spinner1);
         spinner1.setOnItemSelectedListener(new CustomOnItemSelectedListener());
@@ -51,10 +53,6 @@ public class DecideRouteActivity extends  AppCompatActivity{
             @Override
             public void onClick(View v) {
 
-                Toast.makeText(DecideRouteActivity.this,
-                        "OnClickListener : " +
-                                "\nSpinner 1 : "+ String.valueOf(spinner1.getSelectedItem()),
-                        Toast.LENGTH_SHORT).show();
             }
 
         });
@@ -78,26 +76,22 @@ public class DecideRouteActivity extends  AppCompatActivity{
                 switch (arg2) {
                     case 0:
                         final Intent i = new Intent();
-                        whichRoute = "Route 1";
                         i.setClass(DecideRouteActivity.this, Route1_OverviewMapActivity.class);
                         buttonTake.setOnClickListener(new View.OnClickListener() {
 
                             @Override
                             public void onClick(View arg0) {
-                                Toast.makeText(DecideRouteActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
                                 startActivity(i);
                             }
                         });
                         break;
                     case 1:
                         final Intent ir = new Intent();
-                        whichRoute = "Route 2";
                         ir.setClass(DecideRouteActivity.this, Route2_OverviewMapActivity.class);
                         buttonTake.setOnClickListener(new View.OnClickListener() {
 
                             @Override
                             public void onClick(View arg0) {
-                                Toast.makeText(DecideRouteActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
                                 startActivity(ir);
                             }
                         });

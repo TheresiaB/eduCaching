@@ -35,6 +35,7 @@ public class TaskMultipleChoiceActivity extends AppCompatActivity {
 
     public void onRadioButtonClicked() {
         radioGroup = (RadioGroup) findViewById(R.id.radioGroup);
+        /*
         btnDisplay = (Button) findViewById(R.id.btnDisplay);
 
         btnDisplay.setOnClickListener(new View.OnClickListener() {
@@ -48,12 +49,10 @@ public class TaskMultipleChoiceActivity extends AppCompatActivity {
                 // find the radiobutton by returned id
                 radioButton = (RadioButton) findViewById(selectedId);
 
-                Toast.makeText(TaskMultipleChoiceActivity.this,
-                        radioButton.getText(), Toast.LENGTH_SHORT).show();
 
             }
 
-        });
+        });*/
     }
 
 
@@ -66,7 +65,6 @@ public class TaskMultipleChoiceActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View arg0) {
-                Toast.makeText(TaskMultipleChoiceActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(context, Station_Finished_Activity.class));
             }
         });
@@ -75,7 +73,6 @@ public class TaskMultipleChoiceActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View arg0) {
-                Toast.makeText(TaskMultipleChoiceActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(context, InformationPictureActivity.class));
             }
         });

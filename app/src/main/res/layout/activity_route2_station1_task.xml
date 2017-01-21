@@ -66,7 +66,7 @@
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="270dp"
+            android:layout_height="300dp"
             >
 
             <TextView
@@ -88,7 +88,7 @@
             <EditText
                 android:id="@+id/editText1"
                 android:layout_width="600dp"
-                android:layout_height="230dp"
+                android:layout_height="270dp"
                 android:gravity="top|left"
                 android:ems="20"
                 android:layout_marginLeft="15dp"
@@ -109,11 +109,11 @@
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="60dp"
             android:weightSum="1">
 
             <TextView
-                android:layout_width="690dp"
+                android:layout_width="770dp"
                 android:layout_height="50dp"
                 android:paddingStart="70dp"
                 android:paddingLeft="70dp"
@@ -121,70 +121,22 @@
                 android:paddingRight="0dp"
                 />
 
-            <Button
+
+            <ImageButton
                 android:id="@+id/recording_button"
-                android:layout_width="130dp"
-                android:layout_height="40dp"
-                android:text="Antwort aufnehmen"
-                android:textSize="10sp"
-                android:layout_marginTop="6dp"
-                android:background="@drawable/button_border"
-                android:textColor="@color/colorWhite" />
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/addrecord" />
 
 
-            <Button
+            <ImageButton
                 android:id="@+id/stop_button"
-                android:layout_width="130dp"
-                android:layout_height="40dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:enabled="false"
-                android:text="Antwort aufnehmen stoppen"
                 android:layout_marginLeft="10dp"
-                android:layout_marginTop="0dp"
-                android:textSize="10sp"
-                android:background="@drawable/button_border"
-                android:textColor="@color/colorWhite"/>
+                android:background="@drawable/stopbutton" />
 
-            <Button
-                android:id="@+id/play_button"
-                android:layout_width="130dp"
-                android:layout_height="40dp"
-                android:enabled="false"
-                android:text="Antwort abspielen"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="6dp"
-
-                android:textSize="10sp"
-                android:background="@drawable/button_border"
-                android:textColor="@color/colorWhite"/>
-
-            <Button
-                android:id="@+id/stopplay_button"
-                android:layout_width="130dp"
-                android:layout_height="40dp"
-                android:enabled="false"
-                android:text="Antwort abspielen stoppen"
-                android:layout_marginLeft="10dp"
-                android:textSize="10sp"
-                android:background="@drawable/button_border"
-                android:textColor="@color/colorWhite"
-                />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="45dp"
-            android:weightSum="1">
-
-            <TextView
-                android:layout_width="700dp"
-                android:layout_height="57dp"
-                android:paddingStart="70dp"
-                android:paddingLeft="70dp"
-                android:paddingEnd="0dp"
-                android:paddingRight="0dp"
-                />
 
             <Chronometer
                 android:id="@+id/chronometer"
@@ -192,13 +144,26 @@
                 android:layout_height="57dp"
                 android:layout_marginBottom="16dp"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="230dp"
+                android:layout_marginLeft="60dp"
                 android:textSize="30sp" />
 
+
+            <ImageButton
+                android:id="@+id/play_button"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="60dp"
+                android:background="@drawable/playrecord" />
+
+            <ImageButton
+                android:id="@+id/stopplay_button"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:enabled="false"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/pausebutton" />
+
         </LinearLayout>
-
-
-
 
         <View
             android:layout_width="match_parent"
