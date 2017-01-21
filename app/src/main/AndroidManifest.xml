@@ -56,6 +56,56 @@
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
+            android:name=".Route1.Route1_station1_InfoVideoActivity"
+            android:label="@string/title_activity_video_view"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Route1.Route1_station1_TaskVideoActivity"
+            android:label="@string/title_activity_video_view"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.life.educaching.Route1.Route1_station2_Finished"
+            android:label="@string/title_activity_video_view"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.life.educaching.Route1.Route1_station2_TaskVideoActivity"
+            android:label="@string/title_activity_video_view"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.life.educaching.Route1.Route1_station3_Finished"
+            android:label="@string/title_activity_video_view"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.life.educaching.Route1.Route1_station3_InfoVideoActivity"
+            android:label="@string/title_activity_video_view"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.life.educaching.Route1.Route1_station3_TaskTextActivity"
+            android:label="@string/title_activity_video_view"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.life.educaching.Route1.Route1_station4_Finished"
+            android:label="@string/title_activity_video_view"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.life.educaching.Route1.Route1_station4_InfoPictureActivity"
+            android:label="@string/title_activity_video_view"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.life.educaching.Route1.Route1_station4_TaskPictureActivity"
+            android:label="@string/title_activity_video_view"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
             android:name=".Model.InformationPictureActivity"
             android:label="PictureActivity"
             android:screenOrientation="landscape"
@@ -86,18 +136,13 @@
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".Route1.Route1_station1_InformationPictureActivity"
+            android:name=".Route1.Route1_station2_InfoPictureActivity"
             android:label="Route1_station1_InformationPictureActivity"
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Route2.Route2_station1_InformationVideoActivity"
             android:label="Route2_station1_InformationVideoActivity"
-            android:screenOrientation="landscape"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".Route1.Route1_station1_TaskActivity"
-            android:label="Route1_station1_TaskActivity"
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
@@ -162,7 +207,7 @@
 
 
         <activity
-            android:name=".CaptureVideoActivity"
+            android:name=".Model.CaptureVideoActivity"
             android:label="@string/title_activity_capture_video"
             android:theme="@style/AppTheme">
         </activity>

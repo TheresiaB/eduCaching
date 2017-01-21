@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.life.educaching.Route1.Route1_station1_Finished">
+    tools:context="com.life.educaching.Route1.Route1_station4_Finished">
 
 
     <LinearLayout
@@ -51,7 +51,7 @@
                 android:id="@+id/Station_1_abschließen"
                 android:layout_width="410dp"
                 android:layout_height="80dp"
-                android:text="Weiter zur nächsten Station"
+                android:text="Stationen abschließen"
                 android:textSize="26sp"
                 android:background="@drawable/button_border"
                 android:textColor="@color/colorWhite"

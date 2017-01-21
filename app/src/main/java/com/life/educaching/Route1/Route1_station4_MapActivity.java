@@ -40,7 +40,8 @@ public class Route1_station4_MapActivity extends AppCompatActivity implements On
         addListenerOnButton();
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
-        mapFragment.getMapAsync(this);}
+        mapFragment.getMapAsync(this);
+    }
 
     public void setTextHeader() {
         TextView myAwesomeTextView = (TextView) findViewById(R.id.text_head);
@@ -58,14 +59,14 @@ public class Route1_station4_MapActivity extends AppCompatActivity implements On
 
             @Override
             public void onClick(View arg0) {
-                startActivity(new Intent(context, TaskTextAudioActivity.class));
+                startActivity(new Intent(context, Route1_station4_InfoPictureActivity.class));
             }
         });
         buttonBack.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View arg0) {
-                startActivity(new Intent(context, Route1_station1_MapActivity.class));
+                startActivity(new Intent(context, Route1_station3_Finished.class));
             }
         });
     }
