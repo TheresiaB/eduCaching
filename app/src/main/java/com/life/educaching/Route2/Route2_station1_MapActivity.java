@@ -81,7 +81,7 @@ public class Route2_station1_MapActivity extends AppCompatActivity implements On
         mMap = googleMap;
         // Marker in der 3. Station hinzufügen und die Kamera bewegen
         LatLng friedrichstrasse = new LatLng(52.5137447, 13.389356700000008);
-        mMap.addMarker(new MarkerOptions().position(friedrichstrasse).title("Marker in der 1. Station")).showInfoWindow();
+        mMap.addMarker(new MarkerOptions().position(friedrichstrasse).title("Marker in der 1. Station").icon(MapMethods.createIcon(this, R.drawable.station1_icon, 150, 100)));
         LatLng startLifeEV = new LatLng(52.4667117, 13.3285014);
         mMap.addMarker(new MarkerOptions().position(startLifeEV).title("Du bist hier")).showInfoWindow();
 

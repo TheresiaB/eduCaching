@@ -79,10 +79,10 @@ public class Route2_station2_MapActivity extends AppCompatActivity implements On
         mMap = googleMap;
         // Marker in der 3. Station hinzufügen und die Kamera bewegen
         LatLng reichstag = new LatLng(52.5185353, 13.37318849999997);
-        mMap.addMarker(new MarkerOptions().position(reichstag).title("Marker in der 2. Station")).showInfoWindow();
+        mMap.addMarker(new MarkerOptions().position(reichstag).title("Marker in der 2. Station").icon(MapMethods.createIcon(this, R.drawable.station2_icon, 150, 100)));
 
         LatLng friedrichstrasse = new LatLng(52.5137447, 13.389356700000008);
-        mMap.addMarker(new MarkerOptions().position(friedrichstrasse).title("Marker in der 1. Station")).showInfoWindow();
+        mMap.addMarker(new MarkerOptions().position(friedrichstrasse).title("Du bist hier")).showInfoWindow();
 
         LatLngBounds route = MapMethods.calculateLatLngBounds(new LatLng[]{friedrichstrasse, reichstag});
         mMap.moveCamera(CameraUpdateFactory.newLatLngBounds(route, 50));

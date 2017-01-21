@@ -78,10 +78,10 @@ public class Route1_station4_MapActivity extends AppCompatActivity implements On
         mMap = googleMap;
         // Marker in der 3. Station hinzufügen und die Kamera bewegen
         LatLng alexanderplatz = new LatLng(52.5215855, 13.411163999999985);
-        mMap.addMarker(new MarkerOptions().position(alexanderplatz).title("Marker in der 4. Station")).showInfoWindow();
+        mMap.addMarker(new MarkerOptions().position(alexanderplatz).title("Marker in der 4. Station").icon(MapMethods.createIcon(this, R.drawable.station4_icon, 150, 100)));
 
         LatLng hauptbahnhof = new LatLng(52.5250839, 13.369402000000036);
-        mMap.addMarker(new MarkerOptions().position(hauptbahnhof).title("Marker in der 3. Station")).showInfoWindow();
+        mMap.addMarker(new MarkerOptions().position(hauptbahnhof).title("Du bist hier")).showInfoWindow();
 
         LatLngBounds route = MapMethods.calculateLatLngBounds(new LatLng[]{hauptbahnhof, alexanderplatz});
         mMap.moveCamera(CameraUpdateFactory.newLatLngBounds(route, 50));
