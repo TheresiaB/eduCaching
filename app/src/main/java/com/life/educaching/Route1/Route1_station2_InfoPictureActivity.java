@@ -18,7 +18,7 @@ import com.life.educaching.R;
  * Created by theresia on 01.12.16.
  */
 
-public class Route1_station1_InformationPictureActivity extends AppCompatActivity {
+public class Route1_station2_InfoPictureActivity extends AppCompatActivity {
 
     Button buttonNext;
     Button buttonBack;
@@ -26,7 +26,7 @@ public class Route1_station1_InformationPictureActivity extends AppCompatActivit
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_route1_station1_information_picture);
+        setContentView(R.layout.activity_route1_station2_info_picture);
         Typeface myTypeface = Typeface.createFromAsset(getAssets(), "OpenSans-Regular.ttf");
         TextView myTextview = (TextView) findViewById(R.id.text_head);
         myTextview.setTypeface(myTypeface);
@@ -36,7 +36,7 @@ public class Route1_station1_InformationPictureActivity extends AppCompatActivit
 
     public void setTextHeader() {
         TextView myAwesomeTextView = (TextView) findViewById(R.id.text_head);
-        myAwesomeTextView.setText("Route 1");
+        myAwesomeTextView.setText("Station 2");
     }
 
 
@@ -50,7 +50,7 @@ public class Route1_station1_InformationPictureActivity extends AppCompatActivit
 
             @Override
             public void onClick(View arg0) {
-                startActivity(new Intent(context, Route1_station1_TaskActivity.class));
+                startActivity(new Intent(context, Route1_station2_TaskVideoActivity.class));
             }
         });
 
@@ -58,7 +58,7 @@ public class Route1_station1_InformationPictureActivity extends AppCompatActivit
 
             @Override
             public void onClick(View arg0) {
-                startActivity(new Intent(context, Route1_station1_MapActivity.class));
+                startActivity(new Intent(context, Route1_station2_MapActivity.class));
             }
         });
     }

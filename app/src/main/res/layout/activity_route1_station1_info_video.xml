@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.life.educaching.Route1.Route1_station1_InfoVideoActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+        <include layout="@layout/activity_header_green"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@color/colorGrey_lines"
+
+            />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="740dp"
+                android:layout_height="100dp"
+                android:text="@string/Head_Text_Video"
+                android:ems="10"
+                android:id="@+id/editText2"
+                android:textColor="@color/colorGrey_text"
+                android:textSize="40sp"
+                android:paddingStart="70dp"
+                android:paddingLeft="70dp"
+                android:paddingEnd="0dp"
+                android:paddingRight="0dp"
+                android:gravity="center_vertical"
+                android:textStyle="bold"
+                />
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="300dp">
+
+
+            <TextView
+                android:layout_width="800dp"
+                android:layout_height="330dp"
+                android:ems="10"
+                android:id="@+id/editText3"
+                android:text="@string/Lorem_Ipsum"
+                android:textColor="@color/colorGrey_text"
+                android:textSize="18sp"
+                android:layout_marginStart="70dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginEnd="70dp"
+                android:layout_marginRight="70dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1" />
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="650dp"
+                android:layout_height="match_parent"
+                >
+
+                <VideoView
+                    android:id="@+id/route2Station1Video"
+                    android:layout_width="650dp"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/layout_Video_Beschreibung"
+                    android:layout_marginStart="70dp"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginEnd="70dp"
+                    android:layout_marginRight="70dp"
+                    android:layout_gravity="center"
+                    android:adjustViewBounds="true"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="770dp"
+                android:layout_height="wrap_content" />
+
+
+            <ImageButton
+                android:id="@+id/video_play_button"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:background="@drawable/playbutton" />
+
+            <ImageButton
+                android:id="@+id/video_pause_button"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:background="@drawable/pausebutton" />
+
+            <ImageButton
+                android:id="@+id/video_stop_button"
+                android:layout_width="30dp"
+                android:layout_height="60dp"
+                android:background="@drawable/stopbutton"
+                android:layout_weight="0.14" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorGrey_lines"
+            />
+
+        <include
+            android:id="@+id/footer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            layout="@layout/activity_button_next_back"/>
+
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

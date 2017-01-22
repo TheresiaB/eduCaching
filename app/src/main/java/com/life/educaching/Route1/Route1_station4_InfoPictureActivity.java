@@ -1,4 +1,4 @@
-package com.life.educaching.Route2;
+package com.life.educaching.Route1;
 
 import android.content.Context;
 import android.content.Intent;
@@ -9,26 +9,23 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.life.educaching.Model.CaptureVideoActivity;
 import com.life.educaching.Model.MapsActivity;
 import com.life.educaching.R;
 
 /**
- * Created by theresia on 07.01.17.
+ * Created by theresia on 21.01.17.
  */
 
-public class Route2_station1_Finished extends AppCompatActivity{
-
+public class Route1_station4_InfoPictureActivity extends AppCompatActivity{
 
 
     Button buttonNext;
     Button buttonBack;
-    Button buttonStationDone;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_route2_station1_finished);
+        setContentView(R.layout.activity_route1_station4_info_picture);
         Typeface myTypeface = Typeface.createFromAsset(getAssets(), "OpenSans-Regular.ttf");
         TextView myTextview = (TextView) findViewById(R.id.text_head);
         myTextview.setTypeface(myTypeface);
@@ -38,41 +35,36 @@ public class Route2_station1_Finished extends AppCompatActivity{
 
     public void setTextHeader() {
         TextView myAwesomeTextView = (TextView) findViewById(R.id.text_head);
-        myAwesomeTextView.setText("Route 2");
+        myAwesomeTextView.setText("Station 4");
     }
+
 
     public void addListenerOnButton() {
 
         final Context context = this;
+        buttonNext = (Button) findViewById(R.id.button_next);
         buttonBack = (Button) findViewById(R.id.button_back);
-        buttonStationDone = (Button) findViewById(R.id.Station_1_abschließen) ;
+
+        buttonNext.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View arg0) {
+                startActivity(new Intent(context, Route1_station4_TaskPictureActivity.class));
+            }
+        });
 
         buttonBack.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View arg0) {
-                startActivity(new Intent(context, CaptureVideoActivity.class));
-
+                startActivity(new Intent(context, Route1_station4_MapActivity.class));
             }
         });
-        buttonStationDone.setOnClickListener(new View.OnClickListener()
-        {
-            @Override
-            public void onClick (View arg0)
-            {
-                startActivity(new Intent(context, CaptureVideoActivity.class));
-            }
-        });
-
-
     }
 
     public void openMap (View view) {
         Intent intent = new Intent (this, MapsActivity.class);
         startActivity(intent);
     }
-
-
-
 
 }

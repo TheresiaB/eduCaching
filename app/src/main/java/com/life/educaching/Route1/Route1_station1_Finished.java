@@ -34,12 +34,18 @@ public class Route1_station1_Finished extends AppCompatActivity {
         TextView myTextview = (TextView) findViewById(R.id.text_head);
         myTextview.setTypeface(myTypeface);
         setTextHeader();
+        setText();
         addListenerOnButton();
     }
 
     public void setTextHeader() {
         TextView myAwesomeTextView = (TextView) findViewById(R.id.text_head);
-        myAwesomeTextView.setText("Route 1");
+        myAwesomeTextView.setText("Station 1");
+    }
+
+    public void setText() {
+        TextView myAwesomeTextView = (TextView) findViewById(R.id.text_finished);
+        myAwesomeTextView.setText("Station 1 beendet");
     }
 
     public void addListenerOnButton() {
@@ -52,7 +58,7 @@ public class Route1_station1_Finished extends AppCompatActivity {
 
             @Override
             public void onClick(View arg0) {
-                startActivity(new Intent(context, Route1_station1_TaskActivity.class));
+                startActivity(new Intent(context, Route1_station1_TaskVideoActivity.class));
 
             }
         });
@@ -61,7 +67,7 @@ public class Route1_station1_Finished extends AppCompatActivity {
             @Override
             public void onClick (View arg0)
             {
-                startActivity(new Intent(context, TaskFotoActivity.class));
+                startActivity(new Intent(context, Route1_station2_MapActivity.class));
             }
         });
 

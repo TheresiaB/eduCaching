@@ -1,4 +1,4 @@
-package com.life.educaching.Model;
+package com.life.educaching.Route1;
 
 import android.content.Context;
 import android.content.Intent;
@@ -15,11 +15,10 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.Chronometer;
+import android.widget.ImageButton;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.life.educaching.R;
-import com.life.educaching.Route1.Route1_station2_MapActivity;
 import com.life.educaching.Route2.Route2_station1_Finished;
 import com.life.educaching.Route2.Route2_station1_InformationVideoActivity;
 import com.life.educaching.Route2.Route2_station1_TaskActivity;
@@ -31,12 +30,12 @@ import static android.Manifest.permission.RECORD_AUDIO;
 import static android.Manifest.permission.WRITE_EXTERNAL_STORAGE;
 
 /**
- * Created by theresia on 15.12.16.
+ * Created by theresia on 21.01.17.
  */
 
-public class TaskTextAudioActivity extends AppCompatActivity {
+public class Route1_station3_TaskTextActivity extends AppCompatActivity{
 
-    Button buttonStart, buttonStop, buttonPlayLastRecordAudio, buttonStopPlayingRecording ;
+    ImageButton buttonPlayLastRecordAudio, buttonStart, buttonStop, buttonStopPlayingRecording;
     String AudioSavePathInDevice = null;
     MediaRecorder mediaRecorder ;
     Random random ;
@@ -49,15 +48,15 @@ public class TaskTextAudioActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_route2_station1_task);
+        setContentView(R.layout.activity_route1_station3_task_text);
         addListenerOnButton();
         setTextHeader();
         getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_HIDDEN);
 
-        buttonStart = (Button) findViewById(R.id.recording_button);
-        buttonStop = (Button) findViewById(R.id.stop_button);
-        buttonPlayLastRecordAudio = (Button) findViewById(R.id.play_button);
-        buttonStopPlayingRecording = (Button)findViewById(R.id.stopplay_button);
+        buttonStart = (ImageButton) findViewById(R.id.recording_button);
+        buttonStop = (ImageButton) findViewById(R.id.stop_button);
+        buttonPlayLastRecordAudio = (ImageButton) findViewById(R.id.play_button);
+        buttonStopPlayingRecording = (ImageButton)findViewById(R.id.stopplay_button);
 
         buttonStop.setEnabled(false);
         buttonPlayLastRecordAudio.setEnabled(false);
@@ -164,7 +163,7 @@ public class TaskTextAudioActivity extends AppCompatActivity {
 
     public void setTextHeader() {
         TextView myAwesomeTextView = (TextView) findViewById(R.id.text_head);
-        myAwesomeTextView.setText("Route 2");
+        myAwesomeTextView.setText("Station 3");
     }
 
     public void MediaRecorderReady(){
@@ -198,7 +197,7 @@ public class TaskTextAudioActivity extends AppCompatActivity {
 
     private void requestPermission() {
 
-        ActivityCompat.requestPermissions(TaskTextAudioActivity.this, new String[]{WRITE_EXTERNAL_STORAGE, RECORD_AUDIO}, RequestPermissionCode);
+        ActivityCompat.requestPermissions(Route1_station3_TaskTextActivity.this, new String[]{WRITE_EXTERNAL_STORAGE, RECORD_AUDIO}, RequestPermissionCode);
 
     }
 
@@ -240,7 +239,7 @@ public class TaskTextAudioActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View arg0) {
-                startActivity(new Intent(context, Route2_station1_Finished.class));
+                startActivity(new Intent(context, Route1_station3_Finished.class));
             }
         });
 
@@ -248,10 +247,8 @@ public class TaskTextAudioActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View arg0) {
-                startActivity(new Intent(context, Route2_station1_InformationVideoActivity.class));
+                startActivity(new Intent(context, Route1_station3_InfoVideoActivity.class));
             }
         });
     }
-
-
 }

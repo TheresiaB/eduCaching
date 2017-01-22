@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.life.educaching.Model.CaptureVideoActivity">
+    tools:context="com.life.educaching.Route1.Route1_station1_TaskVideoActivity">
 
     <LinearLayout
         android:orientation="vertical"
@@ -159,17 +159,7 @@
                 android:layout_alignParentBottom="true"
                 layout="@layout/activity_button_next_back"/>
 
-            <Button
-                android:text="Hilfe"
-                android:id="@+id/Hilfe"
-                android:layout_width="205dp"
-                android:layout_height="80dp"
-                android:textSize="26sp"
-                android:background="@drawable/button_border"
-                android:textColor="@color/colorWhite"
-                android:layout_centerHorizontal="true"
-                android:layout_centerVertical="true"
-                />
+
         </RelativeLayout>
 
 
