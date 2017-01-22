@@ -51,7 +51,7 @@
                 android:id="@+id/Station_1_abschließen"
                 android:layout_width="410dp"
                 android:layout_height="80dp"
-                android:text="Weiter zur nächsten Station"
+                android:text="Station abschließen"
                 android:textSize="26sp"
                 android:background="@drawable/button_border"
                 android:textColor="@color/colorWhite"

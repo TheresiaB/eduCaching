@@ -64,7 +64,7 @@ public class Route2Finished extends AppCompatActivity implements OnMapReadyCallb
 
             @Override
             public void onClick(View arg0) {
-                startActivity(new Intent(context, TaskTextAudioActivity.class));
+                startActivity(new Intent(context, Route2_station4_Finished.class));
             }
         });
 

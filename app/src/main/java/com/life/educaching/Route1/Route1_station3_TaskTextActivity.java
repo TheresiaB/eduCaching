@@ -19,9 +19,6 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 
 import com.life.educaching.R;
-import com.life.educaching.Route2.Route2_station1_Finished;
-import com.life.educaching.Route2.Route2_station1_InformationVideoActivity;
-import com.life.educaching.Route2.Route2_station1_TaskActivity;
 
 import java.io.IOException;
 import java.util.Random;

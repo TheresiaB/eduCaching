@@ -1,4 +1,4 @@
-package com.life.educaching.Route1;
+package com.life.educaching.Route2;
 
 import android.content.Context;
 import android.content.Intent;
@@ -18,12 +18,14 @@ import com.google.android.gms.appindexing.AppIndex;
 import com.google.android.gms.appindexing.Thing;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.life.educaching.R;
+import com.life.educaching.Route1.Route1_station2_Finished;
+import com.life.educaching.Route1.Route1_station2_InfoPicutreActivity;
 
 /**
- * Created by theresia on 21.01.17.
+ * Created by theresia on 22.01.17.
  */
 
-public class Route1_station2_TaskVideoActivity extends AppCompatActivity {
+public class Route2_station2_TaskVideoActivity extends AppCompatActivity {
 
     Button mRecordView, mPlayView;
     ImageButton mPlayButtonView;
@@ -41,7 +43,7 @@ public class Route1_station2_TaskVideoActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_route1_station2_task_video);
+        setContentView(R.layout.activity_route2_station2_task_video);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         addListenerOnButton();
@@ -130,7 +132,7 @@ public class Route1_station2_TaskVideoActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View arg0) {
-                startActivity(new Intent(context, Route1_station2_Finished.class));
+                startActivity(new Intent(context, Route2_station2_Finished.class));
             }
         });
 
@@ -138,7 +140,7 @@ public class Route1_station2_TaskVideoActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View arg0) {
-                startActivity(new Intent(context, Route1_station2_InfoPicutreActivity.class));
+                startActivity(new Intent(context, Route2_station2_InfoVideoActivity.class));
             }
         });
     }

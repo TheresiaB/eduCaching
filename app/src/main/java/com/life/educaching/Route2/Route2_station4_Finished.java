@@ -9,16 +9,16 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.life.educaching.Model.CaptureVideoActivity;
 import com.life.educaching.Model.MapsActivity;
 import com.life.educaching.R;
+import com.life.educaching.Route1.Route1Finished;
+import com.life.educaching.Route1.Route1_station4_TaskPictureActivity;
 
 /**
- * Created by theresia on 07.01.17.
+ * Created by theresia on 22.01.17.
  */
 
-public class Route2_station1_Finished extends AppCompatActivity{
-
+public class Route2_station4_Finished extends AppCompatActivity{
 
 
     Button buttonNext;
@@ -28,7 +28,7 @@ public class Route2_station1_Finished extends AppCompatActivity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_route2_station1_finished);
+        setContentView(R.layout.activity_route2_station4_finished);
         Typeface myTypeface = Typeface.createFromAsset(getAssets(), "OpenSans-Regular.ttf");
         TextView myTextview = (TextView) findViewById(R.id.text_head);
         myTextview.setTypeface(myTypeface);
@@ -37,16 +37,16 @@ public class Route2_station1_Finished extends AppCompatActivity{
         addListenerOnButton();
     }
 
+    public void setTextHeader() {
+        TextView myAwesomeTextView = (TextView) findViewById(R.id.text_head);
+        myAwesomeTextView.setText("Station 4");
+    }
 
     public void setText() {
         TextView myAwesomeTextView = (TextView) findViewById(R.id.text_finished);
-        myAwesomeTextView.setText("Station 1 beendet");
+        myAwesomeTextView.setText("Station 4 beendet");
     }
 
-    public void setTextHeader() {
-        TextView myAwesomeTextView = (TextView) findViewById(R.id.text_head);
-        myAwesomeTextView.setText("Station 1");
-    }
 
     public void addListenerOnButton() {
 
@@ -58,7 +58,7 @@ public class Route2_station1_Finished extends AppCompatActivity{
 
             @Override
             public void onClick(View arg0) {
-                startActivity(new Intent(context, Route2_station1_TaskVideoActivity.class));
+                startActivity(new Intent(context, Route2_station4_TaskMultipleActivity.class));
 
             }
         });
@@ -67,7 +67,7 @@ public class Route2_station1_Finished extends AppCompatActivity{
             @Override
             public void onClick (View arg0)
             {
-                startActivity(new Intent(context, Route2_station2_MapActivity.class));
+                startActivity(new Intent(context, Route2Finished.class));
             }
         });
 
@@ -78,8 +78,5 @@ public class Route2_station1_Finished extends AppCompatActivity{
         Intent intent = new Intent (this, MapsActivity.class);
         startActivity(intent);
     }
-
-
-
 
 }

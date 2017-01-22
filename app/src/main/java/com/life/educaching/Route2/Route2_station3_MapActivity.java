@@ -59,14 +59,14 @@ public class Route2_station3_MapActivity extends AppCompatActivity implements On
 
             @Override
             public void onClick(View arg0) {
-                startActivity(new Intent(context, TaskTextAudioActivity.class));
+                startActivity(new Intent(context, Route2_station3_InfoVideoActivity.class));
             }
         });
         buttonBack.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View arg0) {
-                startActivity(new Intent(context, Route1_station1_MapActivity.class));
+                startActivity(new Intent(context, Route2_station2_Finished.class));
             }
         });
     }
