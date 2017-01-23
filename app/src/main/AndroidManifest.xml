@@ -4,7 +4,9 @@
 
     <uses-permission android:name="android.permission.CAMERA" />
 
-    <uses-feature   android:name="android.hardware.camera" android:required="true" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
@@ -34,12 +36,7 @@
             android:name=".Model.DecideRouteActivity"
             android:label="@string/layout_Bild_Beschreibung"
             android:screenOrientation="landscape"
-            android:theme="@style/AppTheme.NoActionBar">
-
-        </activity>
-
-
-
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Model.CameraActivity" />
         <activity
             android:name=".Model.InformationVideoActivity"
@@ -96,7 +93,6 @@
             android:label="Route2_station1_TaskActivity"
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar" />
-
         <activity
             android:name=".Route2.Route2_station4_MapActivity"
             android:label="Route2_station4_MapActivity"
@@ -112,7 +108,6 @@
             android:label="Route1_station1_MapActivity"
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar" />
-
 
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
@@ -153,25 +148,29 @@
             android:name=".CaptureVideoActivity"
             android:label="@string/title_activity_capture_video"
             android:screenOrientation="landscape"
-            android:theme="@style/AppTheme" >
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
-
-
         <activity android:name=".Route1.Route1_station3_MapActivity" />
         <activity android:name=".Route1.Route1_station4_MapActivity" />
         <activity android:name=".Route2.Route2_station1_MapActivity" />
         <activity android:name=".Route2.Route2_station2_MapActivity" />
-        <activity android:name=".Route2.Route2_station3_MapActivity" /><!-- ATTENTION: This was auto-generated to add Google Play services to your project for
-     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <activity android:name=".Route2.Route2_station3_MapActivity" />
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
         >>>>>>> master
+        <activity android:name=".Route1_evaluation" />
+        <activity android:name=".Route1_EvaluationActivity" />
+        <activity android:name=".Route2_EvaluationActivity"></activity>
     </application>
 
 </manifest>
