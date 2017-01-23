@@ -54,7 +54,7 @@ tools:context="com.life.educaching.Model.TaskFotoActivity">
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="365dp">
+        android:layout_height="390dp">
 
         <TextView
             android:layout_width="match_parent"

@@ -100,38 +100,36 @@
 
         </LinearLayout>
 
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="65dp"
-            android:weightSum="1">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:weightSum="1">
 
-            <TextView
-                android:layout_width="770dp"
-                android:layout_height="wrap_content" />
-
-
-            <ImageButton
-                android:id="@+id/video_play_button"
-                android:layout_width="70dp"
-                android:layout_height="60dp"
-                android:background="@drawable/playbutton" />
-
-            <ImageButton
-                android:id="@+id/video_pause_button"
-                android:layout_width="70dp"
-                android:layout_height="60dp"
-                android:background="@drawable/pausebutton" />
-
-            <ImageButton
-                android:id="@+id/video_stop_button"
-                android:layout_width="30dp"
-                android:layout_height="60dp"
-                android:background="@drawable/stopbutton"
-                android:layout_weight="0.14" />
+        <TextView
+            android:layout_width="770dp"
+            android:layout_height="wrap_content" />
 
 
-        </LinearLayout>
+        <ImageButton
+            android:id="@+id/video_play_button"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:background="@drawable/playbutton" />
+
+        <ImageButton
+            android:id="@+id/video_pause_button"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:background="@drawable/pausebutton" />
+
+        <ImageButton
+            android:id="@+id/video_stop_button"
+            android:layout_width="30dp"
+            android:layout_height="60dp"
+            android:background="@drawable/stopbutton"
+            android:layout_weight="0.14" />
+    </LinearLayout>
 
         <View
             android:layout_width="match_parent"
