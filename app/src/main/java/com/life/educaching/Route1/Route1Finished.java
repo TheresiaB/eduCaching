@@ -73,7 +73,7 @@ public class Route1Finished extends AppCompatActivity implements OnMapReadyCallb
         mMap = googleMap;
         // Ein Marker in der ersten Station hinzufügen und die Kamera bewegen
         LatLng moeckernbruecke = new LatLng(52.49402689999999, 13.375908200000026);
-        mMap.addMarker(new MarkerOptions().position(moeckernbruecke).title("Marker in der 1. Station").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+        mMap.addMarker(new MarkerOptions().position(moeckernbruecke).title("Marker in der 1. Station").icon(MapMethods.createIcon(this, R.drawable.station1_icon_finished, 150, 150)));
         //mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(moeckernbruecke, 14));
 
         LatLng potsdamerplatz = new LatLng(52.5096488, 13.37594409999997);
