@@ -13,9 +13,7 @@ import android.widget.Toast;
 import com.life.educaching.Model.DecideRouteActivity;
 import com.life.educaching.Model.MapsActivity;
 import com.life.educaching.R;
-import com.life.educaching.Route2.Route2_station1_Finished;
-import com.life.educaching.Route2.Route2_station1_TaskActivity;
-import com.life.educaching.Route2.Route2_station2_MapActivity;
+import com.life.educaching.Model.TaskFotoActivity;
 
 /**
  * Created by theresia on 07.01.17.
@@ -36,15 +34,18 @@ public class Route1_station1_Finished extends AppCompatActivity {
         TextView myTextview = (TextView) findViewById(R.id.text_head);
         myTextview.setTypeface(myTypeface);
         setTextHeader();
+        setText();
         addListenerOnButton();
     }
 
-    public void setTextHeader(){
+    public void setTextHeader() {
+        TextView myAwesomeTextView = (TextView) findViewById(R.id.text_head);
+        myAwesomeTextView.setText("Station 1");
+    }
 
-        TextView myAwesomeTextView = (TextView)findViewById(R.id.text_head);
-
-        //in your OnCreate() method
-        myAwesomeTextView.setText(DecideRouteActivity.whichRoute);
+    public void setText() {
+        TextView myAwesomeTextView = (TextView) findViewById(R.id.text_finished);
+        myAwesomeTextView.setText("Station 1 beendet");
     }
 
     public void addListenerOnButton() {
@@ -57,8 +58,7 @@ public class Route1_station1_Finished extends AppCompatActivity {
 
             @Override
             public void onClick(View arg0) {
-                Toast.makeText(Route1_station1_Finished.this, "Button Clicked", Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(context, Route1_station1_TaskActivity.class));
+                startActivity(new Intent(context, Route1_station1_TaskVideoActivity.class));
 
             }
         });
@@ -67,7 +67,6 @@ public class Route1_station1_Finished extends AppCompatActivity {
             @Override
             public void onClick (View arg0)
             {
-                Toast.makeText(Route1_station1_Finished.this, "Button Clicked", Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(context, Route1_station2_MapActivity.class));
             }
         });

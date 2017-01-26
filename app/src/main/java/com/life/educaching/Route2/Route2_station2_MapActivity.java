@@ -1,5 +1,6 @@
 package com.life.educaching.Route2;
 
+import android.Manifest;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -29,6 +30,7 @@ public class Route2_station2_MapActivity extends AppCompatActivity implements On
     GoogleMap mMap;
     Button buttonNext;
     Button buttonBack;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -43,13 +45,11 @@ public class Route2_station2_MapActivity extends AppCompatActivity implements On
         mapFragment.getMapAsync(this);
     }
 
-    public void setTextHeader(){
-
-        TextView myAwesomeTextView = (TextView)findViewById(R.id.text_head);
-
-        //in your OnCreate() method
-        myAwesomeTextView.setText(DecideRouteActivity.whichRoute);
+    public void setTextHeader() {
+        TextView myAwesomeTextView = (TextView) findViewById(R.id.text_head);
+        myAwesomeTextView.setText("Route 2 - Station 2");
     }
+
     public void addListenerOnButton() {
 
         final Context context = this;
@@ -61,28 +61,27 @@ public class Route2_station2_MapActivity extends AppCompatActivity implements On
 
             @Override
             public void onClick(View arg0) {
-                Toast.makeText(Route2_station2_MapActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(context, TaskTextAudioActivity.class));
+                startActivity(new Intent(context, Route2_station2_InfoVideoActivity.class));
             }
         });
         buttonBack.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View arg0) {
-                Toast.makeText(Route2_station2_MapActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(context, Route1_station1_MapActivity.class));
+                startActivity(new Intent(context, Route2_station1_Finished.class));
             }
         });
     }
+
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
         // Marker in der 3. Station hinzufügen und die Kamera bewegen
         LatLng reichstag = new LatLng(52.5185353, 13.37318849999997);
-        mMap.addMarker(new MarkerOptions().position(reichstag).title("Marker in der 2. Station"));
+        mMap.addMarker(new MarkerOptions().position(reichstag).title("Marker in der 2. Station").icon(MapMethods.createIcon(this, R.drawable.station2_icon, 150, 100)));
 
         LatLng friedrichstrasse = new LatLng(52.5137447, 13.389356700000008);
-        mMap.addMarker(new MarkerOptions().position(friedrichstrasse).title("Marker in der 1. Station"));
+        mMap.addMarker(new MarkerOptions().position(friedrichstrasse).title("Du bist hier")).showInfoWindow();
 
         LatLngBounds route = MapMethods.calculateLatLngBounds(new LatLng[]{friedrichstrasse, reichstag});
         mMap.moveCamera(CameraUpdateFactory.newLatLngBounds(route, 50));
@@ -95,6 +94,7 @@ public class Route2_station2_MapActivity extends AppCompatActivity implements On
             setCurrentLocation();
         }
     }
+
     @Override
     public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
         switch (requestCode) {
@@ -105,8 +105,19 @@ public class Route2_station2_MapActivity extends AppCompatActivity implements On
                 return;
         }
     }
+
     //die nächste Zeile wird als inkorrekt angezeigt, weil der Compiler denkt, dass wir die Überprüfung des Zugriffs nicht gemacht haben, bevor der Standort angezeigt wird. Die Abfrage der Berechtigung erfolge aber schon in der vorigen Methode
     public void setCurrentLocation() {
+        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+            // TODO: Consider calling
+            //    ActivityCompat#requestPermissions
+            // here to request the missing permissions, and then overriding
+            //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
+            //                                          int[] grantResults)
+            // to handle the case where the user grants the permission. See the documentation
+            // for ActivityCompat#requestPermissions for more details.
+            return;
+        }
         mMap.setMyLocationEnabled(true);
 
     }

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.life.educaching.Route1.Route1_station1_InformationPictureActivity"
+    tools:context="com.life.educaching.Route1.Route1_station2_InfoPicutreActivity"
     >
 
 
@@ -47,23 +47,35 @@
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="365dp">
+            android:layout_height="390dp">
 
-
-            <TextView
+            <ScrollView
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:ems="10"
-                android:id="@+id/Text_information_bild"
-                android:text="@string/Lorem_Ipsum"
-                android:textColor="@color/colorGrey_text"
-                android:textSize="18sp"
-                android:layout_marginStart="70dp"
-                android:layout_marginLeft="70dp"
-                android:layout_marginEnd="70dp"
-                android:layout_marginRight="70dp"
-                android:layout_gravity="center_horizontal"
-                android:layout_weight="1" />
+                android:layout_height="335dp"
+                android:layout_marginStart="60dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_weight="1"
+                android:fadeScrollbars="false">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:id="@+id/Text_information_bild"
+                    android:text="@string/Lorem_Ipsum"
+                    android:textColor="@color/colorGrey_text"
+                    android:textSize="18sp"
+                    android:layout_gravity="center_horizontal"
+                    android:paddingLeft="10dp"
+                    android:paddingStart="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingEnd="10dp"
+
+                    />
+
+            </ScrollView>
 
             <ImageView
                 android:layout_width="match_parent"
@@ -72,8 +84,8 @@
                 android:id="@+id/imageView_information_bild"
                 android:layout_weight="1"
                 android:contentDescription="@string/layout_Bild_Beschreibung"
-                android:layout_marginStart="70dp"
-                android:layout_marginLeft="70dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="50dp"
                 android:layout_marginEnd="70dp"
                 android:layout_marginRight="70dp"
                 android:layout_gravity="center_horizontal"

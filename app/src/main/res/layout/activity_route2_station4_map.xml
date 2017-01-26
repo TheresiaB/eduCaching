@@ -15,22 +15,7 @@
 
         >
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="130dp"
-            android:text="@+id/route1_station2"
-            android:ems="10"
-            android:id="@+id/text_head"
-            android:textSize="60sp"
-            android:textColor="@color/colorWhite"
-            android:background="@color/live_e.v._green"
-            android:textStyle="bold"
-            android:paddingStart="70dp"
-            android:paddingLeft="70dp"
-            android:paddingEnd="0dp"
-            android:paddingRight="0dp"
-            android:gravity="center_vertical"
-            />
+        <include layout="@layout/activity_header_green"/>
 
         <View
             android:layout_width="match_parent"
@@ -42,7 +27,7 @@
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="465dp">
+            android:layout_height="490dp">
 
 
 

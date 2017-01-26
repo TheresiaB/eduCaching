@@ -15,10 +15,11 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.Chronometer;
-import android.widget.Toast;
+import android.widget.TextView;
 
 import com.life.educaching.R;
-import com.life.educaching.Route1.Route1_station2_MapActivity;
+import com.life.educaching.Route2.Route2_station1_Finished;
+import com.life.educaching.Route2.Route2_station1_InfoPictureActivity;
 
 import java.io.IOException;
 import java.util.Random;
@@ -45,8 +46,9 @@ public class TaskTextAudioActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_task_text_voice);
+        setContentView(R.layout.activity_route2_station1_task_video);
         addListenerOnButton();
+        setTextHeader();
         getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_HIDDEN);
 
         buttonStart = (Button) findViewById(R.id.recording_button);
@@ -86,7 +88,6 @@ public class TaskTextAudioActivity extends AppCompatActivity {
                     buttonStart.setEnabled(false);
                     buttonStop.setEnabled(true);
 
-                    Toast.makeText(TaskTextAudioActivity.this, "Recording started", Toast.LENGTH_LONG).show();
                 }
                 else {
 
@@ -109,7 +110,6 @@ public class TaskTextAudioActivity extends AppCompatActivity {
                 buttonStart.setEnabled(true);
                 buttonStopPlayingRecording.setEnabled(false);
 
-                Toast.makeText(TaskTextAudioActivity.this, "Recording Completed", Toast.LENGTH_LONG).show();
 
             }
         });
@@ -133,7 +133,6 @@ public class TaskTextAudioActivity extends AppCompatActivity {
 
                 mediaPlayer.start();
 
-                Toast.makeText(TaskTextAudioActivity.this, "Recording Playing", Toast.LENGTH_LONG).show();
 
             }
         });
@@ -158,6 +157,11 @@ public class TaskTextAudioActivity extends AppCompatActivity {
 
             }
         });
+    }
+
+    public void setTextHeader() {
+        TextView myAwesomeTextView = (TextView) findViewById(R.id.text_head);
+        myAwesomeTextView.setText("Route 2");
     }
 
     public void MediaRecorderReady(){
@@ -206,10 +210,8 @@ public class TaskTextAudioActivity extends AppCompatActivity {
 
                     if (StoragePermission && RecordPermission) {
 
-                        Toast.makeText(TaskTextAudioActivity.this, "Permission Granted", Toast.LENGTH_LONG).show();
                     }
                     else {
-                        Toast.makeText(TaskTextAudioActivity.this,"Permission Denied",Toast.LENGTH_LONG).show();
 
                     }
                 }
@@ -235,8 +237,7 @@ public class TaskTextAudioActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View arg0) {
-                Toast.makeText(TaskTextAudioActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(context, Station_Finished_Activity.class));
+                startActivity(new Intent(context, Route2_station1_Finished.class));
             }
         });
 
@@ -244,8 +245,7 @@ public class TaskTextAudioActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View arg0) {
-                Toast.makeText(TaskTextAudioActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(context, Route1_station2_MapActivity.class));
+                startActivity(new Intent(context, Route2_station1_InfoPictureActivity.class));
             }
         });
     }

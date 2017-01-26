@@ -8,18 +8,21 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.MediaController;
 import android.widget.TextView;
-import android.widget.Toast;
 import android.widget.VideoView;
 
-import com.life.educaching.Model.DecideRouteActivity;
 import com.life.educaching.R;
+import com.life.educaching.Route1.Route1_station1_MapActivity;
+import com.life.educaching.Route1.Route1_station1_TaskVideoActivity;
 
 /**
- * Created by theresia on 05.01.17.
+ * Created by theresia on 22.01.17.
  */
 
-public class Route2_station1_InformationVideoActivity extends AppCompatActivity {
+public class Route2_station2_InfoVideoActivity extends AppCompatActivity {
+
+
     ImageButton buttonVideoPlay;
     VideoView myVideoView;
     Button buttonNext;
@@ -27,19 +30,24 @@ public class Route2_station1_InformationVideoActivity extends AppCompatActivity 
     ImageButton buttonVideoPause;
     ImageButton buttonVideoStop;
     VideoView mVideoView2;
+    MediaController mediaController;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_route2_station1_information_video);
+        setContentView(R.layout.activity_route2_station2_info_video);
         buttonVideoPlay = (ImageButton)findViewById(R.id.video_play_button);
         buttonVideoPause = (ImageButton)findViewById(R.id.video_pause_button);
-        //buttonVideoStop = (Button) findViewById(R.id.video_begin_button);
+        buttonVideoStop = (ImageButton) findViewById(R.id.video_stop_button);
+        mediaController = new MediaController(this);
 
         String uriPath = "android.resource://" + getPackageName() + "/" + R.raw.diesendungmitdermauslotuseffekt;
         Uri uri2 = Uri.parse(uriPath);
         mVideoView2 = (VideoView) findViewById(R.id.route2Station1Video);
         mVideoView2.setVideoURI(uri2);
+        mVideoView2.setMediaController(mediaController);
+        mediaController.setAnchorView(mVideoView2);
+
 
         buttonVideoPlay.setOnClickListener(new Button.OnClickListener() {
             @Override
@@ -55,17 +63,21 @@ public class Route2_station1_InformationVideoActivity extends AppCompatActivity 
             }
         });
 
+        buttonVideoStop.setOnClickListener(new Button.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mVideoView2.resume();
+            }
+        });
+
         setTextHeader();
         addListenerOnButton();
 
     }
 
-    public void setTextHeader(){
-
-        TextView myAwesomeTextView = (TextView)findViewById(R.id.text_head);
-
-        //in your OnCreate() method
-        myAwesomeTextView.setText(DecideRouteActivity.whichRoute);
+    public void setTextHeader() {
+        TextView myAwesomeTextView = (TextView) findViewById(R.id.text_head);
+        myAwesomeTextView.setText("Station 2");
     }
 
     public void addListenerOnButton() {
@@ -77,8 +89,7 @@ public class Route2_station1_InformationVideoActivity extends AppCompatActivity 
 
             @Override
             public void onClick(View arg0) {
-                Toast.makeText(Route2_station1_InformationVideoActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(context, Route2_station1_TaskActivity.class));
+                startActivity(new Intent(context, Route2_station2_TaskVideoActivity.class));
             }
         });
 
@@ -86,16 +97,11 @@ public class Route2_station1_InformationVideoActivity extends AppCompatActivity 
 
             @Override
             public void onClick(View arg0) {
-                Toast.makeText(Route2_station1_InformationVideoActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(context, Route2_station1_MapActivity.class));
+                startActivity(new Intent(context, Route2_station2_MapActivity.class));
             }
         });
 
 
 
     }
-
-
-
-
 }

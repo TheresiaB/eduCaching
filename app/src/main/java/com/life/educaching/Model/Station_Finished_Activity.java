@@ -48,7 +48,6 @@ public class Station_Finished_Activity extends AppCompatActivity {
 
             @Override
             public void onClick(View arg0) {
-                Toast.makeText(Station_Finished_Activity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(context, StationMapsActivity.class));
 
             }
@@ -58,7 +57,6 @@ public class Station_Finished_Activity extends AppCompatActivity {
             @Override
             public void onClick (View arg0)
             {
-                Toast.makeText(Station_Finished_Activity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(context, Route1_station2_MapActivity.class));
             }
         });

@@ -16,19 +16,7 @@
         android:weightSum="1"
 
         >
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="130dp"
-            android:text="@string/text_fertig"
-            android:ems="10"
-            android:id="@+id/text_head"
-            android:textSize="60sp"
-            android:textColor="@color/colorWhite"
-            android:background="@color/live_e.v._green"
-            android:textStyle="bold"
-            android:gravity="center_vertical|center_horizontal"
-            />
+        <include layout="@layout/activity_header_green"/>
 
         <View
             android:layout_width="match_parent"
@@ -40,7 +28,7 @@
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="465dp">
+            android:layout_height="490dp">
 
 
 
@@ -64,11 +52,12 @@
                 android:id="@+id/Auswertung"
                 android:layout_width="410dp"
                 android:layout_height="80dp"
-                android:textSize="26sp"
+                android:textSize="34sp"
                 android:background="@drawable/button_border"
                 android:textColor="@color/colorWhite"
                 android:layout_centerHorizontal="true"
                 android:layout_centerVertical="true"
+                android:textAllCaps="false"
                 />
 
             <Button

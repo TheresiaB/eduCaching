@@ -43,13 +43,11 @@ public class Route2_station3_MapActivity extends AppCompatActivity implements On
         mapFragment.getMapAsync(this);
     }
 
-    public void setTextHeader(){
-
-        TextView myAwesomeTextView = (TextView)findViewById(R.id.text_head);
-
-        //in your OnCreate() method
-        myAwesomeTextView.setText(DecideRouteActivity.whichRoute);
+    public void setTextHeader() {
+        TextView myAwesomeTextView = (TextView) findViewById(R.id.text_head);
+        myAwesomeTextView.setText("Route 2 - Station 3");
     }
+
     public void addListenerOnButton() {
 
         final Context context = this;
@@ -61,16 +59,14 @@ public class Route2_station3_MapActivity extends AppCompatActivity implements On
 
             @Override
             public void onClick(View arg0) {
-                Toast.makeText(Route2_station3_MapActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(context, TaskTextAudioActivity.class));
+                startActivity(new Intent(context, Route2_station3_InfoVideoActivity.class));
             }
         });
         buttonBack.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View arg0) {
-                Toast.makeText(Route2_station3_MapActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(context, Route1_station1_MapActivity.class));
+                startActivity(new Intent(context, Route2_station2_Finished.class));
             }
         });
     }
@@ -79,10 +75,10 @@ public class Route2_station3_MapActivity extends AppCompatActivity implements On
         mMap = googleMap;
         // Marker in der 3. Station hinzufügen und die Kamera bewegen
         LatLng schoenhauserstr = new LatLng(52.5263005, 13.407798899999989);
-        mMap.addMarker(new MarkerOptions().position(schoenhauserstr).title("Marker in der 3. Station"));
+        mMap.addMarker(new MarkerOptions().position(schoenhauserstr).title("Marker in der 3. Station").icon(MapMethods.createIcon(this, R.drawable.station3_icon, 150, 100)));
 
         LatLng reichstag = new LatLng(52.5185353, 13.37318849999997);
-        mMap.addMarker(new MarkerOptions().position(reichstag).title("Marker in der 2. Station"));
+        mMap.addMarker(new MarkerOptions().position(reichstag).title("Du bist hier")).showInfoWindow();
 
         LatLngBounds route = MapMethods.calculateLatLngBounds(new LatLng[]{schoenhauserstr, reichstag});
         mMap.moveCamera(CameraUpdateFactory.newLatLngBounds(route, 50));

@@ -8,15 +8,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import com.life.educaching.CaptureVideoActivity;
-import com.life.educaching.Model.DecideRouteActivity;
+import com.life.educaching.Model.CaptureVideoActivity;
 import com.life.educaching.Model.MapsActivity;
-import com.life.educaching.Model.StationMapsActivity;
-import com.life.educaching.Model.Station_Finished_Activity;
 import com.life.educaching.R;
-import com.life.educaching.Route1.Route1_station2_MapActivity;
 
 /**
  * Created by theresia on 07.01.17.
@@ -38,15 +33,19 @@ public class Route2_station1_Finished extends AppCompatActivity{
         TextView myTextview = (TextView) findViewById(R.id.text_head);
         myTextview.setTypeface(myTypeface);
         setTextHeader();
+        setText();
         addListenerOnButton();
     }
 
-    public void setTextHeader(){
 
-        TextView myAwesomeTextView = (TextView)findViewById(R.id.text_head);
+    public void setText() {
+        TextView myAwesomeTextView = (TextView) findViewById(R.id.text_finished);
+        myAwesomeTextView.setText("Station 1 beendet");
+    }
 
-        //in your OnCreate() method
-        myAwesomeTextView.setText(DecideRouteActivity.whichRoute);
+    public void setTextHeader() {
+        TextView myAwesomeTextView = (TextView) findViewById(R.id.text_head);
+        myAwesomeTextView.setText("Station 1");
     }
 
     public void addListenerOnButton() {
@@ -59,8 +58,7 @@ public class Route2_station1_Finished extends AppCompatActivity{
 
             @Override
             public void onClick(View arg0) {
-                Toast.makeText(Route2_station1_Finished.this, "Button Clicked", Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(context, CaptureVideoActivity.class));
+                startActivity(new Intent(context, Route2_station1_TaskVideoActivity.class));
 
             }
         });
@@ -69,8 +67,7 @@ public class Route2_station1_Finished extends AppCompatActivity{
             @Override
             public void onClick (View arg0)
             {
-                Toast.makeText(Route2_station1_Finished.this, "Button Clicked", Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(context, CaptureVideoActivity.class));
+                startActivity(new Intent(context, Route2_station2_MapActivity.class));
             }
         });
 

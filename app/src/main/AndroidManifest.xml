@@ -4,9 +4,7 @@
 
     <uses-permission android:name="android.permission.CAMERA" />
 
-    <uses-feature
-        android:name="android.hardware.camera"
-        android:required="true" />
+    <uses-feature   android:name="android.hardware.camera" android:required="true" />
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
@@ -33,13 +31,135 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".Model.Startpage_group_register_Activity"
+            android:label="startpage_group_register"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+
+        <activity android:name=".Model.CameraActivity" />
+
+        <activity
             android:name=".Model.DecideRouteActivity"
             android:label="@string/layout_Bild_Beschreibung"
             android:screenOrientation="landscape"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".Model.CameraActivity" />
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name="com.life.educaching.Route2.Route2_station1_InfoPictureActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name="com.life.educaching.Route2.Route2_station2_Finished"
+            android:label="@string/layout_Bild_Beschreibung"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name="com.life.educaching.Route2.Route2_station2_InfoVideoActivity"
+            android:label="@string/layout_Bild_Beschreibung"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name="com.life.educaching.Route2.Route2_station2_TaskVideoActivity"
+            android:label="@string/layout_Bild_Beschreibung"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name="com.life.educaching.Route2.Route2_station3_Finished"
+            android:label="@string/layout_Bild_Beschreibung"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name="com.life.educaching.Route2.Route2_station3_InfoVideoActivity"
+            android:label="@string/layout_Bild_Beschreibung"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name="com.life.educaching.Route2.Route2_station3_TaskTextActivity"
+            android:label="@string/layout_Bild_Beschreibung"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+
+        <activity
+            android:name="com.life.educaching.Route2.Route2_station4_Finished"
+            android:label="@string/layout_Bild_Beschreibung"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+
+        <activity
+            android:name="com.life.educaching.Route2.Route2_station4_InfoVideoActivity"
+            android:label="@string/layout_Bild_Beschreibung"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+
+        <activity
+            android:name="com.life.educaching.Route2.Route2_station4_TaskMultipleActivity"
+            android:label="@string/layout_Bild_Beschreibung"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
         <activity
             android:name=".Model.InformationVideoActivity"
+            android:label="@string/title_activity_video_view"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Route1.Route1_station1_InfoVideoActivity"
+            android:label="@string/title_activity_video_view"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Route1.Route1_station1_TaskVideoActivity"
+            android:label="@string/title_activity_video_view"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.life.educaching.Route1.Route1_station2_Finished"
+            android:label="@string/title_activity_video_view"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.life.educaching.Route1.Route1_station2_TaskVideoActivity"
+            android:label="@string/title_activity_video_view"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.life.educaching.Route1.Route1_station3_Finished"
+            android:label="@string/title_activity_video_view"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.life.educaching.Route1.Route1_station3_InfoVideoActivity"
+            android:label="@string/title_activity_video_view"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.life.educaching.Route1.Route1_station3_TaskTextActivity"
+            android:label="@string/title_activity_video_view"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.life.educaching.Route1.Route1_station4_Finished"
+            android:label="@string/title_activity_video_view"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.life.educaching.Route1.Route1_station4_InfoPictureActivity"
+            android:label="@string/title_activity_video_view"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.life.educaching.Route1.Route1_station4_TaskPictureActivity"
             android:label="@string/title_activity_video_view"
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar" />
@@ -74,25 +194,17 @@
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".Route1.Route1_station1_InformationPictureActivity"
+            android:name=".Route1.Route1_station2_InfoPicutreActivity"
             android:label="Route1_station1_InformationPictureActivity"
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar" />
+
         <activity
-            android:name=".Route2.Route2_station1_InformationVideoActivity"
-            android:label="Route2_station1_InformationVideoActivity"
-            android:screenOrientation="landscape"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".Route1.Route1_station1_TaskActivity"
-            android:label="Route1_station1_TaskActivity"
-            android:screenOrientation="landscape"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".Route2.Route2_station1_TaskActivity"
+            android:name=".Route2.Route2_station1_TaskVideoActivity"
             android:label="Route2_station1_TaskActivity"
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar" />
+
         <activity
             android:name=".Route2.Route2_station4_MapActivity"
             android:label="Route2_station4_MapActivity"
@@ -108,6 +220,7 @@
             android:label="Route1_station1_MapActivity"
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar" />
+
 
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
@@ -145,20 +258,22 @@
             android:name=".Route1.Route1_station2_MapActivity"
             android:screenOrientation="landscape" />
         <activity
-            android:name=".CaptureVideoActivity"
+            android:name=".Model.CaptureVideoActivity"
             android:label="@string/title_activity_capture_video"
             android:screenOrientation="landscape"
-            android:theme="@style/AppTheme">
+            android:theme="@style/AppTheme" >
         </activity>
+
+
         <activity android:name=".Route1.Route1_station3_MapActivity" />
         <activity android:name=".Route1.Route1_station4_MapActivity" />
         <activity android:name=".Route2.Route2_station1_MapActivity" />
         <activity android:name=".Route2.Route2_station2_MapActivity" />
-        <activity android:name=".Route2.Route2_station3_MapActivity" />
-        <!--
- ATTENTION: This was auto-generated to add Google Play services to your project for
-     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
-        -->
+        <activity android:name=".Route2.Route2_station3_MapActivity" /><!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <activity
+            android:name=".Model.TaskFotoActivity"
+            android:screenOrientation="landscape"></activity>
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />

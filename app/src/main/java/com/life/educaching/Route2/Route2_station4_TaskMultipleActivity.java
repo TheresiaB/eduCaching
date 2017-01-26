@@ -1,4 +1,4 @@
-package com.life.educaching.Route1;
+package com.life.educaching.Route2;
 
 import android.content.Context;
 import android.content.Intent;
@@ -8,16 +8,17 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
-import android.widget.Toast;
+import android.widget.TextView;
 
-import com.life.educaching.R;
+import com.life.educaching.Model.InformationPictureActivity;
 import com.life.educaching.Model.Station_Finished_Activity;
+import com.life.educaching.R;
 
 /**
- * Created by theresia on 05.01.17.
+ * Created by theresia on 22.01.17.
  */
-public class Route1_station1_TaskActivity extends AppCompatActivity {
 
+public class Route2_station4_TaskMultipleActivity extends AppCompatActivity {
 
 
     Button buttonNext;
@@ -29,14 +30,21 @@ public class Route1_station1_TaskActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_route1_station1_task);
+        setContentView(R.layout.activity_route2_station4_task_multiple);
         addListenerOnButton();
+        setTextHeader();
         onRadioButtonClicked();
+    }
+
+    public void setTextHeader() {
+        TextView myAwesomeTextView = (TextView) findViewById(R.id.text_head);
+        myAwesomeTextView.setText("Station 4");
     }
 
 
     public void onRadioButtonClicked() {
         radioGroup = (RadioGroup) findViewById(R.id.radioGroup);
+        /*
         btnDisplay = (Button) findViewById(R.id.btnDisplay);
 
         btnDisplay.setOnClickListener(new View.OnClickListener() {
@@ -50,14 +58,11 @@ public class Route1_station1_TaskActivity extends AppCompatActivity {
                 // find the radiobutton by returned id
                 radioButton = (RadioButton) findViewById(selectedId);
 
-                Toast.makeText(Route1_station1_TaskActivity.this,
-                        radioButton.getText(), Toast.LENGTH_SHORT).show();
 
             }
 
-        });
+        });*/
     }
-
 
     public void addListenerOnButton() {
 
@@ -68,8 +73,7 @@ public class Route1_station1_TaskActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View arg0) {
-                Toast.makeText(Route1_station1_TaskActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(context, Route1_station1_Finished.class));
+                startActivity(new Intent(context, Route2_station4_Finished.class));
             }
         });
 
@@ -77,10 +81,8 @@ public class Route1_station1_TaskActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View arg0) {
-                Toast.makeText(Route1_station1_TaskActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(context, Route1_station1_InformationPictureActivity.class));
+                startActivity(new Intent(context, Route2_station4_InfoVideoActivity.class));
             }
         });
     }
-
 }

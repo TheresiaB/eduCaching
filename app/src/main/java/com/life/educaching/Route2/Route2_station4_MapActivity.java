@@ -46,11 +46,8 @@ public class Route2_station4_MapActivity extends AppCompatActivity implements On
     }
 
     public void setTextHeader() {
-
         TextView myAwesomeTextView = (TextView) findViewById(R.id.text_head);
-
-        //in your OnCreate() method
-        myAwesomeTextView.setText(DecideRouteActivity.whichRoute);
+        myAwesomeTextView.setText("Route 2 - Station 4");
     }
 
     public void addListenerOnButton() {
@@ -64,16 +61,14 @@ public class Route2_station4_MapActivity extends AppCompatActivity implements On
 
             @Override
             public void onClick(View arg0) {
-                Toast.makeText(Route2_station4_MapActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(context, TaskTextAudioActivity.class));
+                startActivity(new Intent(context, Route2_station4_InfoVideoActivity.class));
             }
         });
         buttonBack.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View arg0) {
-                Toast.makeText(Route2_station4_MapActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(context, Route1_station1_MapActivity.class));
+                startActivity(new Intent(context, Route2_station3_Finished.class));
             }
         });
     }
@@ -83,10 +78,10 @@ public class Route2_station4_MapActivity extends AppCompatActivity implements On
         mMap = googleMap;
         // Marker in der 3. Station hinzufügen und die Kamera bewegen
         LatLng alexanderplatz = new LatLng(52.5215855, 13.411163999999985);
-        mMap.addMarker(new MarkerOptions().position(alexanderplatz).title("Marker in der 4. Station"));
+        mMap.addMarker(new MarkerOptions().position(alexanderplatz).title("Marker in der 4. Station").icon(MapMethods.createIcon(this, R.drawable.station4_icon, 150, 100)));
 
         LatLng hauptbahnhof = new LatLng(52.5250839, 13.369402000000036);
-        mMap.addMarker(new MarkerOptions().position(hauptbahnhof).title("Marker in der 3. Station"));
+        mMap.addMarker(new MarkerOptions().position(hauptbahnhof).title("Du bist hier")).showInfoWindow();
 
         LatLngBounds route = MapMethods.calculateLatLngBounds(new LatLng[]{hauptbahnhof, alexanderplatz});
         mMap.moveCamera(CameraUpdateFactory.newLatLngBounds(route, 50));

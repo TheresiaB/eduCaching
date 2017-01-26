@@ -10,7 +10,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -19,8 +18,6 @@ import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.LatLngBounds;
 import com.google.android.gms.maps.model.MarkerOptions;
-import com.life.educaching.Model.DecideRouteActivity;
-import com.life.educaching.Model.InformationVideoActivity;
 import com.life.educaching.Model.MapMethods;
 import com.life.educaching.R;
 
@@ -44,11 +41,8 @@ public class Route2_station1_MapActivity extends AppCompatActivity implements On
     }
 
     public void setTextHeader() {
-
         TextView myAwesomeTextView = (TextView) findViewById(R.id.text_head);
-
-        //in your OnCreate() method
-        myAwesomeTextView.setText(DecideRouteActivity.whichRoute);
+        myAwesomeTextView.setText("Route 2 - Station 1");
     }
 
     public void addListenerOnButton() {
@@ -62,15 +56,13 @@ public class Route2_station1_MapActivity extends AppCompatActivity implements On
 
             @Override
             public void onClick(View arg0) {
-                Toast.makeText(Route2_station1_MapActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(context, Route2_station1_InformationVideoActivity.class));
+                startActivity(new Intent(context, Route2_station1_InfoPictureActivity.class));
             }
         });
         buttonBack.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View arg0) {
-                Toast.makeText(Route2_station1_MapActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(context, Route2_OverviewMapActivity.class));
             }
         });
@@ -81,9 +73,9 @@ public class Route2_station1_MapActivity extends AppCompatActivity implements On
         mMap = googleMap;
         // Marker in der 3. Station hinzufügen und die Kamera bewegen
         LatLng friedrichstrasse = new LatLng(52.5137447, 13.389356700000008);
-        mMap.addMarker(new MarkerOptions().position(friedrichstrasse).title("Marker in der 1. Station"));
+        mMap.addMarker(new MarkerOptions().position(friedrichstrasse).title("Marker in der 1. Station").icon(MapMethods.createIcon(this, R.drawable.station1_icon, 150, 100)));
         LatLng startLifeEV = new LatLng(52.4667117, 13.3285014);
-        mMap.addMarker(new MarkerOptions().position(startLifeEV).title("Du bist hier"));
+        mMap.addMarker(new MarkerOptions().position(startLifeEV).title("Du bist hier")).showInfoWindow();
 
         LatLngBounds route = MapMethods.calculateLatLngBounds(new LatLng[]{friedrichstrasse, startLifeEV});
         mMap.moveCamera(CameraUpdateFactory.newLatLngBounds(route, 50));

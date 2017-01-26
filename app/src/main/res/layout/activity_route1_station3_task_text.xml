@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.life.educaching.Route1.Route1_station3_TaskTextActivity"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <include layout="@layout/activity_header_green"/>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@color/colorGrey_lines"
+            />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            >
+
+            <TextView
+                android:layout_width="600dp"
+                android:layout_height="100dp"
+                android:text="@string/Head_Text"
+                android:ems="10"
+                android:id="@+id/ueberschrift"
+                android:textColor="@color/colorGrey_text"
+                android:textSize="40sp"
+                android:paddingStart="70dp"
+                android:paddingLeft="70dp"
+                android:paddingEnd="0dp"
+                android:paddingRight="0dp"
+
+                android:gravity="center_vertical"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="650dp"
+                android:layout_height="100dp"
+                android:text="Warum perlt das Wasser ab? Schreibe eine mögliche Lösung oder nehme eine Tonspur auf!"
+                android:ems="10"
+                android:id="@+id/Frage"
+                android:textColor="@color/colorGrey_text"
+                android:textSize="20sp"
+                android:paddingStart="70dp"
+                android:paddingLeft="70dp"
+                android:paddingEnd="0dp"
+                android:paddingRight="0dp"
+                android:gravity="center_vertical"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:id="@+id/Text_information_bild"
+                android:text="@string/Lorem_Ipsum"
+                android:textColor="@color/colorGrey_text"
+                android:textSize="18sp"
+                android:layout_marginStart="70dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginEnd="70dp"
+                android:layout_marginRight="70dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1" />
+
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="600dp"
+                android:layout_height="270dp"
+                android:gravity="top|left"
+                android:ems="20"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="15dp"
+                android:ellipsize="start"
+                android:hint="Schreibe hier deine Antwort"
+                android:inputType="text"
+                android:background="@drawable/edit_text_task"
+                android:textSize="20sp"
+
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="770dp"
+                android:layout_height="50dp"
+                android:paddingStart="70dp"
+                android:paddingLeft="70dp"
+                android:paddingEnd="0dp"
+                android:paddingRight="0dp"
+                />
+
+
+            <ImageButton
+                android:id="@+id/recording_button"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/addrecord" />
+
+
+            <ImageButton
+                android:id="@+id/stop_button"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:enabled="false"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/stopbutton" />
+
+
+            <Chronometer
+                android:id="@+id/chronometer"
+                android:layout_width="wrap_content"
+                android:layout_height="57dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="60dp"
+                android:textSize="30sp" />
+
+
+            <ImageButton
+                android:id="@+id/play_button"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="60dp"
+                android:background="@drawable/playrecord" />
+
+            <ImageButton
+                android:id="@+id/stopplay_button"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:enabled="false"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/pausebutton" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorGrey_lines"
+            />
+
+        <include
+            android:id="@+id/footer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            layout="@layout/activity_button_next_back"/>
+
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

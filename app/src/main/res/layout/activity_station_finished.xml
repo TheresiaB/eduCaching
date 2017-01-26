@@ -29,7 +29,7 @@
             <RelativeLayout
                 android:orientation="vertical"
                 android:layout_width="match_parent"
-                android:layout_height="465dp">
+                android:layout_height="490dp">
 
                 <TextView
                     android:layout_width="410dp"
@@ -51,11 +51,13 @@
                     android:layout_width="410dp"
                     android:layout_height="80dp"
                     android:text="@string/Station_1_abschließen"
-                    android:textSize="26sp"
+                    android:textSize="34sp"
                     android:background="@drawable/button_border"
                     android:textColor="@color/colorWhite"
                     android:layout_centerHorizontal="true"
-                    android:layout_marginTop="240dp" />
+                    android:layout_marginTop="240dp"
+                    android:textAllCaps="false"
+                    />
 
 
             </RelativeLayout>

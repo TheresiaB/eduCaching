@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.life.educaching.CaptureVideoActivity">
+    tools:context="com.life.educaching.Route1.Route1_station1_TaskVideoActivity">
 
     <LinearLayout
         android:orientation="vertical"
@@ -70,9 +70,8 @@
             >
 
             <ScrollView
-                style="@style/scrollbar_shape_style"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="335dp"
                 android:layout_marginStart="70dp"
                 android:layout_marginLeft="70dp"
                 android:layout_marginEnd="70dp"
@@ -81,13 +80,16 @@
 
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:ems="10"
                     android:id="@+id/Text_Aufgabe"
                     android:text="@string/Lorem_lang"
                     android:textColor="@color/colorGrey_text"
                     android:textSize="18sp"
-                    android:layout_gravity="center_vertical" />
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginEnd="15dp"
+                    />
 
             </ScrollView>
 
@@ -95,26 +97,30 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:layout_marginEnd="90dp">
+                android:layout_marginEnd="70dp"
+                android:layout_marginRight="70dp"
+                >
 
                 <VideoView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:id="@+id/videoView2"
+                    android:id="@+id/route2Station1Video"
+                    android:layout_marginStart="70dp"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginEnd="70dp"
+                    android:layout_marginRight="70dp"
+                    android:layout_gravity="center_horizontal"
+                    android:scaleType="fitStart"
                     />
 
             </RelativeLayout>
-
-
-            />
-
 
         </LinearLayout>
 
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="70dp"
+            android:layout_height="90dp"
             >
 
             <TextView
@@ -125,6 +131,8 @@
                 android:paddingEnd="0dp"
                 android:paddingRight="0dp"
                 />
+
+
 
 
             <ImageButton

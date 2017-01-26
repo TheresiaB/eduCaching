@@ -29,14 +29,14 @@
         <RelativeLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="465dp">
+            android:layout_height="490dp">
 
             <TextView
                 android:layout_width="410dp"
                 android:layout_height="80dp"
                 android:text="Station 1 geschafft"
                 android:ems="10"
-                android:id="@+id/editText2"
+                android:id="@+id/text_finished"
                 android:textColor="@color/colorGrey_text"
                 android:textSize="40sp"
                 android:gravity="center_vertical"
@@ -51,7 +51,7 @@
                 android:id="@+id/Station_1_abschließen"
                 android:layout_width="410dp"
                 android:layout_height="80dp"
-                android:text="Weiter zu Station 2"
+                android:text="Station abschließen"
                 android:textSize="26sp"
                 android:background="@drawable/button_border"
                 android:textColor="@color/colorWhite"

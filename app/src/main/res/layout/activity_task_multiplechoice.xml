@@ -67,7 +67,7 @@
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="365dp">
+            android:layout_height="390dp">
 
 
             <TextView
@@ -115,11 +115,7 @@
                     android:textSize="18sp"
                     android:text="Das Wasser dringt teilweise ein."
                      />
-                <Button
-                    android:id="@+id/btnDisplay"
-                    android:layout_width="100dp"
-                    android:layout_height="50dp"
-                    android:text="Click Here" />
+
             </RadioGroup>
 
 

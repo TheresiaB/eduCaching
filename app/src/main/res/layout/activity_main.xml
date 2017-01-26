@@ -4,10 +4,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 
-    tools:context=".Model.DecideRouteActivity">
+
+    tools:context=".Model.Startpage_group_register_Activity">
 
 
-    <include layout="@layout/activity_decide_route"/>
+
+    <include layout="@layout/activity_startpage_group_register"/>
 
 </RelativeLayout>
 

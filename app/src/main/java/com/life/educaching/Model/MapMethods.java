@@ -1,9 +1,13 @@
 package com.life.educaching.Model;
 
 import android.content.Context;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.location.LocationServices;
+import com.google.android.gms.maps.model.BitmapDescriptor;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.LatLngBounds;
 
@@ -53,5 +57,19 @@ public class MapMethods {
             return new LatLngBounds(southwest, northeast);
         }
         return new LatLngBounds(stationen[0], stationen[0]);
+    }
+
+    /**
+     * Methode zum Erstellen und Scalieren eines Marker-Icons aus einem Drawable
+     * @param context
+     * @param res
+     * @return
+     */
+    public static BitmapDescriptor createIcon (Context context, int res, int width, int height)
+    {
+        Bitmap initialBitMap = BitmapFactory.decodeResource(context.getResources(), res);
+        Bitmap scaledBitMap = Bitmap.createScaledBitmap(initialBitMap, width, height, false);
+        BitmapDescriptor result = BitmapDescriptorFactory.fromBitmap(scaledBitMap);
+        return result;
     }
 }

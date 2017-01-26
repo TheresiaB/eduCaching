@@ -52,8 +52,7 @@ public class InformationPictureActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View arg0) {
-                Toast.makeText(InformationPictureActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(context, TaskMultipleChoiceActivity.class));
+                startActivity(new Intent(context, TaskFotoActivity.class));
             }
         });
 
@@ -61,7 +60,6 @@ public class InformationPictureActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View arg0) {
-                Toast.makeText(InformationPictureActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(context, Route1_station1_MapActivity.class));
             }
         });

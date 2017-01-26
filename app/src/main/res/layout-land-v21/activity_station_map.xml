@@ -15,23 +15,8 @@
         android:weightSum="1"
 
         >
+        <include layout="@layout/activity_header_green"/>
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="130dp"
-            android:text="@string/Route_1"
-            android:ems="10"
-            android:id="@+id/text_head"
-            android:textSize="60sp"
-            android:textColor="@color/colorWhite"
-            android:background="@color/live_e.v._green"
-            android:textStyle="bold"
-            android:paddingStart="70dp"
-            android:paddingLeft="70dp"
-            android:paddingEnd="0dp"
-            android:paddingRight="0dp"
-            android:gravity="center_vertical"
-            />
 
         <View
             android:layout_width="match_parent"
@@ -43,8 +28,8 @@
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1">
+            android:layout_height="490dp"
+            >
 
 
             <include layout="@layout/activity_maps" />
@@ -69,8 +54,8 @@
                 android:rotation="90"
                 android:background="@drawable/selector_button"
                 android:layout_marginTop="20dp"
-                android:layout_alignParentRight="true"
-                android:layout_alignParentEnd="true" />
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"/>
 
         </RelativeLayout>
 
