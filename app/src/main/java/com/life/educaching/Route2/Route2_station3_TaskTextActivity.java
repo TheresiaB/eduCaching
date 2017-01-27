@@ -8,6 +8,7 @@ import android.media.MediaRecorder;
 import android.os.Bundle;
 import android.os.Environment;
 import android.os.SystemClock;
+import android.preference.PreferenceManager;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
@@ -15,8 +16,10 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.Chronometer;
+import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.life.educaching.R;
 import com.life.educaching.Route1.Route1_station3_Finished;
@@ -24,6 +27,7 @@ import com.life.educaching.Route1.Route1_station3_InfoVideoActivity;
 import com.life.educaching.Route1.Route1_station3_TaskTextActivity;
 
 import java.io.IOException;
+import android.content.SharedPreferences;
 import java.util.Random;
 
 import static android.Manifest.permission.RECORD_AUDIO;
@@ -45,6 +49,13 @@ public class Route2_station3_TaskTextActivity extends AppCompatActivity{
     MediaPlayer mediaPlayer ;
     Button buttonNext;
     Button buttonBack;
+    EditText inputText;
+    public static String input;
+    SharedPreferences preferences;
+    SharedPreferences.Editor editor;
+
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,6 +64,8 @@ public class Route2_station3_TaskTextActivity extends AppCompatActivity{
         addListenerOnButton();
         setTextHeader();
         getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_HIDDEN);
+        preferences = this.getSharedPreferences("prefsDatei1", MODE_PRIVATE);
+        editor = preferences.edit();
 
         buttonStart = (ImageButton) findViewById(R.id.recording_button);
         buttonStop = (ImageButton) findViewById(R.id.stop_button);
@@ -236,10 +249,23 @@ public class Route2_station3_TaskTextActivity extends AppCompatActivity{
         final Context context = this;
         buttonNext = (Button) findViewById(R.id.button_next);
         buttonBack = (Button) findViewById(R.id.button_back);
+        inputText = (EditText) findViewById(R.id.inputText);
+
         buttonNext.setOnClickListener(new View.OnClickListener() {
 
             @Override
-            public void onClick(View arg0) {
+            public void onClick(View v) {
+                input = inputText.getText().toString();
+                Toast.makeText(Route2_station3_TaskTextActivity.this, input, Toast.LENGTH_SHORT).show();
+
+                editor.putString("key", input);
+                editor.commit();
+
+
+                /*Intent myIntent = new Intent(v.getContext(), Route2Auswertung.class);
+                myIntent.putExtra("input",input);
+                startActivity(myIntent);
+                */
                 startActivity(new Intent(context, Route2_station3_Finished.class));
             }
         });

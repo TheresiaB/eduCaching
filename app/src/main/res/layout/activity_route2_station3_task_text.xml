@@ -86,7 +86,7 @@
 
 
             <EditText
-                android:id="@+id/editText1"
+                android:id="@+id/inputText"
                 android:layout_width="600dp"
                 android:layout_height="270dp"
                 android:gravity="top|left"

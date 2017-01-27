@@ -35,6 +35,7 @@ public class Route2Finished extends AppCompatActivity implements OnMapReadyCallb
 
     GoogleMap mMap;
     Button buttonBack;
+    Button buttonNext;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,6 +60,15 @@ public class Route2Finished extends AppCompatActivity implements OnMapReadyCallb
 
         final Context context = this;
         buttonBack = (Button) findViewById(R.id.button_back);
+        buttonNext = (Button) findViewById(R.id.Auswertung);
+
+        buttonNext.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View arg0) {
+                startActivity(new Intent(context, Route2Auswertung.class));
+            }
+        });
 
         buttonBack.setOnClickListener(new View.OnClickListener() {
 
