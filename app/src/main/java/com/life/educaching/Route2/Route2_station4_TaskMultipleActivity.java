@@ -2,6 +2,7 @@ package com.life.educaching.Route2;
 
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -26,6 +27,11 @@ public class Route2_station4_TaskMultipleActivity extends AppCompatActivity {
     private RadioGroup radioGroup;
     private RadioButton radioButton;
     private Button btnDisplay;
+    SharedPreferences preferences;
+    SharedPreferences.Editor editor;
+    public static String input;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,7 +39,12 @@ public class Route2_station4_TaskMultipleActivity extends AppCompatActivity {
         setContentView(R.layout.activity_route2_station4_task_multiple);
         addListenerOnButton();
         setTextHeader();
-        onRadioButtonClicked();
+
+        radioGroup = (RadioGroup) findViewById(R.id.radioGroup);
+        preferences = this.getSharedPreferences("prefsDatei1", MODE_PRIVATE);
+        editor = preferences.edit();
+
+
     }
 
     public void setTextHeader() {
@@ -42,27 +53,7 @@ public class Route2_station4_TaskMultipleActivity extends AppCompatActivity {
     }
 
 
-    public void onRadioButtonClicked() {
-        radioGroup = (RadioGroup) findViewById(R.id.radioGroup);
-        /*
-        btnDisplay = (Button) findViewById(R.id.btnDisplay);
 
-        btnDisplay.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View v) {
-
-                // get selected radio button from radioGroup
-                int selectedId = radioGroup.getCheckedRadioButtonId();
-
-                // find the radiobutton by returned id
-                radioButton = (RadioButton) findViewById(selectedId);
-
-
-            }
-
-        });*/
-    }
 
     public void addListenerOnButton() {
 
@@ -73,6 +64,14 @@ public class Route2_station4_TaskMultipleActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View arg0) {
+
+                int selectedId = radioGroup.getCheckedRadioButtonId();
+
+                radioButton = (RadioButton) findViewById(selectedId);
+                input = radioButton.getText().toString();
+
+                editor.putString("key2", input);
+                editor.commit();
                 startActivity(new Intent(context, Route2_station4_Finished.class));
             }
         });
