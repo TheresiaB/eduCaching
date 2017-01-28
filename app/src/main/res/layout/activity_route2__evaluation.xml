@@ -74,9 +74,35 @@
                             android:layout_marginEnd="70dp" />
 
 
-                        <Space
+                        <LinearLayout
+                            android:orientation="horizontal"
                             android:layout_width="match_parent"
-                            android:layout_height="50dp" />
+                            android:layout_height="wrap_content"
+                            android:weightSum="1"
+                            android:gravity="center">
+
+
+                            <ImageButton
+                                android:id="@+id/video_play_button"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:background="@drawable/playbutton" />
+
+                            <ImageButton
+                                android:id="@+id/video_pause_button"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:background="@drawable/pausebutton"
+                                android:layout_weight="0.00" />
+
+                            <ImageButton
+                                android:id="@+id/video_stop_button"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:background="@drawable/stopbutton" />
+
+
+                        </LinearLayout>
 
                         <TextView
                             android:layout_width="434dp"
@@ -103,6 +129,36 @@
                             android:layout_marginStart="70dp"
                             android:layout_marginEnd="70dp"
                             />
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:weightSum="1"
+                            android:gravity="center">
+
+
+                            <ImageButton
+                                android:id="@+id/video_play_button2"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:background="@drawable/playbutton" />
+
+                            <ImageButton
+                                android:id="@+id/video_pause_button2"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:background="@drawable/pausebutton"
+                                android:layout_weight="0.00" />
+
+                            <ImageButton
+                                android:id="@+id/video_stop_button2"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:background="@drawable/stopbutton" />
+
+
+                        </LinearLayout>
 
                     </LinearLayout>
 
@@ -141,9 +197,37 @@
                             android:layout_marginEnd="70dp"
                             />
 
-                        <Space
+
+
+                        <LinearLayout
+                            android:orientation="horizontal"
                             android:layout_width="match_parent"
-                            android:layout_height="50dp" />
+                            android:layout_height="wrap_content"
+                            android:weightSum="1"
+                            android:gravity="center">
+
+
+                            <ImageButton
+                                android:id="@+id/video_play_button3"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:background="@drawable/playbutton" />
+
+                            <ImageButton
+                                android:id="@+id/video_pause_button3"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:background="@drawable/pausebutton"
+                                android:layout_weight="0.00" />
+
+                            <ImageButton
+                                android:id="@+id/video_stop_button3"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:background="@drawable/stopbutton" />
+
+
+                        </LinearLayout>
 
                         <TextView
                             android:layout_width="600dp"
@@ -198,11 +282,6 @@
                                 android:text="Das Blatt fängt an zu schrumpfen"
                                 />
 
-                            <Button
-                                android:id="@+id/btnDisplay"
-                                android:layout_width="100dp"
-                                android:layout_height="50dp"
-                                android:text="Click Here" />
                         </RadioGroup>
 
                     </LinearLayout>

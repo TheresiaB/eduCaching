@@ -154,11 +154,7 @@
                             android:text="Das Blatt fängt an zu schrumpfen"
                             />
 
-                        <Button
-                            android:id="@+id/btnDisplay"
-                            android:layout_width="100dp"
-                            android:layout_height="50dp"
-                            android:text="Click Here" />
+
                     </RadioGroup>
 
                     </LinearLayout>
@@ -266,6 +262,8 @@
 
                 </LinearLayout>
 
+
+
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -282,7 +280,13 @@
                         android:layout_centerHorizontal="true"
                         android:layout_centerVertical="true"
                         />
+
+
                 </RelativeLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
 
             </LinearLayout>
 

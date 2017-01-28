@@ -6,6 +6,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
+import android.widget.TextView;
 import android.widget.VideoView;
 
 public class Route1_EvaluationActivity extends AppCompatActivity {
@@ -22,15 +25,17 @@ public class Route1_EvaluationActivity extends AppCompatActivity {
     VideoView mVideoView2;
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_route1__evaluation);
-        buttonVideoPlay = (ImageButton)findViewById(R.id.video_play_button);
-        buttonVideoPause = (ImageButton)findViewById(R.id.video_pause_button);
 
-        buttonVideoPlay2 = (ImageButton)findViewById(R.id.video_play_button2);
-        buttonVideoPause2 = (ImageButton)findViewById(R.id.video_pause_button2);
+        buttonVideoPlay = (ImageButton) findViewById(R.id.video_play_button);
+        buttonVideoPause = (ImageButton) findViewById(R.id.video_pause_button);
+
+        buttonVideoPlay2 = (ImageButton) findViewById(R.id.video_play_button2);
+        buttonVideoPause2 = (ImageButton) findViewById(R.id.video_pause_button2);
 
         String uriPath = "android.resource://" + getPackageName() + "/" + R.raw.diesendungmitdermauslotuseffekt;
         Uri uri1 = Uri.parse(uriPath);
@@ -49,8 +54,6 @@ public class Route1_EvaluationActivity extends AppCompatActivity {
                 mVideoView1.pause();
             }
         });
-
-
 
 
         String uriPath2 = "android.resource://" + getPackageName() + "/" + R.raw.diesendungmitdermauslotuseffekt;
@@ -72,13 +75,5 @@ public class Route1_EvaluationActivity extends AppCompatActivity {
         });
 
     }
-
-
-
-
-
-
-
-
 }
 
