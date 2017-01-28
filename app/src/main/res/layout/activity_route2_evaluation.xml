@@ -34,36 +34,68 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/finishflag"
+                        android:gravity="right"
+                        android:padding="10dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Auswertung der Gruppe: "
+                        android:gravity="left"
+                        android:textColor="@color/colorGrey_text"
+                        android:textSize="25sp"
+                        android:padding="20dp"/>
+
+                    <TextView
+                        android:id="@+id/groupName"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:text="Teamname"
+                        android:gravity="left"
+                        android:textColor="@color/colorGrey_text"
+                        android:textSize="25sp"
+                        android:padding="20dp"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
                 <LinearLayout
                     android:orientation="horizontal"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
+
                     <LinearLayout
                         android:orientation="vertical"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_weight="1">
+                        android:layout_weight="1"
+                        android:weightSum="1">
 
-                        <Space
-                            android:layout_width="match_parent"
-                            android:layout_height="50dp" />
 
                         <TextView
                             android:layout_width="600dp"
-                            android:layout_height="100dp"
-                            android:text="Gruppe: Station 2 Lotuseffekt testen"
+                            android:layout_height="50dp"
+                            android:text="Station 1: Lotuseffekt testen"
                             android:ems="10"
                             android:id="@+id/Aufgaben_Text1"
                             android:textColor="@color/colorGrey_text"
                             android:textSize="25sp"
-                            android:paddingStart="40dp"
-                            android:paddingLeft="40dp"
-                            android:paddingEnd="40dp"
-                            android:paddingRight="40dp"
-                            android:gravity="center"
-                            android:textStyle="bold"
-                            />
+                            android:layout_marginTop="50dp"
+                            android:layout_marginLeft="80dp"
+                            android:gravity="left"
+                            android:layout_weight="0.57" />
 
                         <VideoView
                             android:id="@+id/StationVideo1"
@@ -106,23 +138,20 @@
 
                         <TextView
                             android:layout_width="434dp"
-                            android:layout_height="100dp"
-                            android:text="Station 2 Optik"
+                            android:layout_height="50dp"
+                            android:text="Station 3: Optik"
                             android:ems="10"
                             android:id="@+id/Aufgaben_Text2"
                             android:textColor="@color/colorGrey_text"
                             android:textSize="25sp"
-                            android:paddingStart="40dp"
-                            android:paddingLeft="40dp"
-                            android:paddingEnd="40dp"
-                            android:paddingRight="40dp"
-                            android:gravity="center"
-                            android:textStyle="bold"
+                            android:layout_marginTop="50dp"
+                            android:layout_marginLeft="80dp"
+                            android:gravity="left"
                             />
 
 
                         <VideoView
-                            android:id="@+id/StationVideo2"
+                            android:id="@+id/StationVideo3"
                             android:layout_width="match_parent"
                             android:layout_height="273dp"
                             android:contentDescription="@string/layout_Video_Beschreibung"
@@ -168,28 +197,23 @@
                         android:layout_height="match_parent"
                         android:layout_weight="1">
 
-                        <Space
-                            android:layout_width="match_parent"
-                            android:layout_height="50dp" />
+
 
                         <TextView
                             android:layout_width="match_parent"
-                            android:layout_height="100dp"
-                            android:text="Station 2 Straßenlampen"
+                            android:layout_height="50dp"
+                            android:text="Station 2: Straßenlampen"
                             android:ems="10"
                             android:id="@+id/Aufgaben_Text3"
                             android:textColor="@color/colorGrey_text"
                             android:textSize="25sp"
-                            android:paddingStart="40dp"
-                            android:paddingLeft="40dp"
-                            android:paddingEnd="40dp"
-                            android:paddingRight="40dp"
-                            android:gravity="center"
-                            android:textStyle="bold"
+                            android:layout_marginTop="50dp"
+                            android:layout_marginLeft="80dp"
+                            android:gravity="left"
                             />
 
                         <VideoView
-                            android:id="@+id/StationVideo3"
+                            android:id="@+id/StationVideo2"
                             android:layout_width="match_parent"
                             android:layout_height="273dp"
                             android:contentDescription="@string/layout_Video_Beschreibung"
@@ -231,18 +255,15 @@
 
                         <TextView
                             android:layout_width="600dp"
-                            android:layout_height="100dp"
-                            android:text="Station 2 Der Natur abgeschaut"
+                            android:layout_height="50dp"
+                            android:text="Station 4: Der Natur abgeschaut"
                             android:ems="10"
                             android:id="@+id/Aufgaben_Text4"
                             android:textColor="@color/colorGrey_text"
                             android:textSize="25sp"
-                            android:paddingStart="40dp"
-                            android:paddingLeft="40dp"
-                            android:paddingEnd="40dp"
-                            android:paddingRight="40dp"
-                            android:gravity="center"
-                            android:textStyle="bold"
+                            android:layout_marginTop="50dp"
+                            android:layout_marginLeft="80dp"
+                            android:gravity="left"
                             />
 
                         <RadioGroup
@@ -299,7 +320,7 @@
                     android:layout_weight="1">
 
                     <Button
-                        android:text="zurück zur Startseite"
+                        android:text="Route beenden"
                         android:id="@+id/Auswertung"
                         android:layout_width="410dp"
                         android:layout_height="80dp"
@@ -307,7 +328,8 @@
                         android:background="@drawable/button_border"
                         android:textColor="@color/colorWhite"
                         android:layout_alignParentTop="true"
-                        android:layout_centerHorizontal="true" />
+                        android:layout_centerHorizontal="true"
+                        android:layout_margin="40dp"/>
                 </RelativeLayout>
 
             </LinearLayout>

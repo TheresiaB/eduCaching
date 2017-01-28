@@ -6,9 +6,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
-import android.widget.RadioButton;
-import android.widget.RadioGroup;
-import android.widget.TextView;
 import android.widget.VideoView;
 
 public class Route1_EvaluationActivity extends AppCompatActivity {
@@ -29,7 +26,7 @@ public class Route1_EvaluationActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_route1__evaluation);
+        setContentView(R.layout.activity_route1_evaluation);
 
         buttonVideoPlay = (ImageButton) findViewById(R.id.video_play_button);
         buttonVideoPause = (ImageButton) findViewById(R.id.video_pause_button);

@@ -30,6 +30,7 @@ import com.life.educaching.Model.DecideRouteActivity;
 import com.life.educaching.Model.MapMethods;
 import com.life.educaching.Model.TaskTextAudioActivity;
 import com.life.educaching.R;
+import com.life.educaching.Route2_EvaluationActivity;
 
 public class Route2Finished extends AppCompatActivity implements OnMapReadyCallback {
 
@@ -66,7 +67,7 @@ public class Route2Finished extends AppCompatActivity implements OnMapReadyCallb
 
             @Override
             public void onClick(View arg0) {
-                startActivity(new Intent(context, Route2Auswertung.class));
+                startActivity(new Intent(context, Route2_EvaluationActivity.class));
             }
         });
 

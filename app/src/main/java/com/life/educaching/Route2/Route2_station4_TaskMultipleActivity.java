@@ -68,7 +68,11 @@ public class Route2_station4_TaskMultipleActivity extends AppCompatActivity {
                 int selectedId = radioGroup.getCheckedRadioButtonId();
 
                 radioButton = (RadioButton) findViewById(selectedId);
-                input = radioButton.getText().toString();
+                if(radioButton == null){
+                    input = "Keine Antwort";
+                } else {
+                    input = radioButton.getText().toString();
+                }
 
                 editor.putString("key2", input);
                 editor.commit();

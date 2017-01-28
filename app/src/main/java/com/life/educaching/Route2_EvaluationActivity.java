@@ -1,23 +1,21 @@
 package com.life.educaching;
 
+import android.content.SharedPreferences;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.TextView;
 import android.widget.VideoView;
 
 public class Route2_EvaluationActivity extends AppCompatActivity {
 
-    ImageButton buttonVideoPlay;
-    ImageButton buttonVideoPause;
-    Button buttonNext;
-    Button buttonBack;
-
-    ImageButton buttonVideoPlay2;
+    ImageButton buttonVideoPlayS1;
+    ImageButton buttonVideoPauseS1;
+    ImageButton buttonVideoPlayS2;
     ImageButton buttonVideoPause2;
-
     ImageButton buttonVideoPlay3;
     ImageButton buttonVideoPause3;
     ImageButton buttonVideoStop;
@@ -25,78 +23,83 @@ public class Route2_EvaluationActivity extends AppCompatActivity {
     VideoView mVideoView2;
     VideoView mVideoView3;
 
+    TextView mTextview;
+    TextView neu;
+    TextView groupName;
+    VideoView videoR2S1;
+    VideoView videoR2S2;
+    Button videoPlayR2S1;
+    Button videoPlayR2S2;
+    SharedPreferences preferences;
+    Uri myUriR2S1;
+    Uri myUriR2S2;
+
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_route2__evaluation);
+        setContentView(R.layout.activity_route2_evaluation);
+        setTextHeader();
 
-        buttonVideoPlay = (ImageButton) findViewById(R.id.video_play_button);
-        buttonVideoPause = (ImageButton) findViewById(R.id.video_pause_button);
 
-        buttonVideoPlay2 = (ImageButton) findViewById(R.id.video_play_button2);
+        mTextview = (TextView) findViewById(R.id.loadText);
+        neu = (TextView) findViewById(R.id.loadText2);
+
+        preferences = this.getSharedPreferences("prefsDatei1", MODE_PRIVATE);
+        String name = preferences.getString("name", "KeinText");
+        String value = preferences.getString("key", "KeinText");
+        String value2 = preferences.getString("key2", "KeinText");
+        String videoUri = preferences.getString("key3", "KeinText");
+        String videoUriS2 = preferences.getString("key4", "KeinText");
+
+        groupName = (TextView) findViewById(R.id.groupName);
+
+
+
+        buttonVideoPlayS1 = (ImageButton) findViewById(R.id.video_play_button2);
+        buttonVideoPauseS1 = (ImageButton) findViewById(R.id.video_pause_button);
+        buttonVideoPlayS2 = (ImageButton) findViewById(R.id.video_play_button);
         buttonVideoPause2 = (ImageButton) findViewById(R.id.video_pause_button2);
 
-        buttonVideoPlay3 = (ImageButton) findViewById(R.id.video_play_button3);
-        buttonVideoPause3 = (ImageButton) findViewById(R.id.video_pause_button3);
-
-        String uriPath = "android.resource://" + getPackageName() + "/" + R.raw.diesendungmitdermauslotuseffekt;
-        Uri uri1 = Uri.parse(uriPath);
         mVideoView1 = (VideoView) findViewById(R.id.StationVideo1);
-        mVideoView1.setVideoURI(uri1);
+        mVideoView2 = (VideoView) findViewById(R.id.StationVideo2);
 
-        buttonVideoPlay.setOnClickListener(new Button.OnClickListener() {
+        myUriR2S1 = Uri.parse(videoUri);
+        myUriR2S2 = Uri.parse(videoUriS2);
+
+        mVideoView1.setVideoURI(myUriR2S1);
+        mVideoView2.setVideoURI(myUriR2S2);
+
+        groupName.setText(name);
+
+
+        /*
+        mTextview.setText(value);
+        neu.setText(value2);
+        */
+
+
+        buttonVideoPlayS1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 mVideoView1.start();
             }
         });
-        buttonVideoPause.setOnClickListener(new Button.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                mVideoView1.pause();
-            }
-        });
 
-
-        String uriPath2 = "android.resource://" + getPackageName() + "/" + R.raw.diesendungmitdermauslotuseffekt;
-        Uri uri2 = Uri.parse(uriPath2);
-        mVideoView2 = (VideoView) findViewById(R.id.StationVideo2);
-        mVideoView2.setVideoURI(uri2);
-
-        buttonVideoPlay2.setOnClickListener(new Button.OnClickListener() {
+        buttonVideoPlayS2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 mVideoView2.start();
             }
         });
-        buttonVideoPause2.setOnClickListener(new Button.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                mVideoView2.pause();
-            }
-        });
-
-
-        String uriPath3 = "android.resource://" + getPackageName() + "/" + R.raw.diesendungmitdermauslotuseffekt;
-        Uri uri3 = Uri.parse(uriPath3);
-        mVideoView3 = (VideoView) findViewById(R.id.StationVideo3);
-        mVideoView3.setVideoURI(uri3);
-
-        buttonVideoPlay3.setOnClickListener(new Button.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                mVideoView3.start();
-            }
-        });
-        buttonVideoPause3.setOnClickListener(new Button.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                mVideoView3.pause();
-            }
-        });
 
     }
+
+    public void setTextHeader() {
+        TextView myAwesomeTextView = (TextView) findViewById(R.id.text_head);
+        myAwesomeTextView.setText("Route 2 - Auswertung");
+    }
+
 }
 
