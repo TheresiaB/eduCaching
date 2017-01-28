@@ -72,4 +72,5 @@ public class MapMethods {
         BitmapDescriptor result = BitmapDescriptorFactory.fromBitmap(scaledBitMap);
         return result;
     }
+   
 }
