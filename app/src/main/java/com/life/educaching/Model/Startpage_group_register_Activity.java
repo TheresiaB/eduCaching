@@ -9,7 +9,6 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import com.life.educaching.R;
 
 /**
@@ -37,7 +36,7 @@ public class Startpage_group_register_Activity extends AppCompatActivity {
 
             @Override
             public void onClick(View arg0) {
-                startActivity(new Intent(context,DecideRouteActivity.class));
+                startActivity(new Intent(context, DecideRouteActivity.class));
             }
         });
     }
