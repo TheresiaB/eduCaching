@@ -33,5 +33,20 @@
         android:layout_marginEnd="70dp"
         android:layout_marginRight="70dp"/>
 
+    <Button
+        android:id="@+id/videoRecordPlayS2"
+        android:text="play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        />
+    <VideoView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/videoRoute2Station1S2"
+        android:layout_weight="1"
+        android:layout_marginEnd="70dp"
+        android:layout_marginRight="70dp"/>
+
 
 </LinearLayout>

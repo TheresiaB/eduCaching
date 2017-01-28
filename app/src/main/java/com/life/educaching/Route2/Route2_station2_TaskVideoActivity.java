@@ -2,6 +2,7 @@ package com.life.educaching.Route2;
 
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
@@ -11,6 +12,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.TextView;
+import android.widget.Toast;
 import android.widget.VideoView;
 
 import com.google.android.gms.appindexing.Action;
@@ -33,6 +35,9 @@ public class Route2_station2_TaskVideoActivity extends AppCompatActivity {
     private int ACTIVITY_START_CAMERA_APP = 0;
     Button buttonNext;
     Button buttonBack;
+    String videoUriString;
+    SharedPreferences preferences;
+    SharedPreferences.Editor editor;
     /**
      * ATTENTION: This was auto-generated to implement the App Indexing API.
      * See https://g.co/AppIndexing/AndroidStudio for more information.
@@ -48,6 +53,8 @@ public class Route2_station2_TaskVideoActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         addListenerOnButton();
         setTextHeader();
+        preferences = this.getSharedPreferences("prefsDatei1", MODE_PRIVATE);
+        editor = preferences.edit();
 
         mRecordView = (Button) findViewById(R.id.video_record_button);
         mPlayView = (Button) findViewById(R.id.video_play_button);
@@ -83,6 +90,7 @@ public class Route2_station2_TaskVideoActivity extends AppCompatActivity {
         if (requestCode == ACTIVITY_START_CAMERA_APP && resultCode == RESULT_OK) {
             Uri videoUri = data.getData();
             mVideoView.setVideoURI(videoUri);
+            videoUriString = videoUri.toString();
         }
     }
 
@@ -132,6 +140,9 @@ public class Route2_station2_TaskVideoActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View arg0) {
+                Toast.makeText(Route2_station2_TaskVideoActivity.this, videoUriString, Toast.LENGTH_SHORT).show();
+                editor.putString("key4", videoUriString);
+                editor.commit();
                 startActivity(new Intent(context, Route2_station2_Finished.class));
             }
         });
