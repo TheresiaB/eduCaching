@@ -29,7 +29,7 @@
         <RelativeLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="465dp">
+            android:layout_height="490dp">
 
             <TextView
                 android:layout_width="410dp"
@@ -51,7 +51,7 @@
                 android:id="@+id/Station_1_abschließen"
                 android:layout_width="410dp"
                 android:layout_height="80dp"
-                android:text="Weiter zur nächsten Station"
+                android:text="Station abschließen"
                 android:textSize="26sp"
                 android:background="@drawable/button_border"
                 android:textColor="@color/colorWhite"

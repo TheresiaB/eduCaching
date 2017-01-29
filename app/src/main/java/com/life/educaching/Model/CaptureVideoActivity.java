@@ -12,6 +12,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.TextView;
+import android.widget.Toast;
 import android.widget.VideoView;
 
 import com.google.android.gms.appindexing.Action;
@@ -22,17 +23,16 @@ import com.life.educaching.R;
 
 import java.io.File;
 
+/**
+ * Created by priscilla on 16.01.17.
+ */
+
 public class CaptureVideoActivity extends AppCompatActivity {
 
-    Button mRecordView, mPlayView;
-    ImageButton mPlayButtonView;
+    ImageButton buttonRecordVideo;
+    ImageButton buttonVideoPlay;
     VideoView mVideoView;
-    private int ACTIVITY_START_CAMERA_APP = 0;
-    /**
-     * ATTENTION: This was auto-generated to implement the App Indexing API.
-     * See https://g.co/AppIndexing/AndroidStudio for more information.
-     */
-    private GoogleApiClient client;
+    private int ACTIVITY_START_CAMERA_APP = 1;
 
 
     @Override
@@ -43,29 +43,30 @@ public class CaptureVideoActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         setTextHeader();
 
-        mRecordView = (Button) findViewById(R.id.video_record_button);
-        mPlayView = (Button) findViewById(R.id.video_play_button);
-        mPlayButtonView = (ImageButton) findViewById(R.id.imageButton1);
+
+
+        buttonRecordVideo = (ImageButton) findViewById(R.id.video_record_button);
+        buttonVideoPlay = (ImageButton) findViewById(R.id.video_play_button);
         mVideoView = (VideoView) findViewById(R.id.videoView2);
 
-        mRecordView.setOnClickListener(new View.OnClickListener() {
+        buttonRecordVideo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent callCaptureVideoIntent = new Intent();
                 callCaptureVideoIntent.setAction(MediaStore.ACTION_VIDEO_CAPTURE);
+
                 startActivityForResult(callCaptureVideoIntent, ACTIVITY_START_CAMERA_APP);
             }
         });
 
-        mPlayView.setOnClickListener(new View.OnClickListener() {
+        buttonVideoPlay.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 mVideoView.start();
             }
         });
-        // ATTENTION: This was auto-generated to implement the App Indexing API.
-        // See https://g.co/AppIndexing/AndroidStudio for more information.
-        client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
+
+
     }
 
     public void setTextHeader() {
@@ -79,40 +80,10 @@ public class CaptureVideoActivity extends AppCompatActivity {
             mVideoView.setVideoURI(videoUri);
         }
     }
-
-    /**
-     * ATTENTION: This was auto-generated to implement the App Indexing API.
-     * See https://g.co/AppIndexing/AndroidStudio for more information.
-     */
-    public Action getIndexApiAction() {
-        Thing object = new Thing.Builder()
-                .setName("CaptureVideo Page") // TODO: Define a title for the content shown.
-                // TODO: Make sure this auto-generated URL is correct.
-                .setUrl(Uri.parse("http://[ENTER-YOUR-URL-HERE]"))
-                .build();
-        return new Action.Builder(Action.TYPE_VIEW)
-                .setObject(object)
-                .setActionStatus(Action.STATUS_TYPE_COMPLETED)
-                .build();
-    }
-
-    @Override
-    public void onStart() {
-        super.onStart();
-
-        // ATTENTION: This was auto-generated to implement the App Indexing API.
-        // See https://g.co/AppIndexing/AndroidStudio for more information.
-        client.connect();
-        AppIndex.AppIndexApi.start(client, getIndexApiAction());
-    }
-
-    @Override
-    public void onStop() {
-        super.onStop();
-
-        // ATTENTION: This was auto-generated to implement the App Indexing API.
-        // See https://g.co/AppIndexing/AndroidStudio for more information.
-        AppIndex.AppIndexApi.end(client, getIndexApiAction());
-        client.disconnect();
-    }
 }
+
+
+
+
+
+

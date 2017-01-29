@@ -65,7 +65,7 @@
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="295dp"
+            android:layout_height="300dp"
             >
 
             <ScrollView
@@ -75,7 +75,8 @@
                 android:layout_marginLeft="70dp"
                 android:layout_marginEnd="70dp"
                 android:layout_marginRight="70dp"
-                android:layout_weight="1">
+                android:layout_weight="1"
+                android:fadeScrollbars="false">
 
                 <TextView
                     android:layout_width="match_parent"
@@ -92,11 +93,12 @@
             <VideoView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/videoView2"
+                android:id="@+id/route2Station1Video"
                 android:layout_weight="1"
-                android:layout_marginEnd="70dp" />
+                android:layout_marginEnd="70dp"
+                android:layout_marginRight="70dp"/>
 
-            />
+
 
 
         </LinearLayout>
@@ -104,7 +106,7 @@
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="70dp"
+            android:layout_height="90dp"
             >
 
             <TextView

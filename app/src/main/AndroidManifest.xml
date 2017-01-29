@@ -42,10 +42,73 @@
         </intent-filter>
         </activity>
 
+
         <activity android:name=".Model.CameraActivity" />
 
         <activity
             android:name=".Model.DecideRouteActivity"
+            android:label="@string/layout_Bild_Beschreibung"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name="com.life.educaching.Route2.Route2_station1_InfoPictureActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name="com.life.educaching.Route2.Route2_station2_Finished"
+            android:label="@string/layout_Bild_Beschreibung"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name="com.life.educaching.Route2.Route2_station2_InfoVideoActivity"
+            android:label="@string/layout_Bild_Beschreibung"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name="com.life.educaching.Route2.Route2_station2_TaskVideoActivity"
+            android:label="@string/layout_Bild_Beschreibung"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name="com.life.educaching.Route2.Route2_station3_Finished"
+            android:label="@string/layout_Bild_Beschreibung"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name="com.life.educaching.Route2.Route2_station3_InfoVideoActivity"
+            android:label="@string/layout_Bild_Beschreibung"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name="com.life.educaching.Route2.Route2_station3_TaskTextActivity"
+            android:label="@string/layout_Bild_Beschreibung"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+
+        <activity
+            android:name="com.life.educaching.Route2.Route2_station4_Finished"
+            android:label="@string/layout_Bild_Beschreibung"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+
+        <activity
+            android:name="com.life.educaching.Route2.Route2_station4_InfoVideoActivity"
+            android:label="@string/layout_Bild_Beschreibung"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+
+        <activity
+            android:name="com.life.educaching.Route2.Route2_station4_TaskMultipleActivity"
             android:label="@string/layout_Bild_Beschreibung"
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar"/>
@@ -136,17 +199,13 @@
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".Route1.Route1_station2_InfoPictureActivity"
+            android:name=".Route1.Route1_station2_InfoPicutreActivity"
             android:label="Route1_station1_InformationPictureActivity"
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar" />
+
         <activity
-            android:name=".Route2.Route2_station1_InformationVideoActivity"
-            android:label="Route2_station1_InformationVideoActivity"
-            android:screenOrientation="landscape"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".Route2.Route2_station1_TaskActivity"
+            android:name=".Route2.Route2_station1_TaskVideoActivity"
             android:label="Route2_station1_TaskActivity"
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar" />
@@ -203,14 +262,18 @@
         <activity
             android:name=".Route1.Route1_station2_MapActivity"
             android:screenOrientation="landscape" />
-
-
-
         <activity
             android:name=".Model.CaptureVideoActivity"
             android:label="@string/title_activity_capture_video"
-            android:theme="@style/AppTheme">
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme" >
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
         </activity>
+
 
         <activity android:name=".Route1.Route1_station3_MapActivity" />
         <activity android:name=".Route1.Route1_station4_MapActivity" />

@@ -138,7 +138,7 @@ public class Route1_station2_TaskVideoActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View arg0) {
-                startActivity(new Intent(context, Route1_station2_InfoPictureActivity.class));
+                startActivity(new Intent(context, Route1_station2_InfoPicutreActivity.class));
             }
         });
     }

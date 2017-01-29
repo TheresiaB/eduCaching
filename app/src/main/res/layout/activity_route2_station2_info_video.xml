@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.life.educaching.Route2.Route2_station1_InformationVideoActivity">
+    tools:context="com.life.educaching.Route2.Route2_station2_InfoVideoActivity">
 
     <LinearLayout
         android:orientation="vertical"
@@ -79,18 +79,18 @@
                 android:layout_height="match_parent"
                 >
 
-            <VideoView
-                android:id="@+id/route2Station1Video"
-                android:layout_width="650dp"
-                android:layout_height="wrap_content"
-                android:contentDescription="@string/layout_Video_Beschreibung"
-                android:layout_marginStart="70dp"
-                android:layout_marginLeft="70dp"
-                android:layout_marginEnd="70dp"
-                android:layout_marginRight="70dp"
-                android:layout_gravity="center"
-                android:adjustViewBounds="true"
-                />
+                <VideoView
+                    android:id="@+id/route2Station1Video"
+                    android:layout_width="650dp"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/layout_Video_Beschreibung"
+                    android:layout_marginStart="70dp"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginEnd="70dp"
+                    android:layout_marginRight="70dp"
+                    android:layout_gravity="center"
+                    android:adjustViewBounds="true"
+                    />
 
             </LinearLayout>
 
@@ -100,35 +100,35 @@
 
         </LinearLayout>
 
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="65dp"
-        android:weightSum="1">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:weightSum="1">
 
-        <TextView
-            android:layout_width="770dp"
-            android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="770dp"
+                android:layout_height="wrap_content" />
 
 
-        <ImageButton
-            android:id="@+id/video_play_button"
-            android:layout_width="70dp"
-            android:layout_height="60dp"
-            android:background="@drawable/playbutton" />
+            <ImageButton
+                android:id="@+id/video_play_button"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:background="@drawable/playbutton" />
 
-        <ImageButton
-            android:id="@+id/video_pause_button"
-            android:layout_width="70dp"
-            android:layout_height="60dp"
-            android:background="@drawable/pausebutton" />
+            <ImageButton
+                android:id="@+id/video_pause_button"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:background="@drawable/pausebutton" />
 
-        <ImageButton
-            android:id="@+id/video_stop_button"
-            android:layout_width="30dp"
-            android:layout_height="60dp"
-            android:background="@drawable/stopbutton"
-            android:layout_weight="0.14" />
+            <ImageButton
+                android:id="@+id/video_stop_button"
+                android:layout_width="30dp"
+                android:layout_height="60dp"
+                android:background="@drawable/stopbutton"
+                android:layout_weight="0.14" />
 
 
         </LinearLayout>

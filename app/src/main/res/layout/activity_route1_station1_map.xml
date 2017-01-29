@@ -27,7 +27,7 @@
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="465dp">
+            android:layout_height="490dp">
 
 
 
@@ -72,6 +72,7 @@
                 android:layout_marginTop="20dp"
                 android:layout_centerHorizontal="true"
                 android:layout_centerVertical="true"
+                android:fadeScrollbars="false"
                 >
 
                 <TextView

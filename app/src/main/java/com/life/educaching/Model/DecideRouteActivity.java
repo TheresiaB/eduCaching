@@ -24,6 +24,7 @@ public class DecideRouteActivity extends  AppCompatActivity{
     private Spinner spinner1;
     private Button btnSubmit;
     Button buttonTake;
+    Button buttonBack;
     public static String whichRoute;
 
 
@@ -45,6 +46,16 @@ public class DecideRouteActivity extends  AppCompatActivity{
     }
 
     public void addListenerOnButton() {
+        final Context context = this;
+        buttonBack = (Button) findViewById(R.id.button_back);
+        buttonBack.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View arg0) {
+                startActivity(new Intent(context, Startpage_group_register_Activity.class));
+
+            }
+        });
 
         spinner1 = (Spinner) findViewById(R.id.spinner1);
         btnSubmit = (Button) findViewById(R.id.button_take_route);

@@ -77,13 +77,13 @@ public class Route1Finished extends AppCompatActivity implements OnMapReadyCallb
         //mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(moeckernbruecke, 14));
 
         LatLng potsdamerplatz = new LatLng(52.5096488, 13.37594409999997);
-        mMap.addMarker(new MarkerOptions().position(potsdamerplatz).title("Marker in der 2. Station").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+        mMap.addMarker(new MarkerOptions().position(potsdamerplatz).title("Marker in der 2. Station").icon(MapMethods.createIcon(this, R.drawable.station2_icon_finished, 150, 150)));
 
         LatLng hauptbahnhof = new LatLng(52.5250839, 13.369402000000036);
-        mMap.addMarker(new MarkerOptions().position(hauptbahnhof).title("Marker in der 3. Station").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+        mMap.addMarker(new MarkerOptions().position(hauptbahnhof).title("Marker in der 3. Station").icon(MapMethods.createIcon(this, R.drawable.station3_icon_finished, 150, 150)));
 
         LatLng alexanderplatz = new LatLng(52.5215855, 13.411163999999985);
-        mMap.addMarker(new MarkerOptions().position(alexanderplatz).title("Marker in der 4. Station").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+        mMap.addMarker(new MarkerOptions().position(alexanderplatz).title("Marker in der 4. Station").icon(MapMethods.createIcon(this, R.drawable.station4_icon_finished, 150, 150)));
 
         LatLng[] stationen = {moeckernbruecke, potsdamerplatz, hauptbahnhof, alexanderplatz};
 

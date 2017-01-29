@@ -29,7 +29,7 @@
             >
 
             <TextView
-                android:layout_width="600dp"
+                android:layout_width="wrap_content"
                 android:layout_height="100dp"
                 android:text="@string/Head_Text"
                 android:ems="10"
@@ -42,73 +42,91 @@
                 android:paddingRight="0dp"
                 android:gravity="center_vertical"
                 android:textStyle="bold"
+                android:layout_weight="1"
                 />
 
             <TextView
-                android:layout_width="425dp"
+                android:layout_width="wrap_content"
                 android:layout_height="100dp"
                 android:text="Video aufnehmen"
                 android:ems="10"
                 android:id="@+id/Video"
                 android:textColor="@color/colorGrey_text"
                 android:textSize="40sp"
-                android:paddingStart="70dp"
-                android:paddingLeft="70dp"
+                android:paddingStart="50dp"
+                android:paddingLeft="50dp"
                 android:paddingEnd="0dp"
                 android:paddingRight="0dp"
-
                 android:gravity="center_vertical"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:layout_weight="1"
+                />
 
         </LinearLayout>
 
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="295dp"
+            android:layout_height="300dp"
             >
 
             <ScrollView
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginStart="70dp"
-                android:layout_marginLeft="70dp"
-                android:layout_marginEnd="70dp"
-                android:layout_marginRight="70dp"
-                android:layout_weight="1">
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_weight="1"
+                android:fadeScrollbars="false">
 
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:ems="10"
                     android:id="@+id/Text_Aufgabe"
                     android:text="@string/Lorem_Ipsum"
                     android:textColor="@color/colorGrey_text"
                     android:textSize="18sp"
-                    android:layout_gravity="center_vertical"/>
+                    android:layout_gravity="center_horizontal"
+                    android:paddingLeft="10dp"
+                    android:paddingStart="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingEnd="10dp"
+
+                    />
 
             </ScrollView>
 
-            <VideoView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/videoView2"
-                android:layout_weight="1"
-                android:layout_marginEnd="70dp" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
 
-            />
+                <VideoView
+                    android:layout_width="600dp"
+                    android:layout_height="300dp"
+                    android:id="@+id/videoView2"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginEnd="70dp"
+                    android:layout_marginRight="70dp"
+                    android:layout_gravity="center_horizontal"
+                    android:scaleType="fitStart"
+                    />
 
+            </RelativeLayout>
 
         </LinearLayout>
 
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="70dp"
+            android:layout_height="90dp"
             >
 
             <TextView
-                android:layout_width="700dp"
+                android:layout_width="637dp"
                 android:layout_height="50dp"
                 android:paddingStart="70dp"
                 android:paddingLeft="70dp"
@@ -116,29 +134,23 @@
                 android:paddingRight="0dp"
                 />
 
-            <Button
-                android:id="@+id/video_record_button"
-                android:text="record"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:onClick="play"
-                />
-
-            <Button
-                android:id="@+id/video_play_button"
-                android:text="play"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                />
 
             <ImageButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                app:srcCompat="@drawable/ic_play_light"
-                android:id="@+id/imageButton1"
-                />
+                android:id="@+id/video_play_button"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/playbutton"
+                android:layout_marginLeft="50dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="10dp" />
+
+            <ImageButton
+                android:id="@+id/video_record_button"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/media_record"
+                android:layout_margin="10dp"
+                android:onClick="play"/>
 
         </LinearLayout>
 

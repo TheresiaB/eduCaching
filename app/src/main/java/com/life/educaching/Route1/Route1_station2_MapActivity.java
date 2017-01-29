@@ -11,7 +11,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -20,10 +19,8 @@ import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.LatLngBounds;
 import com.google.android.gms.maps.model.MarkerOptions;
-import com.life.educaching.Model.DecideRouteActivity;
 import com.life.educaching.Model.MapMethods;
 import com.life.educaching.R;
-import com.life.educaching.Model.TaskTextAudioActivity;
 
 public class Route1_station2_MapActivity extends AppCompatActivity implements OnMapReadyCallback {
     GoogleMap mMap;
@@ -61,7 +58,7 @@ public class Route1_station2_MapActivity extends AppCompatActivity implements On
 
             @Override
             public void onClick(View arg0) {
-                startActivity(new Intent(context, Route1_station2_InfoPictureActivity.class));
+                startActivity(new Intent(context, Route1_station2_InfoPicutreActivity.class));
             }
         });
         buttonBack.setOnClickListener(new View.OnClickListener() {

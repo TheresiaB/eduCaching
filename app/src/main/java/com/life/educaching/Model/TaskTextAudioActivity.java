@@ -16,13 +16,10 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.Chronometer;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.life.educaching.R;
-import com.life.educaching.Route1.Route1_station2_MapActivity;
 import com.life.educaching.Route2.Route2_station1_Finished;
-import com.life.educaching.Route2.Route2_station1_InformationVideoActivity;
-import com.life.educaching.Route2.Route2_station1_TaskActivity;
+import com.life.educaching.Route2.Route2_station1_InfoPictureActivity;
 
 import java.io.IOException;
 import java.util.Random;
@@ -49,7 +46,7 @@ public class TaskTextAudioActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_route2_station1_task);
+        setContentView(R.layout.activity_route2_station1_task_video);
         addListenerOnButton();
         setTextHeader();
         getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_HIDDEN);
@@ -248,7 +245,7 @@ public class TaskTextAudioActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View arg0) {
-                startActivity(new Intent(context, Route2_station1_InformationVideoActivity.class));
+                startActivity(new Intent(context, Route2_station1_InfoPictureActivity.class));
             }
         });
     }

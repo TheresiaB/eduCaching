@@ -10,17 +10,19 @@ import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.MediaController;
 import android.widget.TextView;
-import android.widget.Toast;
 import android.widget.VideoView;
 
-import com.life.educaching.Model.DecideRouteActivity;
 import com.life.educaching.R;
+import com.life.educaching.Route1.Route1_station1_MapActivity;
+import com.life.educaching.Route1.Route1_station1_TaskVideoActivity;
 
 /**
- * Created by theresia on 05.01.17.
+ * Created by theresia on 22.01.17.
  */
 
-public class Route2_station1_InformationVideoActivity extends AppCompatActivity {
+public class Route2_station2_InfoVideoActivity extends AppCompatActivity {
+
+
     ImageButton buttonVideoPlay;
     VideoView myVideoView;
     Button buttonNext;
@@ -33,7 +35,7 @@ public class Route2_station1_InformationVideoActivity extends AppCompatActivity 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_route2_station1_information_video);
+        setContentView(R.layout.activity_route2_station2_info_video);
         buttonVideoPlay = (ImageButton)findViewById(R.id.video_play_button);
         buttonVideoPause = (ImageButton)findViewById(R.id.video_pause_button);
         buttonVideoStop = (ImageButton) findViewById(R.id.video_stop_button);
@@ -75,7 +77,7 @@ public class Route2_station1_InformationVideoActivity extends AppCompatActivity 
 
     public void setTextHeader() {
         TextView myAwesomeTextView = (TextView) findViewById(R.id.text_head);
-        myAwesomeTextView.setText("Route 2");
+        myAwesomeTextView.setText("Station 2");
     }
 
     public void addListenerOnButton() {
@@ -87,7 +89,7 @@ public class Route2_station1_InformationVideoActivity extends AppCompatActivity 
 
             @Override
             public void onClick(View arg0) {
-                startActivity(new Intent(context, Route2_station1_TaskActivity.class));
+                startActivity(new Intent(context, Route2_station2_TaskVideoActivity.class));
             }
         });
 
@@ -95,15 +97,11 @@ public class Route2_station1_InformationVideoActivity extends AppCompatActivity 
 
             @Override
             public void onClick(View arg0) {
-                startActivity(new Intent(context, Route2_station1_MapActivity.class));
+                startActivity(new Intent(context, Route2_station2_MapActivity.class));
             }
         });
 
 
 
     }
-
-
-
-
 }

@@ -13,8 +13,6 @@ import android.widget.TextView;
 import android.widget.VideoView;
 
 import com.life.educaching.R;
-import com.life.educaching.Route2.Route2_station1_MapActivity;
-import com.life.educaching.Route2.Route2_station1_TaskActivity;
 
 /**
  * Created by theresia on 05.01.17.

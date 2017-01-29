@@ -5,9 +5,10 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.Button;
+import android.widget.TextView;
 import android.widget.Toast;
-
 import com.life.educaching.R;
 
 /**
@@ -23,6 +24,7 @@ public class Startpage_group_register_Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_startpage_group_register);
         addListenerOnButton();
+        getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_HIDDEN);
     }
 
     public void addListenerOnButton() {
@@ -34,8 +36,9 @@ public class Startpage_group_register_Activity extends AppCompatActivity {
 
             @Override
             public void onClick(View arg0) {
-                startActivity(new Intent(context,DecideRouteActivity.class));
+                startActivity(new Intent(context, DecideRouteActivity.class));
             }
         });
     }
+
 }
