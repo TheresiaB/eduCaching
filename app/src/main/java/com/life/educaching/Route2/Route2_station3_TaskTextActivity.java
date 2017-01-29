@@ -262,11 +262,6 @@ public class Route2_station3_TaskTextActivity extends AppCompatActivity{
                 editor.putString("key", input);
                 editor.commit();
 
-
-                /*Intent myIntent = new Intent(v.getContext(), Route2Auswertung.class);
-                myIntent.putExtra("input",input);
-                startActivity(myIntent);
-                */
                 startActivity(new Intent(context, Route2_station3_Finished.class));
             }
         });

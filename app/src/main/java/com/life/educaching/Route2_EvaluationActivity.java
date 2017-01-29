@@ -58,8 +58,11 @@ public class Route2_EvaluationActivity extends AppCompatActivity {
         neu = (TextView) findViewById(R.id.station4answer);
 
 
-        buttonVideoPlayS1 = (ImageButton) findViewById(R.id.video_play_button3);
+        buttonVideoPlayS1 = (ImageButton) findViewById(R.id.video_play_button);
         buttonVideoPauseS1 = (ImageButton) findViewById(R.id.video_pause_button);
+
+
+
         buttonVideoPlayS2 = (ImageButton) findViewById(R.id.video_play_button);
         buttonVideoPause2 = (ImageButton) findViewById(R.id.video_pause_button3);
 

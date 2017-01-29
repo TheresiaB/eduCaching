@@ -2,6 +2,7 @@ package com.life.educaching.Route1;
 
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
@@ -11,6 +12,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.TextView;
+import android.widget.Toast;
 import android.widget.VideoView;
 
 import com.google.android.gms.appindexing.Action;
@@ -18,6 +20,7 @@ import com.google.android.gms.appindexing.AppIndex;
 import com.google.android.gms.appindexing.Thing;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.life.educaching.R;
+import com.life.educaching.Route2.Route2_station1_TaskVideoActivity;
 
 /**
  * Created by theresia on 21.01.17.
@@ -32,6 +35,11 @@ public class Route1_station1_TaskVideoActivity extends AppCompatActivity {
     Button buttonNext;
     Button buttonBack;
     private GoogleApiClient client;
+    SharedPreferences preferences;
+    SharedPreferences.Editor editor;
+    public static String input;
+    Uri mUri = null;
+    String videoUriString;
 
 
     @Override
@@ -42,6 +50,8 @@ public class Route1_station1_TaskVideoActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         addListenerOnButton();
         setTextHeader();
+        preferences = this.getSharedPreferences("prefsDatei2", MODE_PRIVATE);
+        editor = preferences.edit();
 
         mRecordView = (ImageButton) findViewById(R.id.video_record_button);
         mPlayView = (ImageButton) findViewById(R.id.video_play_button);
@@ -76,6 +86,7 @@ public class Route1_station1_TaskVideoActivity extends AppCompatActivity {
         if (requestCode == ACTIVITY_START_CAMERA_APP && resultCode == RESULT_OK) {
             Uri videoUri = data.getData();
             mVideoView.setVideoURI(videoUri);
+            videoUriString = videoUri.toString();
         }
     }
 
@@ -124,6 +135,9 @@ public class Route1_station1_TaskVideoActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View arg0) {
+                Toast.makeText(Route1_station1_TaskVideoActivity.this, videoUriString, Toast.LENGTH_SHORT).show();
+                editor.putString("video1", videoUriString);
+                editor.commit();
                 startActivity(new Intent(context, Route1_station1_Finished.class));
             }
         });

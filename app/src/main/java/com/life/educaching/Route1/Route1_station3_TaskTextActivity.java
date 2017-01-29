@@ -2,6 +2,7 @@ package com.life.educaching.Route1;
 
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.media.MediaPlayer;
 import android.media.MediaRecorder;
@@ -15,10 +16,13 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.Chronometer;
+import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.life.educaching.R;
+import com.life.educaching.Route2.Route2_station3_TaskTextActivity;
 
 import java.io.IOException;
 import java.util.Random;
@@ -41,6 +45,10 @@ public class Route1_station3_TaskTextActivity extends AppCompatActivity{
     MediaPlayer mediaPlayer ;
     Button buttonNext;
     Button buttonBack;
+    EditText inputText;
+    public static String input;
+    SharedPreferences preferences;
+    SharedPreferences.Editor editor;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,6 +57,8 @@ public class Route1_station3_TaskTextActivity extends AppCompatActivity{
         addListenerOnButton();
         setTextHeader();
         getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_HIDDEN);
+        preferences = this.getSharedPreferences("prefsDatei2", MODE_PRIVATE);
+        editor = preferences.edit();
 
         buttonStart = (ImageButton) findViewById(R.id.recording_button);
         buttonStop = (ImageButton) findViewById(R.id.stop_button);
@@ -232,10 +242,17 @@ public class Route1_station3_TaskTextActivity extends AppCompatActivity{
         final Context context = this;
         buttonNext = (Button) findViewById(R.id.button_next);
         buttonBack = (Button) findViewById(R.id.button_back);
+        inputText = (EditText) findViewById(R.id.editText1);
+
         buttonNext.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View arg0) {
+                input = inputText.getText().toString();
+                Toast.makeText(Route1_station3_TaskTextActivity.this, input, Toast.LENGTH_SHORT).show();
+                editor.putString("keyText", input);
+                editor.commit();
+
                 startActivity(new Intent(context, Route1_station3_Finished.class));
             }
         });

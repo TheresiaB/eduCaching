@@ -5,7 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.life.educaching.Route1_EvaluationActivity"    >
+    tools:context="com.life.educaching.Route2_EvaluationActivity"    >
+
+    <TextView
+        android:text="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView" />
 
     <LinearLayout
         android:orientation="vertical"
@@ -15,184 +21,90 @@
         <include layout="@layout/activity_header_green" />
 
         <View
-        android:layout_width="match_parent"
-        android:layout_height="3dp"
-        android:background="@color/colorGrey_lines" />
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@color/colorGrey_lines" />
 
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-        <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
             <LinearLayout
-                android:orientation="horizontal"
+                android:orientation="vertical"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
+
                 <LinearLayout
-                android:orientation="vertical"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1">
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
 
-                    <Space
-                        android:layout_width="match_parent"
-                        android:layout_height="50dp" />
-
-                    <TextView
-                        android:layout_width="600dp"
-                        android:layout_height="100dp"
-                        android:text="Gruppe: Station 1 Lotuseffekt testen"
-                        android:ems="10"
-                        android:id="@+id/Aufgaben_Text1"
-                        android:textColor="@color/colorGrey_text"
-                        android:textSize="25sp"
-                        android:paddingStart="40dp"
-                        android:paddingLeft="40dp"
-                        android:paddingEnd="40dp"
-                        android:paddingRight="40dp"
-                        android:gravity="center"
-                        android:textStyle="bold"
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/finishflag"
+                        android:gravity="right"
+                        android:padding="10dp"
                         />
 
-                    <VideoView
-                        android:id="@+id/StationVideo1"
-                        android:layout_width="match_parent"
-                        android:layout_height="273dp"
-                        android:contentDescription="@string/layout_Video_Beschreibung"
-                        android:layout_marginStart="70dp"
-                        android:layout_marginEnd="70dp" />
-
-                    <LinearLayout
-                        android:orientation="horizontal"
-                        android:layout_width="match_parent"
+                    <TextView
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:weightSum="1"
-                        android:gravity="center">
+                        android:text="Auswertung der Gruppe: "
+                        android:gravity="left"
+                        android:textColor="@color/colorGrey_text"
+                        android:textSize="25sp"
+                        android:padding="20dp"/>
 
-
-                    <ImageButton
-                        android:id="@+id/video_play_button"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:background="@drawable/playbutton" />
-
-                        <ImageButton
-                            android:id="@+id/video_pause_button"
-                            android:layout_width="50dp"
-                            android:layout_height="50dp"
-                            android:background="@drawable/pausebutton"
-                            android:layout_weight="0.00" />
-
-                        <ImageButton
-                        android:id="@+id/video_stop_button"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:background="@drawable/stopbutton" />
-
+                    <TextView
+                        android:id="@+id/groupName"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:text="Teamname"
+                        android:gravity="left"
+                        android:textColor="@color/colorGrey_text"
+                        android:textSize="25sp"
+                        android:padding="20dp"
+                        android:textStyle="bold"/>
 
                 </LinearLayout>
 
-                    <TextView
-                        android:layout_width="434dp"
-                        android:layout_height="100dp"
-                        android:text="Station 1 Nanotechnik"
-                        android:ems="10"
-                        android:id="@+id/Aufgaben_Text2"
-                        android:textColor="@color/colorGrey_text"
-                        android:textSize="25sp"
-                        android:paddingStart="40dp"
-                        android:paddingLeft="40dp"
-                        android:paddingEnd="40dp"
-                        android:paddingRight="40dp"
-                        android:gravity="center"
-                        android:textStyle="bold"
-                        />
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
 
-
-
-
-                    <RadioGroup
-                        android:id="@+id/radioGroup"
-                        android:layout_width="400dp"
-                        android:layout_height="273dp"
-                        android:background="@drawable/spinner_border"
-                        android:gravity="center"
-
-                        android:layout_marginEnd="70dp"
-                        android:layout_marginStart="70dp">
-
-                        <RadioButton android:id="@+id/antwort_A"
-                            android:layout_width="350dp"
-                            android:layout_height="40dp"
-                            android:textSize="10sp"
-                            android:text="Das Wasser perlt ab und dringt nicht in das Blatt ein."
-                            />
-
-                        <RadioButton android:id="@+id/antwort_B"
-                            android:layout_width="350dp"
-                            android:layout_height="40dp"
-                            android:textSize="10sp"
-                            android:text="Das Blatt saugt das Wasser vollkommen ein und wird dick und nass."
-                            />
-
-                        <RadioButton android:id="@+id/antwort_D"
-                            android:layout_width="350dp"
-                            android:layout_height="40dp"
-                            android:textSize="10sp"
-                            android:text="Das Wasser dringt teilweise ein."
-                            />
-
-                        <RadioButton android:id="@+id/antwort_C"
-                            android:layout_width="350dp"
-                            android:layout_height="40dp"
-                            android:textSize="10sp"
-                            android:text="Das Blatt fängt an zu schrumpfen"
-                            />
-
-
-                    </RadioGroup>
-
-                    </LinearLayout>
 
                     <LinearLayout
                         android:orientation="vertical"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_weight="1">
+                        android:layout_weight="1"
+                        android:weightSum="1">
 
-                        <Space
-                            android:layout_width="match_parent"
-                            android:layout_height="50dp" />
 
                         <TextView
                             android:layout_width="match_parent"
-                            android:layout_height="100dp"
-                            android:text="Station 1 Straßenlampen"
+                            android:layout_height="50dp"
+                            android:text="Station 1: Lotuseffekt testen"
                             android:ems="10"
-                            android:id="@+id/Aufgaben_Text3"
+                            android:id="@+id/Aufgaben_Text1"
                             android:textColor="@color/colorGrey_text"
                             android:textSize="25sp"
-                            android:paddingStart="40dp"
-                            android:paddingLeft="40dp"
-                            android:paddingEnd="40dp"
-                            android:paddingRight="40dp"
-                            android:gravity="center"
-                            android:textStyle="bold"
-                            />
+                            android:layout_marginLeft="80dp"
+                            android:layout_marginTop="40dp"
+                            android:gravity="left"
+                            android:layout_weight="0.57" />
 
                         <VideoView
-                            android:id="@+id/StationVideo2"
+                            android:id="@+id/StationVideoR1S1"
                             android:layout_width="match_parent"
                             android:layout_height="273dp"
                             android:contentDescription="@string/layout_Video_Beschreibung"
                             android:layout_marginStart="70dp"
-                            android:layout_marginEnd="70dp"
-                            />
+                            android:layout_marginEnd="70dp" />
+
 
                         <LinearLayout
                             android:orientation="horizontal"
@@ -203,20 +115,20 @@
 
 
                             <ImageButton
-                                android:id="@+id/video_play_button2"
+                                android:id="@+id/video_play_buttonR1S1"
                                 android:layout_width="50dp"
                                 android:layout_height="50dp"
                                 android:background="@drawable/playbutton" />
 
                             <ImageButton
-                                android:id="@+id/video_pause_button2"
+                                android:id="@+id/video_pause_buttonR1S1"
                                 android:layout_width="50dp"
                                 android:layout_height="50dp"
                                 android:background="@drawable/pausebutton"
                                 android:layout_weight="0.00" />
 
                             <ImageButton
-                                android:id="@+id/video_stop_button2"
+                                android:id="@+id/video_stop_buttonR1S1"
                                 android:layout_width="50dp"
                                 android:layout_height="50dp"
                                 android:background="@drawable/stopbutton" />
@@ -224,45 +136,131 @@
 
                         </LinearLayout>
 
+                        <TextView
+                            android:layout_width="434dp"
+                            android:layout_height="50dp"
+                            android:text="Station 3: Optik"
+                            android:ems="10"
+                            android:id="@+id/Aufgaben_Text2"
+                            android:textColor="@color/colorGrey_text"
+                            android:textSize="25sp"
+                            android:layout_marginTop="50dp"
+                            android:layout_marginLeft="80dp"
+                            android:gravity="left"
+                            />
+
+                        <TextView
+                            android:id="@+id/stationR1S3answer"
+                            android:layout_width="450dp"
+                            android:weightSum="1"
+                            android:background="@drawable/spinner_border"
+                            android:layout_height="273dp"
+                            android:layout_marginLeft="80dp"
+                            android:layout_marginTop="15dp"
+                            android:textSize="20sp"
+                            android:text="Hier steht eure Antwort"
+                            />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
 
 
                         <TextView
-                            android:layout_width="600dp"
-                            android:layout_height="100dp"
-                            android:text="Station 1 Lotuseffekt fotografieren"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:text="Station 2: Straßenlampen"
+                            android:ems="10"
+                            android:id="@+id/Aufgaben_Text3"
+                            android:textColor="@color/colorGrey_text"
+                            android:textSize="25sp"
+                            android:layout_marginTop="40dp"
+                            android:layout_marginLeft="80dp"
+                            android:gravity="left"
+                            />
+
+                        <VideoView
+                            android:id="@+id/StationVideoR1S2"
+                            android:layout_width="match_parent"
+                            android:layout_height="273dp"
+                            android:contentDescription="@string/layout_Video_Beschreibung"
+                            android:layout_marginStart="70dp"
+                            android:layout_marginEnd="70dp"
+                            />
+
+
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:weightSum="1"
+                            android:gravity="center">
+
+
+                            <ImageButton
+                                android:id="@+id/video_play_buttonR1S2"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:background="@drawable/playbutton" />
+
+                            <ImageButton
+                                android:id="@+id/video_pause_buttonR1S2"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:background="@drawable/pausebutton"
+                                android:layout_weight="0.00" />
+
+                            <ImageButton
+                                android:id="@+id/video_stop_buttonR1S2"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:background="@drawable/stopbutton" />
+
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="434dp"
+                            android:layout_height="50dp"
+                            android:text="Station 4: Der Natur abgeschaut"
                             android:ems="10"
                             android:id="@+id/Aufgaben_Text4"
                             android:textColor="@color/colorGrey_text"
                             android:textSize="25sp"
-                            android:paddingStart="40dp"
-                            android:paddingLeft="40dp"
-                            android:paddingEnd="40dp"
-                            android:paddingRight="40dp"
-                            android:gravity="center"
-                            android:textStyle="bold"
+                            android:layout_marginTop="50dp"
+                            android:layout_marginLeft="80dp"
+                            android:gravity="left"
                             />
 
-                        <ImageView
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            app:srcCompat="@drawable/lotuseffekt"
-                            android:id="@+id/imageView_information_bild"
-                            android:layout_weight="1"
-                            android:contentDescription="@string/layout_Bild_Beschreibung"
-                            android:layout_marginStart="70dp"
-                            android:layout_marginLeft="70dp"
-                            android:layout_marginEnd="70dp"
-                            android:layout_marginRight="70dp"
-                            android:layout_gravity="center_horizontal"
-                            android:scaleType="fitStart"
-                            />
+
+
+                            <ImageView
+                                android:id="@+id/radioGroup"
+                                android:layout_width="480dp"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/spinner_border"
+                                android:gravity="center"
+                                android:layout_marginLeft="80dp"
+                                android:layout_marginTop="20dp"
+                                android:weightSum="1" />
+
+
 
                     </LinearLayout>
 
 
                 </LinearLayout>
 
-
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -270,23 +268,17 @@
                     android:layout_weight="1">
 
                     <Button
-                        android:text="zurück zur Startseite"
+                        android:text="Route beenden"
                         android:id="@+id/Auswertung"
                         android:layout_width="410dp"
                         android:layout_height="80dp"
                         android:textSize="26sp"
                         android:background="@drawable/button_border"
                         android:textColor="@color/colorWhite"
+                        android:layout_alignParentTop="true"
                         android:layout_centerHorizontal="true"
-                        android:layout_centerVertical="true"
-                        />
-
-
+                        android:layout_margin="40dp"/>
                 </RelativeLayout>
-
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="50dp" />
 
             </LinearLayout>
 

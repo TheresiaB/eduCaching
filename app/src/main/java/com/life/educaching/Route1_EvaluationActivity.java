@@ -1,51 +1,71 @@
 package com.life.educaching;
 
+import android.content.SharedPreferences;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.VideoView;
 
 public class Route1_EvaluationActivity extends AppCompatActivity {
 
-    ImageButton buttonVideoPlay;
-    ImageButton buttonVideoPause;
+    ImageButton buttonVideoPlayS1;
+    ImageButton buttonVideoPauseS1;
+
+    ImageButton buttonVideoPlayS2;
+    ImageButton buttonVideoPauseS2;
     Button buttonNext;
     Button buttonBack;
 
     ImageButton buttonVideoPlay2;
+    ImageButton buttonVideoPause1;
     ImageButton buttonVideoPause2;
     ImageButton buttonVideoStop;
     VideoView mVideoView1;
     VideoView mVideoView2;
 
+    SharedPreferences preferences;
+    Uri myUriR1S1;
+    Uri myUriR1S2;
+    TextView mTextview;
+    TextView groupName;
+    ImageView picture;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_route1_evaluation);
+        setTextHeader();
 
-        buttonVideoPlay = (ImageButton) findViewById(R.id.video_play_button);
-        buttonVideoPause = (ImageButton) findViewById(R.id.video_pause_button);
+        preferences = this.getSharedPreferences("prefsDatei2", MODE_PRIVATE);
+        String video1 = preferences.getString("video1", "KeinText");
+        String video2 = preferences.getString("video2", "KeinText");
+        String name = preferences.getString("name", "KeinText");
+        String picture1 = preferences.getString("picture", "KeinText");
+        String antwortText = preferences.getString("keyText", "KeinText");
 
-        buttonVideoPlay2 = (ImageButton) findViewById(R.id.video_play_button2);
-        buttonVideoPause2 = (ImageButton) findViewById(R.id.video_pause_button2);
 
-        String uriPath = "android.resource://" + getPackageName() + "/" + R.raw.diesendungmitdermauslotuseffekt;
-        Uri uri1 = Uri.parse(uriPath);
-        mVideoView1 = (VideoView) findViewById(R.id.StationVideo1);
-        mVideoView1.setVideoURI(uri1);
 
-        buttonVideoPlay.setOnClickListener(new Button.OnClickListener() {
+        buttonVideoPlayS1 = (ImageButton) findViewById(R.id.video_play_buttonR1S1);
+        buttonVideoPauseS1 = (ImageButton) findViewById(R.id.video_pause_buttonR1S1);
+        mVideoView1 = (VideoView) findViewById(R.id.StationVideoR1S1);
+
+        myUriR1S1 = Uri.parse(video1);
+        mVideoView1.setVideoURI(myUriR1S1);
+
+        buttonVideoPlayS1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 mVideoView1.start();
             }
         });
-        buttonVideoPause.setOnClickListener(new Button.OnClickListener() {
+
+        buttonVideoPauseS1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 mVideoView1.pause();
@@ -53,24 +73,49 @@ public class Route1_EvaluationActivity extends AppCompatActivity {
         });
 
 
-        String uriPath2 = "android.resource://" + getPackageName() + "/" + R.raw.diesendungmitdermauslotuseffekt;
-        Uri uri2 = Uri.parse(uriPath2);
-        mVideoView2 = (VideoView) findViewById(R.id.StationVideo2);
-        mVideoView2.setVideoURI(uri2);
+        buttonVideoPlayS2 = (ImageButton) findViewById(R.id.video_play_buttonR1S2);
+        buttonVideoPauseS2 = (ImageButton) findViewById(R.id.video_pause_buttonR1S2);
+        mVideoView2 = (VideoView) findViewById(R.id.StationVideoR1S2);
 
-        buttonVideoPlay2.setOnClickListener(new Button.OnClickListener() {
+        myUriR1S2 = Uri.parse(video2);
+        mVideoView2.setVideoURI(myUriR1S2);
+
+        buttonVideoPlayS2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 mVideoView2.start();
             }
         });
-        buttonVideoPause2.setOnClickListener(new Button.OnClickListener() {
+
+        buttonVideoPauseS2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 mVideoView2.pause();
             }
         });
 
+        groupName = (TextView) findViewById(R.id.groupName);
+
+        mTextview = (TextView) findViewById(R.id.stationR1S3answer);
+        groupName.setText(name);
+
+        mTextview.setText(antwortText);
+
+
+
+
+
+
+
+
+
+
     }
+
+    public void setTextHeader() {
+        TextView myAwesomeTextView = (TextView) findViewById(R.id.text_head);
+        myAwesomeTextView.setText("Route 2 - Auswertung");
+    }
+
 }
 

@@ -23,6 +23,8 @@ import com.google.android.gms.maps.model.LatLngBounds;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.life.educaching.Model.MapMethods;
 import com.life.educaching.R;
+import com.life.educaching.Route1_EvaluationActivity;
+import com.life.educaching.Route2_EvaluationActivity;
 
 public class Route1Finished extends AppCompatActivity implements OnMapReadyCallback {
     GoogleMap mMap;
@@ -54,8 +56,17 @@ public class Route1Finished extends AppCompatActivity implements OnMapReadyCallb
     public void addListenerOnButton() {
 
         final Context context = this;
-        buttonNext = (Button) findViewById(R.id.button_next);
+        buttonNext = (Button) findViewById(R.id.AuswertungR1);
         buttonBack = (Button) findViewById(R.id.button_back);
+
+        buttonNext.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View arg0) {
+                startActivity(new Intent(context, Route1_EvaluationActivity.class));
+            }
+        });
+
 
         buttonBack.setOnClickListener(new View.OnClickListener() {
 

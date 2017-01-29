@@ -2,7 +2,9 @@ package com.life.educaching.Route1;
 
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.Bitmap;
+import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
@@ -10,6 +12,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.life.educaching.Model.InformationPictureActivity;
 import com.life.educaching.Model.InformationVideoActivity;
@@ -23,6 +26,11 @@ public class Route1_station4_TaskPictureActivity extends AppCompatActivity {
 
     Button buttonNext;
     Button buttonBack;
+    SharedPreferences preferences;
+    SharedPreferences.Editor editor;
+    public static String input;
+    Uri mUri = null;
+    String videoUriString;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -68,6 +76,7 @@ public class Route1_station4_TaskPictureActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View arg0) {
+
                 startActivity(new Intent(context, Route1_station4_Finished.class));
             }
         });

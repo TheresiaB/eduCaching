@@ -51,7 +51,7 @@
 
             <Button
                 android:text="@string/button_auswertung"
-                android:id="@+id/Auswertung"
+                android:id="@+id/AuswertungR1"
                 android:layout_width="410dp"
                 android:layout_height="80dp"
                 android:textSize="34sp"
