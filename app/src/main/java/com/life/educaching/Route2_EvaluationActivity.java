@@ -43,8 +43,7 @@ public class Route2_EvaluationActivity extends AppCompatActivity {
         setTextHeader();
 
 
-        mTextview = (TextView) findViewById(R.id.loadText);
-        neu = (TextView) findViewById(R.id.loadText2);
+
 
         preferences = this.getSharedPreferences("prefsDatei1", MODE_PRIVATE);
         String name = preferences.getString("name", "KeinText");
@@ -55,12 +54,14 @@ public class Route2_EvaluationActivity extends AppCompatActivity {
 
         groupName = (TextView) findViewById(R.id.groupName);
 
+        mTextview = (TextView) findViewById(R.id.station3answer);
+        neu = (TextView) findViewById(R.id.station4answer);
 
 
-        buttonVideoPlayS1 = (ImageButton) findViewById(R.id.video_play_button2);
+        buttonVideoPlayS1 = (ImageButton) findViewById(R.id.video_play_button3);
         buttonVideoPauseS1 = (ImageButton) findViewById(R.id.video_pause_button);
         buttonVideoPlayS2 = (ImageButton) findViewById(R.id.video_play_button);
-        buttonVideoPause2 = (ImageButton) findViewById(R.id.video_pause_button2);
+        buttonVideoPause2 = (ImageButton) findViewById(R.id.video_pause_button3);
 
         mVideoView1 = (VideoView) findViewById(R.id.StationVideo1);
         mVideoView2 = (VideoView) findViewById(R.id.StationVideo2);
@@ -73,11 +74,9 @@ public class Route2_EvaluationActivity extends AppCompatActivity {
 
         groupName.setText(name);
 
-
-        /*
         mTextview.setText(value);
         neu.setText(value2);
-        */
+
 
 
         buttonVideoPlayS1.setOnClickListener(new View.OnClickListener() {

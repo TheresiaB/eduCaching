@@ -21,6 +21,7 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.life.educaching.Model.Startpage_group_register_Activity;
 import com.life.educaching.R;
 import com.life.educaching.Route1.Route1_station3_Finished;
 import com.life.educaching.Route1.Route1_station3_InfoVideoActivity;
@@ -255,9 +256,9 @@ public class Route2_station3_TaskTextActivity extends AppCompatActivity{
 
             @Override
             public void onClick(View v) {
+
                 input = inputText.getText().toString();
                 Toast.makeText(Route2_station3_TaskTextActivity.this, input, Toast.LENGTH_SHORT).show();
-
                 editor.putString("key", input);
                 editor.commit();
 

@@ -85,15 +85,15 @@
 
 
                         <TextView
-                            android:layout_width="600dp"
-                            android:layout_height="50dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="3dp"
                             android:text="Station 1: Lotuseffekt testen"
                             android:ems="10"
                             android:id="@+id/Aufgaben_Text1"
                             android:textColor="@color/colorGrey_text"
                             android:textSize="25sp"
-                            android:layout_marginTop="50dp"
                             android:layout_marginLeft="80dp"
+                            android:layout_marginTop="40dp"
                             android:gravity="left"
                             android:layout_weight="0.57" />
 
@@ -149,45 +149,18 @@
                             android:gravity="left"
                             />
 
-
-                        <VideoView
-                            android:id="@+id/StationVideo3"
-                            android:layout_width="match_parent"
+                        <TextView
+                            android:id="@+id/station3answer"
+                            android:layout_width="450dp"
+                            android:weightSum="1"
+                            android:background="@drawable/spinner_border"
                             android:layout_height="273dp"
-                            android:contentDescription="@string/layout_Video_Beschreibung"
-                            android:layout_marginStart="70dp"
-                            android:layout_marginEnd="70dp"
+                            android:layout_marginLeft="80dp"
+                            android:layout_marginTop="15dp"
+                            android:textSize="20sp"
+                            android:text="Hier steht eure Antwort"
                             />
 
-                        <LinearLayout
-                            android:orientation="horizontal"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:weightSum="1"
-                            android:gravity="center">
-
-
-                            <ImageButton
-                                android:id="@+id/video_play_button2"
-                                android:layout_width="50dp"
-                                android:layout_height="50dp"
-                                android:background="@drawable/playbutton" />
-
-                            <ImageButton
-                                android:id="@+id/video_pause_button2"
-                                android:layout_width="50dp"
-                                android:layout_height="50dp"
-                                android:background="@drawable/pausebutton"
-                                android:layout_weight="0.00" />
-
-                            <ImageButton
-                                android:id="@+id/video_stop_button2"
-                                android:layout_width="50dp"
-                                android:layout_height="50dp"
-                                android:background="@drawable/stopbutton" />
-
-
-                        </LinearLayout>
 
                     </LinearLayout>
 
@@ -207,7 +180,7 @@
                             android:id="@+id/Aufgaben_Text3"
                             android:textColor="@color/colorGrey_text"
                             android:textSize="25sp"
-                            android:layout_marginTop="50dp"
+                            android:layout_marginTop="40dp"
                             android:layout_marginLeft="80dp"
                             android:gravity="left"
                             />
@@ -254,7 +227,7 @@
                         </LinearLayout>
 
                         <TextView
-                            android:layout_width="600dp"
+                            android:layout_width="434dp"
                             android:layout_height="50dp"
                             android:text="Station 4: Der Natur abgeschaut"
                             android:ems="10"
@@ -268,42 +241,65 @@
 
                         <RadioGroup
                             android:id="@+id/radioGroup"
-                            android:layout_width="400dp"
+                            android:layout_width="480dp"
                             android:layout_height="match_parent"
                             android:background="@drawable/spinner_border"
                             android:gravity="center"
+                            android:layout_marginLeft="80dp"
+                            android:layout_marginTop="20dp"
                             android:weightSum="1"
-                            android:layout_marginEnd="70dp"
-                            android:layout_marginStart="70dp">
+                            >
 
                             <RadioButton android:id="@+id/antwort_A"
-                                android:layout_width="350dp"
-                                android:layout_height="40dp"
-                                android:textSize="10sp"
+                                android:layout_width="400dp"
+                                android:layout_height="50dp"
+                                android:layout_marginTop="5dp"
+                                android:textSize="15sp"
                                 android:text="Das Wasser perlt ab und dringt nicht in das Blatt ein."
                                 />
                             <RadioButton android:id="@+id/antwort_B"
-                                android:layout_width="350dp"
-                                android:layout_height="40dp"
-                                android:textSize="10sp"
+                                android:layout_width="400dp"
+                                android:layout_height="50dp"
+                                android:layout_marginTop="5dp"
+                                android:textSize="15sp"
                                 android:text="Das Blatt saugt das Wasser vollkommen ein und wird dick und nass."
                                 />
 
                             <RadioButton android:id="@+id/antwort_D"
-                                android:layout_width="350dp"
-                                android:layout_height="40dp"
-                                android:textSize="10sp"
+                                android:layout_width="400dp"
+                                android:layout_height="50dp"
+                                android:textSize="15sp"
+                                android:layout_marginTop="5dp"
                                 android:text="Das Wasser dringt teilweise ein."
                                 />
 
                             <RadioButton android:id="@+id/antwort_C"
-                                android:layout_width="350dp"
-                                android:layout_height="40dp"
-                                android:textSize="10sp"
+                                android:layout_width="400dp"
+                                android:layout_height="50dp"
+                                android:textSize="15sp"
+                                android:layout_marginTop="5dp"
                                 android:text="Das Blatt fängt an zu schrumpfen"
                                 />
 
+                            <TextView
+                                android:layout_width="350dp"
+                                android:layout_height="40dp"
+                                android:layout_marginTop="10dp"
+                                android:text="Eure Antwort war:"/>
+
+                            <TextView
+                                android:id="@+id/station4answer"
+                                android:layout_width="350dp"
+                                android:layout_height="40dp"
+                                android:text="ANTWORT"
+                                android:layout_marginBottom="5dp"
+                                />
+
+
+
                         </RadioGroup>
+
+
 
                     </LinearLayout>
 
