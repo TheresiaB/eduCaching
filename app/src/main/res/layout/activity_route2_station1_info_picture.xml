@@ -8,8 +8,6 @@
     tools:context="com.life.educaching.Route2.Route2_station1_InfoPictureActivity"
     >
 
-
-
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
@@ -47,16 +45,17 @@
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="365dp">
+            android:layout_height="390dp">
 
             <ScrollView
                 android:layout_width="match_parent"
                 android:layout_height="335dp"
-                android:layout_marginStart="70dp"
-                android:layout_marginLeft="70dp"
-                android:layout_marginEnd="70dp"
-                android:layout_marginRight="70dp"
-                android:layout_weight="1">
+                android:layout_marginStart="60dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_weight="1"
+                android:fadeScrollbars="false">
 
                 <TextView
                     android:layout_width="match_parent"
@@ -67,8 +66,11 @@
                     android:textColor="@color/colorGrey_text"
                     android:textSize="18sp"
                     android:layout_gravity="center_horizontal"
-                    android:layout_marginRight="15dp"
-                    android:layout_marginEnd="15dp"
+                    android:paddingLeft="10dp"
+                    android:paddingStart="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingEnd="10dp"
+
                     />
 
             </ScrollView>
@@ -80,8 +82,8 @@
                 android:id="@+id/imageView_information_bild"
                 android:layout_weight="1"
                 android:contentDescription="@string/layout_Bild_Beschreibung"
-                android:layout_marginStart="70dp"
-                android:layout_marginLeft="70dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="50dp"
                 android:layout_marginEnd="70dp"
                 android:layout_marginRight="70dp"
                 android:layout_gravity="center_horizontal"

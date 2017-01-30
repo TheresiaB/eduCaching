@@ -5,36 +5,36 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.life.educaching.Route1.Route1_station1_InfoVideoActivity">
+    tools:context="com.life.educaching.Route1.Route1_station1_InfoVideoActivity"
+    >
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
 
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-
-        >
+        android:layout_height="match_parent">
 
         <include layout="@layout/activity_header_green"/>
 
         <View
             android:layout_width="match_parent"
             android:layout_height="3dp"
-            android:background="@color/colorGrey_lines"
-
-            />
+            android:background="@color/colorGrey_lines"/>
 
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="100dp"
-            >
+            android:layout_height="100dp">
 
             <TextView
                 android:layout_width="740dp"
                 android:layout_height="100dp"
-                android:text="@string/Head_Text_Video"
                 android:ems="10"
-                android:id="@+id/editText2"
+                android:id="@+id/s_ueberschrift"
                 android:textColor="@color/colorGrey_text"
                 android:textSize="40sp"
                 android:paddingStart="70dp"
@@ -67,8 +67,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:id="@+id/editText3"
-                    android:text="@string/Lorem_Ipsum"
+                    android:id="@+id/s_text"
                     android:textColor="@color/colorGrey_text"
                     android:textSize="18sp"
                     android:layout_gravity="center_horizontal"
@@ -162,7 +161,6 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             layout="@layout/activity_button_next_back"/>
-
 
     </LinearLayout>
 

@@ -8,8 +8,6 @@
     tools:context="com.life.educaching.Route1.Route1_station2_InfoPicutreActivity"
     >
 
-
-
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"

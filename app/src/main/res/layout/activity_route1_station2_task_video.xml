@@ -61,8 +61,7 @@
                 android:textStyle="bold"
                 android:layout_weight="1"
                 />
-
-        </LinearLayout>
+</LinearLayout>
 
         <LinearLayout
             android:orientation="horizontal"
@@ -135,6 +134,7 @@
                 />
 
 
+
             <ImageButton
                 android:id="@+id/video_play_button2"
                 android:layout_width="50dp"
@@ -145,6 +145,7 @@
                 android:layout_marginTop="10dp" />
 
             <ImageButton
+
                 android:id="@+id/video_record_button2"
                 android:layout_width="50dp"
                 android:layout_height="50dp"

@@ -30,7 +30,7 @@
             >
 
             <TextView
-                android:layout_width="600dp"
+                android:layout_width="wrap_content"
                 android:layout_height="100dp"
                 android:text="@string/Head_Text"
                 android:ems="10"
@@ -41,26 +41,28 @@
                 android:paddingLeft="70dp"
                 android:paddingEnd="0dp"
                 android:paddingRight="0dp"
-
                 android:gravity="center_vertical"
                 android:textStyle="bold"
+                android:layout_weight="1"
                 />
 
             <TextView
-                android:layout_width="650dp"
+                android:layout_width="wrap_content"
                 android:layout_height="100dp"
-                android:text="Warum perlt das Wasser ab? Schreibe eine mögliche Lösung oder nehme eine Tonspur auf!"
+                android:text="Text oder Ton aufnehmen!"
                 android:ems="10"
                 android:id="@+id/Frage"
                 android:textColor="@color/colorGrey_text"
-                android:textSize="20sp"
-                android:paddingStart="70dp"
-                android:paddingLeft="70dp"
+                android:textSize="40sp"
+                android:paddingStart="50dp"
+                android:paddingLeft="50dp"
                 android:paddingEnd="0dp"
                 android:paddingRight="0dp"
                 android:gravity="center_vertical"
                 android:textStyle="bold"
+                android:layout_weight="1"
                 />
+
         </LinearLayout>
 
         <LinearLayout
@@ -69,40 +71,55 @@
             android:layout_height="300dp"
             >
 
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_weight="1"
+                android:fadeScrollbars="false">
+
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:ems="10"
                 android:id="@+id/Text_information_bild"
                 android:text="@string/Lorem_Ipsum"
                 android:textColor="@color/colorGrey_text"
                 android:textSize="18sp"
-                android:layout_marginStart="70dp"
-                android:layout_marginLeft="70dp"
-                android:layout_marginEnd="70dp"
-                android:layout_marginRight="70dp"
-                android:layout_gravity="center_vertical"
-                android:layout_weight="1" />
-
-
-            <EditText
-                android:id="@+id/editText1"
-                android:layout_width="600dp"
-                android:layout_height="270dp"
-                android:gravity="top|left"
-                android:ems="20"
-                android:layout_marginLeft="15dp"
-                android:layout_marginTop="15dp"
-                android:layout_marginBottom="20dp"
-                android:layout_marginRight="15dp"
-                android:ellipsize="start"
-                android:hint="Schreibe hier deine Antwort"
-                android:inputType="text"
-                android:background="@drawable/edit_text_task"
-                android:textSize="20sp"
-
-
+                android:paddingLeft="10dp"
+                android:paddingStart="10dp"
+                android:paddingRight="10dp"
+                android:paddingEnd="10dp"
+                android:layout_gravity="center_horizontal"
                 />
+
+            </ScrollView>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <EditText
+                    android:id="@+id/editText1"
+                    android:layout_width="600dp"
+                    android:layout_height="300dp"
+                    android:gravity="start|top"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginEnd="70dp"
+                    android:layout_marginRight="70dp"
+                    android:hint="Schreibe hier deine Antwort"
+                    android:inputType="text"
+                    android:background="@drawable/edit_text_task"
+                    android:textSize="20sp"
+                    android:scaleType="fitStart"
+                    />
+
+            </RelativeLayout>
 
         </LinearLayout>
 
@@ -110,10 +127,10 @@
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="90dp"
-            android:weightSum="1">
+            >
 
             <TextView
-                android:layout_width="770dp"
+                android:layout_width="637dp"
                 android:layout_height="50dp"
                 android:paddingStart="70dp"
                 android:paddingLeft="70dp"
@@ -126,7 +143,10 @@
                 android:id="@+id/recording_button"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:background="@drawable/addrecord" />
+                android:background="@drawable/addrecord"
+                android:layout_marginLeft="50dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="10dp" />
 
 
             <ImageButton
@@ -134,7 +154,9 @@
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:enabled="false"
-                android:layout_marginLeft="10dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="10dp"
                 android:background="@drawable/stopbutton" />
 
 
@@ -142,9 +164,9 @@
                 android:id="@+id/chronometer"
                 android:layout_width="wrap_content"
                 android:layout_height="57dp"
-                android:layout_marginBottom="16dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginLeft="60dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="10dp"
                 android:textSize="30sp" />
 
 
@@ -152,7 +174,9 @@
                 android:id="@+id/play_button"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_marginLeft="60dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="10dp"
                 android:background="@drawable/playrecord" />
 
             <ImageButton
@@ -160,7 +184,9 @@
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:enabled="false"
-                android:layout_marginLeft="10dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="10dp"
                 android:background="@drawable/pausebutton" />
 
         </LinearLayout>

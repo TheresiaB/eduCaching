@@ -56,7 +56,7 @@ public class Route1_station3_Finished extends AppCompatActivity {
 
             @Override
             public void onClick(View arg0) {
-                startActivity(new Intent(context, Route1_station4_TaskPictureActivity.class));
+                startActivity(new Intent(context, Route1_station3_TaskTextActivity.class));
 
             }
         });

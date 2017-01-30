@@ -9,55 +9,54 @@
     >
 
 
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+
+        >
+        <include layout="@layout/activity_header_green"/>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@color/colorGrey_lines"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="@string/Head_Text"
+            android:ems="10"
+            android:id="@+id/ueberschrift"
+            android:textColor="@color/colorGrey_text"
+            android:textSize="40sp"
+            android:paddingStart="70dp"
+            android:paddingLeft="70dp"
+            android:paddingEnd="0dp"
+            android:paddingRight="0dp"
+
+            android:gravity="center_vertical"
+            android:textStyle="bold"
+            />
 
         <LinearLayout
-            android:orientation="vertical"
+            android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:weightSum="1"
+            android:layout_height="390dp">
 
-           >
-            <include layout="@layout/activity_header_green"/>
-
-
-            <View
+            <ScrollView
                 android:layout_width="match_parent"
-                android:layout_height="3dp"
-                android:background="@color/colorGrey_lines"
-
-                />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:text="@string/Head_Text"
-                android:ems="10"
-                android:id="@+id/ueberschrift"
-                android:textColor="@color/colorGrey_text"
-                android:textSize="40sp"
-                android:paddingStart="70dp"
-                android:paddingLeft="70dp"
-                android:paddingEnd="0dp"
-                android:paddingRight="0dp"
-
-                android:gravity="center_vertical"
-                android:textStyle="bold"
-                />
-
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="390dp">
-
-
-                <ScrollView
-                    android:layout_width="match_parent"
-                    android:layout_height="335dp"
-                    android:layout_marginStart="70dp"
-                    android:layout_marginLeft="70dp"
-                    android:layout_marginEnd="70dp"
-                    android:layout_marginRight="70dp"
-                    android:layout_weight="1">
+                android:layout_height="335dp"
+                android:layout_marginStart="60dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_weight="1"
+                android:fadeScrollbars="false">
 
                 <TextView
                     android:layout_width="match_parent"
@@ -68,43 +67,46 @@
                     android:textColor="@color/colorGrey_text"
                     android:textSize="18sp"
                     android:layout_gravity="center_horizontal"
-                    android:layout_marginRight="15dp"
-                    android:layout_marginEnd="15dp"
+                    android:paddingLeft="10dp"
+                    android:paddingStart="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingEnd="10dp"
+
                     />
 
-                </ScrollView>
+            </ScrollView>
 
-                <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        app:srcCompat="@drawable/lotuseffekt"
-                        android:id="@+id/imageView_information_bild"
-                        android:layout_weight="1"
-                        android:contentDescription="@string/layout_Bild_Beschreibung"
-                        android:layout_marginStart="70dp"
-                        android:layout_marginLeft="70dp"
-                        android:layout_marginEnd="70dp"
-                        android:layout_marginRight="70dp"
-                        android:layout_gravity="center_horizontal"
-                        android:scaleType="fitStart"
-                        />
-
-            </LinearLayout>
-
-            <View
+            <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:background="@color/colorGrey_lines"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/lotuseffekt"
+                android:id="@+id/imageView_information_bild"
+                android:layout_weight="1"
+                android:contentDescription="@string/layout_Bild_Beschreibung"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginEnd="70dp"
+                android:layout_marginRight="70dp"
+                android:layout_gravity="center_horizontal"
+                android:scaleType="fitStart"
                 />
-
-            <include
-                android:id="@+id/footer"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_alignParentBottom="true"
-                layout="@layout/activity_button_next_back"/>
-
 
         </LinearLayout>
 
-    </android.support.design.widget.CoordinatorLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorGrey_lines"
+            />
+
+        <include
+            android:id="@+id/footer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            layout="@layout/activity_button_next_back"/>
+
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
