@@ -23,12 +23,15 @@
             android:background="@color/colorGrey_lines"
 
             />
+
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="100dp">
+            android:layout_height="100dp"
+            >
+
             <TextView
-                android:layout_width="900dp"
+                android:layout_width="600dp"
                 android:layout_height="100dp"
                 android:text="@string/Head_Text"
                 android:ems="10"
@@ -42,60 +45,93 @@
                 android:gravity="center_vertical"
                 android:textStyle="bold"
                 />
-            <ImageButton
-                android:layout_width="100dp"
+
+            <TextView
+                android:layout_width="425dp"
                 android:layout_height="100dp"
+                android:text="Video aufnehmen"
+                android:ems="10"
+                android:id="@+id/Video"
+                android:textColor="@color/colorGrey_text"
+                android:textSize="40sp"
+                android:paddingStart="70dp"
+                android:paddingLeft="70dp"
+                android:paddingEnd="0dp"
+                android:paddingRight="0dp"
+
+                android:gravity="center_vertical"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            >
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="70dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginEnd="70dp"
+                android:layout_marginRight="70dp"
+                android:layout_weight="1"
+                android:fadeScrollbars="false">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:ems="10"
+                    android:id="@+id/Text_Aufgabe"
+                    android:text="@string/Lorem_Ipsum"
+                    android:textColor="@color/colorGrey_text"
+                    android:textSize="18sp"
+                    android:layout_gravity="center_vertical"/>
+
+            </ScrollView>
+
+            <VideoView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/route2Station1Video"
+                android:layout_weight="1"
+                android:layout_marginEnd="70dp"
+                android:layout_marginRight="70dp"/>
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            >
+
+            <TextView
+                android:layout_width="700dp"
+                android:layout_height="50dp"
+                android:paddingStart="70dp"
+                android:paddingLeft="70dp"
+                android:paddingEnd="0dp"
+                android:paddingRight="0dp"
+                />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:src="@drawable/foto_camera_button_image"
                 android:onClick="dispatchTakePictureIntent"
                 android:scaleType="fitCenter"
                 android:background="#FFFFFF"
-                />
-        </LinearLayout>
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="390dp">
-
-            <ScrollView
-                android:layout_width="match_parent"
-                android:layout_height="335dp"
-                android:layout_marginStart="70dp"
-                android:layout_marginLeft="70dp"
-                android:layout_marginEnd="70dp"
-                android:layout_marginRight="70dp"
-                android:layout_weight="1">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:ems="10"
-                    android:id="@+id/Text_information_bild"
-                    android:text="@string/Lorem_Ipsum"
-                    android:textColor="@color/colorGrey_text"
-                    android:textSize="18sp"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginRight="15dp"
-                    android:layout_marginEnd="15dp"
-                    />
-
-            </ScrollView>
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                app:srcCompat="@drawable/fotocamera_hintergrund"
-                android:id="@+id/fotoCameraView"
-                android:contentDescription="@string/shoot_foto_title"
-                android:layout_marginStart="70dp"
-                android:layout_marginLeft="70dp"
-                android:layout_marginEnd="70dp"
-                android:layout_marginRight="70dp"
-                android:layout_gravity="center_horizontal"
-                android:scaleType="fitStart"
-                android:layout_weight="1"
+                android:layout_margin="10dp"
                 />
 
         </LinearLayout>
+
 
         <View
             android:layout_width="match_parent"
