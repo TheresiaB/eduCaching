@@ -276,11 +276,17 @@
         </activity>
 
 
-        <activity android:name=".Route1.Route1_station3_MapActivity" />
-        <activity android:name=".Route1.Route1_station4_MapActivity" />
-        <activity android:name=".Route2.Route2_station1_MapActivity" />
-        <activity android:name=".Route2.Route2_station2_MapActivity" />
-        <activity android:name=".Route2.Route2_station3_MapActivity" /><!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+        <activity android:name=".Route1.Route1_station3_MapActivity"
+            android:screenOrientation="landscape"            />
+        <activity android:name=".Route1.Route1_station4_MapActivity"
+            android:screenOrientation="landscape"     />
+        <activity android:name=".Route2.Route2_station1_MapActivity"
+            android:screenOrientation="landscape"            />
+        <activity android:name=".Route2.Route2_station2_MapActivity"
+            android:screenOrientation="landscape"            />
+        <activity android:name=".Route2.Route2_station3_MapActivity"
+            android:screenOrientation="landscape"
+            /><!-- ATTENTION: This was auto-generated to add Google Play services to your project for
      App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
         <activity
             android:name=".Model.TaskFotoActivity"
@@ -289,9 +295,11 @@
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
 
-        <activity android:name=".Route1_EvaluationActivity"></activity>
+        <activity android:name=".Route1_EvaluationActivity"
+            android:screenOrientation="landscape"           ></activity>
 
-        <activity android:name=".Route2_EvaluationActivity"></activity>
+        <activity android:name=".Route2_EvaluationActivity"
+            android:screenOrientation="landscape"           ></activity>
     </application>
 
 </manifest>
