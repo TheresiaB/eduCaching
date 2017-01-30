@@ -17,9 +17,7 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="3dp"
-            android:background="@color/colorGrey_lines"
-
-            />
+            android:background="@color/colorGrey_lines"/>
 
         <LinearLayout
             android:orientation="horizontal"
@@ -114,6 +112,7 @@
                 android:paddingLeft="70dp"
                 android:paddingEnd="0dp"
                 android:paddingRight="0dp"
+
                 />
 
 

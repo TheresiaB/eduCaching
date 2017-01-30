@@ -59,9 +59,10 @@
                 android:paddingRight="0dp"
                 android:gravity="center_vertical"
                 android:textStyle="bold"
-                android:layout_weight="1"
-                />
-</LinearLayout>
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
 
         <LinearLayout
             android:orientation="horizontal"
@@ -91,9 +92,7 @@
                     android:paddingLeft="10dp"
                     android:paddingStart="10dp"
                     android:paddingRight="10dp"
-                    android:paddingEnd="10dp"
-
-                    />
+                    android:paddingEnd="10dp"/>
 
             </ScrollView>
 
@@ -132,7 +131,6 @@
                 android:paddingEnd="0dp"
                 android:paddingRight="0dp"
                 />
-
 
 
             <ImageButton
