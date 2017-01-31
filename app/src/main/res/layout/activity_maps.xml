@@ -13,6 +13,7 @@
         android:layout_height="wrap_content"
         android:text ="@string/hinweis_position_ermitteln"
         android:textAlignment="textEnd"
+        android:gravity="end"
         />
     </fragment>
 

@@ -7,6 +7,12 @@
     android:fitsSystemWindows="true"
     tools:context="com.life.educaching.Route1.Route1_station2_TaskVideoActivity">
 
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
@@ -31,9 +37,8 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="100dp"
-                android:text="@string/Head_Text"
                 android:ems="10"
-                android:id="@+id/ueberschrift"
+                android:id="@+id/a_ueAufgabenbeschreibung"
                 android:textColor="@color/colorGrey_text"
                 android:textSize="40sp"
                 android:paddingStart="70dp"
@@ -48,9 +53,8 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="100dp"
-                android:text="Video aufnehmen"
                 android:ems="10"
-                android:id="@+id/Video"
+                android:id="@+id/a_ueAufgabenloesung"
                 android:textColor="@color/colorGrey_text"
                 android:textSize="40sp"
                 android:paddingStart="50dp"
@@ -84,8 +88,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:id="@+id/Text_Aufgabe"
-                    android:text="@string/Lorem_Ipsum"
+                    android:id="@+id/a_aufgabenbeschreibung"
                     android:textColor="@color/colorGrey_text"
                     android:textSize="18sp"
                     android:layout_gravity="center_horizontal"
@@ -135,18 +138,18 @@
 
             <ImageButton
                 android:id="@+id/video_play_button2"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
                 android:background="@drawable/playbutton"
-                android:layout_marginLeft="50dp"
-                android:layout_marginStart="50dp"
+                android:layout_marginLeft="42dp"
+                android:layout_marginStart="42dp"
                 android:layout_marginTop="10dp" />
 
             <ImageButton
 
                 android:id="@+id/video_record_button2"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
                 android:background="@drawable/media_record"
                 android:layout_margin="10dp"
                 android:onClick="play"/>

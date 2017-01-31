@@ -93,6 +93,7 @@
                     android:layout_marginRight="70dp"
                     android:layout_gravity="center_horizontal"
                     android:scaleType="fitStart"
+                    android:adjustViewBounds="true"
                     />
 
             </RelativeLayout>

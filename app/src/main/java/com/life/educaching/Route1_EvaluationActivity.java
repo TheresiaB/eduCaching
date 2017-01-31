@@ -114,7 +114,7 @@ public class Route1_EvaluationActivity extends AppCompatActivity {
 
     public void setTextHeader() {
         TextView myAwesomeTextView = (TextView) findViewById(R.id.text_head);
-        myAwesomeTextView.setText("Route 2 - Auswertung");
+        myAwesomeTextView.setText("Route 1 - Auswertung");
     }
 
 }

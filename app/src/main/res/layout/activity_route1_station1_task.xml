@@ -5,8 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.life.educaching.Route1.Route1_station1_TaskActivity"
+    tools:context="com.life.educaching.Route1.Route1_station1_TaskVideoActivity"
     >
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
 
     <LinearLayout
         android:orientation="vertical"
@@ -32,16 +38,14 @@
             <TextView
                 android:layout_width="700dp"
                 android:layout_height="100dp"
-                android:text="@string/Head_Text"
                 android:ems="10"
-                android:id="@+id/ueberschrift"
+                android:id="@+id/a_ueAufgabenbeschreibung"
                 android:textColor="@color/colorGrey_text"
                 android:textSize="40sp"
                 android:paddingStart="70dp"
                 android:paddingLeft="70dp"
                 android:paddingEnd="0dp"
                 android:paddingRight="0dp"
-
                 android:gravity="center_vertical"
                 android:textStyle="bold"
                 />
@@ -49,19 +53,18 @@
             <TextView
                 android:layout_width="600dp"
                 android:layout_height="100dp"
-                android:text="Welche der folgenden Aussagen ist richtig?"
                 android:ems="10"
-                android:id="@+id/Frage"
+                android:id="@+id/a_ueAufgabenloesung"
                 android:textColor="@color/colorGrey_text"
                 android:textSize="20sp"
                 android:paddingStart="70dp"
                 android:paddingLeft="70dp"
                 android:paddingEnd="0dp"
                 android:paddingRight="0dp"
-
                 android:gravity="center_vertical"
                 android:textStyle="bold"
                 />
+
         </LinearLayout>
 
         <LinearLayout

@@ -7,6 +7,12 @@
     android:fitsSystemWindows="true"
     tools:context="com.life.educaching.Route1.Route1_station4_TaskPictureActivity">
 
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
@@ -31,11 +37,10 @@
             >
 
             <TextView
-                android:layout_width="600dp"
+                android:layout_width="wrap_content"
                 android:layout_height="100dp"
-                android:text="@string/Head_Text"
                 android:ems="10"
-                android:id="@+id/ueberschrift"
+                android:id="@+id/a_ueAufgabenbeschreibung"
                 android:textColor="@color/colorGrey_text"
                 android:textSize="40sp"
                 android:paddingStart="70dp"
@@ -44,23 +49,23 @@
                 android:paddingRight="0dp"
                 android:gravity="center_vertical"
                 android:textStyle="bold"
+                android:layout_weight="1"
                 />
 
             <TextView
-                android:layout_width="425dp"
+                android:layout_width="wrap_content"
                 android:layout_height="100dp"
-                android:text="Foto aufnehmen"
                 android:ems="10"
-                android:id="@+id/Video"
+                android:id="@+id/a_ueAufgabenloesung"
                 android:textColor="@color/colorGrey_text"
                 android:textSize="40sp"
-                android:paddingStart="70dp"
-                android:paddingLeft="70dp"
+                android:paddingStart="50dp"
+                android:paddingLeft="50dp"
                 android:paddingEnd="0dp"
                 android:paddingRight="0dp"
-
                 android:gravity="center_vertical"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:layout_weight="1"/>
 
         </LinearLayout>
 
@@ -72,36 +77,46 @@
 
             <ScrollView
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginStart="70dp"
-                android:layout_marginLeft="70dp"
-                android:layout_marginEnd="70dp"
-                android:layout_marginRight="70dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginRight="50dp"
                 android:layout_weight="1"
                 android:fadeScrollbars="false">
 
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:ems="10"
-                    android:id="@+id/Text_Aufgabe"
-                    android:text="@string/Lorem_Ipsum"
+                    android:id="@+id/a_aufgabenbeschreibung"
                     android:textColor="@color/colorGrey_text"
                     android:textSize="18sp"
-                    android:layout_gravity="center_vertical"/>
+                    android:paddingLeft="10dp"
+                    android:paddingStart="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingEnd="10dp"
+                    />
 
             </ScrollView>
 
-            <VideoView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/route2Station1Video"
-                android:layout_weight="1"
-                android:layout_marginEnd="70dp"
-                android:layout_marginRight="70dp"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
 
+                <ImageView
+                    android:id="@+id/fotoCameraView"
+                    android:layout_width="600dp"
+                    android:layout_height="300dp"
+                    android:layout_marginEnd="70dp"
+                    android:layout_marginRight="70dp"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginLeft="50dp"
+                    android:scaleType="fitStart"
+                    android:background="@drawable/imageview_border"/>
 
-
+            </RelativeLayout>
 
         </LinearLayout>
 
@@ -109,10 +124,11 @@
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="90dp"
+
             >
 
             <TextView
-                android:layout_width="700dp"
+                android:layout_width="637dp"
                 android:layout_height="50dp"
                 android:paddingStart="70dp"
                 android:paddingLeft="70dp"
@@ -121,13 +137,13 @@
                 />
 
             <ImageButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/foto_camera_button_image"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:background="@drawable/foto_camera_button_image"
                 android:onClick="dispatchTakePictureIntent"
-                android:scaleType="fitCenter"
-                android:background="#FFFFFF"
-                android:layout_margin="10dp"
+                android:layout_marginLeft="55dp"
+                android:layout_marginStart="55dp"
+                android:layout_marginTop="10dp"
                 />
 
         </LinearLayout>

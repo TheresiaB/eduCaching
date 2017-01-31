@@ -7,15 +7,22 @@ import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Typeface;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ListAdapter;
+import android.widget.ListView;
+import android.widget.SimpleAdapter;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.MapFragment;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.BitmapDescriptor;
@@ -26,13 +33,25 @@ import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.life.educaching.Model.DecideRouteActivity;
 import com.life.educaching.Model.HeaderGreenActivity;
+import com.life.educaching.Model.HttpHandler;
 import com.life.educaching.Model.MapMethods;
 import com.life.educaching.R;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.ArrayList;
+import java.util.HashMap;
 
 public class Route1_OverviewMapActivity extends AppCompatActivity implements OnMapReadyCallback {
     GoogleMap mMap;
     Button buttonNext;
     Button buttonBack;
+    private String TAG = Route1_OverviewMapActivity.class.getSimpleName();
+    private ListView lv;
+
+    ArrayList<HashMap<String, String>> routeList;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,7 +65,13 @@ public class Route1_OverviewMapActivity extends AppCompatActivity implements OnM
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
+        /*routeList = new ArrayList<>();
+        lv = (ListView) findViewById(R.id.list);
+
+        new Route1_OverviewMapActivity.GetContacts().execute();*/
     }
+
+
 
     public void setTextHeader() {
         TextView myAwesomeTextView = (TextView) findViewById(R.id.text_head);
@@ -142,4 +167,83 @@ public class Route1_OverviewMapActivity extends AppCompatActivity implements OnM
         }
         mMap.setMyLocationEnabled(true);
     }
+
+    /*private class GetContacts extends AsyncTask<Void, Void, Void> {
+        @Override
+        protected void onPreExecute() {
+            super.onPreExecute();
+            Toast.makeText(Route1_OverviewMapActivity.this, "Json Data is downloading", Toast.LENGTH_LONG).show();
+
+        }
+
+        @Override
+        protected Void doInBackground(Void... arg0) {
+            HttpHandler sh = new HttpHandler();
+            // Making a request to url and getting response
+            String url = "http://educaching.f4.htw-berlin.de/route1overview.php";
+            String jsonStr = sh.makeServiceCall(url);
+
+            Log.e(TAG, "Response from url: " + jsonStr);
+            if (jsonStr != null) {
+                try {
+                    JSONObject jsonObj = new JSONObject(jsonStr);
+
+                    // Getting JSON Array node
+                    JSONArray route = jsonObj.getJSONArray("Route");
+
+                    // looping through All Stations
+                    for (int j = 0; j < route.length(); j++) {
+                        JSONObject d = route.getJSONObject(j);
+                        String r_id = d.getString("r_id");
+                        String r_name = d.getString("r_name");
+                        String r_text = d.getString("r_text");
+
+                        // tmp hash map for single Route
+                        HashMap<String, String> routes = new HashMap<>();
+
+                        // adding each child node to HashMap key => value
+                        routes.put("r_id", r_id);
+                        routes.put("r_name", r_name);
+                        routes.put("r_text", r_text);
+
+                        // adding Route, Station, Aufgabe to route list
+                        routeList.add(routes);
+                    }
+                } catch (final JSONException e) {
+                    Log.e(TAG, "Json parsing error: " + e.getMessage());
+                    runOnUiThread(new Runnable() {
+                        @Override
+                        public void run() {
+                            Toast.makeText(getApplicationContext(),
+                                    "Json parsing error: " + e.getMessage(),
+                                    Toast.LENGTH_LONG).show();
+                        }
+                    });
+
+                }
+
+            } else {
+                Log.e(TAG, "Couldn't get json from server.");
+                runOnUiThread(new Runnable() {
+                    @Override
+                    public void run() {
+                        Toast.makeText(getApplicationContext(),
+                                "Couldn't get json from server. Check LogCat for possible errors!",
+                                Toast.LENGTH_LONG).show();
+                    }
+                });
+            }
+
+            return null;
+        }
+
+        @Override
+        protected void onPostExecute(Void result) {
+            super.onPostExecute(result);
+            ListAdapter adapter = new SimpleAdapter(Route1_OverviewMapActivity.this, routeList, R.layout.activity_route1_overviewmap, new String[]{"r_text"},
+                    new int[]{R.id.r_text});
+            lv.setAdapter(adapter);
+        }
+
+    }*/
 }

@@ -137,7 +137,7 @@ public class Route1_station1_InfoVideoActivity extends AppCompatActivity {
         protected Void doInBackground(Void... arg0) {
             HttpHandler sh = new HttpHandler();
             // Making a request to url and getting response
-            String url = "http://educaching.f4.htw-berlin.de/route1station1.php";
+            String url = "http://educaching.f4.htw-berlin.de/route1station1info.php";
             String jsonStr = sh.makeServiceCall(url);
 
             Log.e(TAG, "Response from url: " + jsonStr);
