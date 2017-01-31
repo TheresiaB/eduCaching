@@ -295,10 +295,10 @@
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
 
-        <activity android:name=".Route1_EvaluationActivity"
+        <activity android:name=".Route1.Route1_EvaluationActivity"
             android:screenOrientation="landscape"           ></activity>
 
-        <activity android:name=".Route2_EvaluationActivity"
+        <activity android:name=".Route2.Route2_EvaluationActivity"
             android:screenOrientation="landscape"           ></activity>
     </application>
 

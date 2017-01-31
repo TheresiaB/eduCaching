@@ -1,6 +1,7 @@
-package com.life.educaching;
+package com.life.educaching.Route1;
 
 import android.content.SharedPreferences;
+import android.media.MediaPlayer;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -11,6 +12,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.VideoView;
 
+import com.life.educaching.R;
+
 public class Route1_EvaluationActivity extends AppCompatActivity {
 
     ImageButton buttonVideoPlayS1;
@@ -20,20 +23,20 @@ public class Route1_EvaluationActivity extends AppCompatActivity {
     ImageButton buttonVideoPauseS2;
     Button buttonNext;
     Button buttonBack;
-
-    ImageButton buttonVideoPlay2;
-    ImageButton buttonVideoPause1;
-    ImageButton buttonVideoPause2;
-    ImageButton buttonVideoStop;
     VideoView mVideoView1;
     VideoView mVideoView2;
+
+    ImageButton buttonAudioPlay;
+    ImageButton buttonAudioPause;
 
     SharedPreferences preferences;
     Uri myUriR1S1;
     Uri myUriR1S2;
     TextView mTextview;
     TextView groupName;
-    ImageView picture;
+
+    MediaPlayer mediaPlayer ;
+
 
 
     @Override
@@ -48,6 +51,7 @@ public class Route1_EvaluationActivity extends AppCompatActivity {
         String name = preferences.getString("name", "KeinText");
         String picture1 = preferences.getString("picture", "KeinText");
         String antwortText = preferences.getString("keyText", "KeinText");
+        String antwortTon = preferences.getString("keyTon", "KeinText");
 
 
 
@@ -99,7 +103,16 @@ public class Route1_EvaluationActivity extends AppCompatActivity {
         mTextview = (TextView) findViewById(R.id.stationR1S3answer);
         groupName.setText(name);
 
-        mTextview.setText(antwortText);
+        buttonAudioPlay = (ImageButton) findViewById(R.id.audioPlay);
+        buttonAudioPause = (ImageButton) findViewById(R.id.audioPause);
+
+
+        if(antwortTon.contains("KeinText")){
+            mTextview.setText(antwortText);
+        } else {
+            
+        }
+
 
 
 

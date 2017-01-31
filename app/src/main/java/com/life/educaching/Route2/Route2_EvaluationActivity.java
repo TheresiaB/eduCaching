@@ -1,4 +1,4 @@
-package com.life.educaching;
+package com.life.educaching.Route2;
 
 import android.content.SharedPreferences;
 import android.net.Uri;
@@ -9,6 +9,8 @@ import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.VideoView;
+
+import com.life.educaching.R;
 
 public class Route2_EvaluationActivity extends AppCompatActivity {
 

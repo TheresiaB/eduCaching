@@ -59,6 +59,7 @@ public class Route1_station3_TaskTextActivity extends AppCompatActivity{
     Button buttonBack;
     EditText inputText;
     public static String input;
+    public static String inputTon;
     SharedPreferences preferences;
     SharedPreferences.Editor editor;
     private String TAG = Route1_station3_TaskTextActivity.class.getSimpleName();
@@ -94,7 +95,7 @@ public class Route1_station3_TaskTextActivity extends AppCompatActivity{
                 if(checkPermission()) {
 
                     AudioSavePathInDevice = Environment.getExternalStorageDirectory().getAbsolutePath() + "/" + CreateRandomAudioFileName(5) + "AudioRecording.3gp";
-
+                    inputTon = AudioSavePathInDevice.toString();
                     MediaRecorderReady();
 
                     try {
@@ -269,9 +270,16 @@ public class Route1_station3_TaskTextActivity extends AppCompatActivity{
 
             @Override
             public void onClick(View arg0) {
-                input = inputText.getText().toString();
-                Toast.makeText(Route1_station3_TaskTextActivity.this, input, Toast.LENGTH_SHORT).show();
-                editor.putString("keyText", input);
+
+                if(inputText.getText() == null){
+                    editor.putString("keyTon", inputTon);
+                    Toast.makeText(Route1_station3_TaskTextActivity.this, inputTon, Toast.LENGTH_SHORT).show();
+                }
+                if(inputTon == null){
+                    input = inputText.getText().toString();
+                    editor.putString("keyText", input);
+                    Toast.makeText(Route1_station3_TaskTextActivity.this, input, Toast.LENGTH_SHORT).show();
+                }
                 editor.commit();
 
                 startActivity(new Intent(context, Route1_station3_Finished.class));
