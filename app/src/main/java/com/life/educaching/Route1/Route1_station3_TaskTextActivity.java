@@ -59,7 +59,7 @@ public class Route1_station3_TaskTextActivity extends AppCompatActivity{
     Button buttonBack;
     EditText inputText;
     public static String input;
-    public static String inputTon;
+    String inputTon;
     SharedPreferences preferences;
     SharedPreferences.Editor editor;
     private String TAG = Route1_station3_TaskTextActivity.class.getSimpleName();
@@ -95,12 +95,12 @@ public class Route1_station3_TaskTextActivity extends AppCompatActivity{
                 if(checkPermission()) {
 
                     AudioSavePathInDevice = Environment.getExternalStorageDirectory().getAbsolutePath() + "/" + CreateRandomAudioFileName(5) + "AudioRecording.3gp";
-                    inputTon = AudioSavePathInDevice.toString();
                     MediaRecorderReady();
 
                     try {
                         mediaRecorder.prepare();
                         mediaRecorder.start();
+
                         ((Chronometer) findViewById(R.id.chronometer)).setBase(SystemClock.elapsedRealtime());
                         ((Chronometer) findViewById(R.id.chronometer)).start();
                     } catch (IllegalStateException e) {
@@ -129,6 +129,7 @@ public class Route1_station3_TaskTextActivity extends AppCompatActivity{
             public void onClick(View view) {
 
                 mediaRecorder.stop();
+
                 ((Chronometer) findViewById(R.id.chronometer)).stop();
 
                 buttonStop.setEnabled(false);
@@ -206,6 +207,8 @@ public class Route1_station3_TaskTextActivity extends AppCompatActivity{
         mediaRecorder.setAudioEncoder(MediaRecorder.OutputFormat.AMR_NB);
 
         mediaRecorder.setOutputFile(AudioSavePathInDevice);
+        inputTon = AudioSavePathInDevice;
+
 
     }
 
@@ -266,6 +269,7 @@ public class Route1_station3_TaskTextActivity extends AppCompatActivity{
         buttonBack = (Button) findViewById(R.id.button_back);
         inputText = (EditText) findViewById(R.id.editText1);
 
+
         buttonNext.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -274,12 +278,12 @@ public class Route1_station3_TaskTextActivity extends AppCompatActivity{
                 if(inputText.getText() == null){
                     editor.putString("keyTon", inputTon);
                     Toast.makeText(Route1_station3_TaskTextActivity.this, inputTon, Toast.LENGTH_SHORT).show();
-                }
-                if(inputTon == null){
+                } else {
                     input = inputText.getText().toString();
                     editor.putString("keyText", input);
                     Toast.makeText(Route1_station3_TaskTextActivity.this, input, Toast.LENGTH_SHORT).show();
                 }
+
                 editor.commit();
 
                 startActivity(new Intent(context, Route1_station3_Finished.class));

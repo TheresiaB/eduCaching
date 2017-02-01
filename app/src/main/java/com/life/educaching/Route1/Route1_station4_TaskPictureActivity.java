@@ -9,6 +9,7 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Base64;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -28,6 +29,7 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.io.ByteArrayOutputStream;
 import java.util.ArrayList;
 import java.util.HashMap;
 
@@ -43,9 +45,11 @@ public class Route1_station4_TaskPictureActivity extends AppCompatActivity {
     SharedPreferences.Editor editor;
     public static String input;
     Uri mUri = null;
-    String videoUriString;
+    String pictureString;
     private String TAG = Route1_station4_TaskPictureActivity.class.getSimpleName();
     private ListView lv;
+    Bitmap inputPicture;
+
 
     ArrayList<HashMap<String, String>> routeList;
 
@@ -57,6 +61,8 @@ public class Route1_station4_TaskPictureActivity extends AppCompatActivity {
         setTextHeader();
         routeList = new ArrayList<>();
         lv = (ListView) findViewById(R.id.list);
+        preferences = this.getSharedPreferences("prefsDatei2", MODE_PRIVATE);
+        editor = preferences.edit();
 
         new Route1_station4_TaskPictureActivity.GetContacts().execute();
     }
@@ -83,9 +89,20 @@ public class Route1_station4_TaskPictureActivity extends AppCompatActivity {
             Bitmap imageBitmap = (Bitmap) extras.get("data");
             ImageView mImageView = (ImageView) findViewById(R.id.fotoCameraView);
             mImageView.setImageBitmap(imageBitmap);
+            inputPicture = imageBitmap;
             //Button button = (Button) findViewById(R.id.fotoAufnehmen);
             //button.setText("Ein Neues Foto machen");
         }
+    }
+
+
+    public static String encodeToBase64(Bitmap image) {
+        Bitmap immage = image;
+        ByteArrayOutputStream baos = new ByteArrayOutputStream();
+        immage.compress(Bitmap.CompressFormat.PNG, 100, baos);
+        byte[] b = baos.toByteArray();
+        String imageEncoded = Base64.encodeToString(b, Base64.DEFAULT);
+        return imageEncoded;
     }
 
     public void addListenerOnButton() {
@@ -97,7 +114,9 @@ public class Route1_station4_TaskPictureActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View arg0) {
-
+                Toast.makeText(Route1_station4_TaskPictureActivity.this, encodeToBase64(inputPicture), Toast.LENGTH_SHORT).show();
+                editor.putString("picture", encodeToBase64(inputPicture));
+                editor.commit();
                 startActivity(new Intent(context, Route1_station4_Finished.class));
             }
         });

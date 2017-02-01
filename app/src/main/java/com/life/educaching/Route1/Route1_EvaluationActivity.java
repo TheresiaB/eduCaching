@@ -1,18 +1,26 @@
 package com.life.educaching.Route1;
 
 import android.content.SharedPreferences;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.media.MediaPlayer;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Base64;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 import android.widget.VideoView;
 
 import com.life.educaching.R;
+
+import java.io.IOException;
+import java.io.InputStream;
 
 public class Route1_EvaluationActivity extends AppCompatActivity {
 
@@ -36,6 +44,8 @@ public class Route1_EvaluationActivity extends AppCompatActivity {
     TextView groupName;
 
     MediaPlayer mediaPlayer ;
+    ImageView imageView;
+    Bitmap bitmap;
 
 
 
@@ -51,7 +61,8 @@ public class Route1_EvaluationActivity extends AppCompatActivity {
         String name = preferences.getString("name", "KeinText");
         String picture1 = preferences.getString("picture", "KeinText");
         String antwortText = preferences.getString("keyText", "KeinText");
-        String antwortTon = preferences.getString("keyTon", "KeinText");
+        final String antwortTon = preferences.getString("keyTon", "KeinText");
+        final String picture = preferences.getString("picture", "KeinText");
 
 
 
@@ -110,24 +121,48 @@ public class Route1_EvaluationActivity extends AppCompatActivity {
         if(antwortTon.contains("KeinText")){
             mTextview.setText(antwortText);
         } else {
-            
+            mediaPlayer = new MediaPlayer();
+            buttonAudioPlay.setOnClickListener(new View.OnClickListener() {
+
+                @Override
+                public void onClick(View v) {
+                    Toast.makeText(Route1_EvaluationActivity.this, "Button gedrückt", Toast.LENGTH_SHORT).show();
+
+                    try {
+                        mediaPlayer.setDataSource(antwortTon);
+                        mediaPlayer.prepare();
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+
+                    mediaPlayer.start();
+
+                }
+            });
+
+            buttonAudioPause.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    mVideoView1.pause();
+                }
+            });
+
         }
 
+        imageView = (ImageView) findViewById(R.id.auswertungFoto);
 
-
-
-
-
-
-
-
-
+        imageView.setImageBitmap(decodeToBase64(picture));
 
     }
 
     public void setTextHeader() {
         TextView myAwesomeTextView = (TextView) findViewById(R.id.text_head);
         myAwesomeTextView.setText("Route 1 - Auswertung");
+    }
+
+    public static Bitmap decodeToBase64(String input) {
+        byte[] decodedByte = Base64.decode(input, 0);
+        return BitmapFactory.decodeByteArray(decodedByte, 0, decodedByte.length);
     }
 
 }
