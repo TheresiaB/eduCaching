@@ -109,7 +109,7 @@ public class Route1_EvaluationActivity extends AppCompatActivity {
             }
         });
 
-        groupName = (TextView) findViewById(R.id.groupName);
+        groupName = (TextView) findViewById(R.id.groupNameR1);
 
         mTextview = (TextView) findViewById(R.id.stationR1S3answer);
         groupName.setText(name);

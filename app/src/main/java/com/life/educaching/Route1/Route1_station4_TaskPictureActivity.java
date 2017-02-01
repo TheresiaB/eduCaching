@@ -114,8 +114,13 @@ public class Route1_station4_TaskPictureActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View arg0) {
-                Toast.makeText(Route1_station4_TaskPictureActivity.this, encodeToBase64(inputPicture), Toast.LENGTH_SHORT).show();
-                editor.putString("picture", encodeToBase64(inputPicture));
+                if(inputPicture == null){
+                    pictureString = "drawable://" + R.drawable.fragezeichen;
+                    editor.putString("picture", pictureString);
+                } else {
+                    editor.putString("picture", encodeToBase64(inputPicture));
+                }
+
                 editor.commit();
                 startActivity(new Intent(context, Route1_station4_Finished.class));
             }
