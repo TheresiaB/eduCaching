@@ -89,6 +89,7 @@
                     android:layout_height="300dp"
                     android:background="@drawable/imageview_border"
                     android:id="@+id/s_material"
+                    android:src="@drawable/route1infopicture"
                     android:contentDescription="@string/layout_Bild_Beschreibung"
                     android:layout_marginStart="50dp"
                     android:layout_marginLeft="50dp"

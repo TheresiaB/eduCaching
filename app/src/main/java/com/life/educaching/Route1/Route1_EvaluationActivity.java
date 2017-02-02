@@ -1,5 +1,7 @@
 package com.life.educaching.Route1;
 
+import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -17,6 +19,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.VideoView;
 
+import com.life.educaching.Model.DecideRouteActivity;
+import com.life.educaching.Model.Startpage_group_register_Activity;
 import com.life.educaching.R;
 
 import java.io.IOException;
@@ -54,6 +58,7 @@ public class Route1_EvaluationActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_route1_evaluation);
         setTextHeader();
+        addListenerOnButton();
 
         preferences = this.getSharedPreferences("prefsDatei2", MODE_PRIVATE);
         String video1 = preferences.getString("video1", "KeinText");
@@ -72,6 +77,7 @@ public class Route1_EvaluationActivity extends AppCompatActivity {
 
         myUriR1S1 = Uri.parse(video1);
         mVideoView1.setVideoURI(myUriR1S1);
+        mVideoView1.seekTo(0);
 
         buttonVideoPlayS1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -94,6 +100,7 @@ public class Route1_EvaluationActivity extends AppCompatActivity {
 
         myUriR1S2 = Uri.parse(video2);
         mVideoView2.setVideoURI(myUriR1S2);
+        mVideoView2.seekTo(100);
 
         buttonVideoPlayS2.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -163,6 +170,31 @@ public class Route1_EvaluationActivity extends AppCompatActivity {
     public static Bitmap decodeToBase64(String input) {
         byte[] decodedByte = Base64.decode(input, 0);
         return BitmapFactory.decodeByteArray(decodedByte, 0, decodedByte.length);
+    }
+
+    public void addListenerOnButton() {
+
+        final Context context = this;
+        buttonNext = (Button) findViewById(R.id.button_next);
+        buttonBack = (Button) findViewById(R.id.button_back);
+
+
+        buttonNext.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View arg0) {
+                startActivity(new Intent(context, Startpage_group_register_Activity.class));
+            }
+        });
+        buttonBack.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View arg0) {
+                startActivity(new Intent(context, Route1Finished.class));
+            }
+        });
+
+
     }
 
 }

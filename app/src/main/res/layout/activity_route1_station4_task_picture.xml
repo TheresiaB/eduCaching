@@ -107,13 +107,12 @@
 
                 <ImageView
                     android:id="@+id/fotoCameraView"
-                    android:layout_width="600dp"
-                    android:layout_height="300dp"
+                    android:layout_width="700dp"
+                    android:layout_height="match_parent"
                     android:layout_marginEnd="70dp"
                     android:layout_marginRight="70dp"
                     android:layout_marginStart="50dp"
                     android:layout_marginLeft="50dp"
-                    android:scaleType="fitStart"
                     android:background="@drawable/imageview_border"/>
 
             </RelativeLayout>

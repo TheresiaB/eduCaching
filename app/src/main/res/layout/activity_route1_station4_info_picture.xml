@@ -87,7 +87,6 @@
                 <ImageView
                     android:layout_width="600dp"
                     android:layout_height="300dp"
-                    android:background="@drawable/imageview_border"
                     android:id="@+id/s_material"
                     android:contentDescription="@string/layout_Bild_Beschreibung"
                     android:layout_marginStart="50dp"
@@ -96,6 +95,8 @@
                     android:layout_marginRight="70dp"
                     android:layout_gravity="center_horizontal"
                     android:scaleType="fitStart"
+                    android:src="@drawable/mst"
+
                     />
 
             </RelativeLayout>

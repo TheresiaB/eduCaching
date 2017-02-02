@@ -107,6 +107,7 @@ public class Route1_station2_TaskVideoActivity extends AppCompatActivity {
         if (requestCode == ACTIVITY_START_CAMERA_APP && resultCode == RESULT_OK) {
             Uri videoUri = data.getData();
             mVideoView.setVideoURI(videoUri);
+            mVideoView.seekTo(0);
             videoUriString = videoUri.toString();
         }
     }

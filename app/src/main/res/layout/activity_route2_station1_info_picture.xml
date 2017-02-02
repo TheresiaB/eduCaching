@@ -78,7 +78,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/lotuseffekt"
+                android:src="@drawable/route1infopicture"
                 android:id="@+id/imageView_information_bild"
                 android:layout_weight="1"
                 android:contentDescription="@string/layout_Bild_Beschreibung"

@@ -168,8 +168,8 @@
                 android:id="@+id/chronometer"
                 android:layout_width="wrap_content"
                 android:layout_height="57dp"
-                android:layout_marginLeft="65dp"
-                android:layout_marginStart="65dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginStart="100dp"
                 android:layout_marginTop="10dp"
                 android:textSize="30sp" />
 

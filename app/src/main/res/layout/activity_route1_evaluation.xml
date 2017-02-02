@@ -152,12 +152,12 @@
 
                         <TextView
                             android:id="@+id/stationR1S3answer"
-                            android:layout_width="450dp"
+                            android:layout_width="500dp"
                             android:weightSum="1"
                             android:background="@drawable/spinner_border"
                             android:layout_height="273dp"
                             android:layout_marginLeft="80dp"
-                            android:layout_marginTop="15dp"
+                            android:layout_marginTop="5dp"
                             android:textSize="20sp"
                             android:text="Hier steht eure Antwort"
                             />
@@ -266,11 +266,13 @@
 
                             <ImageView
                                 android:id="@+id/auswertungFoto"
-                                android:layout_width="480dp"
-                                android:layout_height="match_parent"
+                                android:layout_width="500dp"
+                                android:layout_height="273dp"
+                                android:src="@drawable/fragezeichen"
                                 android:gravity="center"
+                                android:background="@drawable/spinner_border"
                                 android:layout_marginLeft="80dp"
-                                android:layout_marginTop="20dp"
+                                android:layout_marginTop="5dp"
                                 android:weightSum="1" />
 
 
