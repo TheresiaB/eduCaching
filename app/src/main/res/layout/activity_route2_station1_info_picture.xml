@@ -7,13 +7,20 @@
     android:fitsSystemWindows="true"
     tools:context="com.life.educaching.Route2.Route2_station1_InfoPictureActivity"
     >
+<<<<<<< fc2bd9fa8a5bc9a024002c5496d0032a86bcbabf
 
     <com.life.educaching.Model.ScrollDisabledListView
+=======
+    <ListView
+>>>>>>> Route2Station1InfoPicture an die DB angebunden
         android:id="@+id/list"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         />
+<<<<<<< fc2bd9fa8a5bc9a024002c5496d0032a86bcbabf
 
+=======
+>>>>>>> Route2Station1InfoPicture an die DB angebunden
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
@@ -59,6 +66,7 @@
                 <ScrollView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+<<<<<<< fc2bd9fa8a5bc9a024002c5496d0032a86bcbabf
                     android:layout_marginStart="60dp"
                     android:layout_marginLeft="60dp"
                     android:layout_marginEnd="50dp"
@@ -84,6 +92,23 @@
             </RelativeLayout>
 
             <RelativeLayout
+=======
+                    android:ems="10"
+                    android:id="@+id/Text_information_bild"
+                    android:textColor="@color/colorGrey_text"
+                    android:textSize="18sp"
+                    android:layout_gravity="center_horizontal"
+                    android:paddingLeft="10dp"
+                    android:paddingStart="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingEnd="10dp"
+
+                    />
+
+            </ScrollView>
+
+            <ImageView
+>>>>>>> Route2Station1InfoPicture an die DB angebunden
                 android:layout_width="match_parent"
                 android:layout_height="300dp"
                 android:layout_weight="1">
