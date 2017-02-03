@@ -7,7 +7,11 @@
     android:fitsSystemWindows="true"
     tools:context="com.life.educaching.Route2.Route2_station1_InfoPictureActivity"
     >
-
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
@@ -28,7 +32,6 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="100dp"
-            android:text="@string/Head_Text"
             android:ems="10"
             android:id="@+id/ueberschrift"
             android:textColor="@color/colorGrey_text"
@@ -62,7 +65,6 @@
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:id="@+id/Text_information_bild"
-                    android:text="@string/Lorem_Ipsum"
                     android:textColor="@color/colorGrey_text"
                     android:textSize="18sp"
                     android:layout_gravity="center_horizontal"
