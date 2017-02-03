@@ -26,13 +26,13 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/greencaching"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
             android:name=".Model.Startpage_group_register_Activity"
-            android:label="startpage_group_register"
+            android:label="greencaching"
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -295,10 +295,10 @@
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
 
-        <activity android:name=".Route1_EvaluationActivity"
+        <activity android:name=".Route1.Route1_EvaluationActivity"
             android:screenOrientation="landscape"           ></activity>
 
-        <activity android:name=".Route2_EvaluationActivity"
+        <activity android:name=".Route2.Route2_EvaluationActivity"
             android:screenOrientation="landscape"           ></activity>
     </application>
 

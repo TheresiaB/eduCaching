@@ -17,14 +17,11 @@ import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
-import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.LatLngBounds;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.life.educaching.Model.MapMethods;
 import com.life.educaching.R;
-import com.life.educaching.Route1_EvaluationActivity;
-import com.life.educaching.Route2_EvaluationActivity;
 
 public class Route1Finished extends AppCompatActivity implements OnMapReadyCallback {
     GoogleMap mMap;

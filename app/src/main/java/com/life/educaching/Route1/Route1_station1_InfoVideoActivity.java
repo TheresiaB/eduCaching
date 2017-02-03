@@ -60,6 +60,7 @@ public class Route1_station1_InfoVideoActivity extends AppCompatActivity {
         Uri uri2 = Uri.parse(uriPath);
         mVideoView2 = (VideoView) findViewById(R.id.route2Station1Video);
         mVideoView2.setVideoURI(uri2);
+        mVideoView2.seekTo(500);
         mVideoView2.setMediaController(mediaController);
         mediaController.setAnchorView(mVideoView2);
 
@@ -137,7 +138,7 @@ public class Route1_station1_InfoVideoActivity extends AppCompatActivity {
         protected Void doInBackground(Void... arg0) {
             HttpHandler sh = new HttpHandler();
             // Making a request to url and getting response
-            String url = "http://educaching.f4.htw-berlin.de/route1station1.php";
+            String url = "http://educaching.f4.htw-berlin.de/route1station1info.php";
             String jsonStr = sh.makeServiceCall(url);
 
             Log.e(TAG, "Response from url: " + jsonStr);

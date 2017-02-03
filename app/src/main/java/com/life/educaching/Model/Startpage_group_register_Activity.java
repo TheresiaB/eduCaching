@@ -11,7 +11,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 import com.life.educaching.R;
-import com.life.educaching.Route2.Route2_station3_TaskTextActivity;
 
 /**
  * Created by karolin on 18.12.16.
@@ -22,8 +21,11 @@ public class Startpage_group_register_Activity extends AppCompatActivity {
     Button buttonNewGroup;
     EditText inputText;
     public static String input;
-    SharedPreferences preferences;
-    SharedPreferences.Editor editor;
+    SharedPreferences preferencesR2;
+    SharedPreferences preferencesR1;
+    SharedPreferences.Editor editorR2;
+    SharedPreferences.Editor editorR1;
+
 
 
     @Override
@@ -31,8 +33,11 @@ public class Startpage_group_register_Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_startpage_group_register);
         addListenerOnButton();
-        preferences = this.getSharedPreferences("prefsDatei1", MODE_PRIVATE);
-        editor = preferences.edit();
+        preferencesR2 = this.getSharedPreferences("prefsDatei1", MODE_PRIVATE);
+        editorR2 = preferencesR2.edit();
+
+        preferencesR1 = this.getSharedPreferences("prefsDatei2", MODE_PRIVATE);
+        editorR1 = preferencesR1.edit();
 
 
         getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_HIDDEN);
@@ -51,9 +56,10 @@ public class Startpage_group_register_Activity extends AppCompatActivity {
             public void onClick(View arg0) {
 
                 input = inputText.getText().toString();
-                Toast.makeText(Startpage_group_register_Activity.this, input, Toast.LENGTH_SHORT).show();
-                editor.putString("name", input);
-                editor.commit();
+                editorR2.putString("name", input);
+                editorR1.putString("name", input);
+                editorR2.commit();
+                editorR1.commit();
                 startActivity(new Intent(context, DecideRouteActivity.class));
             }
         });

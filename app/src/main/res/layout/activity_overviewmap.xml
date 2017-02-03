@@ -79,7 +79,7 @@
                     android:layout_width="800dp"
                     android:layout_height="0dp"
                     android:ems="10"
-                    android:id="@+id/editText3"
+                    android:id="@+id/r_text"
                     android:text="@string/Lorem_Ipsum"
                     android:textColor="@color/colorGrey_text"
                     android:textSize="18sp"

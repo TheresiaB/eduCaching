@@ -40,7 +40,7 @@ public class Route2_station3_InfoVideoActivity extends AppCompatActivity {
         buttonVideoStop = (ImageButton) findViewById(R.id.video_stop_button);
         mediaController = new MediaController(this);
 
-        String uriPath = "android.resource://" + getPackageName() + "/" + R.raw.diesendungmitdermauslotuseffekt;
+        String uriPath = "android.resource://" + getPackageName() + "/" + R.raw.nano;
         Uri uri2 = Uri.parse(uriPath);
         mVideoView2 = (VideoView) findViewById(R.id.route2Station1Video);
         mVideoView2.setVideoURI(uri2);
