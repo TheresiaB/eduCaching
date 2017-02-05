@@ -62,7 +62,6 @@
                 android:paddingEnd="0dp"
                 android:paddingRight="0dp"
                 android:gravity="center_vertical"
-                android:textStyle="bold"
                 android:layout_weight="1"
                 />
 
@@ -136,23 +135,35 @@
                 android:paddingRight="0dp"
                 />
 
+            <ImageButton
+                android:id="@+id/video_record_button"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/media_record"
+                android:layout_marginLeft="52dp"
+                android:layout_marginStart="52dp"
+                android:layout_marginTop="10dp"
+                android:onClick="play"/>
 
             <ImageButton
                 android:id="@+id/video_play_button"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:background="@drawable/playbutton"
-                android:layout_marginLeft="42dp"
-                android:layout_marginStart="42dp"
+                android:layout_marginLeft="22dp"
+                android:layout_marginStart="22dp"
                 android:layout_marginTop="10dp" />
 
             <ImageButton
-                android:id="@+id/video_record_button"
+                android:id="@+id/taskVideoPause"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:background="@drawable/media_record"
-                android:layout_margin="10dp"
-                android:onClick="play"/>
+                android:enabled="false"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/pausebutton" />
+
 
         </LinearLayout>
 

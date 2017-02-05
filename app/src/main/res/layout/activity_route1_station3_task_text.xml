@@ -63,7 +63,6 @@
                 android:paddingEnd="0dp"
                 android:paddingRight="0dp"
                 android:gravity="center_vertical"
-                android:textStyle="bold"
                 android:layout_weight="1"
                 />
 
@@ -116,7 +115,6 @@
                     android:layout_marginLeft="50dp"
                     android:layout_marginEnd="70dp"
                     android:layout_marginRight="70dp"
-                    android:hint="Schreibe hier deine Antwort"
                     android:inputType="textMultiLine"
                     android:background="@drawable/edit_text_task"
                     android:textSize="20sp"
@@ -158,28 +156,27 @@
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:enabled="false"
-                android:layout_marginLeft="50dp"
-                android:layout_marginStart="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
                 android:layout_marginTop="10dp"
                 android:background="@drawable/stopbutton" />
 
 
             <Chronometer
-                android:id="@+id/chronometer"
+                android:id="@+id/chronometerR1"
                 android:layout_width="wrap_content"
                 android:layout_height="57dp"
-                android:layout_marginLeft="100dp"
-                android:layout_marginStart="100dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginStart="70dp"
                 android:layout_marginTop="10dp"
                 android:textSize="30sp" />
-
 
             <ImageButton
                 android:id="@+id/play_button"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:layout_marginLeft="55dp"
-                android:layout_marginStart="55dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginStart="30dp"
                 android:layout_marginTop="10dp"
                 android:background="@drawable/playrecord" />
 
@@ -188,8 +185,8 @@
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:enabled="false"
-                android:layout_marginLeft="50dp"
-                android:layout_marginStart="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
                 android:layout_marginTop="10dp"
                 android:background="@drawable/pausebutton" />
 

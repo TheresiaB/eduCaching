@@ -60,7 +60,6 @@
                 android:paddingRight="0dp"
 
                 android:gravity="center_vertical"
-                android:textStyle="bold"
                 />
         </LinearLayout>
 

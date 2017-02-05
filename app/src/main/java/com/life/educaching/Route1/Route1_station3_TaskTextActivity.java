@@ -64,6 +64,7 @@ public class Route1_station3_TaskTextActivity extends AppCompatActivity{
     SharedPreferences.Editor editor;
     private String TAG = Route1_station3_TaskTextActivity.class.getSimpleName();
     private ListView lv;
+    Chronometer chronometer;
 
     ArrayList<HashMap<String, String>> routeList;
 
@@ -81,7 +82,7 @@ public class Route1_station3_TaskTextActivity extends AppCompatActivity{
         buttonStop = (ImageButton) findViewById(R.id.stop_button);
         buttonPlayLastRecordAudio = (ImageButton) findViewById(R.id.play_button);
         buttonStopPlayingRecording = (ImageButton)findViewById(R.id.stopplay_button);
-
+        chronometer = ((Chronometer) findViewById(R.id.chronometerR1));
         buttonStop.setEnabled(false);
         buttonPlayLastRecordAudio.setEnabled(false);
         buttonStopPlayingRecording.setEnabled(false);
@@ -97,12 +98,13 @@ public class Route1_station3_TaskTextActivity extends AppCompatActivity{
                     AudioSavePathInDevice = Environment.getExternalStorageDirectory().getAbsolutePath() + "/" + CreateRandomAudioFileName(5) + "AudioRecording.3gp";
                     MediaRecorderReady();
 
+
                     try {
                         mediaRecorder.prepare();
                         mediaRecorder.start();
 
-                        ((Chronometer) findViewById(R.id.chronometer)).setBase(SystemClock.elapsedRealtime());
-                        ((Chronometer) findViewById(R.id.chronometer)).start();
+                        chronometer.setBase(SystemClock.elapsedRealtime());
+                        chronometer.start();
                     } catch (IllegalStateException e) {
                         // TODO Auto-generated catch block
                         e.printStackTrace();
@@ -130,7 +132,7 @@ public class Route1_station3_TaskTextActivity extends AppCompatActivity{
 
                 mediaRecorder.stop();
 
-                ((Chronometer) findViewById(R.id.chronometer)).stop();
+                chronometer.stop();
 
                 buttonStop.setEnabled(false);
                 buttonPlayLastRecordAudio.setEnabled(true);
@@ -206,8 +208,10 @@ public class Route1_station3_TaskTextActivity extends AppCompatActivity{
 
         mediaRecorder.setAudioEncoder(MediaRecorder.OutputFormat.AMR_NB);
 
-        mediaRecorder.setOutputFile(AudioSavePathInDevice);
+        mediaRecorder.setOutputFile(AudioSavePathInDevice);                    inputTon = AudioSavePathInDevice;
         inputTon = AudioSavePathInDevice;
+
+
 
 
     }
