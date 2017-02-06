@@ -127,12 +127,12 @@ public class Route1_OverviewMapActivity extends AppCompatActivity implements OnM
         mMap.addMarker(new MarkerOptions().position(hauptbahnhof).title("Marker in der 3. Station").icon(MapMethods.createIcon(this, R.drawable.station3_icon, 150, 100)));
 
         LatLng alexanderplatz = new LatLng(52.5215855, 13.411163999999985);
-        mMap.addMarker(new MarkerOptions().position(alexanderplatz).title("Marker in der 4. Station").icon(MapMethods.createIcon(this, R.drawable.ziel_marker, 100, 100))).showInfoWindow();
+        mMap.addMarker(new MarkerOptions().position(alexanderplatz).title("Marker in der 4. Station").icon(MapMethods.createIcon(this, R.drawable.ziel_marker, 100, 100)));
 
         LatLng[] stationen = {startLifeEV, moeckernbruecke, potsdamerplatz, hauptbahnhof, alexanderplatz};
 
         LatLngBounds Route = MapMethods.calculateLatLngBounds(stationen);
-        mMap.moveCamera(CameraUpdateFactory.newLatLngBounds(Route, 50));
+        mMap.moveCamera(CameraUpdateFactory.newLatLngBounds(Route, 110));
 
         if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
             ActivityCompat.requestPermissions(this, new String[]{android.Manifest.permission.ACCESS_FINE_LOCATION, android.Manifest.permission.INTERNET}, 10);

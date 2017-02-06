@@ -81,7 +81,7 @@ LatLng startLifeEV = new LatLng(52.4667117, 13.3285014);
         mMap.addMarker(new MarkerOptions().position(startLifeEV).title("Du bist hier")).showInfoWindow();
 
         LatLngBounds route = MapMethods.calculateLatLngBounds(new LatLng[]{moeckernbruecke, startLifeEV});
-        mMap.moveCamera(CameraUpdateFactory.newLatLngBounds(route, 70));
+        mMap.moveCamera(CameraUpdateFactory.newLatLngBounds(route, 110));
         if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
             ActivityCompat.requestPermissions(this, new String[]{android.Manifest.permission.ACCESS_FINE_LOCATION, android.Manifest.permission.INTERNET}, 10);
 
