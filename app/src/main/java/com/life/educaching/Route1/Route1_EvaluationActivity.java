@@ -58,7 +58,6 @@ public class Route1_EvaluationActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_route1_evaluation);
         setTextHeader();
-        addListenerOnButton();
 
         preferences = this.getSharedPreferences("prefsDatei2", MODE_PRIVATE);
         String video1 = preferences.getString("video1", "KeinText");
@@ -170,31 +169,6 @@ public class Route1_EvaluationActivity extends AppCompatActivity {
     public static Bitmap decodeToBase64(String input) {
         byte[] decodedByte = Base64.decode(input, 0);
         return BitmapFactory.decodeByteArray(decodedByte, 0, decodedByte.length);
-    }
-
-    public void addListenerOnButton() {
-
-        final Context context = this;
-        buttonNext = (Button) findViewById(R.id.button_next);
-        buttonBack = (Button) findViewById(R.id.button_back);
-
-
-        buttonNext.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View arg0) {
-                startActivity(new Intent(context, Startpage_group_register_Activity.class));
-            }
-        });
-        buttonBack.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View arg0) {
-                startActivity(new Intent(context, Route1Finished.class));
-            }
-        });
-
-
     }
 
 }
