@@ -76,16 +76,13 @@
             </ScrollView>
 
             <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="600dp"
+                android:layout_height="300dp"
                 android:src="@drawable/route1infopicture"
                 android:id="@+id/imageView_information_bild"
                 android:layout_weight="1"
                 android:contentDescription="@string/layout_Bild_Beschreibung"
-                android:layout_marginStart="50dp"
-                android:layout_marginLeft="50dp"
-                android:layout_marginEnd="70dp"
-                android:layout_marginRight="70dp"
+                android:layout_marginLeft="100dp"
                 android:layout_gravity="center_horizontal"
                 android:scaleType="fitStart"
                 />

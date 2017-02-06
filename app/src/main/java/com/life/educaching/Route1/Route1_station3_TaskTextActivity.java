@@ -59,7 +59,7 @@ public class Route1_station3_TaskTextActivity extends AppCompatActivity{
     Button buttonBack;
     EditText inputText;
     public static String input;
-    String inputTon;
+    String inputTon = null;
     SharedPreferences preferences;
     SharedPreferences.Editor editor;
     private String TAG = Route1_station3_TaskTextActivity.class.getSimpleName();
@@ -96,6 +96,8 @@ public class Route1_station3_TaskTextActivity extends AppCompatActivity{
                 if(checkPermission()) {
 
                     AudioSavePathInDevice = Environment.getExternalStorageDirectory().getAbsolutePath() + "/" + CreateRandomAudioFileName(5) + "AudioRecording.3gp";
+                    inputTon = AudioSavePathInDevice;
+
                     MediaRecorderReady();
 
 
@@ -131,7 +133,7 @@ public class Route1_station3_TaskTextActivity extends AppCompatActivity{
             public void onClick(View view) {
 
                 mediaRecorder.stop();
-
+                editor.putString("keyTon", AudioSavePathInDevice);
                 chronometer.stop();
 
                 buttonStop.setEnabled(false);
@@ -208,8 +210,8 @@ public class Route1_station3_TaskTextActivity extends AppCompatActivity{
 
         mediaRecorder.setAudioEncoder(MediaRecorder.OutputFormat.AMR_NB);
 
-        mediaRecorder.setOutputFile(AudioSavePathInDevice);                    inputTon = AudioSavePathInDevice;
-        inputTon = AudioSavePathInDevice;
+        mediaRecorder.setOutputFile(AudioSavePathInDevice);
+
 
 
 
@@ -278,15 +280,8 @@ public class Route1_station3_TaskTextActivity extends AppCompatActivity{
 
             @Override
             public void onClick(View arg0) {
-
-                if(inputText.getText() == null){
-                    editor.putString("keyTon", inputTon);
-                    Toast.makeText(Route1_station3_TaskTextActivity.this, inputTon, Toast.LENGTH_SHORT).show();
-                } else {
                     input = inputText.getText().toString();
                     editor.putString("keyText", input);
-                    Toast.makeText(Route1_station3_TaskTextActivity.this, input, Toast.LENGTH_SHORT).show();
-                }
 
                 editor.commit();
 

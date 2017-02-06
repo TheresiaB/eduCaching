@@ -88,17 +88,11 @@
                 >
 
                 <VideoView
-                    android:layout_width="600dp"
+                    android:layout_width="650dp"
                     android:layout_height="300dp"
-                    android:id="@+id/route2Station1Video"
+                    android:id="@+id/route1Station1Video"
                     android:contentDescription="@string/layout_Video_Beschreibung"
-                    android:layout_marginStart="50dp"
-                    android:layout_marginLeft="50dp"
-                    android:layout_marginEnd="70dp"
-                    android:layout_marginRight="70dp"
-                    android:layout_gravity="center_horizontal"
-                    android:scaleType="fitStart"
-                    android:adjustViewBounds="true"
+                    android:layout_marginRight="0dp"
                     />
 
             </RelativeLayout>
@@ -126,8 +120,8 @@
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:background="@drawable/playbutton"
-                android:layout_marginLeft="41dp"
-                android:layout_marginStart="41dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
                 android:layout_marginTop="10dp"
                 />
 

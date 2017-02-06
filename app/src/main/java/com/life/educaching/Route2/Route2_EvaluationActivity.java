@@ -3,6 +3,7 @@ package com.life.educaching.Route2;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.media.MediaPlayer;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -15,6 +16,8 @@ import android.widget.VideoView;
 import com.life.educaching.Model.Startpage_group_register_Activity;
 import com.life.educaching.R;
 
+import java.io.IOException;
+
 public class Route2_EvaluationActivity extends AppCompatActivity {
 
     ImageButton buttonVideoPlayS1;
@@ -25,6 +28,9 @@ public class Route2_EvaluationActivity extends AppCompatActivity {
     VideoView mVideoView1;
     VideoView mVideoView2;
 
+    ImageButton buttonAudioPlay;
+    ImageButton buttonAudioPause;
+
 
     TextView mTextview;
     TextView textStation4;
@@ -34,6 +40,7 @@ public class Route2_EvaluationActivity extends AppCompatActivity {
     Uri myUriR2S2;
     Button buttonNext;
     Button buttonBack;
+    MediaPlayer mediaPlayer;
 
 
 
@@ -52,6 +59,8 @@ public class Route2_EvaluationActivity extends AppCompatActivity {
         String value2 = preferences.getString("key2", "KeinText");
         String videoUri = preferences.getString("key3", "KeinText");
         String videoUriS2 = preferences.getString("key4", "KeinText");
+        final String antwortTon = preferences.getString("keyTon", "KeinText");
+
 
         groupName = (TextView) findViewById(R.id.groupName);
 
@@ -78,11 +87,35 @@ public class Route2_EvaluationActivity extends AppCompatActivity {
 
         groupName.setText(name);
 
+        buttonAudioPlay = (ImageButton) findViewById(R.id.audioPlayR2);
+        buttonAudioPause = (ImageButton) findViewById(R.id.audioPauseR2);
+
         if(value.contains("KeinText")){
             mTextview.setText("Ihr habt eine Tonaufnahme gemacht");
         } else {
             mTextview.setText(value);
         }
+        mediaPlayer = new MediaPlayer();
+        buttonAudioPlay.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                try {
+                    mediaPlayer.setDataSource(antwortTon);
+                    mediaPlayer.prepare();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+                mediaPlayer.start();
+
+            }
+        });
+        buttonAudioPause.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mVideoView1.pause();
+            }
+        });
 
         textStation4.setText(value2);
 

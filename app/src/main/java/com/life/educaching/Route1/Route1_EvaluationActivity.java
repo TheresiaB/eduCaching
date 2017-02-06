@@ -51,6 +51,7 @@ public class Route1_EvaluationActivity extends AppCompatActivity {
     ImageView imageView;
     TextView noPicture;
     Bitmap bitmap;
+    String tonDauerhaft;
 
 
 
@@ -71,6 +72,7 @@ public class Route1_EvaluationActivity extends AppCompatActivity {
         final String picture = preferences.getString("picture", "KeinText");
 
 
+        tonDauerhaft = antwortTon;
         imageView = (ImageView) findViewById(R.id.auswertungFoto);
 
         buttonVideoPlayS1 = (ImageButton) findViewById(R.id.video_play_buttonR1S1);
@@ -127,18 +129,19 @@ public class Route1_EvaluationActivity extends AppCompatActivity {
         buttonAudioPause = (ImageButton) findViewById(R.id.audioPause);
 
 
-        if(antwortTon.contains("KeinText")){
-            mTextview.setText(antwortText);
-        } else {
-            mTextview.setText("Ihr habt eine Tonaufnahme gemacht");
+            if(antwortText.contains("KeinText")) {
+                mTextview.setText("Ihr habt eine Tonaufnahme gemacht");
+            }else {
+                mTextview.setText(antwortText);
+            }
+
             mediaPlayer = new MediaPlayer();
             buttonAudioPlay.setOnClickListener(new View.OnClickListener() {
 
                 @Override
                 public void onClick(View v) {
-                    Toast.makeText(Route1_EvaluationActivity.this, "Button gedrückt", Toast.LENGTH_SHORT).show();
                     try {
-                        mediaPlayer.setDataSource(antwortTon);
+                        mediaPlayer.setDataSource(tonDauerhaft);
                         mediaPlayer.prepare();
                     } catch (IOException e) {
                         e.printStackTrace();
@@ -150,14 +153,14 @@ public class Route1_EvaluationActivity extends AppCompatActivity {
             buttonAudioPause.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    mVideoView1.pause();
+                    mediaPlayer.pause();
                 }
             });
 
-        }
 
 
-            imageView.setImageBitmap(decodeToBase64(picture));
+
+    imageView.setImageBitmap(decodeToBase64(picture));
 
 
     }
