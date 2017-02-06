@@ -165,7 +165,7 @@
                         <LinearLayout
                             android:layout_width="450dp"
                             android:layout_height="60dp"
-                            android:layout_marginLeft="80dp">
+                            android:layout_marginLeft="230dp">
 
                             <ImageButton
                             android:id="@+id/audioPlay"
@@ -277,6 +277,7 @@
 
 
 
+
                     </LinearLayout>
 
 
@@ -293,7 +294,7 @@
 
                     <Button
                         android:text="Route beenden"
-                        android:id="@+id/Auswertung"
+                        android:id="@+id/buttonToStartpage"
                         android:layout_width="410dp"
                         android:layout_height="80dp"
                         android:textSize="26sp"

@@ -40,7 +40,7 @@ import java.util.HashMap;
 
 public class Route1_station2_TaskVideoActivity extends AppCompatActivity {
 
-    ImageButton mRecordView, mPlayView;
+    ImageButton mRecordView, mPlayView, mPause;
     ImageButton mPlayButtonView;
     VideoView mVideoView;
     private int ACTIVITY_START_CAMERA_APP = 0;
@@ -72,6 +72,7 @@ public class Route1_station2_TaskVideoActivity extends AppCompatActivity {
         mRecordView = (ImageButton) findViewById(R.id.video_record_button2);
         mPlayView = (ImageButton) findViewById(R.id.video_play_button2);
         mVideoView = (VideoView) findViewById(R.id.videoView2);
+        mPause = (ImageButton) findViewById(R.id.taskVideoPauseS2);
 
         mRecordView.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -86,6 +87,12 @@ public class Route1_station2_TaskVideoActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 mVideoView.start();
+            }
+        });
+        mPause.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mVideoView.pause();
             }
         });
         // ATTENTION: This was auto-generated to implement the App Indexing API.

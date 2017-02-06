@@ -1,5 +1,7 @@
 package com.life.educaching.Route2;
 
+import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
@@ -10,6 +12,7 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.VideoView;
 
+import com.life.educaching.Model.Startpage_group_register_Activity;
 import com.life.educaching.R;
 
 public class Route2_EvaluationActivity extends AppCompatActivity {
@@ -18,23 +21,19 @@ public class Route2_EvaluationActivity extends AppCompatActivity {
     ImageButton buttonVideoPauseS1;
     ImageButton buttonVideoPlayS2;
     ImageButton buttonVideoPause2;
-    ImageButton buttonVideoPlay3;
-    ImageButton buttonVideoPause3;
-    ImageButton buttonVideoStop;
+
     VideoView mVideoView1;
     VideoView mVideoView2;
-    VideoView mVideoView3;
+
 
     TextView mTextview;
-    TextView neu;
+    TextView textStation4;
     TextView groupName;
-    VideoView videoR2S1;
-    VideoView videoR2S2;
-    Button videoPlayR2S1;
-    Button videoPlayR2S2;
     SharedPreferences preferences;
     Uri myUriR2S1;
     Uri myUriR2S2;
+    Button buttonNext;
+    Button buttonBack;
 
 
 
@@ -57,7 +56,7 @@ public class Route2_EvaluationActivity extends AppCompatActivity {
         groupName = (TextView) findViewById(R.id.groupName);
 
         mTextview = (TextView) findViewById(R.id.station3answer);
-        neu = (TextView) findViewById(R.id.station4answer);
+        textStation4 = (TextView) findViewById(R.id.station4answer);
 
 
         buttonVideoPlayS1 = (ImageButton) findViewById(R.id.video_play_button);
@@ -65,7 +64,7 @@ public class Route2_EvaluationActivity extends AppCompatActivity {
 
 
 
-        buttonVideoPlayS2 = (ImageButton) findViewById(R.id.video_play_button);
+        buttonVideoPlayS2 = (ImageButton) findViewById(R.id.video_play_button3);
         buttonVideoPause2 = (ImageButton) findViewById(R.id.video_pause_button3);
 
         mVideoView1 = (VideoView) findViewById(R.id.StationVideo1);
@@ -79,8 +78,13 @@ public class Route2_EvaluationActivity extends AppCompatActivity {
 
         groupName.setText(name);
 
-        mTextview.setText(value);
-        neu.setText(value2);
+        if(value.contains("KeinText")){
+            mTextview.setText("Ihr habt eine Tonaufnahme gemacht");
+        } else {
+            mTextview.setText(value);
+        }
+
+        textStation4.setText(value2);
 
 
 
@@ -103,6 +107,21 @@ public class Route2_EvaluationActivity extends AppCompatActivity {
     public void setTextHeader() {
         TextView myAwesomeTextView = (TextView) findViewById(R.id.text_head);
         myAwesomeTextView.setText("Route 2 - Auswertung");
+    }
+
+    public void addListenerOnButton() {
+
+        final Context context = this;
+        buttonNext = (Button) findViewById(R.id.route2Beenden);
+
+
+        buttonNext.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View arg0) {
+                startActivity(new Intent(context, Startpage_group_register_Activity.class));
+            }
+        });
     }
 
 }

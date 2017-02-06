@@ -81,7 +81,7 @@
                     android:layout_height="0dp"
                     android:ems="10"
                     android:id="@+id/editText3"
-                    android:text="@string/Lorem_Ipsum"
+                    android:text="Bei dieser Route dreht sich alles rund um das Theman Physik und Biologie. Hier werdet ihr herausfinden was es mit dem Lotuseffekt auf sich hat oder was sich hinter dem Begriff nano verbirgt."
                     android:textColor="@color/colorGrey_text"
                     android:textSize="18sp"
                     android:layout_gravity="center_horizontal"

@@ -49,6 +49,7 @@ public class Route1_EvaluationActivity extends AppCompatActivity {
 
     MediaPlayer mediaPlayer ;
     ImageView imageView;
+    TextView noPicture;
     Bitmap bitmap;
 
 
@@ -58,6 +59,7 @@ public class Route1_EvaluationActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_route1_evaluation);
         setTextHeader();
+        addListenerOnButton();
 
         preferences = this.getSharedPreferences("prefsDatei2", MODE_PRIVATE);
         String video1 = preferences.getString("video1", "KeinText");
@@ -69,6 +71,7 @@ public class Route1_EvaluationActivity extends AppCompatActivity {
         final String picture = preferences.getString("picture", "KeinText");
 
 
+        imageView = (ImageView) findViewById(R.id.auswertungFoto);
 
         buttonVideoPlayS1 = (ImageButton) findViewById(R.id.video_play_buttonR1S1);
         buttonVideoPauseS1 = (ImageButton) findViewById(R.id.video_pause_buttonR1S1);
@@ -127,25 +130,23 @@ public class Route1_EvaluationActivity extends AppCompatActivity {
         if(antwortTon.contains("KeinText")){
             mTextview.setText(antwortText);
         } else {
+            mTextview.setText("Ihr habt eine Tonaufnahme gemacht");
             mediaPlayer = new MediaPlayer();
             buttonAudioPlay.setOnClickListener(new View.OnClickListener() {
 
                 @Override
                 public void onClick(View v) {
                     Toast.makeText(Route1_EvaluationActivity.this, "Button gedrückt", Toast.LENGTH_SHORT).show();
-
                     try {
                         mediaPlayer.setDataSource(antwortTon);
                         mediaPlayer.prepare();
                     } catch (IOException e) {
                         e.printStackTrace();
                     }
-
                     mediaPlayer.start();
 
                 }
             });
-
             buttonAudioPause.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -155,9 +156,9 @@ public class Route1_EvaluationActivity extends AppCompatActivity {
 
         }
 
-        imageView = (ImageView) findViewById(R.id.auswertungFoto);
 
-        imageView.setImageBitmap(decodeToBase64(picture));
+            imageView.setImageBitmap(decodeToBase64(picture));
+
 
     }
 
@@ -171,5 +172,19 @@ public class Route1_EvaluationActivity extends AppCompatActivity {
         return BitmapFactory.decodeByteArray(decodedByte, 0, decodedByte.length);
     }
 
+    public void addListenerOnButton() {
+
+        final Context context = this;
+        buttonNext = (Button) findViewById(R.id.buttonToStartpage);
+
+
+        buttonNext.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View arg0) {
+                startActivity(new Intent(context, Startpage_group_register_Activity.class));
+            }
+        });
+    }
 }
 
