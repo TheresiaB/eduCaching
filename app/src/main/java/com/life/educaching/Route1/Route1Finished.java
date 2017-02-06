@@ -96,7 +96,7 @@ public class Route1Finished extends AppCompatActivity implements OnMapReadyCallb
         LatLng[] stationen = {moeckernbruecke, potsdamerplatz, hauptbahnhof, alexanderplatz};
 
         LatLngBounds Route = MapMethods.calculateLatLngBounds(stationen);
-        mMap.moveCamera(CameraUpdateFactory.newLatLngBounds(Route, 50));
+        mMap.moveCamera(CameraUpdateFactory.newLatLngBounds(Route, 110));
 
         if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
             ActivityCompat.requestPermissions(this, new String[]{android.Manifest.permission.ACCESS_FINE_LOCATION, android.Manifest.permission.INTERNET}, 10);

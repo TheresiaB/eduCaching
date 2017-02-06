@@ -81,7 +81,7 @@ public class Route1_station4_MapActivity extends AppCompatActivity implements On
         mMap.addMarker(new MarkerOptions().position(hauptbahnhof).title("Du bist hier")).showInfoWindow();
 
         LatLngBounds route = MapMethods.calculateLatLngBounds(new LatLng[]{hauptbahnhof, alexanderplatz});
-        mMap.moveCamera(CameraUpdateFactory.newLatLngBounds(route, 50));
+        mMap.moveCamera(CameraUpdateFactory.newLatLngBounds(route, 110));
         if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
             ActivityCompat.requestPermissions(this, new String[]{android.Manifest.permission.ACCESS_FINE_LOCATION, android.Manifest.permission.INTERNET}, 10);
 

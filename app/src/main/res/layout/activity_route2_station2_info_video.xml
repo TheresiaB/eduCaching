@@ -6,6 +6,11 @@
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
     tools:context="com.life.educaching.Route2.Route2_station2_InfoVideoActivity">
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
 
     <LinearLayout
         android:orientation="vertical"
@@ -27,7 +32,6 @@
             <TextView
                 android:layout_width="740dp"
                 android:layout_height="100dp"
-                android:text="@string/Head_Text_Video"
                 android:ems="10"
                 android:id="@+id/s_ueberschrift"
                 android:textColor="@color/colorGrey_text"
@@ -64,7 +68,6 @@
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:id="@+id/s_text"
-                    android:text="@string/Lorem_Ipsum"
                     android:textColor="@color/colorGrey_text"
                     android:textSize="18sp"
                     android:layout_gravity="center_horizontal"

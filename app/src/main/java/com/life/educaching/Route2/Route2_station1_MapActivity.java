@@ -78,7 +78,7 @@ public class Route2_station1_MapActivity extends AppCompatActivity implements On
         mMap.addMarker(new MarkerOptions().position(startLifeEV).title("Du bist hier")).showInfoWindow();
 
         LatLngBounds route = MapMethods.calculateLatLngBounds(new LatLng[]{friedrichstrasse, startLifeEV});
-        mMap.moveCamera(CameraUpdateFactory.newLatLngBounds(route, 50));
+        mMap.moveCamera(CameraUpdateFactory.newLatLngBounds(route, 110));
 
         if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
             ActivityCompat.requestPermissions(this, new String[]{android.Manifest.permission.ACCESS_FINE_LOCATION, android.Manifest.permission.INTERNET}, 10);

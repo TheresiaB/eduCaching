@@ -6,7 +6,11 @@
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
     tools:context="com.life.educaching.Route2.Route2_station2_TaskVideoActivity">
-
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
@@ -31,9 +35,8 @@
             <TextView
                 android:layout_width="600dp"
                 android:layout_height="100dp"
-                android:text="@string/Head_Text"
                 android:ems="10"
-                android:id="@+id/ueberschrift"
+                android:id="@+id/a_ueAufgabenbeschreibung"
                 android:textColor="@color/colorGrey_text"
                 android:textSize="40sp"
                 android:paddingStart="70dp"
@@ -47,9 +50,8 @@
             <TextView
                 android:layout_width="425dp"
                 android:layout_height="100dp"
-                android:text="Video aufnehmen"
                 android:ems="10"
-                android:id="@+id/Video"
+                android:id="@+id/a_ueAufgabenloesung"
                 android:textColor="@color/colorGrey_text"
                 android:textSize="40sp"
                 android:paddingStart="70dp"
@@ -81,8 +83,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:ems="10"
-                    android:id="@+id/Text_Aufgabe"
-                    android:text="@string/Lorem_Ipsum"
+                    android:id="@+id/a_aufgabenbeschreibung"
                     android:textColor="@color/colorGrey_text"
                     android:textSize="18sp"
                     android:layout_gravity="center_vertical"/>
