@@ -53,10 +53,11 @@
                 android:layout_height="80dp"
                 android:text="Station abschließen"
                 android:textSize="26sp"
-                android:background="@drawable/button_border"
+                android:background="@drawable/selector_button_normal"
                 android:textColor="@color/colorWhite"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="240dp" />
+                android:layout_marginTop="240dp"
+                android:enabled="true"/>
 
 
         </RelativeLayout>

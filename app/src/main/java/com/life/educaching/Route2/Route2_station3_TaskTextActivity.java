@@ -136,6 +136,7 @@ public class Route2_station3_TaskTextActivity extends AppCompatActivity{
             public void onClick(View view) {
 
                 mediaRecorder.stop();
+                editor.putString("keyTon", AudioSavePathInDevice);
                 ((Chronometer) findViewById(R.id.chronometer)).stop();
 
                 buttonStop.setEnabled(false);
@@ -279,7 +280,6 @@ public class Route2_station3_TaskTextActivity extends AppCompatActivity{
             public void onClick(View v) {
 
                 input = inputText.getText().toString();
-                Toast.makeText(Route2_station3_TaskTextActivity.this, input, Toast.LENGTH_SHORT).show();
                 editor.putString("key", input);
                 editor.commit();
 

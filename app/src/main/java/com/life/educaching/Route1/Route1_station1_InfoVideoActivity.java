@@ -58,7 +58,7 @@ public class Route1_station1_InfoVideoActivity extends AppCompatActivity {
 
         String uriPath = "android.resource://" + getPackageName() + "/" + R.raw.diesendungmitdermauslotuseffekt;
         Uri uri2 = Uri.parse(uriPath);
-        mVideoView2 = (VideoView) findViewById(R.id.route2Station1Video);
+        mVideoView2 = (VideoView) findViewById(R.id.route1Station1Video);
         mVideoView2.setVideoURI(uri2);
         mVideoView2.seekTo(500);
         mVideoView2.setMediaController(mediaController);

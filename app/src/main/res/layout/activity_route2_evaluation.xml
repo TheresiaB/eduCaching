@@ -27,7 +27,8 @@
 
         <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:overScrollMode="never">
 
             <LinearLayout
                 android:orientation="vertical"
@@ -167,14 +168,14 @@
                             android:layout_marginLeft="230dp">
 
                             <ImageButton
-                                android:id="@+id/audioPlay"
+                                android:id="@+id/audioPlayR2"
                                 android:layout_width="50dp"
                                 android:layout_height="50dp"
                                 android:layout_marginTop="10dp"
                                 android:background="@drawable/playrecord" />
 
                             <ImageButton
-                                android:id="@+id/audioPause"
+                                android:id="@+id/audioPauseR2"
                                 android:layout_width="50dp"
                                 android:layout_height="50dp"
                                 android:enabled="false"
@@ -345,11 +346,13 @@
                         android:layout_width="410dp"
                         android:layout_height="80dp"
                         android:textSize="26sp"
-                        android:background="@drawable/button_border"
+                        android:background="@drawable/selector_button_normal"
                         android:textColor="@color/colorWhite"
                         android:layout_alignParentTop="true"
                         android:layout_centerHorizontal="true"
-                        android:layout_margin="40dp"/>
+                        android:layout_margin="40dp"
+                        android:enabled="true"/>
+
                 </RelativeLayout>
 
             </LinearLayout>
