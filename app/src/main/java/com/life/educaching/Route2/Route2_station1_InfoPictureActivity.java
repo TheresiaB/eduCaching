@@ -175,7 +175,7 @@ public class Route2_station1_InfoPictureActivity extends AppCompatActivity {
         protected void onPostExecute(Void result) {
             super.onPostExecute(result);
             ListAdapter adapter = new SimpleAdapter(Route2_station1_InfoPictureActivity.this, routeList, R.layout.activity_route2_station1_info_picture, new String[]{"s_text", "s_ueberschrift"},
-                    new int[]{R.id.Text_information_bild, R.id.ueberschrift});
+                    new int[]{R.id.s_text, R.id.s_ueberschrift});
             lv.setAdapter(adapter);
         }
 
