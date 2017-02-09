@@ -63,10 +63,11 @@ tools:context="com.life.educaching.Model.Startpage_group_register_Activity">
                     android:layout_marginStart="456dp"
                     android:layout_marginTop="190dp"
                     android:id="@+id/button_newgroup"
-                    android:background="@drawable/button_border"
+                    android:background="@drawable/selector_button_normal"
                     android:textColor="@color/colorWhite"
                     android:text="@string/button_gruppe_erstellen"
                     android:textAllCaps="false"
+                    android:enabled="true"
                     />
 
                 <TextView

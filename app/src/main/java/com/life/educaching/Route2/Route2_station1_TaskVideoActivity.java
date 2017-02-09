@@ -28,7 +28,7 @@ import com.life.educaching.Route1.Route1_station2_InfoPicutreActivity;
  */
 public class Route2_station1_TaskVideoActivity extends AppCompatActivity {
 
-    Button mRecordView, mPlayView;
+    ImageButton mRecordView, mPlayView, mPause;
     ImageButton mPlayButtonView;
     VideoView mVideoView;
     private int ACTIVITY_START_CAMERA_APP = 0;
@@ -50,10 +50,12 @@ public class Route2_station1_TaskVideoActivity extends AppCompatActivity {
         setTextHeader();
         preferences = this.getSharedPreferences("prefsDatei1", MODE_PRIVATE);
         editor = preferences.edit();
-        mRecordView = (Button) findViewById(R.id.video_record_button);
-        mPlayView = (Button) findViewById(R.id.video_play_button);
-        mPlayButtonView = (ImageButton) findViewById(R.id.imageButton1);
+
+        mRecordView = (ImageButton) findViewById(R.id.video_record_button);
+        mPlayView = (ImageButton) findViewById(R.id.video_play_button);
+        //mPlayButtonView = (ImageButton) findViewById(R.id.imageButton1);
         mVideoView = (VideoView) findViewById(R.id.videoView2);
+        mPause = (ImageButton) findViewById(R.id.taskVideoPauseS);
 
         mRecordView.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -49,7 +49,7 @@ public class Route2_EvaluationActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_route2_evaluation);
         setTextHeader();
-
+        addListenerOnButton();
 
 
 
