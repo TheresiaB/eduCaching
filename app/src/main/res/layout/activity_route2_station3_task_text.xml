@@ -54,7 +54,6 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="100dp"
-                android:text="Text oder Ton aufnehmen!"
                 android:ems="10"
                 android:id="@+id/a_ueAufgabenloesung"
                 android:textColor="@color/colorGrey_text"
@@ -95,7 +94,6 @@
                         android:layout_height="wrap_content"
                         android:ems="10"
                         android:id="@+id/a_aufgabenbeschreibung"
-                        android:text="@string/Lorem_Ipsum"
                         android:textColor="@color/colorGrey_text"
                         android:textSize="18sp"
                         android:layout_gravity="center_horizontal"

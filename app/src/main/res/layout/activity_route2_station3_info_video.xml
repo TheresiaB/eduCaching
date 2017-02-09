@@ -71,7 +71,6 @@
                         android:layout_height="wrap_content"
                         android:ems="10"
                         android:id="@+id/s_text"
-                        android:text="@string/Lorem_Ipsum"
                         android:textColor="@color/colorGrey_text"
                         android:textSize="18sp"
                         android:layout_gravity="center_horizontal"
