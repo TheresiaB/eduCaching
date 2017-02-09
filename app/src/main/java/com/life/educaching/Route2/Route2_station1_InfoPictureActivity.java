@@ -164,8 +164,10 @@ public class Route2_station1_InfoPictureActivity extends AppCompatActivity {
         @Override
         protected void onPostExecute(Void result) {
             super.onPostExecute(result);
+
             info_ue_textview.setText(info_ue);
             info_textview.setText(info_text);
+
         }
 
     }

@@ -47,11 +47,14 @@ public class Route1_station4_TaskPictureActivity extends AppCompatActivity {
     Uri mUri = null;
     String pictureString;
     private String TAG = Route1_station4_TaskPictureActivity.class.getSimpleName();
-    private ListView lv;
     Bitmap inputPicture;
 
-
-    ArrayList<HashMap<String, String>> routeList;
+    protected String info_text;
+    protected String info_ue;
+    protected String info_ue_lo;
+    TextView info_textview;
+    TextView info_ue_textview;
+    TextView info_ue_lo_textview;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,10 +62,12 @@ public class Route1_station4_TaskPictureActivity extends AppCompatActivity {
         setContentView(R.layout.activity_route1_station4_task_picture);
         addListenerOnButton();
         setTextHeader();
-        routeList = new ArrayList<>();
-        lv = (ListView) findViewById(R.id.list);
         preferences = this.getSharedPreferences("prefsDatei2", MODE_PRIVATE);
         editor = preferences.edit();
+
+        info_textview=(TextView) findViewById(R.id.a_aufgabenbeschreibung);
+        info_ue_textview=(TextView) findViewById(R.id.a_ueAufgabenbeschreibung);
+        info_ue_lo_textview=(TextView) findViewById(R.id.a_ueAufgabenloesung);
 
         new Route1_station4_TaskPictureActivity.GetContacts().execute();
     }
@@ -169,22 +174,9 @@ public class Route1_station4_TaskPictureActivity extends AppCompatActivity {
                         String a_aufgabenbeschreibung = d.getString("a_aufgabenbeschreibung");
                         String a_ueAufgabenloesung = d.getString("a_ueAufgabenloesung");
                         String a_hilfetext = d.getString("a_hilfetext");
-
-                        // tmp hash map for single Route
-                        HashMap<String, String> routes = new HashMap<>();
-
-                        // adding each child node to HashMap key => value
-                        routes.put("r_id", r_id);
-                        routes.put("s_id", s_id);
-                        routes.put("a_id", a_id);
-                        routes.put("a_name", a_name);
-                        routes.put("a_ueAufgabenbeschreibung", a_ueAufgabenbeschreibung);
-                        routes.put("a_aufgabenbeschreibung", a_aufgabenbeschreibung);
-                        routes.put("a_ueAufgabenloesung", a_ueAufgabenloesung);
-                        routes.put("a_hilfetext", a_hilfetext);
-
-                        // adding Route, Station, Aufgabe to route list
-                        routeList.add(routes);
+                        info_text = a_aufgabenbeschreibung;
+                        info_ue = a_ueAufgabenbeschreibung;
+                        info_ue_lo = a_ueAufgabenloesung;
                     }
                 } catch (final JSONException e) {
                     Log.e(TAG, "Json parsing error: " + e.getMessage());
@@ -217,9 +209,10 @@ public class Route1_station4_TaskPictureActivity extends AppCompatActivity {
         @Override
         protected void onPostExecute(Void result) {
             super.onPostExecute(result);
-            ListAdapter adapter = new SimpleAdapter(Route1_station4_TaskPictureActivity.this, routeList, R.layout.activity_route1_station4_task_picture, new String[]{"a_ueAufgabenbeschreibung", "a_aufgabenbeschreibung","a_ueAufgabenloesung"},
-                    new int[]{R.id.a_ueAufgabenbeschreibung, R.id.a_aufgabenbeschreibung, R.id.a_ueAufgabenloesung});
-            lv.setAdapter(adapter);
+
+            info_textview.setText(info_text);
+            info_ue_textview.setText(info_ue);
+            info_ue_lo_textview.setText(info_ue_lo);
         }
 
     }

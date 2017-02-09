@@ -6,8 +6,10 @@ import android.graphics.Typeface;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.text.method.ScrollingMovementMethod;
 import android.util.Log;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListAdapter;
 import android.widget.ListView;
@@ -26,6 +28,10 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.LinkedList;
+
+import static com.life.educaching.R.id.s_text;
+
 
 /**
  * Created by theresia on 01.12.16.
@@ -36,9 +42,11 @@ public class Route1_station2_InfoPicutreActivity extends AppCompatActivity {
     Button buttonNext;
     Button buttonBack;
     private String TAG = Route1_station2_InfoPicutreActivity.class.getSimpleName();
-    private ListView lv;
-String info_text;
-    ArrayList<HashMap<String, String>> routeList;
+
+    protected String info_text;
+    protected String info_ue;
+    TextView info_textview;
+    TextView info_ue_textview;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,10 +57,11 @@ String info_text;
         myTextview.setTypeface(myTypeface);
         setTextHeader();
         addListenerOnButton();
-        routeList = new ArrayList<>();
-        lv = (ListView) findViewById(R.id.list);
 
+        info_textview=(TextView) findViewById(R.id.s_text);
+        info_ue_textview=(TextView) findViewById(R.id.s_ueberschrift);
         new Route1_station2_InfoPicutreActivity.GetContacts().execute();
+
     }
 
     public void setTextHeader() {
@@ -121,20 +130,9 @@ String info_text;
                         String s_text = d.getString("s_text");
                         String s_ueberschrift = d.getString("s_ueberschrift");
                         String s_material = d.getString("s_material");
+                        info_text = s_text;
+                        info_ue = s_ueberschrift;
 
-                        // tmp hash map for single Route
-                        HashMap<String, String> routes = new HashMap<>();
-
-                        // adding each child node to HashMap key => value
-                        routes.put("r_id", ro_id);
-                        routes.put("s_id", s_id);
-                        routes.put("s_name", s_name);
-                        routes.put("s_text", s_text);
-                        routes.put("s_ueberschrift", s_ueberschrift);
-                        routes.put("s_material", s_material);
-
-                        // adding Route, Station, Aufgabe to route list
-                        routeList.add(routes);
                     }
                 } catch (final JSONException e) {
                     Log.e(TAG, "Json parsing error: " + e.getMessage());
@@ -167,9 +165,9 @@ String info_text;
         @Override
         protected void onPostExecute(Void result) {
             super.onPostExecute(result);
-            ListAdapter adapter = new SimpleAdapter(Route1_station2_InfoPicutreActivity.this, routeList, R.layout.activity_route1_station2_info_picture, new String[]{"s_text", "s_ueberschrift"},
-                    new int[]{R.id.s_text, R.id.s_ueberschrift});
-            lv.setAdapter(adapter);
+
+            info_textview.setText(info_text);
+            info_ue_textview.setText(info_ue);
         }
 
     }
