@@ -117,7 +117,6 @@ public class Route1_OverviewMapActivity extends AppCompatActivity implements OnM
 
         MarkerOptions mo1 = new MarkerOptions().position(moeckernbruecke).title("Marker in der 1. Station").icon(MapMethods.createIcon(this, R.drawable.station1_icon, 150, 100));
         Marker st1 = mMap.addMarker(mo1);
-        st1.showInfoWindow();
         //mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(moeckernbruecke, 14));
 
         LatLng potsdamerplatz = new LatLng(52.5096488, 13.37594409999997);
