@@ -49,9 +49,8 @@ public class Route1_OverviewMapActivity extends AppCompatActivity implements OnM
     Button buttonNext;
     Button buttonBack;
     private String TAG = Route1_OverviewMapActivity.class.getSimpleName();
-    private ListView lv;
-
-    ArrayList<HashMap<String, String>> routeList;
+    String routeInfo;
+    TextView info_route;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -65,10 +64,9 @@ public class Route1_OverviewMapActivity extends AppCompatActivity implements OnM
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
-        /*routeList = new ArrayList<>();
-        lv = (ListView) findViewById(R.id.list);
 
-        new Route1_OverviewMapActivity.GetContacts().execute();*/
+info_route = (TextView) findViewById(R.id.r_text);
+        new Route1_OverviewMapActivity.GetContacts().execute();
     }
 
 
@@ -167,7 +165,7 @@ public class Route1_OverviewMapActivity extends AppCompatActivity implements OnM
         mMap.setMyLocationEnabled(true);
     }
 
-    /*private class GetContacts extends AsyncTask<Void, Void, Void> {
+    private class GetContacts extends AsyncTask<Void, Void, Void> {
         @Override
         protected void onPreExecute() {
             super.onPreExecute();
@@ -191,23 +189,11 @@ public class Route1_OverviewMapActivity extends AppCompatActivity implements OnM
                     JSONArray route = jsonObj.getJSONArray("Route");
 
                     // looping through All Stations
-                    for (int j = 0; j < route.length(); j++) {
-                        JSONObject d = route.getJSONObject(j);
+                        JSONObject d = route.getJSONObject(0);
                         String r_id = d.getString("r_id");
                         String r_name = d.getString("r_name");
-                        String r_text = d.getString("r_text");
+                        routeInfo = d.getString("r_text");
 
-                        // tmp hash map for single Route
-                        HashMap<String, String> routes = new HashMap<>();
-
-                        // adding each child node to HashMap key => value
-                        routes.put("r_id", r_id);
-                        routes.put("r_name", r_name);
-                        routes.put("r_text", r_text);
-
-                        // adding Route, Station, Aufgabe to route list
-                        routeList.add(routes);
-                    }
                 } catch (final JSONException e) {
                     Log.e(TAG, "Json parsing error: " + e.getMessage());
                     runOnUiThread(new Runnable() {
@@ -239,10 +225,8 @@ public class Route1_OverviewMapActivity extends AppCompatActivity implements OnM
         @Override
         protected void onPostExecute(Void result) {
             super.onPostExecute(result);
-            ListAdapter adapter = new SimpleAdapter(Route1_OverviewMapActivity.this, routeList, R.layout.activity_route1_overviewmap, new String[]{"r_text"},
-                    new int[]{R.id.r_text});
-            lv.setAdapter(adapter);
+            info_route.setText(routeInfo);
         }
 
-    }*/
+    }
 }

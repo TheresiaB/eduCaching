@@ -37,7 +37,7 @@ public class Route1_station2_InfoPicutreActivity extends AppCompatActivity {
     Button buttonBack;
     private String TAG = Route1_station2_InfoPicutreActivity.class.getSimpleName();
     private ListView lv;
-
+String info_text;
     ArrayList<HashMap<String, String>> routeList;
 
     @Override

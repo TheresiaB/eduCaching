@@ -48,9 +48,10 @@ public class Route2_station4_InfoVideoActivity extends AppCompatActivity {
     MediaController mediaController;
 
     private String TAG = Route2_station4_InfoVideoActivity.class.getSimpleName();
-    private ListView lv;
-
-    ArrayList<HashMap<String, String>> routeList;
+    String info_ue;
+    String info_text;
+    TextView info_ue_textview;
+    TextView info_textview;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -93,8 +94,8 @@ public class Route2_station4_InfoVideoActivity extends AppCompatActivity {
         setTextHeader();
         addListenerOnButton();
 
-        routeList = new ArrayList<>();
-        lv = (ListView) findViewById(R.id.list);
+        info_ue_textview =(TextView) findViewById(R.id.s_ueberschrift);
+        info_textview=(TextView) findViewById(R.id.s_text);
 
         new Route2_station4_InfoVideoActivity.GetContacts().execute();
 
@@ -163,19 +164,8 @@ public class Route2_station4_InfoVideoActivity extends AppCompatActivity {
                         String s_ueberschrift = d.getString("s_ueberschrift");
                         String s_material = d.getString("s_material");
 
-                        // tmp hash map for single Route
-                        HashMap<String, String> routes = new HashMap<>();
-
-                        // adding each child node to HashMap key => value
-                        routes.put("r_id", ro_id);
-                        routes.put("s_id", s_id);
-                        routes.put("s_name", s_name);
-                        routes.put("s_text", s_text);
-                        routes.put("s_ueberschrift", s_ueberschrift);
-                        routes.put("s_material", s_material);
-
-                        // adding Route, Station, Aufgabe to route list
-                        routeList.add(routes);
+                        info_ue=s_ueberschrift;
+                        info_text=s_text;
                     }
                 } catch (final JSONException e) {
                     Log.e(TAG, "Json parsing error: " + e.getMessage());
@@ -208,9 +198,8 @@ public class Route2_station4_InfoVideoActivity extends AppCompatActivity {
         @Override
         protected void onPostExecute(Void result) {
             super.onPostExecute(result);
-            ListAdapter adapter = new SimpleAdapter(Route2_station4_InfoVideoActivity.this, routeList, R.layout.activity_route2_station4_info_video, new String[]{"s_text", "s_ueberschrift"},
-                    new int[]{R.id.s_text, R.id.s_ueberschrift});
-            lv.setAdapter(adapter);
+            info_ue_textview.setText(info_ue);
+            info_textview.setText(info_text);
         }
 
     }

@@ -52,16 +52,20 @@ public class Route2_station2_TaskVideoActivity extends AppCompatActivity {
     String videoUriString;
     SharedPreferences preferences;
     SharedPreferences.Editor editor;
+    private String TAG = Route2_station2_TaskVideoActivity.class.getSimpleName();
     /**
      * ATTENTION: This was auto-generated to implement the App Indexing API.
      * See https://g.co/AppIndexing/AndroidStudio for more information.
      */
     private GoogleApiClient client;
 
-    private String TAG = Route2_station2_TaskVideoActivity.class.getSimpleName();
-    private ListView lv;
+    String task_ue;
+    String task_description_ue;
+    String task_description;
 
-    ArrayList<HashMap<String, String>> routeList;
+    TextView task_ue_tv;
+    TextView task_description_ue_tv;
+    TextView task_description_tv;
 
 
     @Override
@@ -99,8 +103,9 @@ public class Route2_station2_TaskVideoActivity extends AppCompatActivity {
         // See https://g.co/AppIndexing/AndroidStudio for more information.
         client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
 
-        routeList = new ArrayList<>();
-        lv = (ListView) findViewById(R.id.list);
+        task_description_tv = (TextView) findViewById(R.id.a_aufgabenbeschreibung);
+        task_description_ue_tv = (TextView) findViewById(R.id.a_ueAufgabenbeschreibung);
+        task_ue_tv = (TextView) findViewById(R.id.a_ueAufgabenloesung);
 
         new Route2_station2_TaskVideoActivity.GetContacts().execute();
     }
@@ -215,21 +220,9 @@ public class Route2_station2_TaskVideoActivity extends AppCompatActivity {
                         String a_ueAufgabenloesung = d.getString("a_ueAufgabenloesung");
                         String a_hilfetext = d.getString("a_hilfetext");
 
-                        // tmp hash map for single Route
-                        HashMap<String, String> routes = new HashMap<>();
-
-                        // adding each child node to HashMap key => value
-                        routes.put("r_id", r_id);
-                        routes.put("s_id", s_id);
-                        routes.put("a_id", a_id);
-                        routes.put("a_name", a_name);
-                        routes.put("a_ueAufgabenbeschreibung", a_ueAufgabenbeschreibung);
-                        routes.put("a_aufgabenbeschreibung", a_aufgabenbeschreibung);
-                        routes.put("a_ueAufgabenloesung", a_ueAufgabenloesung);
-                        routes.put("a_hilfetext", a_hilfetext);
-
-                        // adding Route, Station, Aufgabe to route list
-                        routeList.add(routes);
+                        task_description_ue=a_ueAufgabenbeschreibung;
+                        task_description=a_aufgabenbeschreibung;
+                        task_ue=a_ueAufgabenloesung;
                     }
                 } catch (final JSONException e) {
                     Log.e(TAG, "Json parsing error: " + e.getMessage());
@@ -262,9 +255,9 @@ public class Route2_station2_TaskVideoActivity extends AppCompatActivity {
         @Override
         protected void onPostExecute(Void result) {
             super.onPostExecute(result);
-            ListAdapter adapter = new SimpleAdapter(Route2_station2_TaskVideoActivity.this, routeList, R.layout.activity_route2_station2_task_video, new String[]{"a_ueAufgabenbeschreibung", "a_aufgabenbeschreibung","a_ueAufgabenloesung"},
-                    new int[]{R.id.a_ueAufgabenbeschreibung, R.id.a_aufgabenbeschreibung, R.id.a_ueAufgabenloesung});
-            lv.setAdapter(adapter);
+            task_description_ue_tv.setText(task_description_ue);
+            task_description_tv.setText(task_description);
+            task_ue_tv.setText(task_ue);
         }
 
     }
