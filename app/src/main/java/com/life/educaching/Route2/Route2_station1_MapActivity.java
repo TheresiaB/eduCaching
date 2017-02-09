@@ -24,7 +24,7 @@ import com.life.educaching.R;
 public class Route2_station1_MapActivity extends AppCompatActivity implements OnMapReadyCallback {
     GoogleMap mMap;
     Button buttonNext;
-    Button buttonBack;
+    //Button buttonBack;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,7 +49,7 @@ public class Route2_station1_MapActivity extends AppCompatActivity implements On
 
         final Context context = this;
         buttonNext = (Button) findViewById(R.id.button_next);
-        buttonBack = (Button) findViewById(R.id.button_back);
+        //buttonBack = (Button) findViewById(R.id.button_back);
 
 
         buttonNext.setOnClickListener(new View.OnClickListener() {
@@ -59,13 +59,13 @@ public class Route2_station1_MapActivity extends AppCompatActivity implements On
                 startActivity(new Intent(context, Route2_station1_InfoPictureActivity.class));
             }
         });
-        buttonBack.setOnClickListener(new View.OnClickListener() {
+        /*buttonBack.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View arg0) {
                 startActivity(new Intent(context, Route2_OverviewMapActivity.class));
             }
-        });
+        });*/
     }
 
     @Override

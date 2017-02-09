@@ -7,7 +7,7 @@
     android:fitsSystemWindows="true"
     tools:context="com.life.educaching.Route2.Route2_station3_InfoVideoActivity">
 
-    <ListView
+    <com.life.educaching.Model.ScrollDisabledListView
         android:id="@+id/list"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -52,54 +52,62 @@
             android:layout_width="match_parent"
             android:layout_height="300dp">
 
-
-            <ScrollView
+            <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="60dp"
-                android:layout_marginLeft="60dp"
-                android:layout_marginEnd="50dp"
-                android:layout_marginRight="50dp"
-                android:layout_weight="1"
-                android:fadeScrollbars="false">
+                android:layout_height="300dp"
+                android:layout_weight="1">
 
-                <TextView
+                <ScrollView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:ems="10"
-                    android:id="@+id/s_text"
-                    android:textColor="@color/colorGrey_text"
-                    android:textSize="18sp"
-                    android:layout_gravity="center_horizontal"
-                    android:paddingLeft="10dp"
-                    android:paddingStart="10dp"
-                    android:paddingRight="10dp"
-                    android:paddingEnd="10dp"
+                    android:layout_marginStart="60dp"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginEnd="50dp"
+                    android:layout_marginRight="50dp"
+                    android:fadeScrollbars="false">
 
-                    />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:id="@+id/s_text"
+                        android:text="@string/Lorem_Ipsum"
+                        android:textColor="@color/colorGrey_text"
+                        android:textSize="18sp"
+                        android:layout_gravity="center_horizontal"
+                        android:paddingLeft="10dp"
+                        android:paddingStart="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingEnd="10dp"
+                        />
 
-            </ScrollView>
+                </ScrollView>
 
+            </RelativeLayout>
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                >
+                android:layout_height="300dp"
+                android:layout_weight="1">
 
-                <VideoView
-                    android:layout_width="600dp"
+                <RelativeLayout
+                    android:layout_width="650dp"
                     android:layout_height="300dp"
-                    android:id="@+id/route2Station1Video"
-                    android:contentDescription="@string/layout_Video_Beschreibung"
                     android:layout_marginStart="50dp"
                     android:layout_marginLeft="50dp"
                     android:layout_marginEnd="70dp"
                     android:layout_marginRight="70dp"
-                    android:layout_gravity="center_horizontal"
-                    android:scaleType="fitStart"
-                    android:adjustViewBounds="true"
-                    />
+                    android:gravity="center"
+                    >
+
+                    <VideoView
+                        android:layout_width="640dp"
+                        android:layout_height="290dp"
+                        android:id="@+id/route2Station1Video"
+                        android:contentDescription="@string/layout_Video_Beschreibung"
+                        />
+
+                </RelativeLayout>
 
             </RelativeLayout>
 
@@ -108,24 +116,25 @@
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="90dp">
+            android:layout_height="90dp"
+            android:weightSum="1">
 
             <TextView
-                android:layout_width="637dp"
+                android:layout_width="562dp"
                 android:layout_height="50dp"
-                android:paddingStart="70dp"
-                android:paddingLeft="70dp"
+                android:paddingStart="50dp"
+                android:paddingLeft="50dp"
                 android:paddingEnd="0dp"
-                android:paddingRight="0dp" />
-
+                android:paddingRight="0dp"
+                android:layout_weight="0.15" />
 
             <ImageButton
                 android:id="@+id/video_play_button"
-                android:layout_width="70dp"
+                android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:background="@drawable/playbutton"
-                android:layout_marginLeft="41dp"
-                android:layout_marginStart="41dp"
+                android:layout_marginLeft="51dp"
+                android:layout_marginStart="51dp"
                 android:layout_marginTop="10dp"
                 />
 

@@ -28,7 +28,7 @@ import com.life.educaching.Model.TaskTextAudioActivity;
 public class Route2_station4_MapActivity extends AppCompatActivity implements OnMapReadyCallback {
     GoogleMap mMap;
     Button buttonNext;
-    Button buttonBack;
+    //Button buttonBack;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,7 +54,7 @@ public class Route2_station4_MapActivity extends AppCompatActivity implements On
 
         final Context context = this;
         buttonNext = (Button) findViewById(R.id.button_next);
-        buttonBack = (Button) findViewById(R.id.button_back);
+        //buttonBack = (Button) findViewById(R.id.button_back);
 
 
         buttonNext.setOnClickListener(new View.OnClickListener() {
@@ -64,13 +64,13 @@ public class Route2_station4_MapActivity extends AppCompatActivity implements On
                 startActivity(new Intent(context, Route2_station4_InfoVideoActivity.class));
             }
         });
-        buttonBack.setOnClickListener(new View.OnClickListener() {
+        /*buttonBack.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View arg0) {
                 startActivity(new Intent(context, Route2_station3_Finished.class));
             }
-        });
+        });*/
     }
 
     @Override
