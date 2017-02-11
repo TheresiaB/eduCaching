@@ -170,7 +170,7 @@ public class Route1_station2_TaskVideoActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View arg0) {
-                Toast.makeText(Route1_station2_TaskVideoActivity.this, videoUriString, Toast.LENGTH_SHORT).show();
+                //Toast.makeText(Route1_station2_TaskVideoActivity.this, videoUriString, Toast.LENGTH_SHORT).show();
                 editor.putString("video2", videoUriString);
                 editor.commit();
                 startActivity(new Intent(context, Route1_station2_Finished.class));
@@ -190,8 +190,6 @@ public class Route1_station2_TaskVideoActivity extends AppCompatActivity {
         @Override
         protected void onPreExecute() {
             super.onPreExecute();
-            Toast.makeText(Route1_station2_TaskVideoActivity.this, "Json Data is downloading", Toast.LENGTH_LONG).show();
-
         }
 
         @Override

@@ -144,8 +144,6 @@ public class Route2_OverviewMapActivity extends AppCompatActivity implements OnM
         @Override
         protected void onPreExecute() {
             super.onPreExecute();
-            Toast.makeText(Route2_OverviewMapActivity.this, "Json Data is downloading", Toast.LENGTH_LONG).show();
-
         }
 
         @Override

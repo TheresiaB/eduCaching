@@ -169,8 +169,6 @@ info_route = (TextView) findViewById(R.id.r_text);
         @Override
         protected void onPreExecute() {
             super.onPreExecute();
-            Toast.makeText(Route1_OverviewMapActivity.this, "Json Data is downloading", Toast.LENGTH_LONG).show();
-
         }
 
         @Override

@@ -96,8 +96,6 @@ public class Route1_station4_InfoPictureActivity extends AppCompatActivity{
         @Override
         protected void onPreExecute() {
             super.onPreExecute();
-            Toast.makeText(Route1_station4_InfoPictureActivity.this, "Json Data is downloading", Toast.LENGTH_LONG).show();
-
         }
 
         @Override

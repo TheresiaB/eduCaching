@@ -307,8 +307,6 @@ public class Route1_station3_TaskTextActivity extends AppCompatActivity{
         @Override
         protected void onPreExecute() {
             super.onPreExecute();
-            Toast.makeText(Route1_station3_TaskTextActivity.this, "Json Data is downloading", Toast.LENGTH_LONG).show();
-
         }
 
         @Override
