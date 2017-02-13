@@ -88,7 +88,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="46dp"
-                            android:text="Station 1: Lotuseffekt testen"
+                            android:text="Station 1: Infotafel Bahnhof"
                             android:ems="10"
                             android:id="@+id/Aufgaben_Text1"
                             android:textColor="@color/colorGrey_text"
@@ -139,7 +139,7 @@
                         <TextView
                             android:layout_width="434dp"
                             android:layout_height="50dp"
-                            android:text="Station 3: Optik"
+                            android:text="Station 3: Nanotechnik"
                             android:ems="10"
                             android:id="@+id/Aufgaben_Text2"
                             android:textColor="@color/colorGrey_text"
@@ -199,7 +199,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="50dp"
-                            android:text="Station 2: Straßenlampen"
+                            android:text="Station 2: Straßenlampen und Licht"
                             android:ems="10"
                             android:id="@+id/Aufgaben_Text3"
                             android:textColor="@color/colorGrey_text"

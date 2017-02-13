@@ -140,7 +140,7 @@
                         <TextView
                             android:layout_width="434dp"
                             android:layout_height="50dp"
-                            android:text="Station 3: Optik"
+                            android:text="Station 3: Rolltreppe untersuchen"
                             android:ems="10"
                             android:id="@+id/Aufgaben_Text2"
                             android:textColor="@color/colorGrey_text"
@@ -254,7 +254,7 @@
                         <TextView
                             android:layout_width="434dp"
                             android:layout_height="50dp"
-                            android:text="Station 4: Der Natur abgeschaut"
+                            android:text="Station 4: Nanotechnik und Optik"
                             android:ems="10"
                             android:id="@+id/Aufgaben_Text4"
                             android:textColor="@color/colorGrey_text"

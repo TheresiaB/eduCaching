@@ -38,7 +38,7 @@ public class Route1_station4_Finished extends AppCompatActivity {
 
     public void setTextHeader() {
         TextView myAwesomeTextView = (TextView) findViewById(R.id.text_head);
-        myAwesomeTextView.setText("Route 1");
+        myAwesomeTextView.setText("Station 4");
     }
 
     public void setText() {

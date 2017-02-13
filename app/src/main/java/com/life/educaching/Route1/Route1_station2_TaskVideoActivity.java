@@ -112,7 +112,7 @@ public class Route1_station2_TaskVideoActivity extends AppCompatActivity {
 
     public void setTextHeader() {
         TextView myAwesomeTextView = (TextView) findViewById(R.id.text_head);
-        myAwesomeTextView.setText("Station 1");
+        myAwesomeTextView.setText("Station 2");
     }
 
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
