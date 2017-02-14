@@ -63,10 +63,14 @@ public class Route1_station3_TaskTextActivity extends AppCompatActivity{
     SharedPreferences preferences;
     SharedPreferences.Editor editor;
     private String TAG = Route1_station3_TaskTextActivity.class.getSimpleName();
-    private ListView lv;
     Chronometer chronometer;
 
-    ArrayList<HashMap<String, String>> routeList;
+    protected String info_text;
+    protected String info_ue;
+    protected String info_ue_lo;
+    TextView info_textview;
+    TextView info_ue_textview;
+    TextView info_ue_lo_textview;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -189,8 +193,9 @@ public class Route1_station3_TaskTextActivity extends AppCompatActivity{
             }
         });
 
-        routeList = new ArrayList<>();
-        lv = (ListView) findViewById(R.id.list);
+        info_textview=(TextView) findViewById(R.id.a_aufgabenbeschreibung);
+        info_ue_textview=(TextView) findViewById(R.id.a_ueAufgabenbeschreibung);
+        info_ue_lo_textview=(TextView) findViewById(R.id.a_ueAufgabenloesung);
 
         new Route1_station3_TaskTextActivity.GetContacts().execute();
     }
@@ -302,15 +307,13 @@ public class Route1_station3_TaskTextActivity extends AppCompatActivity{
         @Override
         protected void onPreExecute() {
             super.onPreExecute();
-            Toast.makeText(Route1_station3_TaskTextActivity.this, "Json Data is downloading", Toast.LENGTH_LONG).show();
-
         }
 
         @Override
         protected Void doInBackground(Void... arg0) {
             HttpHandler sh = new HttpHandler();
             // Making a request to url and getting response
-            String url = "http://educaching.f4.htw-berlin.de/route1station3task.php";
+            String url = "http://greencaching.de/route1station3task.php";
             String jsonStr = sh.makeServiceCall(url);
 
             Log.e(TAG, "Response from url: " + jsonStr);
@@ -332,22 +335,9 @@ public class Route1_station3_TaskTextActivity extends AppCompatActivity{
                         String a_aufgabenbeschreibung = d.getString("a_aufgabenbeschreibung");
                         String a_ueAufgabenloesung = d.getString("a_ueAufgabenloesung");
                         String a_hilfetext = d.getString("a_hilfetext");
-
-                        // tmp hash map for single Route
-                        HashMap<String, String> routes = new HashMap<>();
-
-                        // adding each child node to HashMap key => value
-                        routes.put("r_id", r_id);
-                        routes.put("s_id", s_id);
-                        routes.put("a_id", a_id);
-                        routes.put("a_name", a_name);
-                        routes.put("a_ueAufgabenbeschreibung", a_ueAufgabenbeschreibung);
-                        routes.put("a_aufgabenbeschreibung", a_aufgabenbeschreibung);
-                        routes.put("a_ueAufgabenloesung", a_ueAufgabenloesung);
-                        routes.put("a_hilfetext", a_hilfetext);
-
-                        // adding Route, Station, Aufgabe to route list
-                        routeList.add(routes);
+                        info_text = a_aufgabenbeschreibung;
+                        info_ue = a_ueAufgabenbeschreibung;
+                        info_ue_lo = a_ueAufgabenloesung;
                     }
                 } catch (final JSONException e) {
                     Log.e(TAG, "Json parsing error: " + e.getMessage());
@@ -380,9 +370,10 @@ public class Route1_station3_TaskTextActivity extends AppCompatActivity{
         @Override
         protected void onPostExecute(Void result) {
             super.onPostExecute(result);
-            ListAdapter adapter = new SimpleAdapter(Route1_station3_TaskTextActivity.this, routeList, R.layout.activity_route1_station3_task_text, new String[]{"a_ueAufgabenbeschreibung", "a_aufgabenbeschreibung","a_ueAufgabenloesung"},
-                    new int[]{R.id.a_ueAufgabenbeschreibung, R.id.a_aufgabenbeschreibung, R.id.a_ueAufgabenloesung});
-            lv.setAdapter(adapter);
+
+            info_textview.setText(info_text);
+            info_ue_textview.setText(info_ue);
+            info_ue_lo_textview.setText(info_ue_lo);
         }
 
     }

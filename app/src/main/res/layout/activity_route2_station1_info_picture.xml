@@ -8,12 +8,6 @@
     tools:context="com.life.educaching.Route2.Route2_station1_InfoPictureActivity"
     >
 
-    <com.life.educaching.Model.ScrollDisabledListView
-
-        android:id="@+id/list"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        />
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
@@ -64,7 +58,8 @@
                     android:layout_marginLeft="60dp"
                     android:layout_marginEnd="50dp"
                     android:layout_marginRight="50dp"
-                    android:fadeScrollbars="false">
+                    android:fadeScrollbars="false"
+                    android:overScrollMode="never">
 
                     <TextView
                         android:layout_width="match_parent"

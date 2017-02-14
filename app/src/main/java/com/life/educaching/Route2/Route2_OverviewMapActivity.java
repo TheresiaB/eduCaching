@@ -144,15 +144,13 @@ public class Route2_OverviewMapActivity extends AppCompatActivity implements OnM
         @Override
         protected void onPreExecute() {
             super.onPreExecute();
-            Toast.makeText(Route2_OverviewMapActivity.this, "Json Data is downloading", Toast.LENGTH_LONG).show();
-
         }
 
         @Override
         protected Void doInBackground(Void... arg0) {
             HttpHandler sh = new HttpHandler();
             // Making a request to url and getting response
-            String url = "http://educaching.f4.htw-berlin.de/route2overview.php";
+            String url = "http://greencaching.de/route2overview.php";
             String jsonStr = sh.makeServiceCall(url);
 
             Log.e(TAG, "Response from url: " + jsonStr);

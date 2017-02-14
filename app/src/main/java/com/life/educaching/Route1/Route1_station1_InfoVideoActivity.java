@@ -43,9 +43,12 @@ public class Route1_station1_InfoVideoActivity extends AppCompatActivity {
     VideoView mVideoView2;
     MediaController mediaController;
     private String TAG = Route1_station1_InfoVideoActivity.class.getSimpleName();
-    private ListView lv;
 
-    ArrayList<HashMap<String, String>> routeList;
+    protected String info_text;
+    protected String info_ue;
+    TextView info_textview;
+    TextView info_ue_textview;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -89,8 +92,8 @@ public class Route1_station1_InfoVideoActivity extends AppCompatActivity {
         setTextHeader();
         addListenerOnButton();
 
-        routeList = new ArrayList<>();
-        lv = (ListView) findViewById(R.id.list);
+        info_textview=(TextView) findViewById(R.id.s_text);
+        info_ue_textview=(TextView) findViewById(R.id.s_ueberschrift);
 
         new GetContacts().execute();
 
@@ -130,15 +133,13 @@ public class Route1_station1_InfoVideoActivity extends AppCompatActivity {
         @Override
         protected void onPreExecute() {
             super.onPreExecute();
-            Toast.makeText(Route1_station1_InfoVideoActivity.this, "Json Data is downloading", Toast.LENGTH_LONG).show();
-
         }
 
         @Override
         protected Void doInBackground(Void... arg0) {
             HttpHandler sh = new HttpHandler();
             // Making a request to url and getting response
-            String url = "http://educaching.f4.htw-berlin.de/route1station1info.php";
+            String url = "http://greencaching.de/route1station1info.php";
             String jsonStr = sh.makeServiceCall(url);
 
             Log.e(TAG, "Response from url: " + jsonStr);
@@ -158,20 +159,8 @@ public class Route1_station1_InfoVideoActivity extends AppCompatActivity {
                         String s_text = d.getString("s_text");
                         String s_ueberschrift = d.getString("s_ueberschrift");
                         String s_material = d.getString("s_material");
-
-                        // tmp hash map for single Route
-                        HashMap<String, String> routes = new HashMap<>();
-
-                        // adding each child node to HashMap key => value
-                        routes.put("r_id", ro_id);
-                        routes.put("s_id", s_id);
-                        routes.put("s_name", s_name);
-                        routes.put("s_text", s_text);
-                        routes.put("s_ueberschrift", s_ueberschrift);
-                        routes.put("s_material", s_material);
-
-                        // adding Route, Station, Aufgabe to route list
-                        routeList.add(routes);
+                        info_text = s_text;
+                        info_ue = s_ueberschrift;
                     }
                 } catch (final JSONException e) {
                     Log.e(TAG, "Json parsing error: " + e.getMessage());
@@ -204,9 +193,9 @@ public class Route1_station1_InfoVideoActivity extends AppCompatActivity {
         @Override
         protected void onPostExecute(Void result) {
             super.onPostExecute(result);
-            ListAdapter adapter = new SimpleAdapter(Route1_station1_InfoVideoActivity.this, routeList, R.layout.activity_route1_station1_info_video, new String[]{"s_text", "s_ueberschrift"},
-                    new int[]{R.id.s_text, R.id.s_ueberschrift});
-            lv.setAdapter(adapter);
+
+            info_textview.setText(info_text);
+            info_ue_textview.setText(info_ue);
         }
 
     }
